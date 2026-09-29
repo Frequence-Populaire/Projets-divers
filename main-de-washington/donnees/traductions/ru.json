@@ -126,7 +126,7 @@
 "note_allies": "Только факты, направленные против официального союзника США на дату события (НАТО, ЕС, Пакт Рио, союзники по договорам, основные союзники вне НАТО).",
 "mode_count": "Фактов: {n}, {a} → {b}.",
 "lang_aria": "Язык",
-"footer_project": "Проект <b>Fréquence Populaire</b>"
+"footer_project": "Проект <a href=\"https://www.fpop.media\" target=\"_blank\" rel=\"noopener\"><b>Fréquence Populaire</b></a>"
 },
 "pays": {
 "Abyssinie": "Абиссиния",

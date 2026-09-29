@@ -1,6 +1,6 @@
 # Fréquence Populaire · Projets divers
 
-Ce dépôt public rassemble les projets éditoriaux et de visualisation de données de Fréquence Populaire : cartes, frises, bases de faits, pages interactives.
+Ce dépôt public rassemble les projets éditoriaux et de visualisation de données de [Fréquence Populaire](https://www.fpop.media) : cartes, frises, bases de faits, pages interactives.
 
 Chaque projet vit dans son propre dossier et se suffit à lui-même. On y trouve la page publiée, les données qui la nourrissent, les scripts pour la reconstruire et la méthode suivie, de sorte que chacun peut vérifier, réutiliser ou corriger le travail.
 

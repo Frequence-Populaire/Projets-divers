@@ -126,7 +126,7 @@
 "note_allies": "仅显示事实发生之日针对美国正式盟友（北约、欧盟、《里约条约》、条约盟友、非北约主要盟友）的事实。",
 "mode_count": "{n}项事实，{a} → {b}。",
 "lang_aria": "语言",
-"footer_project": "<b>Fréquence Populaire</b> 项目"
+"footer_project": "<a href=\"https://www.fpop.media\" target=\"_blank\" rel=\"noopener\"><b>Fréquence Populaire</b></a> 项目"
 },
 "pays": {
 "Abyssinie": "阿比西尼亚",

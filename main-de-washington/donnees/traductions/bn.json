@@ -126,7 +126,7 @@
 "note_allies": "কেবল সেইসব ঘটনা যা ঘটনার তারিখে যুক্তরাষ্ট্রের কোনো সরকারি মিত্রকে লক্ষ্য করেছিল (ন্যাটো, ইইউ, রিও চুক্তি, চুক্তিভিত্তিক মিত্র, ন্যাটো-বহির্ভূত প্রধান মিত্র)।",
 "mode_count": "{n}টি ঘটনা, {a} → {b}।",
 "lang_aria": "ভাষা",
-"footer_project": "<b>Fréquence Populaire</b>-এর একটি প্রকল্প"
+"footer_project": "<a href=\"https://www.fpop.media\" target=\"_blank\" rel=\"noopener\"><b>Fréquence Populaire</b></a>-এর একটি প্রকল্প"
 },
 "pays": {
 "Abyssinie": "আবিসিনিয়া",

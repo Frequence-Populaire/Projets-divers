@@ -126,7 +126,7 @@
 "note_allies": "Only facts targeting an official US ally on the date of the fact (NATO, EU, Rio Pact, treaty allies, major non-NATO allies).",
 "mode_count": "{n} facts, {a} → {b}.",
 "lang_aria": "Language",
-"footer_project": "A <b>Fréquence Populaire</b> project"
+"footer_project": "A <a href=\"https://www.fpop.media\" target=\"_blank\" rel=\"noopener\"><b>Fréquence Populaire</b></a> project"
 },
 "pays": {
 "Abyssinie": "Abyssinia",
