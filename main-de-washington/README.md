@@ -125,7 +125,7 @@ Pour ajouter un fait, insérez une ligne dans `donnees/incidents.json` au bon en
 
 ### Vidéos
 
-Les six vues sont disponibles en MP4 1920×1080 dans `videos/` :
+Les six vues sont disponibles en MP4 1920×1080 dans `videos/` . Elles ont été enregistrées avant la passe pays par pays sur l'Union européenne et montrent donc la base à 2 788 faits ; elles seront refaites une fois la base complétée :
 
 | Vue | 1900 → 2026 | 2013 → 2026 |
 |---|---|---|
