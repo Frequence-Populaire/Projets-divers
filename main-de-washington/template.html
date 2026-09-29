@@ -1,14 +1,14 @@
-<title>La main de Washington</title>
+<title>{{html_title}}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500__FCSS__&display=swap">
 <style>
 /* Mise en page : titre, carte du monde inclinée et animée, commandes, fiche, tableau, notes. Un seul thème sombre, comme la carte de référence. */
 :root{
   color-scheme:dark;
   --ground:#0B1D24;--ground2:#0E262E;--line:#1C4450;
   --coral:#FF6B4A;--sun:#FFC53D;--ice:#9FE6F0;--lav:#C8A2FF;--mint:#7FE0B2;--rose:#FF8FB8;--blue:#6FA8FF;--paper:#F2EDE4;--muted:#6E959D;--soft:#C9D6D8;
-  --display:Syne,"Arial Black",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --display:Syne,__FDISP__"Arial Black",sans-serif;--mono:"JetBrains Mono",__FBODY__ui-monospace,Menlo,monospace;
 }
 html,body{background:var(--ground);color:var(--paper)}
 body{font:15px/1.55 var(--mono)}
@@ -16,6 +16,9 @@ body{font:15px/1.55 var(--mono)}
 header{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 24px}
 h1{margin:0;font:800 clamp(30px,5.4vw,56px)/1 var(--display);letter-spacing:-.01em;text-transform:uppercase;text-wrap:balance}
 h1 span{color:var(--coral)}
+.langs{flex-basis:100%;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px}
+.langs a{color:var(--muted);text-decoration:none}
+.langs a[aria-current="page"]{color:var(--sun)}
 .eyebrow{margin:0;color:var(--muted);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
 .stage{position:relative;width:100%;max-width:100%;aspect-ratio:16/9;background:var(--ground2);border-radius:6px;overflow:hidden;box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
 .stage.portrait{aspect-ratio:3/4}
@@ -31,6 +34,7 @@ input[type=range]{flex:1 1 200px;min-width:0;accent-color:var(--coral)}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}
 .seg button{background:transparent;color:var(--muted);border:0;padding:7px 14px;font:500 12px var(--mono);cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--coral);color:var(--ground)}
+#per button,#tc,#chips button{direction:ltr;unicode-bidi:isolate}
 .seg-l{color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-right:8px}
 #modeNote{flex-basis:100%;color:var(--muted);font-size:12px;margin:0;max-width:90ch}
 .chips button{background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font:400 12px var(--mono);cursor:pointer}
@@ -55,17 +59,17 @@ h2{margin:8px 0 0;font:800 26px var(--display);text-transform:uppercase}
 thead th{position:sticky;top:0;z-index:1}
 td a{text-decoration:none;white-space:nowrap}
 table{border-collapse:collapse;width:100%;min-width:720px;font-size:13px}
-th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th,td{text-align:start;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
 th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400;background:var(--ground2)}
 td.date{color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
-td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:8px}
+td .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-inline-end:8px}
 tbody tr{cursor:pointer}
 tbody tr:hover{background:rgba(159,230,240,.05)}
 .notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
 .notes>div{min-width:0}
 .notes h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500;margin:0 0 8px}
 .notes p,.notes li{color:var(--soft);font-size:13px;margin:0 0 8px}
-.notes ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.notes ul{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;gap:6px}
 .notes li{margin:0}
 a{color:var(--sun)}
 footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
@@ -73,85 +77,88 @@ footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var
 
 <main class="wrap">
   <header>
-    <h1>La main de <span>Washington</span></h1>
-    <p class="eyebrow">Coups d'État, ingérences et opérations clandestines des États-Unis · 1900 → 2026</p>
+    <h1>{{h1}}</h1>
+    <nav class="langs" aria-label="{{lang_aria}}">{{LANGS}}</nav>
+    <p class="eyebrow">{{eyebrow}}</p>
   </header>
   <div class="modes">
-    <div><span class="seg-l">Zone</span><div class="seg" id="zone" role="group" aria-label="Zone"></div></div>
-    <div><span class="seg-l">Période</span><div class="seg" id="per" role="group" aria-label="Période"></div></div>
+    <div><span class="seg-l">{{zone}}</span><div class="seg" id="zone" role="group" aria-label="{{zone}}"></div></div>
+    <div><span class="seg-l">{{period}}</span><div class="seg" id="per" role="group" aria-label="{{period}}"></div></div>
     <p id="modeNote"></p>
   </div>
-  <div class="stage" id="stage"><canvas id="cv" role="img" aria-label="Carte du monde animée : chaque arc part de Washington vers le lieu d'un coup d'État, d'une intervention armée, d'un assassinat, d'une opération d'ingérence, d'une affaire d'espionnage ou d'une cyberattaque attribuée ou imputée aux États-Unis, de 1900 à 2026."></canvas></div>
+  <div class="stage" id="stage"><canvas id="cv" role="img" aria-label="{{canvas_aria}}"></canvas></div>
   <div class="controls">
-    <button id="play" type="button">Pause</button>
-    <button id="restart" type="button" class="ghost">Rejouer</button>
+    <button id="play" type="button">{{pause}}</button>
+    <button id="restart" type="button" class="ghost">{{replay}}</button>
     <button id="speed" type="button" class="ghost">×1</button>
-    <input id="scrub" type="range" min="1900" max="2026.2" step="0.01" value="1900" aria-label="Position dans la chronologie">
+    <input id="scrub" type="range" min="1900" max="2026.2" step="0.01" value="1900" aria-label="{{scrub_aria}}">
     <span id="tc">1900</span>
   </div>
-  <div class="chips" id="chips" aria-label="Aller à une période"></div>
+  <div class="chips" id="chips" aria-label="{{chips_aria}}"></div>
   <div class="legend" id="legend"></div>
   <section class="detail" id="detail" aria-live="polite">
-    <div class="d-meta">Cliquez un point sur la carte ou une ligne du tableau</div>
-    <div class="d-title">Détail d'un incident</div>
-    <p>Date, lieu, pays visés et niveau d'attribution : reconnu par les États-Unis ou une justice, documenté par des historiens, des journalistes ou des fuites, ou seulement allégué.</p>
+    <div class="d-meta">{{detail_meta}}</div>
+    <div class="d-title">{{detail_title}}</div>
+    <p>{{detail_text}}</p>
   </section>
 
-  <h2>Les incidents de la carte</h2>
+  <h2>{{h2}}</h2>
   <div class="tools">
-    <input id="q" type="search" placeholder="Rechercher : pays, lieu, opération…" aria-label="Rechercher dans les incidents">
-    <div class="filters" id="fcat" aria-label="Filtrer par type"></div>
-    <div class="filters" id="filters" aria-label="Filtrer par niveau d'attribution"></div>
+    <input id="q" type="search" placeholder="{{search_ph}}" aria-label="{{search_aria}}">
+    <div class="filters" id="fcat" aria-label="{{fcat_aria}}"></div>
+    <div class="filters" id="filters" aria-label="{{fatt_aria}}"></div>
     <span id="shown"></span>
   </div>
   <div class="tablewrap">
     <table>
-      <thead><tr><th>Date</th><th>Type</th><th>Incident</th><th>Pays visés</th><th>Attribution</th><th>Source</th></tr></thead>
+      <thead><tr><th>{{th_date}}</th><th>{{th_type}}</th><th>{{th_incident}}</th><th>{{th_countries}}</th><th>{{th_att}}</th><th>{{th_source}}</th></tr></thead>
       <tbody id="tbody"></tbody>
     </table>
   </div>
 
   <section class="notes">
     <div>
-      <h3>Lecture</h3>
-      <p><b id="nEv"></b> faits distincts. Les guerres sont éclatées en faits séparés : chaque massacre, chaque campagne de bombardement, chaque programme ou mensonge d'État a sa ligne. Le recensement se veut aussi large que possible, mais il reste une sélection de faits publiquement documentés.</p>
-      <p>Les arcs partent de Washington par convention graphique et frappent la capitale du pays visé, ou le lieu précis de l'opération quand il compte (Playa Girón, Natanz, Abbottabad). Les pays se teintent à mesure qu'ils sont visés.</p>
-      <p>Trois niveaux d'attribution. <b>Reconnu</b> (point plein) : opération ouverte, ou rôle américain admis par Washington, établi par le Congrès, une justice ou des archives officielles déclassifiées. <b>Documenté</b> (cercle) : établi par des historiens, des journalistes ou des fuites de documents, sans reconnaissance officielle. <b>Allégué</b> (cercle pointillé) : accusation du pays visé ou de tiers, sans preuve publique d'un rôle américain décisif. Ce niveau porte sur le rôle américain, pas sur la qualification juridique des faits.</p>
-      <p>Les « révolutions de couleur » sont classées « allégué » : des ONG ont reçu des fonds américains, mais aucune source ne montre que Washington a provoqué ces mobilisations.</p>
-      <p>La vue « Alliés » ne garde que les faits visant un allié officiel des États-Unis à la date du fait : membres de l'OTAN (à partir de leur adhésion) et de la CEE puis de l'UE, alliés par traité en Asie-Pacifique (Japon, Corée du Sud, Philippines, Australie, Thaïlande, Nouvelle-Zélande jusqu'en 1986, Taïwan de 1954 à 1979), Iran et Pakistan jusqu'en 1979, membres du pacte de Rio (TIAR) de 1948 jusqu'à leur éventuel retrait (Cuba en 1962, Mexique en 2004, Bolivie, Venezuela, Nicaragua et Équateur en 2012-2014), et « alliés majeurs hors OTAN » à partir de leur désignation. La vue « Europe » reprend le cadrage de « La guerre grise ».</p>
-      <p>Pour les deux guerres mondiales, seuls les faits controversés sont retenus (bombardements de villes, armes nucléaires), pas les batailles. Les ondes violettes figurent la radiodiffusion publique vers l'étranger : Voice of America (1942), puis Radio Free Europe et Radio Liberty, financées en secret par la CIA jusqu'en 1971.</p>
+      <h3>{{h3_reading}}</h3>
+      <p>{{notes_p1}}</p>
+      <p>{{notes_p2}}</p>
+      <p>{{notes_p3}}</p>
+      <p>{{notes_p4}}</p>
+      <p>{{notes_p5}}</p>
+      <p>{{notes_p6}}</p>
     </div>
     <div>
-      <h3>Ordres de grandeur</h3>
-      <p>La politiste Lindsey O'Rourke recense 64 tentatives de changement de régime clandestines et 6 ouvertes pendant la guerre froide (1947-1989).</p>
-      <p>Dov Levin compte 81 interventions américaines dans des élections étrangères entre 1946 et 2000, contre 36 pour l'URSS puis la Russie.</p>
-      <p>La commission Church du Sénat (1975-1976) a documenté les complots d'assassinat contre Castro, Lumumba, Trujillo, Diệm et Schneider. Un décret présidentiel interdit depuis 1976 les assassinats politiques.</p>
+      <h3>{{h3_scale}}</h3>
+      <p>{{scale_p1}}</p>
+      <p>{{scale_p2}}</p>
+      <p>{{scale_p3}}</p>
     </div>
     <div>
-      <h3>Sources</h3>
+      <h3>{{h3_sources}}</h3>
       <ul>
-        <li>Commission Church, rapport sur les complots d'assassinat (1975)</li>
-        <li>Département d'État, Foreign Relations of the United States (FRUS)</li>
-        <li>National Security Archive, université George-Washington</li>
-        <li>Lindsey O'Rourke, <i>Covert Regime Change</i>, 2018</li>
-        <li>Dov Levin, <i>Meddling in the Ballot Box</i>, 2020</li>
-        <li>Tim Weiner, <i>Des cendres en héritage</i>, 2007</li>
-        <li>Parlement européen, rapport sur Echelon, 2001</li>
-        <li>Documents Snowden et WikiLeaks, via Le Monde, Der Spiegel, Libération, Mediapart</li>
+        <li>{{src_li1}}</li>
+        <li>{{src_li2}}</li>
+        <li>{{src_li3}}</li>
+        <li>{{src_li4}}</li>
+        <li>{{src_li5}}</li>
+        <li>{{src_li6}}</li>
+        <li>{{src_li7}}</li>
+        <li>{{src_li8}}</li>
       </ul>
-      <p>Chaque ligne du tableau renvoie à sa source : un article de presse ou un document officiel pour les faits de 2026, les sanctions, l'aide militaire et les fuites de WikiLeaks et de Snowden, sinon une recherche Wikipédia sur l'incident, point d'entrée vers les sources primaires.</p>
-      <p>Données ouvertes (JSON, CSV), documents sources, méthode, vidéos et scripts : <a href="https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington" target="_blank" rel="noopener">github.com/Frequence-Populaire/Projets-divers</a>. Corrections bienvenues, source à l'appui.</p>
+      <p>{{sources_p1}}</p>
+      <p>{{sources_p2}}</p>
     </div>
   </section>
-  <footer>Sur le modèle de la carte « La guerre grise ». Chronologie arrêtée à fin septembre 2026.</footer>
+  <footer>{{footer}}</footer>
 </main>
 
 <script>
 (() => {
+const T=__T__;
+document.documentElement.lang=T.lang;document.documentElement.dir=T.dir;
 const MAP=__MAP__;
 const RAW=__RAW__;
 const C={ground:'#0B1D24',ground2:'#0E262E',land:'#123641',edge:'#24586A',us:'#2A2026',usEdge:'#5A3438',coral:'#FF6B4A',sun:'#FFC53D',ice:'#9FE6F0',lav:'#C8A2FF',mint:'#7FE0B2',rose:'#FF8FB8',blue:'#6FA8FF',paper:'#F2EDE4',muted:'#6E959D'};
-const DISPLAY='Syne,"Arial Black",sans-serif', MONO='"JetBrains Mono",ui-monospace,monospace';
+const DISPLAY='Syne,__FDISP__"Arial Black",sans-serif', MONO='"JetBrains Mono",__FBODY__ui-monospace,monospace';
 const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
 const seg=(t,a,b)=>clamp((t-a)/(b-a));
 const lerp=(a,b,p)=>a+(b-a)*p;
@@ -166,21 +173,21 @@ function geo(lon,lat){const l=((lon-PR.LON0+540)%360-180)*RAD,th=Math.asin(MM*Ma
 
 /* ---------- catégories ---------- */
 const CAT={
-  coup:{n:"Coup d'État, renversement",s:"COUP D'ÉTAT",c:C.coral},
-  arme:{n:'Intervention armée, guérilla',s:'INTERVENTION ARMÉE',c:C.sun},
-  crime:{n:'Crime de guerre, massacre, torture',s:'CRIME DE GUERRE',c:C.paper},
-  mort:{n:'Assassinat, enlèvement',s:'ASSASSINAT',c:C.rose},
-  info:{n:'Ingérence, propagande',s:'INGÉRENCE',c:C.lav},
-  sabot:{n:'Sabotage, guerre économique',s:'SABOTAGE',c:C.blue},
-  espion:{n:'Espionnage, surveillance',s:'ESPIONNAGE',c:C.ice},
-  cyber:{n:'Cyberattaque',s:'CYBER',c:C.mint}
+  coup:{n:T.cat_coup,s:T.cat_coup_s,c:C.coral},
+  arme:{n:T.cat_arme,s:T.cat_arme_s,c:C.sun},
+  crime:{n:T.cat_crime,s:T.cat_crime_s,c:C.paper},
+  mort:{n:T.cat_mort,s:T.cat_mort_s,c:C.rose},
+  info:{n:T.cat_info,s:T.cat_info_s,c:C.lav},
+  sabot:{n:T.cat_sabot,s:T.cat_sabot_s,c:C.blue},
+  espion:{n:T.cat_espion,s:T.cat_espion_s,c:C.ice},
+  cyber:{n:T.cat_cyber,s:T.cat_cyber_s,c:C.mint}
 };
-const LBL={a:'Reconnu',s:'Documenté',l:'Allégué'};
+const LBL={a:T.att_a,s:T.att_s,l:T.att_l};
 const WASH=[-77.04,38.9];
 function tOf(d){const p=d.split('-').map(Number);if(p.length===1)return p[0]+.5;if(p.length===2)return p[0]+(p[1]-.5)/12;return p[0]+(p[1]-1)/12+(p[2]-1)/365}
 const ALL=RAW.map((e,i)=>({i,date:e[0],t:tOf(e[0]),cat:e[1],att:e[2],title:e[3],place:e[4],note:e[5],
-  tg:e[6].map(g=>({lon:g[0],lat:g[1],c:g[2],fr:g[3],p:geo(g[0],g[1])})),src:e[7],launch:null})).sort((a,b)=>a.t-b.t);
-const MILES=[{t:1947.56,l:'Création de la CIA'},{t:1975.1,l:'Commission Church'},{t:1991.98,l:"Fin de l'URSS"},{t:2001.7,l:'11 septembre'},{t:2013.43,l:'Snowden'},{t:2017.05,l:'Trump I',s:1},{t:2021.05,l:'Biden',s:1},{t:2025.05,l:'Trump II',s:1}];
+  tg:e[6].map(g=>({lon:g[0],lat:g[1],c:g[2],fr0:g[3],fr:g[4]||g[3],p:geo(g[0],g[1])})),src:e[7],launch:null})).sort((a,b)=>a.t-b.t);
+const MILES=[{t:1947.56,l:T.mile_cia,k:1},{t:1975.1,l:T.mile_church},{t:1991.98,l:T.mile_ussr,k:1},{t:2001.7,l:T.mile_911},{t:2013.43,l:T.mile_snowden},{t:2017.05,l:T.mile_trump1,s:1},{t:2021.05,l:T.mile_biden,s:1},{t:2025.05,l:T.mile_trump2,s:1}];
 /* ---------- alliés officiels à la date du fait ---------- */
 const AL={};const al=(names,a,b=2100)=>names.forEach(n=>(AL[n]=AL[n]||[]).push([a,b]));
 al(['Belgium','Canada','Denmark','France','Iceland','Italy','Luxembourg','Netherlands','Norway','Portugal','United Kingdom','Greenland'],1949.26);
@@ -194,7 +201,7 @@ al(['Argentina','Brazil','Chile','Colombia','Costa Rica','Dominican Rep.','El Sa
 al(['Cuba'],1948.92,1962.08);al(['Mexico'],1948.92,2004.7);al(['Bolivia'],1948.92,2012.5);al(['Venezuela'],1948.92,2013.4);al(['Nicaragua','Ecuador'],1948.92,2014.2);
 al(['Trinidad and Tobago'],1967.5);al(['Bahamas'],1982.9);al(['Iran'],1959.2,1979.1);
 al(['Israel','Egypt'],1987);al(['Jordan'],1996.9);al(['Argentina'],1998.1);al(['Bahrain'],2002.2);al(['Kuwait','Morocco'],2004.3);al(['Pakistan'],2004.3);al(['Afghanistan'],2012.5,2022.55);al(['Tunisia'],2015.5);al(['Brazil'],2019.6);al(['Colombia','Qatar'],2022.3);al(['Kenya'],2024.4);al(['Saudi Arabia'],2025.9);
-const isAlly=(g,t)=>!/RDA|Allemagne de l'Est/.test(g.fr)&&(AL[g.c]||[]).some(([a,b])=>t>=a&&t<b);
+const isAlly=(g,t)=>!/RDA|Allemagne de l'Est/.test(g.fr0)&&(AL[g.c]||[]).some(([a,b])=>t>=a&&t<b);
 const inEurope=g=>g.lon>=-25&&g.lon<=50&&g.lat>=33&&g.lat<=72;
 let EV=ALL,T0=1900,T1=2026.2,BIN=10,ZONE='monde',PER='long';
 const WS=geo(...WASH);
@@ -242,10 +249,10 @@ function impact(e){hits++;shake=Math.max(shake,e.cat==='coup'||e.cat==='mort'||e
   lastImpact=e;placeCard(e)}
 
 /* ---------- panneaux ---------- */
-function wrapTitle(txt,maxW){ctx.font=`700 ${26*U}px ${DISPLAY}`;const w=txt.split(' ');const lines=[];let cur='';
-  for(const word of w){const test=cur?cur+' '+word:word;if(ctx.measureText(test).width>maxW&&cur){lines.push(cur);cur=word}else cur=test}lines.push(cur);return lines.slice(0,2)}
+function wrapTitle(txt,maxW){ctx.font=`700 ${26*U}px ${DISPLAY}`;const sp=/\s/.test(txt),w=sp?txt.split(' '):Array.from(txt),J=sp?' ':'';const lines=[];let cur='';
+  for(const word of w){const test=cur?cur+J+word:word;if(ctx.measureText(test).width>maxW&&cur){lines.push(cur);cur=word}else cur=test}lines.push(cur);return lines.slice(0,2)}
 function placeCard(e,born=now){feed.unshift({e,born,lines:wrapTitle(e.title,portrait?900:390)});if(feed.length>6)feed.pop()}
-const MOIS=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
+const MOIS=T.months;
 function fmtD(d){const p=d.split('-');if(p.length===1)return p[0];if(p.length===2)return MOIS[+p[1]-1]+' '+p[0];return`${p[2]}.${p[1]}.${p[0]}`}
 let CARD=null,CARDt=0;
 function drawFeed(){
@@ -256,7 +263,7 @@ function drawFeed(){
   const k=10*U;ctx.strokeStyle=C.paper;ctx.lineWidth=1.5*U;ctx.beginPath();
   ctx.moveTo(px-4*U,py+k);ctx.lineTo(px-4*U,py-4*U);ctx.lineTo(px+k,py-4*U);ctx.moveTo(px+pw+4*U,py+ph-k);ctx.lineTo(px+pw+4*U,py+ph+4*U);ctx.lineTo(px+pw-k,py+ph+4*U);ctx.stroke();
   ctx.textBaseline='alphabetic';
-  if(!feed.length){ctx.font=`400 ${14*U}px ${MONO}`;ctx.fillStyle=C.muted;ctx.textAlign='left';ctx.fillText('EN ATTENTE DE SIGNAL…',px+20*U,py+40*U);return}
+  if(!feed.length){ctx.font=`400 ${14*U}px ${MONO}`;ctx.fillStyle=C.muted;ctx.textAlign='left';ctx.fillText(T.waiting,px+20*U,py+40*U);return}
   if(!CARD||(feed[0]!==CARD&&now-CARDt>.9)){CARD=feed[0];CARDt=now}
   const f0=CARD,age=now-CARDt,col=CAT[f0.e.cat].c,sl=eOutExpo(seg(age,0,.35));
   ctx.save();ctx.beginPath();ctx.rect(px,py,pw,mainH);ctx.clip();
@@ -264,10 +271,10 @@ function drawFeed(){
   ctx.fillStyle=col;ctx.fillRect(px,py,pw*sl,4*U);
   const tx=px+20*U+(1-sl)*40*U;ctx.globalAlpha=sl;
   ctx.textAlign='left';ctx.font=`500 ${15*U}px ${MONO}`;ctx.fillStyle=col;ctx.fillText('▲ '+CAT[f0.e.cat].s,tx,py+32*U);
-  ctx.textAlign='right';ctx.fillStyle=C.muted;ctx.fillText(fmtD(f0.e.date).toUpperCase(),px+pw-20*U,py+32*U);ctx.textAlign='left';
+  ctx.textAlign='right';ctx.fillStyle=C.muted;ctx.fillText(fmtD(f0.e.date).toLocaleUpperCase(T.lang),px+pw-20*U,py+32*U);ctx.textAlign='left';
   ctx.font=`700 ${26*U}px ${DISPLAY}`;ctx.fillStyle=C.paper;f0.lines.forEach((l,i)=>ctx.fillText(l,tx,py+(66+i*30)*U));
-  ctx.font=`400 ${14*U}px ${MONO}`;ctx.fillStyle=C.muted;let pl=f0.e.place.toUpperCase();const suf='  ·  '+LBL[f0.e.att].toUpperCase();
-  while(ctx.measureText(pl+suf).width>pw-40*U&&pl.length>6)pl=pl.slice(0,-2);if(pl!==f0.e.place.toUpperCase())pl=pl.trimEnd()+'…';
+  ctx.font=`400 ${14*U}px ${MONO}`;ctx.fillStyle=C.muted;let pl=f0.e.place.toLocaleUpperCase(T.lang);const suf='  ·  '+LBL[f0.e.att].toLocaleUpperCase(T.lang);
+  while(ctx.measureText(pl+suf).width>pw-40*U&&pl.length>6)pl=pl.slice(0,-2);if(pl!==f0.e.place.toLocaleUpperCase(T.lang))pl=pl.trimEnd()+'…';
   ctx.fillText(pl+suf,tx,py+mainH-16*U);
   ctx.restore();ctx.globalAlpha=1;
   ctx.strokeStyle='rgba(159,230,240,.14)';ctx.beginPath();ctx.moveTo(px+20*U,py+mainH);ctx.lineTo(px+pw-20*U,py+mainH);ctx.stroke();
@@ -344,13 +351,13 @@ function drawEvents(){
 function drawHUD(){
   const pad=portrait?60:64;
   ctx.textAlign='left';ctx.textBaseline='alphabetic';
-  ctx.font=`500 ${14*U}px ${MONO}`;ctx.fillStyle=C.coral;ctx.fillText('● OPÉRATIONS · ÉTATS-UNIS → '+({monde:'MONDE',europe:'EUROPE',allies:'ALLIÉS'}[ZONE]),pad,pad+4*U);
+  ctx.font=`500 ${14*U}px ${MONO}`;ctx.fillStyle=C.coral;ctx.fillText(T.hud_ops+({monde:T.hud_monde,europe:T.hud_europe,allies:T.hud_allies}[ZONE]),pad,pad+4*U);
   ctx.font=`800 ${portrait?150:112}px ${DISPLAY}`;ctx.fillStyle=C.paper;const yr=String(Math.floor(Math.min(Cal,2026.99)));ctx.fillText(yr,pad-6,pad+(portrait?150:110));
   const yw=ctx.measureText(yr).width,x2=pad+yw+24*U;
   ctx.font=`800 ${44*U}px ${DISPLAY}`;ctx.fillStyle=C.sun;ctx.fillText(String(hits).padStart(3,'0'),x2,pad+(portrait?150:110)-24*U);
-  ctx.font=`400 ${13*U}px ${MONO}`;ctx.fillStyle=C.muted;ctx.fillText('INCIDENTS',x2,pad+(portrait?150:110));
+  ctx.font=`400 ${13*U}px ${MONO}`;ctx.fillStyle=C.muted;ctx.fillText(T.hud_incidents,x2,pad+(portrait?150:110));
   if(lastImpact){const g=lastImpact.tg[0];ctx.font=`400 ${13*U}px ${MONO}`;ctx.fillStyle=C.muted;
-    ctx.fillText(`IMPACT ${Math.abs(g.lat).toFixed(2)}°${g.lat<0?'S':'N'} ${Math.abs(g.lon).toFixed(2)}°${g.lon<0?'O':'E'}`,pad,pad+(portrait?196:150))}
+    ctx.fillText(`${T.hud_impact} ${Math.abs(g.lat).toFixed(2)}°${g.lat<0?T.dir_s:T.dir_n} ${Math.abs(g.lon).toFixed(2)}°${g.lon<0?T.dir_w:T.dir_e}`,pad,pad+(portrait?196:150))}
 }
 function drawTimeline(){
   const x0=portrait?60:64,x1=W-(portrait?60:64),base=H-(portrait?70:40),top=base-(portrait?190:128);
@@ -359,11 +366,11 @@ function drawTimeline(){
   ctx.strokeStyle='rgba(159,230,240,.12)';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(x0,base);ctx.lineTo(x1,base);ctx.stroke();
   ctx.font=`400 ${13*U}px ${MONO}`;ctx.textAlign='center';
   for(let y=Math.ceil(T0/BIN)*BIN;y<=T1;y+=BIN){const x=X(y);ctx.fillStyle=y<=Cal?C.muted:'#2D5561';if(!portrait||y%(BIN*2)===0)ctx.fillText(y,x,base+20*U);ctx.fillRect(x,base-3,1,6)}
-  for(const m of MILES){if(m.t>Cal||m.t<T0||(m.s&&BIN===10))continue;if(portrait&&m.l!=='Création de la CIA'&&m.l!=="Fin de l'URSS")continue;const x=X(m.t);ctx.strokeStyle='rgba(242,237,228,.35)';ctx.setLineDash([3,4]);ctx.beginPath();ctx.moveTo(x,top-28*U);ctx.lineTo(x,base);ctx.stroke();ctx.setLineDash([]);
-    const right=x>W*.82;ctx.fillStyle=C.paper;ctx.textAlign=right?'right':'left';ctx.font=`500 ${12*U}px ${MONO}`;ctx.fillText(m.l.toUpperCase(),x+(right?-6:6),top-18*U)}
+  for(const m of MILES){if(m.t>Cal||m.t<T0||(m.s&&BIN===10))continue;if(portrait&&!m.k)continue;const x=X(m.t);ctx.strokeStyle='rgba(242,237,228,.35)';ctx.setLineDash([3,4]);ctx.beginPath();ctx.moveTo(x,top-28*U);ctx.lineTo(x,base);ctx.stroke();ctx.setLineDash([]);
+    const right=x>W*.82;ctx.fillStyle=C.paper;ctx.textAlign=right?'right':'left';ctx.font=`500 ${12*U}px ${MONO}`;ctx.fillText(m.l.toLocaleUpperCase(T.lang),x+(right?-6:6),top-18*U)}
   ctx.textAlign='center';ctx.font=`500 ${12*U}px ${MONO}`;
   for(const d in DEC){if(+d<T0||(Cal<+d+BIN&&!(Cal>=T1)))continue;ctx.fillStyle=C.sun;ctx.fillText(DEC[d],X(Math.min(+d+BIN/2,T1-BIN*.1)),top+6*U)}
-  if(Cal>=T0+BIN&&!MILES.some(m=>m.t<=Cal&&m.t>=T0&&!(m.s&&BIN===10)&&!portrait&&X(m.t)-x0<170*U)){ctx.fillStyle=C.muted;ctx.textAlign='left';ctx.font=`400 ${11*U}px ${MONO}`;ctx.fillText(BIN===10?'INCIDENTS PAR DÉCENNIE':'INCIDENTS PAR AN',x0,top-18*U)}
+  if(Cal>=T0+BIN&&!MILES.some(m=>m.t<=Cal&&m.t>=T0&&!(m.s&&BIN===10)&&!portrait&&X(m.t)-x0<170*U)){ctx.fillStyle=C.muted;ctx.textAlign='left';ctx.font=`400 ${11*U}px ${MONO}`;ctx.fillText(BIN===10?T.per_decade:T.per_year,x0,top-18*U)}
   const done=EV.filter(e=>e.t<=Cal),N=EV.length;const cy=n=>base-6-(n/N)*(base-top-24*U);
   const pts=[[X(T0),cy(0)]];let n=0;for(const e of done){pts.push([X(e.t),cy(n)]);n++;pts.push([X(e.t),cy(n)])}pts.push([X(Cal),cy(n)]);
   const ag=ctx.createLinearGradient(0,top,0,base);ag.addColorStop(0,'rgba(255,107,74,.35)');ag.addColorStop(1,'rgba(255,107,74,0)');
@@ -374,7 +381,7 @@ function drawTimeline(){
   ctx.strokeStyle='rgba(255,197,61,.35)';ctx.beginPath();ctx.moveTo(hx,top-6);ctx.lineTo(hx,base);ctx.stroke();ctx.textAlign='left';
 }
 function drawCredit(){ctx.save();ctx.textAlign='right';ctx.textBaseline='alphabetic';
-  ctx.font=`800 ${30*U}px Syne, sans-serif`;ctx.fillStyle=C.paper;ctx.fillText('LA MAIN DE WASHINGTON',W-40*U,70*U);
+  ctx.font=`800 ${30*U}px ${DISPLAY}`;ctx.fillStyle=C.paper;ctx.fillText(T.brand,W-40*U,70*U);
   ctx.font=`500 ${13*U}px ${MONO}`;ctx.fillStyle=C.coral;ctx.fillText('FRÉQUENCE POPULAIRE · '+window.__VIDEO,W-40*U,94*U);ctx.restore()}
 function frame(ts){
   const dt=Math.min(.05,(ts-lastTs)/1000);lastTs=ts;now=ts/1000;
@@ -386,60 +393,60 @@ function frame(ts){
   drawMap();drawBroadcast();drawOrigin();drawEvents();ctx.restore();
   drawFeed();drawHUD();drawTimeline();if(window.__VIDEO)drawCredit();
   if(document.activeElement!==scrub)scrub.value=Cal;
-  tc.textContent=Math.floor(Math.min(Cal,2026.99))+' · '+hits+' incidents';
+  tc.textContent=Math.floor(Math.min(Cal,2026.99))+' · '+T.tc_incidents.replace('{n}',hits);
   chipSync();
   requestAnimationFrame(frame);
 }
 
 /* ---------- commandes ---------- */
 const btn=document.getElementById('play'),scrub=document.getElementById('scrub'),tc=document.getElementById('tc'),spd=document.getElementById('speed'),chips=document.getElementById('chips');
-function setPlay(p){playing=p;btn.textContent=p?'Pause':'Lecture'}
+function setPlay(p){playing=p;btn.textContent=p?T.pause:T.play}
 btn.onclick=()=>{if(!playing&&Cal>=T1)resetTo(T0);setPlay(!playing)};
 document.getElementById('restart').onclick=()=>{resetTo(T0);lastImpact=null;setPlay(true)};
 spd.onclick=()=>{speed=speed===1?2:speed===2?.5:1;spd.textContent='×'+(speed===.5?'½':speed)};
 scrub.oninput=()=>{setPlay(false);resetTo(+scrub.value)};
 let JUMPS=[];
-function buildChips(){JUMPS=PER==='long'?[['1900',1900],['1945',1945],['Corée',1950.4],['Vietnam',1964.5],['1973',1973],['1980',1980],['1991',1990.5],['2001',2001.6],['2013',2013],['2020',2020]]:[2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026].map(y=>[String(y),y]);
+function buildChips(){JUMPS=PER==='long'?[['1900',1900],['1945',1945],[T.jump_korea,1950.4],[T.jump_vietnam,1964.5],['1973',1973],['1980',1980],['1991',1990.5],['2001',2001.6],['2013',2013],['2020',2020]]:[2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026].map(y=>[String(y),y]);
   chips.innerHTML='';JUMPS.forEach(([l,t])=>{const b=document.createElement('button');b.type='button';b.textContent=l;b.onclick=()=>{resetTo(t);setPlay(true)};chips.appendChild(b)})}
 function chipSync(){let k=-1;JUMPS.forEach(([,t],i)=>{if(Cal>=t)k=i});[...chips.children].forEach((c,i)=>c.setAttribute('aria-current',i===k?'true':'false'))}
-document.getElementById('legend').innerHTML=Object.values(CAT).map(c=>`<span style="color:${c.c}"><i style="background:${c.c}"></i><span style="color:#BFD0D3">${c.n}</span></span>`).join('')+`<span style="color:#BFD0D3">● plein : reconnu · ○ cercle : documenté · ◌ pointillé : allégué</span>`;
+document.getElementById('legend').innerHTML=Object.values(CAT).map(c=>`<span style="color:${c.c}"><i style="background:${c.c}"></i><span style="color:#BFD0D3">${c.n}</span></span>`).join('')+`<span style="color:#BFD0D3">${T.legend_att}</span>`;
 
 const det=document.getElementById('detail');
 const filters=document.getElementById('filters'),fcat=document.getElementById('fcat'),qi=document.getElementById('q'),shown=document.getElementById('shown');
 let fAtt='all',fCat='all';
 const norm=x=>x.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const pays=e=>[...new Set(e.tg.map(g=>g.fr))].join(', ');
-function show(e){sel=e;const c=CAT[e.cat];det.innerHTML=`<div class="d-meta"><span style="color:${c.c}">● ${c.n}</span> · ${fmtD(e.date)} · ${e.place} · <span class="tag ${e.att}">${LBL[e.att]}</span></div><div class="d-title">${e.title}</div><p>${e.note}</p><p style="color:#8FAFB5">Pays visés : ${pays(e)} · <a href="${e.src}" target="_blank" rel="noopener">${/wikipedia\.org/.test(e.src)?"Wikipédia":"Source"} ↗</a></p>`}
+const pays=e=>[...new Set(e.tg.map(g=>g.fr))].join(T.sep);
+function show(e){sel=e;const c=CAT[e.cat];det.innerHTML=`<div class="d-meta"><span style="color:${c.c}">● ${c.n}</span> · ${fmtD(e.date)} · ${e.place} · <span class="tag ${e.att}">${LBL[e.att]}</span></div><div class="d-title">${e.title}</div><p>${e.note}</p><p style="color:#8FAFB5">${T.countries_label}${T.colon}${pays(e)} · <a href="${e.src}" target="_blank" rel="noopener">${/wikipedia\.org/.test(e.src)?T.wiki:T.source} ↗</a></p>`}
 cv.addEventListener('click',ev=>{const r=cv.getBoundingClientRect(),k=W/r.width,mx=(ev.clientX-r.left)*k,my=(ev.clientY-r.top)*k;let best=null,bd=26*U;
   for(const m of markers){const d=Math.hypot(m.x-mx,m.y-my);if(d<bd){bd=d;best=m.e}}if(best)show(best)});
 const tbody=document.getElementById('tbody');let byI={};
-function buildTable(){tbody.innerHTML=EV.map(e=>{const c=CAT[e.cat];return`<tr data-i="${e.i}" data-att="${e.att}"><td class="date">${fmtD(e.date)}</td><td><span class="dot" style="background:${c.c}"></span>${c.n}</td><td><b>${e.title}</b><br><span style="color:#8FAFB5">${e.note}</span></td><td>${pays(e)}</td><td><span class="tag ${e.att}">${LBL[e.att]}</span></td><td><a href="${e.src}" target="_blank" rel="noopener">${/wikipedia\.org/.test(e.src)?"Wikipédia":"Source"} ↗</a></td></tr>`}).join('');
+function buildTable(){tbody.innerHTML=EV.map(e=>{const c=CAT[e.cat];return`<tr data-i="${e.i}" data-att="${e.att}"><td class="date">${fmtD(e.date)}</td><td><span class="dot" style="background:${c.c}"></span>${c.n}</td><td><b>${e.title}</b><br><span style="color:#8FAFB5">${e.note}</span></td><td>${pays(e)}</td><td><span class="tag ${e.att}">${LBL[e.att]}</span></td><td><a href="${e.src}" target="_blank" rel="noopener">${/wikipedia\.org/.test(e.src)?T.wiki:T.source} ↗</a></td></tr>`}).join('');
 byI={};EV.forEach(e=>byI[e.i]=e);EV.forEach(e=>e.hay=norm([e.title,e.place,e.note,pays(e),e.date].join(' ')));
   const cnt={all:EV.length,a:0,s:0,l:0};EV.forEach(e=>cnt[e.att]++);const cc={};EV.forEach(e=>cc[e.cat]=(cc[e.cat]||0)+1);
   fcat.innerHTML='';filters.innerHTML='';fAtt='all';fCat='all';
-  mk(fcat,[['all','Tous les types']].concat(Object.keys(CAT).map(k=>[k,`${CAT[k].n} (${cc[k]||0})`])),'all',k=>fCat=k);
-  mk(filters,[['all',`Toutes attributions (${cnt.all})`],['a',`Reconnus (${cnt.a})`],['s',`Documentés (${cnt.s})`],['l',`Allégués (${cnt.l})`]],'all',k=>fAtt=k);
+  mk(fcat,[['all',T.all_types]].concat(Object.keys(CAT).map(k=>[k,`${CAT[k].n} (${cc[k]||0})`])),'all',k=>fCat=k);
+  mk(filters,[['all',`${T.all_att} (${cnt.all})`],['a',`${T.att_a_pl} (${cnt.a})`],['s',`${T.att_s_pl} (${cnt.s})`],['l',`${T.att_l_pl} (${cnt.l})`]],'all',k=>fAtt=k);
   applyF();document.getElementById('nEv').textContent=EV.length}
 tbody.addEventListener('click',ev=>{if(ev.target.closest('a'))return;const tr=ev.target.closest('tr');if(!tr)return;const e=byI[tr.dataset.i];
   if(e.t>Cal){resetTo(e.t+.001);setPlay(false)}show(e);det.scrollIntoView({behavior:'smooth',block:'nearest'})});
 
-function applyF(){const q=norm(qi.value.trim());let n=0;[...tbody.children].forEach(tr=>{const e=byI[tr.dataset.i];const ok=(fAtt==='all'||e.att===fAtt)&&(fCat==='all'||e.cat===fCat)&&(!q||e.hay.includes(q));tr.hidden=!ok;if(ok)n++});shown.textContent=n+' incident'+(n>1?'s':'')+' affiché'+(n>1?'s':'')}
+function applyF(){const q=norm(qi.value.trim());let n=0;[...tbody.children].forEach(tr=>{const e=byI[tr.dataset.i];const ok=(fAtt==='all'||e.att===fAtt)&&(fCat==='all'||e.cat===fCat)&&(!q||e.hay.includes(q));tr.hidden=!ok;if(ok)n++});shown.textContent=(n>1?T.shown_n:T.shown_1).replace('{n}',n)}
 function mk(box,items,cur,set){items.forEach(([k,l])=>{const b=document.createElement('button');b.type='button';b.textContent=l;b.setAttribute('aria-pressed',k===cur?'true':'false');
   b.onclick=()=>{set(k);[...box.children].forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));applyF()};box.appendChild(b)})}
 qi.addEventListener('input',applyF);
 
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-const NOTES={monde:'Tous les faits, dans le monde entier.',europe:"Cadrage de « La guerre grise » : seuls les faits visant l'Europe sont montrés.",allies:"Seuls les faits visant un allié officiel des États-Unis à la date du fait (OTAN, UE, pacte de Rio, alliés par traité, alliés majeurs hors OTAN)."};
+const NOTES={monde:T.note_monde,europe:T.note_europe,allies:T.note_allies};
 function applyMode(){
   const tmax=Math.max(...ALL.map(e=>e.t));
   T0=PER==='long'?1900:2013;T1=2026.75;BIN=PER==='long'?10:1;
   EV=ALL.filter(e=>e.t>=T0).map(e=>{const tg=e.tg.filter(g=>ZONE==='monde'||(ZONE==='europe'?inEurope(g):isAlly(g,e.t)));return tg.length?{...e,tg:tg.map(g=>({...g})),launch:null}:null}).filter(Boolean);
   sel=null;computeStats();buildChips();buildTable();
-  scrub.min=T0;scrub.max=T1;document.getElementById('modeNote').textContent=NOTES[ZONE]+` ${EV.length} faits, ${T0} → ${Math.floor(T1)}.`;
+  scrub.min=T0;scrub.max=T1;document.getElementById('modeNote').textContent=NOTES[ZONE]+' '+T.mode_count.replace('{n}',EV.length).replace('{a}',T0).replace('{b}',Math.floor(T1));
   setup();resetTo(reduce?T1:T0);setPlay(!reduce)}
 function segBtns(box,items,get,set){items.forEach(([k,l])=>{const b=document.createElement('button');b.type='button';b.textContent=l;b.dataset.k=k;b.setAttribute('aria-pressed',k===get()?'true':'false');
   b.onclick=()=>{if(k===get())return;set(k);[...box.children].forEach(x=>x.setAttribute('aria-pressed',x.dataset.k===k?'true':'false'));applyMode()};box.appendChild(b)})}
-segBtns(document.getElementById('zone'),[['monde','Monde'],['europe','Europe'],['allies','Alliés']],()=>ZONE,k=>ZONE=k);
+segBtns(document.getElementById('zone'),[['monde',T.zone_monde],['europe',T.zone_europe],['allies',T.zone_allies]],()=>ZONE,k=>ZONE=k);
 segBtns(document.getElementById('per'),[['long','1900 → 2026'],['court','2013 → 2026']],()=>PER,k=>PER=k);
 applyMode();
 new ResizeObserver(()=>setup()).observe(stage);
