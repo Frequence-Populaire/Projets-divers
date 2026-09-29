@@ -125,6 +125,7 @@
   "note_europe": "Cadrage de « La guerre grise » : seuls les faits visant l'Europe sont montrés.",
   "note_allies": "Seuls les faits visant un allié officiel des États-Unis à la date du fait (OTAN, UE, pacte de Rio, alliés par traité, alliés majeurs hors OTAN).",
   "mode_count": "{n} faits, {a} → {b}.",
-  "lang_aria": "Langue"
+  "lang_aria": "Langue",
+  "footer_project": "Un projet <b>Fréquence Populaire</b>"
  }
 }

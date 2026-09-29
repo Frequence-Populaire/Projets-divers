@@ -72,6 +72,8 @@ tbody tr:hover{background:rgba(159,230,240,.05)}
 .notes ul{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;gap:6px}
 .notes li{margin:0}
 a{color:var(--sun)}
+.fp{margin:0 0 6px;color:var(--paper);font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.fp b{color:var(--coral);font-weight:500}
 footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
 </style>
 
@@ -148,7 +150,7 @@ footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var
       <p>{{sources_p2}}</p>
     </div>
   </section>
-  <footer>{{footer}}</footer>
+  <footer><p class="fp">{{footer_project}}</p>{{footer}}</footer>
 </main>
 
 <script>

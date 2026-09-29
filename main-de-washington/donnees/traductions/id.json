@@ -125,7 +125,8 @@
 "note_europe": "Kerangka “La guerre grise”: hanya fakta yang menyasar Eropa yang ditampilkan.",
 "note_allies": "Hanya fakta yang menyasar sekutu resmi Amerika Serikat pada tanggal kejadian (NATO, UE, Pakta Rio, sekutu berdasarkan perjanjian, sekutu utama non-NATO).",
 "mode_count": "{n} fakta, {a} → {b}.",
-"lang_aria": "Bahasa"
+"lang_aria": "Bahasa",
+"footer_project": "Sebuah proyek <b>Fréquence Populaire</b>"
 },
 "pays": {
 "Abyssinie": "Abisinia",

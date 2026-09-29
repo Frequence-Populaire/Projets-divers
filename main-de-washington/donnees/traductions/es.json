@@ -125,7 +125,8 @@
 "note_europe": "Enfoque de «La guerra gris»: solo se muestran los hechos dirigidos contra Europa.",
 "note_allies": "Solo los hechos dirigidos contra un aliado oficial de Estados Unidos en la fecha del hecho (OTAN, UE, pacto de Río, aliados por tratado, aliados principales no miembros de la OTAN).",
 "mode_count": "{n} hechos, {a} → {b}.",
-"lang_aria": "Idioma"
+"lang_aria": "Idioma",
+"footer_project": "Un proyecto de <b>Fréquence Populaire</b>"
 },
 "pays": {
 "Abyssinie": "Abisinia",

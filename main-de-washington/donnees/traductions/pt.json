@@ -125,7 +125,8 @@
 "note_europe": "Enquadramento de “La guerre grise”: apenas os fatos que visam a Europa são mostrados.",
 "note_allies": "Apenas os fatos que visam um aliado oficial dos Estados Unidos na data do fato (OTAN, UE, pacto do Rio, aliados por tratado, principais aliados extra-OTAN).",
 "mode_count": "{n} fatos, {a} → {b}.",
-"lang_aria": "Idioma"
+"lang_aria": "Idioma",
+"footer_project": "Um projeto <b>Fréquence Populaire</b>"
 },
 "pays": {
 "Abyssinie": "Abissínia",

@@ -125,7 +125,8 @@
 "note_europe": "Framing of “The Grey War”: only facts targeting Europe are shown.",
 "note_allies": "Only facts targeting an official US ally on the date of the fact (NATO, EU, Rio Pact, treaty allies, major non-NATO allies).",
 "mode_count": "{n} facts, {a} → {b}.",
-"lang_aria": "Language"
+"lang_aria": "Language",
+"footer_project": "A <b>Fréquence Populaire</b> project"
 },
 "pays": {
 "Abyssinie": "Abyssinia",
