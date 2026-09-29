@@ -8,6 +8,8 @@ Le projet reprend la visualisation de [« La guerre grise »](https://claude.ai/
 
 ## Ouvrir la carte
 
+**Dix langues** : français (`index.html`), anglais, espagnol, portugais, arabe, chinois, hindi, bengali, russe et indonésien (`index.<code>.html`, par exemple `index.en.html`). Le sélecteur sous le titre passe d'une langue à l'autre. Ce sont, avec le français, les dix langues les plus parlées au monde.
+
 Version en ligne : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
 
 Ouvrez `index.html` dans un navigateur. La page est autonome : carte, données et code sont intégrés dans le fichier. Seules les polices viennent de Google Fonts.
@@ -59,10 +61,12 @@ Sur la carte, un point plein signale un fait reconnu, un cercle un fait document
 
 ```
 main-de-washington/
-├── index.html              page publiée, générée par scripts/build.py
+├── index.html              page publiée en français, générée par scripts/build.py
+├── index.<code>.html       la même page dans les neuf autres langues
 ├── template.html           gabarit de la page (HTML, CSS, JavaScript)
 ├── donnees/
 │   ├── incidents.json      base de référence (voir le format ci-dessous)
+│   ├── traductions/        interface, noms de pays et faits traduits, un fichier par langue
 │   └── incidents.csv       même base en CSV, générée par scripts/export_csv.py
 ├── carte/
 │   ├── map.json            frontières projetées et simplifiées (Natural Earth, 1:50 m)
@@ -109,11 +113,15 @@ Python 3 suffit, sans dépendance.
 
 ```sh
 python3 scripts/validate.py     # vérifie dates, catégories, pays, doublons
-python3 scripts/build.py        # régénère index.html
+python3 scripts/build.py        # régénère index.html et les pages traduites
 python3 scripts/export_csv.py   # régénère donnees/incidents.csv
 ```
 
-Pour ajouter un fait, insérez une ligne dans `donnees/incidents.json` au bon endroit chronologique, en suivant les règles de `methode/BRIEF.md`, puis relancez les trois commandes.
+Pour ajouter un fait, insérez une ligne dans `donnees/incidents.json` au bon endroit chronologique, en suivant les règles de `methode/BRIEF.md`, puis relancez les trois commandes. Tant qu'il n'est pas traduit, un fait s'affiche en français dans les autres langues ; `build.py` indique combien de faits restent à traduire.
+
+### Traductions
+
+`donnees/traductions/<code>.json` contient, pour chaque langue, les textes de l'interface (`ui`), les noms de pays (`pays`) et les faits (`faits`). Chaque fait y est repéré par une clé : les dix premiers caractères du SHA-1 de `date|titre français`. Corriger un titre ou une date en français change donc sa clé, et le fait devra être retraduit.
 
 ### Vidéos
 
@@ -153,6 +161,8 @@ La base a été constituée avec Claude (Anthropic), en plusieurs vagues d'agent
 4. **Dépouillement de documents sources** (dossier `sources/`) : la liste des déploiements du Congressional Research Service (rapport R42738) et les articles Wikipédia « Foreign interventions by the United States » et « United States involvement in regime change ». Chaque fait a été confronté à la base ; 132 faits absents ont été ajoutés.
 
 Chaque vague a été relue par des agents vérificateurs chargés de traquer les erreurs de date, de chiffre ou d'attribution. Les doublons ont été supprimés automatiquement puis à la main.
+
+Les neuf traductions ont été faites par des agents Claude, lot par lot, à partir du texte français, avec des consignes de fidélité (conserver les niveaux de certitude, les chiffres et les dates). Elles n'ont pas été relues par des locuteurs natifs : les signalements d'erreurs sont bienvenus.
 
 Limites à connaître :
 
