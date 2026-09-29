@@ -347,7 +347,18 @@
 "Îles Malouines": "Ilhas Malvinas",
 "Îles Marshall": "Ilhas Marshall",
 "Îles Marshall (tutelle américaine)": "Ilhas Marshall (tutela americana)",
-"Îles Salomon": "Ilhas Salomão"
+"Îles Salomon": "Ilhas Salomão",
+"Antilles danoises": "Antilhas Dinamarquesas",
+"Communauté économique européenne": "Comunidade Econômica Europeia",
+"Finlande": "Finlândia",
+"Groenland": "Groenlândia",
+"Irlande": "Irlanda",
+"Malte": "Malta",
+"Saint-Siège": "Santa Sé",
+"Slovénie": "Eslovênia",
+"Tchéquie": "Tchéquia",
+"Vatican": "Vaticano",
+"Îles Féroé (Danemark)": "Ilhas Faroé (Dinamarca)"
 },
 "faits": {
 "000b8e1184": [
@@ -374,6 +385,11 @@
 "Golpe de Goïta, parceiro das forças dos EUA",
 "Kati, Mali",
 "O coronel Assimi Goïta, que derruba Ibrahim Boubacar Keïta, havia trabalhado com as forças especiais americanas e participado dos exercícios Flintlock, confirma o AFRICOM."
+],
+"008b843098": [
+"Guerra da banana: tarifas de 100%",
+"Bruxelas, Bélgica",
+"Washington anuncia tarifas de 100% sobre 520 milhões de dólares em produtos europeus para punir o regime da banana da UE, favorável aos países ACP. A OMC reduz depois o valor autorizado para 191,4 milhões por ano."
 ],
 "009c6141d9": [
 "Kermit Roosevelt entra no Irã",
@@ -450,6 +466,11 @@
 "Yangon, Birmânia",
 "A Birmânia renuncia à ajuda americana e leva à ONU a presença em seu solo de tropas nacionalistas chinesas, abastecidas a partir de Taiwan com o apoio da CIA."
 ],
+"0196563f85": [
+"Voos da CIA via Helsinque",
+"Helsinque-Vantaa, Finlândia",
+"Segundo a Anistia e a Reprieve, aviões de entregas extraordinárias declaram destino Helsinque, como um voo vindo de Bagram em 2004, embora pousem na Lituânia, sede de prisões secretas. O ministério finlandês contabiliza cerca de 150 pousos."
+],
 "01ebadef83": [
 "Um agente do BND espionava para a CIA",
 "Pullach, Alemanha",
@@ -489,6 +510,11 @@
 "Lei ILSA contra o Irã e a Líbia",
 "Trípoli, Líbia",
 "Clinton assina o Iran and Libya Sanctions Act, que sanciona empresas estrangeiras que investem no petróleo líbio ou iraniano. A União Europeia contesta esse alcance extraterritorial."
+],
+"028c6a13b6": [
+"Fresenius paga 231 milhões",
+"Bad Homburg, Alemanha",
+"A Fresenius Medical Care encerra com o Departamento de Justiça e a SEC processos por corrupção de médicos e autoridades de saúde em pelo menos 17 países, e deve aceitar um monitor independente."
 ],
 "029c17b462": [
 "Batalha de Najaf",
@@ -585,6 +611,11 @@
 "Amã, Jordânia",
 "A CIA repassa milhões de dólares ao rei da Jordânia a partir de 1957. O Washington Post o revela em 1977 e a administração Carter põe fim aos pagamentos."
 ],
+"03b14bee39": [
+"Ramstein, retransmissora dos ataques de drones",
+"Ramstein, Alemanha",
+"Um documento publicado pelo The Intercept mostra que a base de Ramstein retransmite por satélite os enlaces dos drones americanos. Em 2019, um tribunal de Münster considera que a base desempenha um “papel central” nos ataques no Iêmen."
+],
 "03c7dadf86": [
 "Operação Tulip: ajuda aos exilados líbios",
 "Trípoli, Líbia",
@@ -624,6 +655,21 @@
 "Coordenação alegada com Pretória",
 "Sul de Angola",
 "A África do Sul invade Angola (operação Savannah). O ex-agente John Stockwell afirma que a CIA coordenava sua ação com Pretória, o que Washington negou."
+],
+"04a7092ac3": [
+"46 milhões de ligações italianas monitoradas",
+"Roma, Itália",
+"Segundo o L'Espresso, documentos de Edward Snowden mostram a coleta de metadados de quase 46 milhões de ligações na Itália em um mês. O chefe da NSA contesta e fala em dados recolhidos com os aliados da OTAN."
+],
+"04a8192a57": [
+"Últimos lançamentos de paraquedas da CIA na Estônia",
+"Estônia",
+"Três agentes estonianos são lançados na Estônia, as últimas operações aéreas conhecidas do programa REDSOX na URSS. Logo são capturados ou mortos. A resistência estoniana era na verdade controlada pela KGB."
+],
+"04b396c505": [
+"Pompeo alerta Budapeste contra a Huawei",
+"Budapeste, Hungria",
+"Em visita a Budapeste, Mike Pompeo adverte que a presença da Huawei poderia levar Washington a reduzir sua cooperação com a Hungria. O governo Orbán mantém seus contratos com o grupo chinês."
 ],
 "04e10533a8": [
 "Comboios escoltados rumo a Quemoy",
@@ -699,6 +745,11 @@
 "Pressões sobre a Justiça espanhola",
 "Madri, Espanha",
 "Telegramas diplomáticos revelados em 2010 mostram a embaixada americana agindo para arquivar os processos contra os soldados que mataram o jornalista José Couso em Bagdá."
+],
+"062318c98a": [
+"Ericsson se declara culpada",
+"Estocolmo, Suécia",
+"O Departamento de Justiça considera que a Ericsson violou seu acordo de 2019 ao omitir fatos em Djibuti, na China e no Iraque. O grupo se declara culpado e paga mais 206 milhões de dólares."
 ],
 "063e6bde9a": [
 "Libertação de Orlando Bosch",
@@ -815,6 +866,11 @@
 "Saara Ocidental",
 "Carter aprova a venda de aviões OV-10 e helicópteros a Marrocos para combater a Frente Polisário. Reagan amplia a ajuda militar."
 ],
+"083b493a3f": [
+"Trump cancela sua visita por causa da Groenlândia",
+"Copenhague, Dinamarca",
+"Depois que Mette Frederiksen qualificou de “absurda” a ideia de vender a Groenlândia, Donald Trump adia a visita de Estado prevista para 2 e 3 de setembro e chama a primeira-ministra de “desagradável”."
+],
 "086b77e026": [
 "Criação do MAAG Indochina",
 "Saigon, Vietnã",
@@ -875,6 +931,11 @@
 "Assunção, Paraguai",
 "O presidente é destituído em menos de dois dias. Telegramas do WikiLeaks mostram que a embaixada conhecia desde 2009 os planos da oposição; um papel americano não está demonstrado."
 ],
+"09eadfbedb": [
+"Cartas de Grenell sobre o Nord Stream 2",
+"Berlim, Alemanha",
+"O embaixador Richard Grenell escreve a empresas alemãs envolvidas no gasoduto Nord Stream 2 para alertá-las de que estão sujeitas a sanções americanas. Berlim denuncia uma ingerência."
+],
 "0a188abcf0": [
 "Operação Commando Hunt na trilha Ho Chi Minh",
 "Sul do Laos",
@@ -910,6 +971,11 @@
 "Ancara, Turquia",
 "O exército toma o poder. Segundo o jornalista Mehmet Ali Birand, Paul Henze, ex-chefe da base da CIA em Ancara e então no Conselho de Segurança Nacional, teria dito “nossos rapazes fizeram isso”. Henze negou."
 ],
+"0ae0452c48": [
+"A Lituânia assina a declaração 5G",
+"Vilnius, Lituânia",
+"Último dos três países bálticos, a Lituânia assina com Washington a declaração conjunta sobre o 5G do programa “Clean Network”, que visa excluir a Huawei."
+],
 "0aedff5437": [
 "Abate dos porcos crioulos",
 "Haiti",
@@ -944,6 +1010,11 @@
 "Visita de John Brennan a Kiev",
 "Kiev, Ucrânia",
 "O diretor da CIA vai a Kiev pouco antes do lançamento da operação “antiterrorista” no Donbass. Moscou vê nisso um sinal verde; a CIA nega qualquer papel."
+],
+"0bb772b9ec": [
+"Simulacros de execução contra al-Nashiri",
+"Stare Kiejkuty, Polônia",
+"Na prisão secreta polonesa, um agente da CIA ameaça Abd al-Rahim al-Nashiri com uma furadeira e engatilha uma pistola perto de sua cabeça. O relatório do inspetor-geral da CIA (2004) descreve esses métodos não autorizados."
 ],
 "0be402d95a": [
 "O Manhattan na Passagem do Noroeste",
@@ -985,6 +1056,11 @@
 "Cuba",
 "A CIA prepara para Castro uma roupa de mergulho impregnada de um fungo e um respirador contaminado com o bacilo da tuberculose, por meio do advogado James Donovan. Donovan oferece outra roupa. A comissão Church o relata."
 ],
+"0c59a64d69": [
+"Airbus: 7,5 bilhões em produtos taxados",
+"Toulouse, França",
+"Após uma decisão da OMC sobre os subsídios à Airbus, Washington taxa 7,5 bilhões de dólares em produtos europeus: 10% sobre aviões, 25% sobre vinhos franceses, queijos e uísques."
+],
 "0c7ade85f6": [
 "“Fuck the EU”: a ligação de Nuland",
 "Kiev, Ucrânia",
@@ -994,6 +1070,11 @@
 "Incidente de Salala",
 "Mohmand, Paquistão",
 "Helicópteros e um AC-130 americanos atacam dois postos de fronteira paquistaneses e matam 24 soldados. Islamabad fecha as rotas de abastecimento da OTAN por sete meses."
+],
+"0ca728db77": [
+"Konrad Mizzi e Keith Schembri proibidos de entrar",
+"Valeta, Malta",
+"O Departamento de Estado proíbe a entrada nos Estados Unidos do ex-ministro maltês Konrad Mizzi, de sua família e do ex-chefe de gabinete Keith Schembri, por “corrupção significativa” ligada ao contrato de uma usina elétrica."
 ],
 "0cd2c9acc7": [
 "Contrato SIVAM contra a Thomson-CSF",
@@ -1055,10 +1136,20 @@
 "Genebra, Suíça",
 "Documentos de Snowden mostram que a NSA impôs um padrão de gerador aleatório enfraquecido, adotado pelo NIST e pela ISO. A Reuters revela que ela pagou 10 milhões de dólares à RSA para utilizá-lo."
 ],
+"0e4c074fd0": [
+"Ameaça de 200% sobre o champanhe francês",
+"Reims, França",
+"Após a recusa de Emmanuel Macron em aderir ao “Board of Peace” sobre Gaza, Donald Trump ameaça taxar em 200% os vinhos e champanhes franceses para forçá-lo a entrar."
+],
 "0e5d586529": [
 "Ataques contra milícias pró-iranianas no Iraque",
 "Bagdá, Iraque",
 "Ataques não reivindicados, atribuídos aos Estados Unidos, visam as milícias xiitas iraquianas após 28 de fevereiro. Abu Ali al-Askari, quadro do Kataeb Hezbollah, é morto em Bagdá em 14 de março."
+],
+"0e5f89ec1b": [
+"Ataque à embaixada norte-coreana em Madri",
+"Madri, Espanha",
+"Um comando do grupo Free Joseon, liderado por Adrian Hong, amarra o pessoal e leva computadores e documentos, entregues em seguida ao FBI. A imprensa espanhola menciona vínculos de dois atacantes com a CIA, sem prova pública."
 ],
 "0e6da4c4a0": [
 "Golpe contra Hugo Chávez",
@@ -1189,6 +1280,11 @@
 "Sanções da ONU reforçadas",
 "Trípoli, Líbia",
 "A resolução 883 congela ativos líbios no exterior e proíbe a venda de equipamentos petrolíferos à Líbia, sempre para obter a entrega dos suspeitos de Lockerbie."
+],
+"110948bf91": [
+"Seis autoridades húngaras proibidas de entrar",
+"Budapeste, Hungria",
+"Washington proíbe a entrada de seis autoridades húngaras por corrupção, entre elas a chefe da Receita Ildikó Vida. Orbán acusa os Estados Unidos de usar a corrupção como alavanca de influência; Vida nega qualquer envolvimento."
 ],
 "110dafce24": [
 "Veto às sanções pela Namíbia",
@@ -1550,6 +1646,11 @@
 "Guatemala, Guatemala",
 "O governo guatemalteco publica documentos sobre um complô armado apoiado por uma “potência do Norte”. Washington nega. Os arquivos da CIA confirmam depois a realidade do complô."
 ],
+"16cdce1743": [
+"Morte de Kostas Tsalikidis",
+"Atenas, Grécia",
+"O engenheiro da Vodafone Grécia, testemunha-chave das escutas do governo Karamanlis, é encontrado enforcado. Concluído inicialmente como suicídio, o caso é requalificado como assassinato pela Justiça grega; nenhum vínculo americano é estabelecido."
+],
 "16de0fda39": [
 "Telia paga 965 milhões",
 "Estocolmo, Suécia",
@@ -1650,6 +1751,11 @@
 "Washington, contra o Vietnã do Norte",
 "Com base em um segundo ataque norte-vietnamita que não ocorreu, o Congresso autoriza Johnson a empregar a força armada no Sudeste Asiático. Esse cheque em branco serve de base legal para a escalada no Vietnã."
 ],
+"1793d84876": [
+"Veto aos F-16 israelenses da Croácia",
+"Zagreb, Croácia",
+"O Departamento de Estado exige que os doze F-16 vendidos por Israel sejam privados de seus equipamentos israelenses. O contrato de cerca de 500 milhões de dólares desmorona; a Croácia se volta em seguida para Rafale franceses."
+],
 "17a80d6014": [
 "Sanções contra o Sberbank e o VTB",
 "Moscou, Rússia",
@@ -1735,10 +1841,20 @@
 "Estreito de Ormuz",
 "Destróieres americanos escoltam navios mercantes no Estreito de Ormuz, sob cobertura aérea. A operação é suspensa dois dias depois."
 ],
+"197dcd77b4": [
+"Volvo paga por “petróleo por alimentos”",
+"Gotemburgo, Suécia",
+"A Volvo aceita pagar cerca de 20 milhões de dólares à SEC e ao Departamento de Justiça por comissões ocultas pagas ao regime iraquiano por subsidiárias, no âmbito do programa da ONU."
+],
 "198753bdbf": [
 "Cessar-fogo adiado no Líbano",
 "Roma, Itália",
 "Na conferência de Roma, Condoleezza Rice se opõe a um apelo por cessar-fogo imediato, apoiado pela maioria dos participantes. A guerra dura até 14 de agosto."
+],
+"19a3069382": [
+"Ajuda militar suspensa por causa do TPI",
+"Liubliana, Eslovênia",
+"Sem acordo de imunidade para os americanos perante o TPI, a Eslovênia perde sua ajuda militar em 1º de julho de 2003. Bush concede em novembro uma isenção limitada para a integração à OTAN e as operações no Iraque e no Afeganistão."
 ],
 "19c53d1911": [
 "Restrições de visto contra sul-africanos",
@@ -1800,10 +1916,20 @@
 "Mossul, Iraque",
 "Uma bomba americana lançada sobre um prédio do bairro de al-Jadida provoca seu desabamento. O Pentágono reconhece 105 civis mortos, o ataque mais letal da campanha."
 ],
+"1ab9697407": [
+"Plano Acheson de partilha de Chipre",
+"Nicósia, Chipre",
+"O emissário americano Dean Acheson propõe anexar Chipre à Grécia, com uma base soberana e enclaves turcos. Makários rejeita o plano, que, segundo ele, equivale a uma partição e ao fim da independência."
+],
 "1ac3239cbe": [
 "Interrogatórios Artichoke na Alemanha",
 "Oberursel, Alemanha",
 "No Camp King, a CIA submete prisioneiros e agentes suspeitos a interrogatórios sob drogas no âmbito do programa Artichoke, precursor do MK-Ultra."
+],
+"1acd81952e": [
+"Sanções à Lukoil: refinaria de Burgas tomada",
+"Burgas, Bulgária",
+"As sanções americanas contra a Lukoil ameaçam a maior refinaria dos Bálcãs. Sófia nomeia um administrador especial para assumir seu controle; o Tesouro concede uma licença temporária às entidades búlgaras da Lukoil."
 ],
 "1aed8672f6": [
 "Invasão etíope da Somália",
@@ -1824,6 +1950,11 @@
 "Su-22 sírio abatido",
 "Perto de Tabqa, Síria",
 "Um F/A-18 da Marinha dos EUA abate um caça sírio que havia bombardeado posições das Forças Democráticas Sírias. É a primeira vitória ar-ar americana desde 1999."
+],
+"1b162fea82": [
+"A CIA cria e paga o KYP grego",
+"Atenas, Grécia",
+"O serviço de inteligência grego KYP é fundado nos moldes da CIA, com o concurso de agentes greco-americanos como Thomas Karamessines. Até 1964, seus agentes são pagos pelos americanos, prática que Georgios Papandreou faz cessar."
 ],
 "1b4684716d": [
 "Campanha de desinformação contra a França",
@@ -1885,6 +2016,11 @@
 "Santiago, República Dominicana",
 "Os fuzileiros navais do coronel Joseph Pendleton avançam de Monte Cristi rumo a Santiago e esmagam a resistência em Las Trencheras e depois em Guayacanes."
 ],
+"1c235e45c8": [
+"Piano Solo: a CIA associada ao projeto",
+"Roma, Itália",
+"O general De Lorenzo, chefe dos carabineiros, prepara um plano de prisão da esquerda a pedido do presidente Segni. Historiadores afirmam que ele foi concebido com o chefe da estação da CIA William Harvey e Vernon Walters; o papel americano continua em discussão."
+],
 "1c34fb5fd8": [
 "Batalha de Bud Bagsak",
 "Jolo, Filipinas",
@@ -1935,6 +2071,11 @@
 "Mar do Japão, URSS",
 "Um RB-29 de reconhecimento da Força Aérea dos EUA desaparece após um ataque de caças soviéticos. Os doze tripulantes nunca são encontrados."
 ],
+"1d29eb0972": [
+"Multa FCPA de 95 milhões contra a Magyar Telekom",
+"Budapeste, Hungria",
+"A Magyar Telekom e sua controladora Deutsche Telekom pagam 95 milhões de dólares ao DOJ e à SEC por subornos na Macedônia e em Montenegro. A SEC processa também três ex-dirigentes húngaros, entre eles o ex-presidente Elek Straub."
+],
 "1d2ffbb0d8": [
 "Operação Desert Shield",
 "Arábia Saudita",
@@ -1944,6 +2085,11 @@
 "Abu Yahya al-Libi morto por um drone",
 "Mir Ali, Waziristão do Norte, Paquistão",
 "Um ataque da CIA mata o número dois da Al-Qaeda. Islamabad protesta contra uma violação de sua soberania."
+],
+"1d7dc5b3bc": [
+"Sanofi paga 25 milhões no âmbito da FCPA",
+"Paris, França",
+"A SEC acusa a Sanofi de subornos pagos por suas subsidiárias no Cazaquistão e no Oriente Médio. O grupo farmacêutico francês aceita pagar 25,2 milhões de dólares."
 ],
 "1d853d04c4": [
 "Operação Red Dog",
@@ -1985,6 +2131,11 @@
 "Kiev, Ucrânia",
 "Biden anuncia um saque de 200 milhões de dólares durante a visita de Zelensky, enquanto o Congresso bloqueia os novos créditos."
 ],
+"1e0b0bc273": [
+"Rede stay-behind francesa reconhecida",
+"Paris, França",
+"Paris reconhece a existência passada de uma rede clandestina “stay-behind”, apresentada como dissolvida. Ela era coordenada com a CIA e o MI6 pelo Clandestine Planning Committee, ligado ao SHAPE, instalado perto de Paris até 1967."
+],
 "1e0d28cb87": [
 "Artigos e caricaturas pagos pela CIA",
 "Teerã, Irã",
@@ -1994,6 +2145,16 @@
 "Eleição uruguaia de 1971",
 "Montevidéu, Uruguai",
 "Diante da Frente Ampla, Nixon e o Brasil de Médici mencionam um apoio discreto; Nixon diz depois ao primeiro-ministro Heath que o Brasil “ajudou a fraudar” a eleição, segundo arquivos desclassificados."
+],
+"1e26bf996a": [
+"Embaixador chamado de volta de Estocolmo",
+"Estocolmo, Suécia",
+"Depois que Olof Palme desfila contra a guerra do Vietnã ao lado do embaixador norte-vietnamita em Moscou, Washington chama de volta seu embaixador William Heath. O posto permanece vago até 1970."
+],
+"1e2a76afad": [
+"A Áustria apresenta queixa contra a NSA e o BND",
+"Viena, Áustria",
+"Seletores transmitidos pela NSA ao BND visavam administrações e empresas austríacas. O Ministério do Interior apresenta uma queixa contra desconhecidos por espionagem em detrimento da Áustria."
 ],
 "1e35878381": [
 "Veto protegendo a invasão sul-africana",
@@ -2275,6 +2436,11 @@
 "Karshi, Uzbequistão",
 "Os Estados Unidos instalam uma base aérea no Uzbequistão para a guerra do Afeganistão, em troca de ajuda ao regime de Karimov. Tashkent os expulsa em 2005."
 ],
+"225f038a52": [
+"Vance ataca a regulação europeia em Paris",
+"Paris, França",
+"Na cúpula sobre IA do Grand Palais, o vice-presidente J. D. Vance denuncia a “regulação excessiva” europeia, mira o DSA e o RGPD e alerta contra parcerias com a China. Os Estados Unidos se recusam a assinar a declaração final."
+],
 "22699dc618": [
 "Ajuda alimentar bloqueada durante a fome",
 "Daca, Bangladesh",
@@ -2374,6 +2540,11 @@
 "Relatório do Senado sobre as armas vendidas ao xá",
 "Washington, Estados Unidos",
 "Um relatório da Comissão de Relações Exteriores do Senado constata que o Irã é o maior comprador de armas americanas e depende de milhares de técnicos americanos."
+],
+"241bef7644": [
+"Washington alerta contra Mečiar",
+"Bratislava, Eslováquia",
+"Antes das eleições legislativas, autoridades americanas e o embaixador Ronald Weiser deixam claro que um retorno de Vladimír Mečiar ao poder comprometeria o convite à Eslováquia para a OTAN."
 ],
 "24231ab1a6": [
 "Sanções secundárias contra o Norte",
@@ -2500,6 +2671,11 @@
 "Mar do Caribe",
 "A 2ª Força-Tarefa Terrestre dos Fuzileiros Navais é mobilizada para proteger os cidadãos americanos durante a crise cubana, em 1959 e 1960. Registrado no relatório R42738 do Serviço de Pesquisa do Congresso."
 ],
+"26fbb2a70a": [
+"Executive Life: 771 milhões de dólares",
+"Los Angeles, a respeito da França",
+"Processados na Califórnia pela aquisição disfarçada da seguradora Executive Life, o Crédit Lyonnais, o Estado francês por meio do CDR e seus parceiros aceitam pagar 771 milhões de dólares para encerrar a parte penal."
+],
 "271a94ed36": [
 "Washington pede eleições antecipadas",
 "Washington, Estados Unidos",
@@ -2524,6 +2700,11 @@
 "Apagão gigante na Venezuela",
 "Caracas, Venezuela",
 "Maduro acusa um ciberataque americano; os especialistas apontam antes a falta de manutenção da rede ligada à barragem de Guri."
+],
+"27b1a49314": [
+"Bombardeio de Lyon",
+"Lyon, França",
+"No mesmo dia, a aviação americana bombardeia as estações e linhas férreas de Lyon. As bombas caem também nos bairros de Vaise e de La Guillotière e matam centenas de civis."
 ],
 "27b9e40135": [
 "Ponte aérea de armas em torno da Síria",
@@ -2575,6 +2756,11 @@
 "Shabwa, Iêmen",
 "Comandos Navy SEAL atacam um esconderijo da Al-Qaeda. Os reféns Luke Somers e Pierre Korkie, cuja libertação por resgate estava em negociação, são mortos."
 ],
+"28620d5943": [
+"Crypto AG: as cifras gregas lidas",
+"Atenas, Grécia",
+"A Grécia compra máquinas da Crypto AG, empresa suíça controlada secretamente pela CIA e pelo BND. Segundo as revelações de 2020, os serviços alemães se surpreendiam com o fato de os americanos espionarem também aliados da OTAN como a Grécia."
+],
 "2866bb7f50": [
 "Lista do Tudeh entregue a Teerã",
 "Teerã, Irã",
@@ -2614,6 +2800,11 @@
 "Ordem nº 81 sobre sementes",
 "Bagdá, Iraque",
 "A Autoridade Provisória institui a proteção de variedades vegetais patenteadas, o que proíbe os agricultores de replantar sementes protegidas. ONGs denunciam um texto favorável às empresas sementeiras estrangeiras."
+],
+"297b6917be": [
+"Queixa na OMC contra a moratória dos transgênicos",
+"Bruxelas, Bélgica",
+"Com o Canadá e a Argentina, Washington ataca na OMC a moratória europeia sobre as autorizações de OGM. O painel dá razão aos queixosos em 2006."
 ],
 "297fe2db5b": [
 "Contrato Mistral cancelado",
@@ -2729,6 +2920,11 @@
 "Financiamento do partido Masyumi",
 "Jacarta, Indonésia",
 "Durante as eleições legislativas de 1955, a CIA repassa cerca de um milhão de dólares ao partido Masyumi para conter Sukarno e os comunistas."
+],
+"2b8225a22a": [
+"Bombardeios de Maribor",
+"Maribor, Eslovênia",
+"De janeiro de 1944 a abril de 1945, as forças aéreas aliadas baseadas na Itália, entre elas a aviação americana, bombardeiam Maribor, centro industrial sob ocupação alemã. Cerca de metade da cidade é arrasada e centenas de civis são mortos."
 ],
 "2b8cc3c4df": [
 "Estação de escuta na embaixada de Bangcoc",
@@ -2905,6 +3101,11 @@
 "Matanzas, Cuba",
 "Um pequeno avião partido da Flórida explode ao atacar a usina España. O piloto americano Robert Ellis Frost morre. Cuba acusa Washington de deixar esses ataques partirem de seu solo; Washington expressa pesar e nega qualquer responsabilidade."
 ],
+"2e7b82a936": [
+"Memorando 5G imposto contra a Huawei na Romênia",
+"Washington, Estados Unidos",
+"Klaus Iohannis assina com Donald Trump um memorando sobre o 5G que exclui fornecedores “controlados por outro Estado”. O embaixador americano junto à UE diz depois a Bucareste que o objetivo é uma Romênia “sem Huawei”."
+],
 "2e81ac2444": [
 "Sanções financeiras contra a Venezuela",
 "Caracas, Venezuela",
@@ -2969,6 +3170,11 @@
 "RB-47 abatido no mar de Barents",
 "Mar de Barents",
 "Um avião de reconhecimento americano é abatido por um caça soviético perto da península de Kola. Dois sobreviventes são detidos em Moscou até 1961."
+],
+"300862f7d0": [
+"Ocupação americana de Coblença",
+"Coblença, Alemanha",
+"Após o armistício, o III Exército americano ocupa uma zona da Renânia em torno de Coblença, onde instala seu quartel-general. As tropas americanas permanecem ali até o início de 1923."
 ],
 "3012a5b265": [
 "Eisenhower autoriza o PBSUCCESS",
@@ -3035,6 +3241,11 @@
 "Teerã, Irã",
 "Um ataque na praça Arg quebra o Salão dos Espelhos do palácio de Golestan, tombado pela Unesco. Em Isfahan, o palácio Chehel Sotoun e a praça Naqsh-e Jahan também são atingidos. Mais de 130 sítios patrimoniais são danificados em 40 dias."
 ],
+"313c01ba7d": [
+"Tarifas de Bush sobre o aço",
+"Bruxelas, Bélgica",
+"George W. Bush impõe tarifas de salvaguarda de 8 a 30% sobre o aço importado, que atingem sobretudo a Europa. A OMC as julga ilegais em novembro de 2003; sob ameaça de retaliação europeia, Washington as suspende em dezembro de 2003."
+],
 "313eccd685": [
 "Bombardeio de Nimega",
 "Nimega, Países Baixos",
@@ -3049,6 +3260,11 @@
 "Eleições fraudadas na Guiana",
 "Georgetown, Guiana",
 "O governo Johnson ajuda Forbes Burnham a fraudar as primeiras eleições após a independência, que ele vence contra Cheddi Jagan. Documentado pelo historiador Stephen Rabe."
+],
+"3192e3725f": [
+"Sanções contra Aivars Lembergs",
+"Ventspils, Letônia",
+"O Tesouro sanciona por corrupção o prefeito de Ventspils com base na Global Magnitsky Act, junto com o porto franco de Ventspils e três associações."
 ],
 "31b9da31c4": [
 "Ameaças contra o porto de Sassnitz",
@@ -3074,6 +3290,11 @@
 "Pressões sobre o canal do Panamá",
 "Cidade do Panamá, Panamá",
 "Marco Rubio exige que o Panamá reduza a influência chinesa sobre o canal, que Trump ameaça retomar. O Panamá deixa em seguida a Nova Rota da Seda."
+],
+"3298d52753": [
+"Rede stay-behind belga SDRA8 e STC/Mob",
+"Bruxelas, Bélgica",
+"Após as revelações italianas, Bruxelas reconhece duas redes clandestinas “stay-behind”, SDRA8 (exército) e STC/Mob (Segurança do Estado), coordenadas com a CIA e o MI6 no âmbito da OTAN. Uma comissão parlamentar de inquérito as examina em 1990-1991; elas são dissolvidas."
 ],
 "32bc270041": [
 "Hoover e a queda de Béla Kun",
@@ -3159,6 +3380,11 @@
 "Bombardeio da escola de Gorla",
 "Milão, Itália",
 "B-24 americanos lançam suas bombas sobre o bairro de Gorla, em Milão. A escola primária é atingida e 184 crianças são mortas, junto com seus professores."
+],
+"34a8658932": [
+"Primeiros bombardeios americanos de Budapeste",
+"Budapeste, Hungria",
+"A aviação aliada, incluindo a 15ª Força Aérea americana baseada na Itália, começa a bombardear Budapeste, visando a indústria e as estações ferroviárias. Os ataques de 1944 fazem numerosas vítimas civis na capital húngara."
 ],
 "34cd8fef96": [
 "Bombardeio de Sanseong-dong em Yecheon",
@@ -3320,6 +3546,11 @@
 "Nicarágua",
 "A CIA distribui na Nicarágua uma história em quadrinhos que ensina atos de sabotagem: furar pneus, entupir vasos sanitários, cortar linhas elétricas."
 ],
+"379e1da7b4": [
+"Antenas MUOS de Niscemi contestadas",
+"Niscemi, Itália",
+"A região da Sicília retira a autorização da estação de satélite MUOS da Marinha dos EUA, instalada em uma reserva natural; a Justiça ordena em seguida um embargo. A obra é retomada após um relatório sanitário e novas autorizações."
+],
 "37fb115bc0": [
 "Ataques a radares nos arredores de Bagdá",
 "Bagdá, Iraque",
@@ -3425,6 +3656,11 @@
 "La Paz, Bolívia",
 "Washington condiciona sua ajuda a um plano de austeridade concebido pelo economista americano George Eder, que congela os salários e freia a revolução de 1952."
 ],
+"39865a7173": [
+"Fim da Iniciativa de Segurança Báltica",
+"Riga, Letônia",
+"O Pentágono anuncia o fim da ajuda militar “Seção 333”, da qual faz parte a Iniciativa de Segurança Báltica (mais de um bilhão de dólares desde 2021). Senadores dos dois partidos protestam."
+],
 "39ac984f7f": [
 "Prisão de Bagram",
 "Bagram, Afeganistão",
@@ -3524,6 +3760,11 @@
 "Expropriações de Vieques",
 "Vieques, Porto Rico",
 "A Marinha dos EUA expropria cerca de dois terços da ilha para instalar um campo de tiro e um depósito de munições. Os habitantes são empurrados para o centro da ilha."
+],
+"3b747d788f": [
+"Acordo de imunidade diante do TPI assinado por Bucareste",
+"Bucareste, Romênia",
+"Na campanha americana para subtrair seus cidadãos ao Tribunal Penal Internacional, a Romênia torna-se o primeiro país a assinar um acordo chamado “artigo 98”. A UE, à qual ela quer aderir, critica o gesto."
 ],
 "3b8c943a7b": [
 "Kristi Noem apoia Nawrocki",
@@ -3735,6 +3976,11 @@
 "Curitiba, Brasil",
 "Uma delegação do FBI e do Departamento de Justiça americano se reúne com os procuradores da Lava Jato sem passar pelo Ministério da Justiça brasileiro, revelam o The Intercept e a Agência Pública em 2020."
 ],
+"3e8b917ed4": [
+"Memorando 5G anti-Huawei com a Estônia",
+"Tallinn, Estônia",
+"O vice-presidente Mike Pence e o primeiro-ministro Jüri Ratas assinam um texto que reserva o 5G a fornecedores “de confiança”, na prática contra a Huawei, no âmbito da campanha americana junto aos aliados."
+],
 "3ed4f1b339": [
 "Navios americanos em apoio a Juan Vicente Gómez",
 "La Guaira, Venezuela",
@@ -3810,6 +4056,11 @@
 "Bagdá, Iraque",
 "O Los Angeles Times revela que o exército paga, por meio da empresa Lincoln Group, a jornais iraquianos para publicar artigos favoráveis redigidos por militares. O Pentágono confirma."
 ],
+"3ffdb77a78": [
+"Plano americano sobre os ativos russos da Euroclear",
+"Bruxelas, Bélgica",
+"Segundo o texto publicado do plano de paz americano em 28 pontos, 100 bilhões de dólares em ativos russos congelados iriam para uma reconstrução da Ucrânia dirigida por Washington, que receberia metade dos lucros. A maior parte está na Euroclear, que a UE queria mobilizar."
+],
 "4015d4a086": [
 "Início da guerra comercial com a China",
 "Pequim, China",
@@ -3824,6 +4075,16 @@
 "Veto sobre os confiscos em Jerusalém Oriental",
 "Conselho de Segurança, Nova York",
 "Sozinhos contra quatorze, os Estados Unidos bloqueiam um projeto que pedia a Israel que renunciasse a confiscar terras em Jerusalém Oriental."
+],
+"405a93c23e": [
+"Rumsfeld contra a jurisdição universal belga",
+"Bruxelas, Bélgica",
+"Após queixas contra autoridades americanas, entre elas Tommy Franks, Donald Rumsfeld ameaça bloquear o financiamento da nova sede da OTAN em Bruxelas. A Bélgica restringe sua lei de jurisdição universal em agosto de 2003."
+],
+"4091b3a9df": [
+"Revelações de Józef Światło sobre a RFE",
+"Varsóvia, Polônia",
+"Tendo passado para o Ocidente em Berlim em dezembro de 1953, esse coronel da segurança polonesa é acolhido pela CIA. A Radio Free Europe transmite em 1954-1955 cerca de 140 programas com suas revelações, que abalam o regime."
 ],
 "4097cee809": [
 "Primeiro sobrevoo da URSS por um U-2",
@@ -3869,6 +4130,11 @@
 "Guarda Nacional enquadrada pelos fuzileiros navais",
 "Manágua, Nicarágua",
 "Os fuzileiros navais criam e comandam a Guarda Nacional nicaraguense, empregada contra Sandino. Anastasio Somoza assume seu comando em 1933, com a saída dos americanos."
+],
+"413de5f7a2": [
+"Washington considera a independência dos Açores",
+"Ponta Delgada, Portugal",
+"Documentos desclassificados mostram que o governo Ford estava disposto a apoiar a independência dos Açores caso os comunistas tomassem o poder em Lisboa. Contatos informais são estabelecidos com pessoas próximas da Frente de Libertação dos Açores."
 ],
 "4142f2662e": [
 "Referendo fraudado de Diệm",
@@ -3985,10 +4251,20 @@
 "Base de Guantánamo, Cuba",
 "A CIA transfere vários detidos de suas prisões secretas para instalações distintas na base e depois os retira na primavera de 2004, antes de uma decisão da Suprema Corte. O relatório do Senado sobre a tortura o confirma."
 ],
+"4339039191": [
+"Escutas de Ayios Nikolaos financiadas pela NSA",
+"Ayios Nikolaos, Chipre",
+"Os documentos de Snowden mostram que a estação britânica de Ayios Nikolaos, na base de Dhekelia, intercepta a internet e as telecomunicações do Oriente Médio para o programa Tempora. A NSA financia metade dela."
+],
 "434a80d9c6": [
 "Apoio aos rebeldes contra o Derg",
 "Adis Abeba, Etiópia",
 "Grupos rebeldes opostos ao regime marxista de Mengistu recebem apoio americano, cuja natureza permanece mal esclarecida. Enquanto a URSS abandona Adis Abeba em 1990, Washington continua a apoiá-los."
+],
+"435100c0f8": [
+"Pressões contra a “lex TVN”",
+"Varsóvia, Polônia",
+"O Departamento de Estado pressiona o presidente Duda a barrar a lei que forçaria a americana Discovery a vender o canal TVN. Duda a veta em 27 de dezembro, invocando os tratados de investimento com os Estados Unidos."
 ],
 "43838818a7": [
 "Saque de 200 milhões",
@@ -4070,6 +4346,11 @@
 "Shindand, Herat, Afeganistão",
 "Após combates com forças especiais americanas, ataques matam dezenas de aldeões no vale de Zerkoh, segundo a investigação da ONU e do governo afegão."
 ],
+"44c3275f4f": [
+"FinCEN condena o banco ABLV",
+"Riga, Letônia",
+"O Tesouro acusa o ABLV, terceiro maior banco letão, de lavagem de dinheiro e de ajuda à Coreia do Norte e propõe cortá-lo do dólar. O BCE o declara falido em 23 de fevereiro e ele é liquidado. A FinCEN retira a medida em 2024."
+],
 "44d64aa66b": [
 "Primeiro pacote PURL pago pelos Países Baixos",
 "Kiev, Ucrânia",
@@ -4130,6 +4411,11 @@
 "Cassino, Itália",
 "Os bombardeiros americanos arrasam a abadia, onde nenhum soldado alemão estava entrincheirado. Civis refugiados morrem ali."
 ],
+"46230464ee": [
+"Bombardeio de Frascati",
+"Frascati, Itália",
+"No dia do anúncio do armistício italiano, B-17 americanos atacam o quartel-general alemão de Kesselring em Frascati. O centro da cidade é arrasado e centenas de moradores são mortos."
+],
 "463a2e5193": [
 "Drone sobre um seminário em Hangu",
 "Hangu, Khyber Pakhtunkhwa, Paquistão",
@@ -4155,6 +4441,11 @@
 "Plattling, Alemanha",
 "As forças americanas entregam à força à URSS prisioneiros e refugiados soviéticos, muitos dos quais recusavam o retorno. Vários se suicidam durante as transferências de Dachau e Plattling."
 ],
+"46b50d254e": [
+"Bombardeio de Rennes",
+"Rennes, França",
+"Um ataque de bombardeiros americanos contra o pátio de manobras ferroviário de Rennes atinge bairros residenciais e faz centenas de vítimas civis. É um dos bombardeios mais mortíferos sofridos pela cidade."
+],
 "46c1539c43": [
 "Plano Patty contra Fidel e Raúl Castro",
 "Santiago de Cuba, Cuba",
@@ -4174,6 +4465,11 @@
 "Embargo da Lei pela Liberdade da Birmânia",
 "Rangum, Mianmar",
 "A lei proíbe qualquer importação de produtos birmaneses. Segundo sindicatos e ONGs, dezenas de milhares de operárias do setor têxtil perdem o emprego, efeito contestado pelos defensores das sanções."
+],
+"4707f903fa": [
+"Mandado americano sobre e-mails de Dublin",
+"Dublin, Irlanda",
+"O Departamento de Justiça exige da Microsoft e-mails hospedados em seu centro de dados irlandês, fora da assistência judiciária mútua. Dublin lembra à Suprema Corte que a via da assistência mútua existe; o CLOUD Act de 2018 encerra o caso a favor de Washington."
 ],
 "470915e42f": [
 "Operação Hotfoot, depois White Star",
@@ -4215,6 +4511,11 @@
 "Pyongyang, Coreia do Norte",
 "O Conselho de Segurança adota um texto redigido por Washington que limita os derivados refinados de petróleo a 500 mil barris por ano. Agências da ONU relatam depois efeitos sobre a ajuda humanitária."
 ],
+"47ca2c5d8b": [
+"Declaração 5G anti-Huawei com a Polônia",
+"Varsóvia, Polônia",
+"Mike Pence e Andrzej Duda assinam uma declaração conjunta sobre a segurança do 5G, com o objetivo de excluir fabricantes de equipamentos chineses como a Huawei, no centro da campanha de pressão americana."
+],
 "47db245f95": [
 "Almunia, Unicef e Médicos do Mundo",
 "Bruxelas, Bélgica",
@@ -4244,6 +4545,11 @@
 "Os Contras na Nicarágua",
 "Nicarágua",
 "Reagan assina um “finding” presidencial que autoriza a CIA a armar os Contras contra o governo sandinista. A guerra deixa dezenas de milhares de mortos."
+],
+"483b9d988a": [
+"Julgamento Rajk e “Operation Splinter Factor”",
+"Budapeste, Hungria",
+"O julgamento de László Rajk aponta Noel Field como chefe de uma rede de espionagem americana. O jornalista Stewart Steven afirma em 1974 que Allen Dulles manipulou o caso para provocar expurgos; historiadores contestam essa tese."
 ],
 "48a4c11841": [
 "Destruição da ponte B1 de Karaj",
@@ -4300,6 +4606,11 @@
 "Cidade do México, México",
 "A alfândega americana revela uma operação de infiltração contra a lavagem de dinheiro em bancos mexicanos, conduzida sem avisar a Cidade do México, que denuncia uma violação de sua soberania."
 ],
+"495569396d": [
+"Ajuda militar cortada por recusa de imunidade",
+"Zagreb, Croácia",
+"A Croácia se recusa a assinar um acordo que subtrai os americanos ao TPI. Washington corta cerca de 19 milhões de dólares de sua ajuda militar, como anunciado pelo embaixador Rossin. A ajuda é retomada em 2006."
+],
 "495bb7033f": [
 "Ataque de ATACMS em território russo",
 "Briansk, Rússia",
@@ -4315,6 +4626,11 @@
 "Hong Kong",
 "O Tesouro sanciona a chefe do Executivo Carrie Lam e dez autoridades de Hong Kong e da China pela repressão em Hong Kong."
 ],
+"4a118dddeb": [
+"Relatório Van Vliet sobre Katyń abafado",
+"Varsóvia, Polônia",
+"Testemunha das exumações de Katyń, o coronel Van Vliet redige em 1945 um relatório que aponta Moscou. O documento desaparece no Pentágono. A comissão Madden do Congresso (1952) conclui que autoridades americanas abafaram as provas."
+],
 "4a18251956": [
 "Apreensão do petroleiro Centuries",
 "Mar do Caribe",
@@ -4324,6 +4640,11 @@
 "Quase 400 alvos sancionados",
 "Moscou, Rússia",
 "O Tesouro e o Departamento de Estado sancionam quase 400 pessoas e entidades na Rússia e em países terceiros que fornecem bens à indústria militar russa."
+],
+"4a2b4858a3": [
+"Morte de Juozas Lukša, enviado da CIA",
+"Pabartupis, Lituânia",
+"O chefe guerrilheiro, lançado de paraquedas pela CIA em 1950, é morto pelo MGB depois de ser atraído para uma armadilha por Jonas Kukauskas, agente de um segundo grupo lançado pela CIA e virado pelos soviéticos."
 ],
 "4a491b00bc": [
 "Três C-130 para Mobutu",
@@ -4339,6 +4660,11 @@
 "Hospital Gandhi de Teerã danificado",
 "Teerã, Irã",
 "Ataques israelo-americanos danificam gravemente o hospital Gandhi, no norte de Teerã. O diretor da OMS considera o incidente “extremamente preocupante”."
+],
+"4aa3ad45da": [
+"Tarifas de 25% sobre azeite e vinho",
+"Madri, Espanha",
+"No conflito da Airbus, Washington taxa em 25% o azeite engarrafado, o vinho e o queijo espanhóis. A Espanha é visada como um dos quatro países que subsidiam a fabricante de aviões."
 ],
 "4ab1d8c104": [
 "Lansdale contra os Huks",
@@ -4395,6 +4721,11 @@
 "Kiev, Ucrânia",
 "Zelensky anuncia a chegada à Ucrânia dos primeiros tanques M1 Abrams americanos."
 ],
+"4b5334014e": [
+"Unidade de vigilância da embaixada em Copenhague",
+"Copenhague, Dinamarca",
+"Após as revelações norueguesas sobre as “Surveillance Detection Units”, o PET dinamarquês reconhece saber desde 2004 de uma vigilância conduzida pela embaixada americana em torno de suas instalações."
+],
 "4b77b40dbb": [
 "Ministro Moraes sancionado",
 "Brasília, Brasil",
@@ -4445,6 +4776,11 @@
 "Israel",
 "O Departamento de Estado invoca a urgência para vender a Israel cerca de 14.000 projéteis de tanque sem análise do Congresso. Repete o procedimento em 29 de dezembro para componentes de projéteis de 155 mm."
 ],
+"4c67f7dbe3": [
+"“Projeto nº 1” da CIA em Vilnius",
+"Vilnius, Lituânia",
+"Segundo o inquérito do Seimas de 2009, a CIA e a Segurança do Estado lituana montam um primeiro edifício em Vilnius já em 2002. A comissão conclui que ele não serviu para deter prisioneiros."
+],
 "4c6fe7b51b": [
 "Envio de bombas de fragmentação à Ucrânia",
 "Kiev, Ucrânia",
@@ -4454,6 +4790,11 @@
 "1,2 bilhão da USAI para a defesa aérea",
 "Kiev, Ucrânia",
 "Pacote USAI de 1,2 bilhão de dólares para sistemas antiaéreos e munições."
+],
+"4c797f58cb": [
+"Goleniewski, agente infiltrado da CIA",
+"Varsóvia, Polônia",
+"Oficial da inteligência polonesa, Michał Goleniewski (“Sniper”) entrega à CIA segredos poloneses e soviéticos a partir de 1959 e depois passa para os Estados Unidos em janeiro de 1961. Varsóvia o condena à morte à revelia."
 ],
 "4c9c35f4c6": [
 "Operação Fast and Furious",
@@ -4614,6 +4955,11 @@
 "GAO considera ilegal o congelamento da ajuda",
 "Washington, sobre a Ucrânia",
 "O Government Accountability Office conclui que a suspensão da ajuda à Ucrânia pelo governo Trump violou a lei de controle de dotações (Impoundment Control Act)."
+],
+"4e38a38da1": [
+"Tratado sobre o radar antimísseis de Brdy",
+"Brdy, Tchéquia",
+"Praga assina com Washington a instalação de um radar do escudo antimísseis americano, embora 60 a 70% dos tchecos se oponham, segundo as pesquisas. Obama abandona o projeto em setembro de 2009."
 ],
 "4e5c86d39b": [
 "Missão secreta de McFarlane a Teerã",
@@ -4820,6 +5166,11 @@
 "Georgetown, Guiana Britânica",
 "Uma greve geral contra Jagan é financiada em segredo pela CIA por meio de sindicatos americanos. A série oficial FRUS confirma a ação clandestina."
 ],
+"51ab33b985": [
+"Intesa Sanpaolo paga 235 milhões",
+"Turim, Itália",
+"O regulador financeiro de Nova York impõe 235 milhões de dólares ao banco italiano, acusado em especial de ter processado, entre 2002 e 2006, mais de 11 bilhões de dólares em transações para clientes iranianos e outras entidades sancionadas."
+],
 "51ade067fa": [
 "Testemunha da UCA interrogada pelo FBI",
 "San Salvador, El Salvador",
@@ -4875,6 +5226,11 @@
 "Haiti",
 "O analista da CIA Brian Latell apresenta a senadores um retrato de Aristide como “instável” e em tratamento. Essas afirmações, retomadas por seus adversários no Congresso, são depois desmentidas."
 ],
+"5273d30b5b": [
+"AB InBev paga 6 milhões no âmbito da FCPA",
+"Lovaina, Bélgica",
+"A SEC acusa a cervejaria belga de pagamentos ilícitos de sua subsidiária na Índia e de uma cláusula de confidencialidade que dissuadia um denunciante. A AB InBev encerra o caso por cerca de 6 milhões de dólares."
+],
 "5288476681": [
 "Indiciamento de dois líbios por Lockerbie",
 "Trípoli, Líbia",
@@ -4894,6 +5250,11 @@
 "Consulado americano em Chengdu fechado",
 "Chengdu, China",
 "Em retaliação, Pequim fecha o consulado americano em Chengdu, acusado de ingerência nos assuntos internos chineses, notadamente no Tibete."
+],
+"52afe673a1": [
+"Ouro tchecoslovaco bloqueado por Washington",
+"Praga, Tchecoslováquia",
+"Os Estados Unidos bloqueiam a devolução do ouro monetário tchecoslovaco saqueado pelos nazistas para obter a indenização de bens americanos nacionalizados. O Congresso rejeita um acordo em 1974. O ouro só é devolvido em 1982."
 ],
 "52be3c789d": [
 "Carta Barnett sobre “matanças cegas”",
@@ -4924,6 +5285,11 @@
 "Dino Bouterse pego em armadilha da DEA",
 "Panamá",
 "O filho do presidente do Suriname é preso no Panamá em uma armadilha da DEA e depois transferido para Nova York, onde é condenado por tráfico e apoio ao Hezbollah."
+],
+"5367670a85": [
+"Presidente da Meliá proibido de entrar",
+"Palma, Espanha",
+"O Departamento de Estado proíbe a entrada nos Estados Unidos de Gabriel Escarrer, presidente do grupo hoteleiro maiorquino Meliá, e de sua família, com base no título IV da lei Helms-Burton, por seus hotéis em Cuba."
 ],
 "5372e72e09": [
 "Destruição deliberada das colheitas",
@@ -4994,6 +5360,11 @@
 "Entrega dos Mistral à Rússia suspensa",
 "Saint-Nazaire, França",
 "Após a anexação da Crimeia, Paris suspende a entrega de dois navios porta-helicópteros à Rússia, sob forte pressão pública de Washington, que pedia o cancelamento do contrato."
+],
+"547616b050": [
+"Washington vem em defesa de Marine Le Pen",
+"Paris, França",
+"Após a condenação de Marine Le Pen a cinco anos de inelegibilidade, o Departamento de Estado considera sua exclusão “preocupante” e Donald Trump escreve “FREE MARINE LE PEN!”, falando em “caça às bruxas”."
 ],
 "54816a1d28": [
 "Ataques a Jurf al-Sakhar no Iraque",
@@ -5180,6 +5551,11 @@
 "Abbottabad, Paquistão",
 "A CIA monta com o médico Shakil Afridi uma falsa vacinação contra hepatite B para obter o DNA da família de Bin Laden. Os talibãs passam a usar o episódio contra os vacinadores contra a poliomielite."
 ],
+"570826e621": [
+"A OFAC faz o Raiffeisen recuar",
+"Viena, Áustria",
+"Sob a ameaça de medidas do Tesouro americano, que poderiam cortá-lo do sistema financeiro em dólares, o Raiffeisen Bank International desiste de comprar ações da Strabag ligadas ao oligarca sancionado Oleg Deripaska."
+],
 "57146d60a0": [
 "Ampliação das sanções de 2014",
 "Moscou, Rússia",
@@ -5310,6 +5686,11 @@
 "Fronteira mexicana",
 "Nixon manda revistar todos os veículos na fronteira durante três semanas para forçar a Cidade do México a combater a maconha. O comércio fronteiriço fica paralisado."
 ],
+"587f1735ba": [
+"Pressões sobre a lei polonesa sobre o Holocausto",
+"Varsóvia, Polônia",
+"Segundo o Onet, Washington ameaça deixar de receber o presidente Duda e o primeiro-ministro Morawiecki e congelar projetos militares se a lei não for modificada. Desmentidos oficiais. Varsóvia a suaviza em junho de 2018."
+],
 "58a4e7a5b6": [
 "TURBINE e QUANTUM: infecção em massa",
 "Mundo",
@@ -5389,6 +5770,11 @@
 "Sanções contra autoridades cubanas",
 "Havana, Cuba",
 "Trump assina uma ordem executiva sancionando autoridades do governo cubano acusadas de repressão e de ameaçar a segurança dos Estados Unidos, em plena crise do bloqueio petrolífero."
+],
+"59fc1a45ad": [
+"Prisão de um executivo da Volkswagen",
+"Miami, Estados Unidos",
+"Oliver Schmidt, ex-responsável ambiental da Volkswagen nos Estados Unidos, é preso no aeroporto de Miami no caso dos motores diesel fraudados. É condenado em dezembro de 2017 a sete anos de prisão."
 ],
 "5a115851af": [
 "Dezesseis lançadores de minas destruídos em Ormuz",
@@ -5490,6 +5876,11 @@
 "Pequim, China",
 "Uma ordem executiva proíbe os americanos de investir em empresas chinesas designadas como ligadas ao exército."
 ],
+"5bc86e28c8": [
+"Unidade de vigilância da embaixada em Helsinque",
+"Helsinque, Finlândia",
+"A polícia de segurança Supo nega inicialmente conhecer uma unidade de vigilância na embaixada americana e depois reconhece estar informada. Ela faz parte da rede de “Surveillance Detection Units” revelada na Noruega."
+],
 "5be0d16f20": [
 "Caso do Cerro Maravilla",
 "Villalba, Porto Rico",
@@ -5539,6 +5930,11 @@
 "Ivy King, maior bomba de fissão",
 "Enewetak, Ilhas Marshall",
 "Duas semanas após Ivy Mike, um bombardeiro lança sobre Enewetak uma bomba de fissão de 500 quilotons, a mais potente já testada pelos Estados Unidos."
+],
+"5c5ac7d0d2": [
+"Um enviado especial para “integrar” a Groenlândia",
+"Nuuk, Groenlândia",
+"Trump nomeia o governador da Luisiana Jeff Landry enviado especial à Groenlândia; ele saúda o projeto de tornar a ilha parte dos Estados Unidos. Copenhague convoca o embaixador Ken Howery."
 ],
 "5c5b7e6ea6": [
 "Treinamento do Otpor em Budapeste",
@@ -5609,6 +6005,11 @@
 "100 milhões para Javelin",
 "Kiev, Ucrânia",
 "Biden autoriza um saque de 100 milhões de dólares para atender a uma necessidade urgente de mísseis antitanque Javelin."
+],
+"5dacf07743": [
+"Aginter Press, suposto vínculo com a CIA",
+"Lisboa, Portugal",
+"Falsa agência de notícias fundada em Lisboa por Yves Guérin-Sérac, protegida pela PIDE, que treina militantes de extrema direita. Investigações italianas e historiadores apontam vínculos com a CIA e a OTAN, nunca comprovados."
 ],
 "5dad92a655": [
 "Assassinato do general Schneider",
@@ -5715,6 +6116,11 @@
 "Alemanha ocupada",
 "Programa aprovado em 1948 para recrutar emigrados da Europa Oriental para fins de propaganda e ação clandestina. Acolhe ex-colaboradores dos nazistas."
 ],
+"5f35656197": [
+"Um A-10 cai sobre Remscheid",
+"Remscheid, Alemanha",
+"Um avião de ataque A-10 da Força Aérea dos EUA em voo de treinamento a baixa altitude cai sobre um prédio. Seis moradores e o piloto morrem, e cerca de cinquenta pessoas ficam feridas."
+],
 "5f7ba1fe05": [
 "Castle Nectar em Enewetak",
 "Enewetak, Ilhas Marshall",
@@ -5740,10 +6146,20 @@
 "Santo Domingo, República Dominicana",
 "O governo militar cria uma Guarda Nacional enquadrada pelos fuzileiros navais para substituir o exército dissolvido. Ela será o instrumento do poder de Trujillo."
 ],
+"5fc8b6e9ca": [
+"Retirada punitiva de 11.900 soldados",
+"Berlim, Alemanha",
+"O Pentágono anuncia a retirada de cerca de 11.900 soldados da Alemanha. Donald Trump a justifica pelos gastos militares alemães considerados insuficientes. Joe Biden congela a medida em fevereiro de 2021."
+],
 "5fdc39c54e": [
 "Colisão do USS Gato com o K-19",
 "Mar de Barents, URSS",
 "O submarino americano Gato, em missão de vigilância, colide com o submarino nuclear soviético K-19 ao largo da península de Kola."
+],
+"603b36c308": [
+"Guerra do frango: conhaque e utilitários taxados",
+"Bruxelas, Bélgica",
+"Em retaliação às tarifas da CEE sobre o frango americano, Washington eleva para 25% as tarifas sobre o brandy (conhaque francês), a fécula, a dextrina e os utilitários leves. As medidas entram em vigor em 7 de janeiro de 1964; a taxa sobre os utilitários existe até hoje."
 ],
 "6056f11b0b": [
 "Criação do Fundo Afegão na Suíça",
@@ -5815,15 +6231,35 @@
 "Kiev, Ucrânia",
 "A lei orçamentária provisória assinada por Biden prevê 12,3 bilhões de dólares para a Ucrânia, dos quais uma parte para reabastecer os estoques."
 ],
+"6197c9890b": [
+"A 6ª Frota se instala em Elêusis",
+"Elêusis, Grécia",
+"A junta concede à marinha americana um porto de base perto de Atenas para contratorpedeiros da 6ª Frota e suas famílias. Os críticos veem nisso um apoio ao regime; o governo democrático retira a autorização após 1974."
+],
 "61c0e8545e": [
 "Atentado do “Kashmir Princess”",
 "Ilhas Natuna, Indonésia",
 "Um avião fretado para a delegação chinesa a Bandung explode em pleno voo, 16 mortos. Zhou Enlai, alvo do atentado, não estava a bordo. Pequim acusa os serviços nacionalistas e americanos; o papel da CIA continua não comprovado."
 ],
+"61d48106d5": [
+"Rede stay-behind luxemburguesa reconhecida",
+"Luxemburgo",
+"Perante a Câmara dos Deputados, o primeiro-ministro Jacques Santer confirma a existência de uma rede clandestina “stay-behind” em Luxemburgo, ligada às estruturas de coordenação da OTAN onde tinham assento a CIA e o MI6."
+],
+"61d7ce8da8": [
+"SAP paga 220 milhões",
+"Walldorf, Alemanha",
+"A empresa de software alemã encerra com o Departamento de Justiça e a SEC processos por corrupção na África do Sul e na Indonésia, e firma um acordo de acusação diferida de três anos."
+],
 "61f838910f": [
 "Desembarque durante a agitação revolucionária",
 "China",
 "No fim de agosto, forças americanas protegem americanos e seus interesses em Kentucky Island e depois no Camp Nicholson durante distúrbios revolucionários. Registrado no relatório R42738 do Serviço de Pesquisa do Congresso."
+],
+"621854171f": [
+"Agentes da CIA lançados de paraquedas na Romênia",
+"Târgu Cărbunești, Romênia",
+"No início dos anos 1950, a CIA lança de paraquedas na Romênia emigrados treinados para apoiar a guerrilha anticomunista, entre eles uma equipe perto de Târgu Cărbunești. A maioria é capturada; alguns são executados, outros são virados."
 ],
 "621ba12c93": [
 "Operação Barrel Roll no Laos",
@@ -5879,6 +6315,11 @@
 "Telegrama de Allen Dulles sobre Lumumba",
 "Léopoldville, Congo",
 "O diretor da CIA envia à estação um telegrama dizendo que o afastamento de Lumumba deve ser “um objetivo urgente e prioritário” da ação clandestina. O telegrama é citado pela comissão Church."
+],
+"62fef382bf": [
+"Pressões antes da operação contra o The Pirate Bay",
+"Estocolmo, Suécia",
+"Telegramas diplomáticos publicados pelo WikiLeaks mostram que a embaixada americana pressionava Estocolmo a agir contra o compartilhamento de arquivos, com a ameaça de uma lista de vigilância comercial. A polícia apreende os servidores do site."
 ],
 "633ba61a4a": [
 "Irã cortado da rede SWIFT",
@@ -5970,6 +6411,11 @@
 "Kiev, Ucrânia",
 "Anunciado durante a visita de Zelensky a Washington, esse saque inclui projéteis de artilharia, entre eles de fragmentação, e defesa antiaérea."
 ],
+"649ec3288e": [
+"Boicote ao presidente da Dieta",
+"Varsóvia, Polônia",
+"O embaixador Tom Rose rompe todo contato com Włodzimierz Czarzasty, que se recusava a apoiar a candidatura de Trump ao Prêmio Nobel da Paz, e depois menciona a manutenção das tropas americanas. Donald Tusk protesta."
+],
 "64ba292aac": [
 "Sexto veto sobre Gaza",
 "Conselho de Segurança, Nova York",
@@ -6015,6 +6461,11 @@
 "Roma, Itália",
 "Giulio Andreotti revela a existência do Gladio, rede clandestina “stay-behind” montada com a CIA e a OTAN. O Parlamento Europeu pede em novembro de 1990 investigações em todos os países envolvidos."
 ],
+"6575ee0fd1": [
+"Agentes-mensageiros enviados à Tchecoslováquia",
+"Tchecoslováquia",
+"De 1948 ao início dos anos 1950, os serviços americanos na Baviera (CIC, depois CIA) enviam através da fronteira mensageiros recrutados em campos de refugiados. Muitos são presos, encarcerados ou executados."
+],
 "657c1a1593": [
 "Agentes coreanos lançados de paraquedas no Norte",
 "Coreia do Norte",
@@ -6030,10 +6481,20 @@
 "Constantinopla, Império Otomano",
 "Forças americanas guardam a legação em Constantinopla durante a Primeira Guerra dos Bálcãs. Registrado no relatório R42738 do Serviço de Pesquisa do Congresso."
 ],
+"659bb021c6": [
+"Grande ataque americano a Palermo",
+"Palermo, Itália",
+"Bombardeiros americanos realizam um ataque maciço a Palermo antes do desembarque na Sicília. O centro histórico é devastado e centenas de civis são mortos."
+],
 "65ae784b78": [
 "Represálias em Samar após Balangiga",
 "Samar, Filipinas",
 "Após o ataque de Balangiga, o general Jacob Smith ordena transformar Samar em um “deserto uivante” e matar todas as pessoas com mais de dez anos. Ele é submetido a corte marcial em 1902 e colocado na reserva."
+],
+"65d4211799": [
+"Um avião espera Snowden em Copenhague",
+"Copenhague, Dinamarca",
+"A Dinamarca autoriza o pouso da aeronave N977GA, já usada em entregas extraordinárias, pronta para levar Edward Snowden de volta aos Estados Unidos caso ele fosse entregue. O ministro da Justiça Søren Pind o confirma em 2016."
 ],
 "660720fd1d": [
 "Bombardeio do hospital Bạch Mai",
@@ -6089,6 +6550,11 @@
 "Operação Linebacker II",
 "Hanói e Haiphong, Vietnã do Norte",
 "Bombardeios chamados “de Natal” por B-52 sobre Hanói e Haiphong até 29 de dezembro. Hanói contabiliza cerca de 1.600 civis mortos."
+],
+"674a799ff2": [
+"Philips paga 62 milhões de dólares",
+"Amsterdã, Países Baixos",
+"A Philips aceita pagar 62 milhões de dólares à SEC, que lhe atribui, com base na FCPA, pagamentos irregulares de subsidiárias chinesas para conquistar contratos de equipamentos médicos."
 ],
 "6770c4dea2": [
 "Decreto 13661: primeiras autoridades russas visadas",
@@ -6290,6 +6756,11 @@
 "Saigon, Vietnã do Sul",
 "O círculo de Nixon, por meio de Anna Chennault, pressiona Thiệu a boicotar as negociações de paz antes da eleição. Escutas do FBI e anotações de Haldeman o atestam."
 ],
+"6a7205f417": [
+"Kissinger e a segunda ofensiva turca",
+"Nicósia, Chipre",
+"Segundo uma ata desclassificada, Kissinger diz a Ford na véspera que não se deve se opor à Turquia. Em 14 de agosto, Ancara lança sua segunda ofensiva e ocupa cerca de 37% da ilha. Arquivos britânicos mostram Washington dissuadindo Londres de intervir."
+],
 "6a89532021": [
 "Bombardeio da estação de Iri",
 "Iri (Iksan), Coreia do Sul",
@@ -6350,6 +6821,11 @@
 "Tegucigalpa, Honduras",
 "De 8 a 12 de setembro de 1919, fuzileiros navais desembarcam para manter a ordem em uma zona neutra durante uma tentativa de revolução."
 ],
+"6bb756ce19": [
+"“De um jeito ou de outro”",
+"Nuuk, Groenlândia",
+"Diante do Congresso, Donald Trump declara sobre a Groenlândia: “De um jeito ou de outro, vamos tê-la.” Nuuk e Copenhague rejeitam qualquer anexação."
+],
 "6bc26f4009": [
 "Um informante da DEA entre os assassinos",
 "Porto Príncipe, Haiti",
@@ -6405,10 +6881,20 @@
 "Tabas, Irã",
 "Ataque para libertar os reféns da embaixada. A operação fracassa no deserto: um helicóptero colide com um avião e 8 militares americanos morrem."
 ],
+"6cb3e5c2b3": [
+"C-47 americano forçado a pousar na Hungria",
+"Pápa, Hungria",
+"MiG soviéticos forçam um C-47 da Força Aérea dos EUA, que ia de Munique a Belgrado, a pousar em Pápa. Budapeste acusa os quatro aviadores de espionagem e depois os condena por violação de fronteira; Washington paga 120.000 dólares sob protesto."
+],
 "6cbea98ef9": [
 "Incêndio de Cam Ne",
 "Cam Ne, Vietnã do Sul",
 "Fuzileiros navais incendeiam as casas de uma aldeia, às vezes com isqueiros Zippo. A reportagem de Morley Safer, da CBS, choca a opinião pública americana."
+],
+"6ccc1150b4": [
+"Pressão contra a Huawei nas Ilhas Faroé",
+"Tórshavn, Ilhas Faroé",
+"A embaixadora americana Carla Sands apela publicamente, no jornal Sosialurin, para que a operadora pública Føroya Tele exclua a Huawei de sua rede 5G em favor de um fornecedor americano ou europeu."
 ],
 "6d17b5d4f4": [
 "Technip paga 338 milhões pela FCPA",
@@ -6429,6 +6915,11 @@
 "Agentes químicos contra os cortadores de cana",
 "Cuba",
 "Entre as tarefas do Mongoose, Lansdale inclui o estudo de uma “incapacitação” dos trabalhadores do açúcar durante a colheita por agentes biológicos ou químicos. A comissão Church cita esse projeto."
+],
+"6d4b7daaa6": [
+"Venda do Viggen à Índia bloqueada",
+"Linköping, Suécia",
+"O governo Carter recusa a licença de exportação do motor RM8, de origem americana, impedindo a Saab de vender o caça Viggen à Índia, que escolhe o Jaguar franco-britânico."
 ],
 "6d4cb78409": [
 "Bombas entregues às pressas contra o Líbano",
@@ -6575,6 +7066,11 @@
 "Base de Guantánamo, Cuba",
 "Clinton manda interceptar no mar os cubanos que fogem da ilha e os interna na base: mais de 30 mil pessoas são retidas ali, algumas por mais de um ano, antes de um acordo migratório em 1995."
 ],
+"6f7fe96e21": [
+"Sobrevoos da Áustria neutra rumo ao Líbano",
+"Áustria",
+"Durante a intervenção no Líbano, aviões militares americanos cruzam o espaço aéreo austríaco vindos do sul da Alemanha. Sob pressão soviética, Viena protesta contra essa violação de sua neutralidade."
+],
 "6f83024fd2": [
 "Expropriações da SHADA",
 "Haiti",
@@ -6604,6 +7100,11 @@
 "Ataque ao restaurante al-Saa",
 "Bagdá, Iraque",
 "Um B-1 lança quatro bombas sobre um bairro de al-Mansour onde Saddam Hussein teria sido avistado. Ele não está lá; a Human Rights Watch registra muitos civis mortos."
+],
+"6ff1c4e5ce": [
+"Multa da OFAC contra o Swedbank Letônia",
+"Riga, Letônia",
+"A subsidiária letã do Swedbank paga 3,43 milhões de dólares por 386 pagamentos ligados à Crimeia feitos por bancos correspondentes americanos em 2015-2016."
 ],
 "700947b498": [
 "Decisão Hamdan v. Rumsfeld",
@@ -6654,6 +7155,11 @@
 "Bombardeio de Mortsel",
 "Mortsel, Bélgica",
 "Bombardeiros americanos que visavam uma fábrica da Erla erram o alvo e atingem a cidade: 936 civis mortos, entre eles mais de 200 crianças."
+],
+"70aeb39f37": [
+"VimpelCom paga 795 milhões de dólares",
+"Amsterdã, Países Baixos",
+"O grupo de telecomunicações VimpelCom (futura VEON), sediado em Amsterdã, aceita pagar 795 milhões de dólares às autoridades americanas e holandesas por subornos no Uzbequistão, parte deles no âmbito da FCPA."
 ],
 "7103e0a80f": [
 "Prisão negra de Bagram",
@@ -6760,6 +7266,11 @@
 "Estrasburgo, França",
 "O Parlamento Europeu conclui pela existência da rede de interceptação anglo-americana e pede que os europeus criptografem suas comunicações."
 ],
+"722a0ae991": [
+"Lei conhecida como “invasão de Haia”",
+"Haia, Países Baixos",
+"George W. Bush promulga o American Service-Members' Protection Act. A lei autoriza “todos os meios necessários” para libertar um americano ou aliado detido pelo Tribunal Penal Internacional, com sede nos Países Baixos."
+],
 "72399ff166": [
 "Sequestro de japoneses do Peru",
 "Lima, Peru",
@@ -6839,6 +7350,11 @@
 "Fundação Humanitária de Gaza",
 "Gaza, Palestina",
 "Washington apoia e financia esse sistema de distribuição de ajuda guardado por prestadores americanos. Centenas de palestinos são mortos perto dos locais, sobretudo pelo exército israelense."
+],
+"739c3b909b": [
+"Plano de administração militar aliada na França",
+"Paris, França",
+"Roosevelt, que se recusa a reconhecer o governo provisório de De Gaulle, manda preparar uma administração militar aliada (AMGOT) dos territórios libertados. De Gaulle impõe suas próprias autoridades; Washington reconhece o GPRF em outubro de 1944. O alcance do projeto continua em debate."
 ],
 "73a895f021": [
 "Ataque de Baghouz encoberto",
@@ -7100,6 +7616,11 @@
 "Hilla, Iraque",
 "As forças americanas lançam submunições sobre áreas urbanas, em especial em torno de Hilla e Bagdá. A Human Rights Watch as aponta como uma das principais causas de mortes de civis na invasão."
 ],
+"78634c91d1": [
+"Retirada do status comercial da Polônia",
+"Varsóvia, Polônia",
+"Após a proibição do Solidarność, Reagan retira da Polônia a tarifa de nação mais favorecida, o que encarece suas exportações para os Estados Unidos."
+],
 "78652a8217": [
 "“Collateral Murder”",
 "Bagdá, Iraque",
@@ -7114,6 +7635,11 @@
 "Destacamento da IFOR na Bósnia",
 "Tuzla, Bósnia-Herzegovina",
 "Cerca de 20 mil soldados americanos são destacados na Bósnia na força da OTAN encarregada de aplicar os acordos de Dayton. Registrado pelo relatório R42738 do Serviço de Pesquisa do Congresso."
+],
+"7928845449": [
+"Musk em vídeo no comício da AfD em Halle",
+"Halle, Alemanha",
+"Tornado conselheiro de Donald Trump, Elon Musk intervém por vídeo no lançamento da campanha da AfD. Ele avalia que há “foco demais na culpa do passado” e apela ao voto na AfD."
 ],
 "7928f47ffb": [
 "Lei RENACER",
@@ -7164,6 +7690,16 @@
 "Fábrica de Al-Shifa bombardeada",
 "Cartum, Sudão",
 "Mísseis destroem a fábrica que produzia grande parte dos medicamentos do Sudão, apresentada como um sítio de armas químicas ligado a Bin Laden. Nenhuma prova sólida foi apresentada."
+],
+"79b58f19e5": [
+"Carta de Vilnius pela guerra do Iraque",
+"Vilnius, Lituânia",
+"Dez países candidatos à OTAN, entre eles os três bálticos, apoiam a intervenção no Iraque. O texto é redigido pelo lobista americano Bruce Jackson, que vincula a assinatura ao apoio de Washington à adesão deles."
+],
+"79b6b2920e": [
+"Truman propõe comprar a Groenlândia",
+"Nuuk, Groenlândia",
+"O secretário de Estado James Byrnes oferece ao ministro dinamarquês Gustav Rasmussen 100 milhões de dólares em ouro pela ilha, segundo um telegrama oficial. Copenhague recusa, mas mantém as bases americanas."
 ],
 "79bdd38bc6": [
 "Espaço aéreo fechado a aviões russos",
@@ -7230,6 +7766,11 @@
 "Kiev, Ucrânia",
 "Saque de 300 milhões de dólares incluindo foguetes Hydra-70 e projéteis de artilharia."
 ],
+"7a9236096d": [
+"Lutnick qualifica a Irlanda de “golpe fiscal”",
+"Dublin, Irlanda",
+"O secretário do Comércio Howard Lutnick diz que esse “scam” fiscal “deve cessar”, depois que Trump acusou a Irlanda de “tomar” os laboratórios americanos. Dublin teme tarifas sobre a indústria farmacêutica, sua principal exportação para os Estados Unidos."
+],
 "7b0abed744": [
 "Compartilhamento de inteligência suspenso",
 "Kiev, Ucrânia",
@@ -7259,6 +7800,11 @@
 "Estupro e assassinatos de Mahmudiyah",
 "Yusufiyah, Iraque",
 "Soldados estupram e matam Abeer al-Janabi, de 14 anos, e depois matam seus pais e sua irmã de 6 anos. Cinco militares são condenados, entre eles Steven Green à prisão perpétua e três outros a penas de 90 a 110 anos."
+],
+"7baa15b66b": [
+"Voos para Guantánamo via Rota e Morón",
+"Rota, Espanha",
+"Segundo documentos secretos publicados pelo El País em 2008, o governo Aznar aceita em menos de 24 horas que aviões americanos que transportam prisioneiros do Afeganistão para Guantánamo façam escala nas bases de Rota e Morón."
 ],
 "7bc51e41d7": [
 "Rede de espionagem de Kalamatiano",
@@ -7339,6 +7885,11 @@
 "Conferência do clima de Bali",
 "Nusa Dua, Indonésia",
 "Segundo os documentos de Snowden, a NSA e a inteligência australiana monitoram ali as delegações, incluindo os números de telefone de autoridades indonésias."
+],
+"7cffd2dd91": [
+"Isenção de visto restringida para húngaros",
+"Budapeste, Hungria",
+"Washington reduz a um ano e a uma única viagem a autorização ESTA dos húngaros, invocando as naturalizações em massa de não residentes mal verificadas. A medida é suspensa em setembro de 2025."
 ],
 "7d0b8e3b25": [
 "Palácio do Eliseu invadido",
@@ -7509,6 +8060,11 @@
 "Complô contra Castro no Chile",
 "Santiago, Chile",
 "Durante a visita de Castro ao Chile, exilados cubanos com documentos falsos de jornalistas venezuelanos e uma câmera que escondia uma arma desistem de atirar. Antonio Veciana atribui o plano a seu contato na CIA, “Maurice Bishop”, cujo papel nunca foi corroborado."
+],
+"803e3716f0": [
+"SWIFT corta o Irã apesar da UE",
+"La Hulpe, Bélgica",
+"Após o restabelecimento das sanções contra o Irã e ameaças do secretário do Tesouro Steven Mnuchin, a empresa belga SWIFT desconecta bancos iranianos, apesar da vontade da UE de preservar o acordo nuclear."
 ],
 "80475e0647": [
 "Lei Helms-Burton",
@@ -7880,6 +8436,11 @@
 "Kiev, Ucrânia",
 "Pacote de 820 milhões de dólares, incluindo dois sistemas antiaéreos NASAMS financiados pela USAI e munições para HIMARS."
 ],
+"86e3c477bc": [
+"Estação de escuta de Bad Aibling",
+"Bad Aibling, Alemanha",
+"Durante 52 anos, os serviços americanos operam na Baviera uma estação de interceptação. Sob o nome de GARLICK, ela é uma das grandes estações de satélite da rede Echelon. A NSA a cede ao BND em 2004."
+],
 "86e5126fd6": [
 "Cuba visada pelo decreto de viagens",
 "Washington, Estados Unidos",
@@ -7954,6 +8515,11 @@
 "Veto a observadores da ONU",
 "Conselho de Segurança, Nova York",
 "No início da segunda intifada, os Estados Unidos bloqueiam a criação de uma força de observadores da ONU encarregada de proteger os civis palestinos."
+],
+"883533ec55": [
+"Presidente Waldheim proibido de entrar",
+"Viena, Áustria",
+"O Departamento de Justiça inclui o presidente austríaco Kurt Waldheim em sua lista de vigilância por seu suposto papel em perseguições nazistas. Ele é o primeiro chefe de Estado em exercício proibido de entrar nos Estados Unidos."
 ],
 "8844de252e": [
 "Operação HARDROCK BAKER",
@@ -8135,6 +8701,11 @@
 "Cidade do Panamá, Panamá",
 "Bush autoriza milhões de dólares secretos para a oposição a Noriega nas eleições, que o regime anula."
 ],
+"8acfe8618a": [
+"Operação Veto: panfletos sobre a Tchecoslováquia",
+"Tchecoslováquia",
+"O Free Europe Committee, financiado pela CIA, solta por balões dezenas de milhões de panfletos antes das eleições, com as “dez reivindicações” de um movimento de oposição fictício."
+],
 "8ae0ac50be": [
 "Equipe Jawbreaker e malas de dólares",
 "Vale do Panjshir, Afeganistão",
@@ -8220,10 +8791,20 @@
 "Washington, Estados Unidos",
 "Clinton proíbe por decreto quase todo comércio e investimento americano com o Irã."
 ],
+"8c67cb7db8": [
+"Abu Zubaydah detido na Polônia",
+"Stare Kiejkuty, Polônia",
+"Abu Zubaydah é transferido para a prisão secreta da CIA na Polônia, onde permanece até setembro de 2003. O Tribunal Europeu de Direitos Humanos o estabelece em 2014 e condena a Polônia."
+],
 "8c8d3c4d16": [
 "Iraque retirado da lista de Estados terroristas",
 "Bagdá, Iraque",
 "O governo Reagan retira o Iraque da lista de Estados patrocinadores do terrorismo, o que abre caminho para créditos e exportações americanas em plena guerra contra o Irã."
+],
+"8c8f176c6b": [
+"Drones da CIA a partir da costa croata",
+"Zadar, Croácia",
+"Segundo a Newsweek, a CIA faz voar drones GNAT-750 a partir de uma base perto de Zadar, antes e durante a Operação Tempestade. Autoridades croatas afirmam ter recebido as imagens; Washington fala em compartilhamento “limitado”."
 ],
 "8ccbf63434": [
 "Apreensão dos arquivos do FRAPH",
@@ -8234,6 +8815,11 @@
 "Exclusão de bancos russos do SWIFT",
 "Moscou, Rússia",
 "Os Estados Unidos, a UE, o Reino Unido e o Canadá anunciam a exclusão de bancos russos selecionados do sistema SWIFT e medidas contra o Banco Central."
+],
+"8cf077c0f6": [
+"Musk: “esses juízes devem sair”",
+"Roma, Itália",
+"Após a recusa de juízes romanos em validar a detenção de migrantes na Albânia, Elon Musk, escolhido por Trump para dirigir o DOGE, escreve que “esses juízes devem sair”. O presidente Mattarella lembra que a Itália “sabe cuidar de si mesma”."
 ],
 "8d69cd38ae": [
 "Saque de 400 milhões",
@@ -8295,6 +8881,11 @@
 "Lima, Peru",
 "Chefe de fato da inteligência de Fujimori, Montesinos recebe por uma década um apoio da CIA, oficialmente antidrogas, apesar das acusações de torturas e esquadrões da morte."
 ],
+"8e730dc450": [
+"Sanções contra “facilitadores” cipriotas",
+"Nicósia, Chipre",
+"Washington e Londres sancionam cipriotas e empresas acusados de ter ocultado os bens de Alisher Usmanov e Roman Abramovich. Os bancos congelam suas contas e Nicósia convida o FBI a investigar."
+],
 "8e96c3cae6": [
 "Ordem 13902 sobre a economia iraniana",
 "Teerã, Irã",
@@ -8309,6 +8900,11 @@
 "Operação Mayaguez lançada da Tailândia",
 "U-Tapao, Tailândia",
 "Washington faz partir Fuzileiros Navais e helicópteros da base de U-Tapao rumo ao Camboja sem o aval do governo tailandês, que protesta oficialmente contra a violação de sua soberania."
+],
+"8eccd3baa9": [
+"Total ameaçada de sanções da ILSA por South Pars",
+"Paris, França",
+"A Total assina com o Irã um contrato de 2 bilhões de dólares no campo de gás de South Pars. Washington abre uma análise com base na lei ILSA e ameaça o grupo com sanções, antes de conceder uma isenção em maio de 1998 diante da oposição da UE."
 ],
 "8ee0dc0f06": [
 "Rádio clandestina “La Voz de la Liberación”",
@@ -8480,6 +9076,11 @@
 "Pyongyang, Coreia do Norte",
 "O Tesouro anuncia sua maior série de sanções contra a Coreia do Norte: 56 alvos, principalmente navios e empresas de transporte marítimo."
 ],
+"9208d22ffe": [
+"Carta do embaixador Kushner a Macron",
+"Paris, França",
+"Em carta aberta, o embaixador Charles Kushner critica Emmanuel Macron por sua inação contra o antissemitismo. Paris o convoca por ingerência em seus assuntos internos; ele envia outro diplomata."
+],
 "922e8784ca": [
 "Um caminhoneiro morto na base de Manas",
 "Bisqueque, Quirguistão",
@@ -8529,6 +9130,11 @@
 "Decreto Obama: “ameaça incomum”",
 "Washington, Estados Unidos",
 "O decreto 13692 declara que a Venezuela constitui uma “ameaça incomum e extraordinária” à segurança americana e sanciona sete autoridades. Serve de base para as sanções posteriores."
+],
+"9305c2d8d2": [
+"Voos da CIA por Palma de Maiorca",
+"Palma, Espanha",
+"Segundo o Diario de Mallorca, mais de 100 voos da CIA fazem escala em Palma, entre eles o que transfere Khaled el-Masri para uma prisão secreta afegã. O juiz Ismael Moreno arquiva provisoriamente o inquérito por falta de identificação da tripulação."
 ],
 "931c0ea7b4": [
 "Ameaça de cortar os créditos à Itália",
@@ -8640,6 +9246,11 @@
 "Washington, Estados Unidos",
 "Um memorando presidencial ordena preparar retaliações contra os impostos digitais e as regras europeias sobre o digital que visam as empresas americanas."
 ],
+"9511d28bf4": [
+"Crypto AG: as cifras italianas lidas",
+"Roma, Itália",
+"A Itália é uma das primeiras clientes da Crypto AG, empresa suíça controlada secretamente pela CIA e pelo BND. Segundo o Washington Post e a ZDF em 2020, suas comunicações cifradas eram lidas, apesar de seu status de aliada da OTAN."
+],
 "955100e93f": [
 "Três mortes em Guantánamo",
 "Guantánamo, Cuba",
@@ -8710,6 +9321,11 @@
 "Albânia",
 "Operação Valuable/BGFiend: a CIA e o MI6 infiltram exilados albaneses até 1953. Traídos em particular por Kim Philby, a maioria é capturada ou morta."
 ],
+"965f7a2ad2": [
+"Operação Focus: balões de panfletos na Hungria",
+"Budapeste, Hungria",
+"O Free Europe Committee, financiado pela CIA, lança balões a partir da Baviera com mais de 16 milhões de panfletos assinados por um movimento de oposição fictício, o NEM, que apelam à resistência passiva. Budapeste protesta junto a Washington."
+],
 "9669c9ca8b": [
 "Paraquedistas após o assalto à embaixada",
 "Kuwait e Iraque",
@@ -8735,6 +9351,11 @@
 "Ilhas Shengsi, China",
 "Caças chineses abatem um P4M Mercator da Marinha dos EUA em missão de inteligência eletrônica noturna ao largo de Zhejiang. Os 16 tripulantes morrem."
 ],
+"96fbef0922": [
+"Musk recebe Alice Weidel no X",
+"Berlim, Alemanha",
+"Antes das eleições legislativas alemãs, Elon Musk, escolhido para dirigir o DOGE, conversa ao vivo no X com a candidata da AfD Alice Weidel e apela ao voto em seu partido."
+],
 "972d15cc54": [
 "Corveta iraniana afundada em Chabahar",
 "Chabahar, Irã",
@@ -8749,6 +9370,11 @@
 "Colisão do USS Grayling no mar de Barents",
 "Mar de Barents, Rússia",
 "O USS Grayling, que seguia um submarino lançador de mísseis russo, colide com ele. Yeltsin protesta e Clinton expressa seu pesar."
+],
+"9741d2e68f": [
+"Mísseis contra os radares sérvios de Knin",
+"Knin, Croácia",
+"No primeiro dia da ofensiva croata, EA-6B e F/A-18 da Marinha dos EUA disparam mísseis antirradar contra locais de defesa aérea sérvios em Knin e Udbina, depois de terem sido rastreados por seus radares."
 ],
 "97537e3b0a": [
 "Comandos de polícia e “opção Salvador”",
@@ -9025,6 +9651,11 @@
 "Sokoto, Nigéria",
 "Os Estados Unidos atacam campos do Estado Islâmico no noroeste da Nigéria, em coordenação com Abuja, segundo Donald Trump e o AFRICOM."
 ],
+"9d47052650": [
+"Washington denuncia a convenção fiscal húngara",
+"Budapeste, Hungria",
+"O Tesouro americano notifica o fim da convenção fiscal de 1979 com a Hungria, que bloqueia na UE o imposto mínimo global. A denúncia entra em vigor em janeiro de 2023 e encarece a tributação dos fluxos entre os dois países."
+],
 "9d4dbe8d87": [
 "Campanha OK'98 contra Mečiar",
 "Bratislava, Eslováquia",
@@ -9049,6 +9680,11 @@
 "Bolsistas e voluntários convidados a espionar",
 "La Paz, Bolívia",
 "Um agente de segurança da embaixada pede a um bolsista Fulbright e a voluntários do Peace Corps que informem sobre cubanos e venezuelanos na Bolívia. A embaixada reconhece um “erro”."
+],
+"9dbdbf1991": [
+"Rabobank se declara culpado",
+"Utrecht, Países Baixos",
+"A subsidiária californiana do banco holandês se declara culpada de obstrução a uma fiscalização do regulador americano sobre seu dispositivo antilavagem na fronteira mexicana. Ela paga cerca de 369 milhões de dólares."
 ],
 "9dc1e81a2f": [
 "Morte de Shimoyama, envolvimento alegado",
@@ -9079,6 +9715,11 @@
 "Uday e Qusay Hussein mortos em Mossul",
 "Mossul, Iraque",
 "Forças especiais e a 101ª Divisão Aerotransportada cercam uma vila e matam os dois filhos de Saddam Hussein, bem como Mustafa, filho de Qusay, de 14 anos."
+],
+"9e839ef0c5": [
+"O vice-presidente Agnew junto à junta",
+"Atenas, Grécia",
+"Spiro Agnew é o primeiro alto dirigente ocidental a visitar a Grécia desde o golpe de 1967. Ele se reúne com Georgios Papadopoulos e considera a ajuda militar à junta “de importância capital” para os Estados Unidos."
 ],
 "9e879bf041": [
 "Sobrevoos da Sibéria (Homerun)",
@@ -9130,6 +9771,11 @@
 "Punta del Este, Uruguai",
 "Sob o impulso de Washington, a Organização dos Estados Americanos exclui o governo cubano. Apenas seis países se abstêm."
 ],
+"9fa9189a53": [
+"A CIA financia os social-democratas finlandeses",
+"Helsinque, Finlândia",
+"Nos anos 1950, segundo historiadores finlandeses com base em arquivos, fundos americanos, entre eles os da CIA, apoiam a ala anticomunista do Partido Social-Democrata e sua imprensa diante dos comunistas."
+],
 "9fec8bfa31": [
 "Golpe de Estado contra Makarios",
 "Nicósia, Chipre",
@@ -9175,6 +9821,11 @@
 "Kiev, Ucrânia",
 "Saque de 175 milhões de dólares em munições para HIMARS e defesa antiaérea."
 ],
+"a0e0857d5d": [
+"Aviões de entrega extraordinária da CIA em Shannon",
+"Shannon, Irlanda",
+"A Anistia contabiliza cerca de cinquenta escalas em Shannon de aviões usados pela CIA em entregas extraordinárias. Um telegrama de 2007 publicado pelo WikiLeaks mostra o ministro Dermot Ahern convencido de que pelo menos três voos desse tipo passaram pela Irlanda."
+],
 "a0fb997e9b": [
 "Revolução das Rosas",
 "Tbilisi, Geórgia",
@@ -9184,6 +9835,11 @@
 "Massacre de Azizabad",
 "Herat, Afeganistão",
 "Uma incursão e ataques americanos matam cerca de 90 civis segundo a ONU, entre eles uns sessenta crianças. O exército negou inicialmente e depois reconheceu 33 civis mortos."
+],
+"a11a099699": [
+"Ajuda do Plano Marshall ameaçada por causa da Indonésia",
+"Haia, Países Baixos",
+"Após a segunda “ação policial” holandesa, Washington suspende a ajuda destinada às Índias Orientais Holandesas e ameaça cortar o Plano Marshall para os Países Baixos caso não aceitem a independência da Indonésia."
 ],
 "a12120a967": [
 "Ciberataque contra a propaganda iraniana",
@@ -9285,6 +9941,11 @@
 "Minsk, Bielorrússia",
 "No terceiro aniversário da eleição de 2020, o Tesouro sanciona a companhia aérea nacional Belavia e várias entidades e pessoas próximas a Lukashenko."
 ],
+"a3289716fb": [
+"Tarifas sobre azeitonas pretas espanholas",
+"Sevilha, Espanha",
+"Washington impõe tarifas antidumping e compensatórias que podem chegar a cerca de 20% e 27% sobre as azeitonas de mesa pretas da Espanha. Em 2021, a OMC julga parte dessas tarifas contrária às suas regras; elas continuam em vigor."
+],
 "a3ac5447d3": [
 "Piloto da CIA abatido em Ambon",
 "Ambon, Indonésia",
@@ -9315,10 +9976,20 @@
 "Kiev, Ucrânia",
 "Biden sanciona o Additional Ukraine Supplemental Appropriations Act, que abre cerca de 40 bilhões de dólares, dos quais uns vinte para a defesa."
 ],
+"a418df0762": [
+"Abrilada: golpe fracassado contra Salazar",
+"Lisboa, Portugal",
+"O ministro da Defesa Botelho Moniz tenta afastar Salazar para mudar a política colonial. Historiadores estimam que o governo Kennedy, hostil a essa política, estava disposto a apoiar discretamente essa mudança; o papel americano não está comprovado."
+],
 "a4526a8ab1": [
 "Comitê de Defesa contra o Comunismo",
 "Guatemala, Guatemala",
 "O regime de Castillo Armas cria um comitê que cadastra dezenas de milhares de suspeitos e manda prender milhares de pessoas. Historiadores descrevem o apoio da CIA a esse cadastramento."
+],
+"a47904cd7f": [
+"Unidade de vigilância da embaixada em Estocolmo",
+"Estocolmo, Suécia",
+"A ministra da Justiça Beatrice Ask confirma que a embaixada americana realiza desde 2000 uma vigilância secreta de pessoas nos arredores de suas instalações, sem o conhecimento das autoridades suecas. Um promotor abre uma investigação."
 ],
 "a48d224d82": [
 "Acordo Rubio-Bukele sobre detentos",
@@ -9365,6 +10036,11 @@
 "Cidade do México, México",
 "Washington inclui o cartel de Sinaloa, o Tren de Aragua e outros grupos na lista de organizações terroristas, base jurídica invocada depois para ataques militares."
 ],
+"a521d670ca": [
+"Um sueco detido em Guantánamo",
+"Guantánamo, Cuba",
+"O sueco Mehdi Ghezali, preso no Paquistão, é mantido sem julgamento por 930 dias em Guantánamo e depois libertado em julho de 2004 sem acusações. Ele diz ter sofrido frio, barulho e luz permanente."
+],
 "a5226a1370": [
 "Visita de Biden a Kiev, 460 milhões",
 "Kiev, Ucrânia",
@@ -9395,6 +10071,16 @@
 "Dar es Salaam, Tanzânia",
 "Preso em Dar es Salaam, este iemenita é transferido para Djibuti e depois para prisões secretas da CIA. É enviado de volta ao Iêmen em 2005 sem acusação formal, segundo a Anistia Internacional."
 ],
+"a5c2a6eac6": [
+"A Radio Liberty transmite para os países bálticos",
+"Munique, Alemanha",
+"A Radio Liberty, financiada pelo Congresso, lança programas em estoniano, letão e lituano, reunidos em 1983 em um serviço báltico. As transmissões cessam em 2004."
+],
+"a5c4bf7a07": [
+"Trânsito de tropas para o Iraque por Shannon",
+"Shannon, Irlanda",
+"Dezenas de milhares de soldados americanos transitam pelo aeroporto de Shannon rumo ao Iraque. Em 2003, a Alta Corte considera que o Estado viola assim o direito da neutralidade (Convenção de Haia), sem ordenar a interrupção."
+],
 "a5f1c62776": [
 "Captura de Nicolás Maduro",
 "Caracas, Venezuela",
@@ -9420,6 +10106,11 @@
 "Kiev, Ucrânia",
 "Biden assina o pacote de segurança nacional de 95 bilhões de dólares, dos quais 60,8 bilhões para a Ucrânia, e anuncia de imediato um saque de um bilhão."
 ],
+"a6498ba28d": [
+"Poluição da base de Lajes",
+"Praia da Vitória, Portugal",
+"Um estudo do Exército americano registra 35 locais contaminados por hidrocarbonetos e metais pesados nos solos e lençóis freáticos da ilha Terceira, em torno da base de Lajes. O laboratório português LNEC confirma a poluição em 2009."
+],
 "a65b325829": [
 "Ordem 200-05/91 e redes de inteligência",
 "Bogotá, Colômbia",
@@ -9435,6 +10126,11 @@
 "Caracas, Venezuela",
 "A National Endowment for Democracy multiplica suas subvenções a grupos venezuelanos, incluindo sindicatos e organizações patronais que conduzirão o golpe de 2002. Os valores foram divulgados pela própria NED."
 ],
+"a69bfa1dae": [
+"Operação Spotlight: panfletos sobre a Polônia",
+"Polônia",
+"O Free Europe Press, financiado pela CIA, lança por balões rumo à Polônia brochuras com as revelações de Józef Światło sobre a polícia política."
+],
 "a6aa3419a2": [
 "Campo de treinamento de Retalhuleu",
 "Retalhuleu, Guatemala",
@@ -9444,6 +10140,11 @@
 "Norte volta à lista de Estados terroristas",
 "Pyongyang, Coreia do Norte",
 "Trump reinclui a Coreia do Norte na lista de Estados patrocinadores do terrorismo, invocando em particular o assassinato de Kim Jong-nam."
+],
+"a6c7e6a386": [
+"Voos da CIA via Portugal",
+"Açores, Portugal",
+"Aviões da CIA que transportam detentos para Guantánamo sobrevoam os Açores e fazem escala no Porto ou em Ponta Delgada. Acionado pela eurodeputada Ana Gomes, o Ministério Público abre um inquérito em fevereiro de 2007, arquivado em 2009 por falta de provas."
 ],
 "a6f4a84203": [
 "Nixon e Médici contra Allende e Castro",
@@ -9465,10 +10166,20 @@
 "Sverdlovsk, URSS",
 "O avião espião de Francis Gary Powers é abatido. Washington nega a princípio, depois reconhece os sobrevoos. A cúpula de Paris fracassa."
 ],
+"a7432d3ec4": [
+"Pressões contra a Nova Rota da Seda italiana",
+"Roma, Itália",
+"A Casa Branca alerta publicamente Roma contra sua adesão à Nova Rota da Seda, assinada em 23 de março de 2019. A Itália, único país do G7 a aderir, se retira dela no fim de 2023."
+],
 "a76b499a40": [
 "Pílulas entregues a Tony Varona",
 "Miami, Estados Unidos",
 "Após o fracasso de Juan Orta, Roselli e Trafficante confiam as pílulas ao exilado Tony Varona, que diz ter um contato em um restaurante frequentado por Castro. O fracasso da Baía dos Porcos põe fim ao projeto, segundo a comissão Church."
+],
+"a76c93584f": [
+"Programa AEFREEMAN para os países bálticos",
+"Tallinn, Estônia",
+"A CIA financia organizações de exilados bálticos para “assediar” o regime soviético. O componente estoniano AEROOT/AEBASIN (1953-1960) prevê também a infiltração de agentes. Documentos desclassificados."
 ],
 "a781f57ce1": [
 "Informações falseadas para os dois lados",
@@ -9554,6 +10265,11 @@
 "Ataques contra os houthis",
 "Hodeida, Iêmen",
 "Após ataques houthis no Mar Vermelho, os Estados Unidos e o Reino Unido bombardeiam alvos no Iêmen, o primeiro de uma longa série."
+],
+"a8ebd1a4e3": [
+"Refugiados mortos em Castel Gandolfo",
+"Castel Gandolfo, Vaticano",
+"Durante a batalha de Anzio, bombardeiros aliados, americanos segundo a maioria dos relatos, atingem as propriedades pontifícias de Castel Gandolfo, onde milhares de refugiados se abrigavam. Centenas de civis são mortos. A Santa Sé protesta."
 ],
 "a91385c2bd": [
 "Proibição de visto para Thierry Breton",
@@ -9650,10 +10366,20 @@
 "Frankfurt, Alemanha",
 "O banco alemão é sancionado por violação dos embargos americanos contra o Irã e o Sudão e por falhas na prevenção à lavagem de dinheiro."
 ],
+"aabbd81fbb": [
+"Embargo de petróleo contra a Espanha de Franco",
+"Madri, Espanha",
+"Washington suspende suas entregas de petróleo para obter o fim das vendas de volfrâmio à Alemanha. A economia espanhola fica paralisada; o acordo de maio de 1944 reduz essas exportações e restabelece as entregas."
+],
 "ab093ef940": [
 "Emenda Platt",
 "Havana, Cuba",
 "Washington impõe na Constituição cubana um direito de intervenção americano e a cessão de bases navais, como condição para a retirada das tropas."
+],
+"ab16debd1c": [
+"Prisão do dono do Pilatus Bank",
+"Valeta, Malta",
+"Ali Sadr Hashemi Nejad, presidente do banco maltês Pilatus, é preso perto de Washington por burlar as sanções contra o Irã. O regulador maltês o afasta imediatamente da direção do banco."
 ],
 "ab604e2a61": [
 "Plano Omega contra Nasser",
@@ -9765,6 +10491,11 @@
 "Kunming, China",
 "Antes de entrar na guerra, Washington autoriza o recrutamento de pilotos militares demissionários para o American Volunteer Group, que combate o Japão em favor da China."
 ],
+"acf76325b2": [
+"A revista Tilanne financiada pela CIA",
+"Helsinque, Finlândia",
+"Fundada por ex-comunistas finlandeses, essa revista de esquerda circula de 1961 a 1967. É em parte financiada pelo Congresso pela Liberdade da Cultura, cujo financiador secreto era a CIA."
+],
 "acfecd428d": [
 "Incursão para libertar James Foley",
 "Província de Raqqa, Síria",
@@ -9854,6 +10585,11 @@
 "Lançamento da Radio Free Iraq",
 "Praga, República Tcheca",
 "A Radio Free Europe/Radio Liberty, financiada pelo Congresso, lança uma rádio em árabe destinada aos iraquianos, no âmbito da política de mudança de regime."
+],
+"aed301ff17": [
+"Escolher entre os aliados e a China",
+"Lisboa, Portugal",
+"O embaixador George Glass declara ao Expresso que Portugal deve escolher entre seus aliados e a China, em especial quanto ao 5G e ao porto de Sines. O ministro Santos Silva retruca que Lisboa decide sozinha."
 ],
 "aedf4c9e99": [
 "Ahmed Abdi Godane morto em ataque",
@@ -10015,6 +10751,11 @@
 "Mar do Caribe",
 "Pete Hegseth anuncia a operação “Lança do Sul” contra os “narcoterroristas”; o porta-aviões Gerald R. Ford chega ao Caribe alguns dias depois."
 ],
+"b210970808": [
+"Embargo de armas à Espanha republicana",
+"Madri, Espanha",
+"O Congresso proíbe qualquer venda de armas aos dois lados da guerra civil. O governo republicano legal não pode mais se armar nos Estados Unidos, enquanto a Alemanha e a Itália armam Franco. Roosevelt confirma o embargo em 1º de maio de 1937."
+],
 "b21f001fec": [
 "Lei BURMA: ajuda aos opositores da junta",
 "Naypyidaw, Mianmar",
@@ -10034,6 +10775,11 @@
 "Primeiros F-16 na Ucrânia",
 "Kiev, Ucrânia",
 "Zelensky apresenta os primeiros F-16 entregues por aliados europeus com a autorização de Washington e pilotados por ucranianos treinados nos Estados Unidos."
+],
+"b2592bf835": [
+"Musk apoia Georgescu contra a Justiça romena",
+"Bucareste, Romênia",
+"Elon Musk, então conselheiro de Trump no DOGE, qualifica de “loucura” a exclusão de Călin Georgescu da eleição presidencial e chama o presidente do Tribunal Constitucional de “tirano”. Confrontos eclodem em Bucareste após a exclusão."
 ],
 "b28c544148": [
 "Blackwater no programa secreto do JSOC",
@@ -10075,6 +10821,11 @@
 "Mar do Caribe",
 "A guarda costeira e a força Southern Spear apreendem o petroleiro Olina, quinto navio tomado no âmbito da “quarentena” imposta ao petróleo venezuelano."
 ],
+"b2f78b9d8d": [
+"Um detento de Guantánamo em troca de um encontro",
+"Liubliana, Eslovênia",
+"Segundo telegramas publicados pelo WikiLeaks, diplomatas americanos vinculam um encontro com Obama ao acolhimento de um detento de Guantánamo pela Eslovênia. Liubliana negou qualquer barganha."
+],
 "b319082ea9": [
 "Oficinas contra a aids para recrutar em Cuba",
 "Havana, Cuba",
@@ -10084,6 +10835,11 @@
 "Junta argentina",
 "Buenos Aires, Argentina",
 "O exército derruba Isabel Perón. Washington, informado com antecedência, reconhece rapidamente a junta, que deixa milhares de desaparecidos."
+],
+"b32f170019": [
+"A embaixada exige o fim das políticas de DEI",
+"Paris, França",
+"A embaixada americana pede a empresas francesas fornecedoras do Estado federal que certifiquem em cinco dias que não têm nenhum programa de diversidade. Paris denuncia uma ingerência “inaceitável”."
 ],
 "b332451ac5": [
 "Carta Muccio sobre os refugiados",
@@ -10099,6 +10855,11 @@
 "Cabo submarino SEA-ME-WE 4 invadido",
 "Marselha, França",
 "A unidade TAO da NSA penetra o site de gestão do consórcio do cabo que liga Marselha ao Sudeste Asiático e obtém o mapeamento de seus circuitos. Revelado pela Der Spiegel e pelo Le Monde em dezembro de 2013."
+],
+"b366ee419c": [
+"Rubio apoia Orbán em Budapeste antes da votação",
+"Budapeste, Hungria",
+"Em visita a Budapeste, Marco Rubio apoia a reeleição de Viktor Orbán: “queremos que continue”. Ele vincula a “era de ouro” das relações bilaterais à sua permanência no poder. Orbán perde a eleição de 12 de abril."
 ],
 "b36ef9a798": [
 "Fuzileiros navais no consulado de Fuzhou",
@@ -10195,6 +10956,11 @@
 "Long Tieng, Laos",
 "O historiador Alfred McCoy documenta o transporte de ópio por aeronaves ligadas à CIA para aliados laosianos. A CIA nega qualquer envolvimento direto."
 ],
+"b5b059daea": [
+"TechnipFMC paga 301 milhões de dólares",
+"Paris, França",
+"Processado por subornos da Technip no Brasil e da FMC no Iraque, o grupo franco-americano TechnipFMC firma com a Justiça americana um acordo de 301 milhões de dólares, dividido com o Brasil."
+],
 "b635c52bd7": [
 "Julgamento de Rolando Cubela em Havana",
 "Havana, Cuba",
@@ -10250,6 +11016,11 @@
 "Taiwan",
 "O Wall Street Journal revela que militares americanos treinam secretamente o exército taiwanês; a presidente Tsai Ing-wen confirma."
 ],
+"b6ed1bc99c": [
+"Armador grego do Suez Rajan condenado",
+"Atenas, Grécia",
+"A empresa grega Empire Navigation se declara culpada perante a Justiça americana por ter transportado petróleo iraniano e paga 2,4 milhões de dólares. Cerca de um milhão de barris apreendidos são descarregados em Houston."
+],
 "b73dfc3d8a": [
 "Expedição punitiva contra Villa",
 "Chihuahua, México",
@@ -10270,10 +11041,20 @@
 "Egito",
 "Após o bombardeio de uma cidade sudanesa por um avião líbio, Washington envia um avião de vigilância AWACS ao Egito a pedido do Sudão e do Egito. Registrado pelo relatório R42738 do Serviço de Pesquisa do Congresso."
 ],
+"b7a267517b": [
+"Bombardeios de Zadar",
+"Zadar (Zara), Croácia",
+"A 12ª Força Aérea americana inicia uma série de ataques aliados a Zara, então italiana, que se prolonga até outubro de 1944. Cerca de 80% dos edifícios são destruídos; as estimativas de mortos variam de menos de 1.000 a 4.000."
+],
 "b7da51360c": [
 "Ônibus escolar de Dahyan",
 "Saada, Iêmen",
 "Um ataque da coalizão saudita mata 40 crianças em um ônibus. A CNN identifica uma bomba guiada a laser fabricada pela Lockheed Martin e vendida pelos Estados Unidos."
+],
+"b81eaf5ac4": [
+"A embaixada comenta a morte de Quentin Deranque",
+"Lyon, França",
+"A embaixada americana atribui nas redes a morte do militante de extrema direita à extrema esquerda. Paris vê nisso uma instrumentalização; Charles Kushner não comparece à sua convocação e perde seu acesso direto aos ministros."
 ],
 "b83b19ea38": [
 "Reagan defende Ríos Montt",
@@ -10470,6 +11251,11 @@
 "Pullach, Alemanha",
 "A NSA fez o BND vigiar alvos europeus, entre eles a EADS, a Eurocopter e autoridades francesas. O Bundestag investiga."
 ],
+"bb44dc30db": [
+"Vance denuncia o cancelamento da eleição presidencial",
+"Munique, Alemanha",
+"Na conferência de Munique, o vice-presidente JD Vance afirma que a Romênia anulou sua eleição presidencial com base em “suspeitas frágeis” de seus serviços e sob “enorme pressão” de seus vizinhos. A extrema direita romena saúda o discurso."
+],
 "bb4edb2cea": [
 "Kelly: nenhum compromisso com o Kuwait",
 "Bagdá, Iraque",
@@ -10595,6 +11381,11 @@
 "Nova York, Estados Unidos",
 "No verão de 2012, a NSA quebra a criptografia do sistema interno de videoconferência das Nações Unidas; em três semanas, as comunicações decodificadas passam de 12 para 458. Revelado pela Der Spiegel em agosto de 2013."
 ],
+"bd893065cb": [
+"Washington congela relações com a Suécia",
+"Estocolmo, Suécia",
+"Depois que Olof Palme compara os bombardeios de Hanói a crimes nazistas, o governo Nixon fala em “insulto grosseiro”, retira seu embaixador e recusa um novo embaixador sueco por mais de um ano."
+],
 "bdd3e32232": [
 "Ataques maciços após a queda de Assad",
 "Deserto central, Síria",
@@ -10695,6 +11486,11 @@
 "Sul do Líbano",
 "Nos últimos dias da guerra, Israel dispara milhões de submunições, em parte americanas. Um relatório do Departamento de Estado ao Congresso (janeiro de 2007) conclui pela provável violação dos acordos de uso."
 ],
+"bf88abc125": [
+"Depósitos de armas do stay-behind holandês",
+"Países Baixos",
+"Caminhantes descobrem um depósito de armas enterrado. O governo reconhece que ele pertence à rede clandestina stay-behind, montada com os serviços britânicos e americanos no âmbito da OTAN."
+],
 "bfc2521a64": [
 "Hospital dos MSF bombardeado em Kunduz",
 "Kunduz, Afeganistão",
@@ -10735,6 +11531,11 @@
 "Oceano Pacífico",
 "A CIA manda construir o Glomar Explorer para recuperar os destroços do submarino soviético K-129. Apenas uma parte do casco é recuperada."
 ],
+"c00ce2c583": [
+"Segunda-feira de Páscoa sangrenta em Grosseto",
+"Grosseto, Itália",
+"Na segunda-feira de Páscoa, aviões americanos bombardeiam e metralham Grosseto, incluindo um parque de diversões. Mais de uma centena de civis são mortos, muitos deles crianças."
+],
 "c026ba020d": [
 "Prisão de Frédéric Pierucci",
 "Nova York, sobre a França",
@@ -10744,6 +11545,11 @@
 "Soldados somalis mortos perto de Galkayo",
 "Galkayo, Somália",
 "Um ataque americano apresentado como dirigido ao Al-Shabaab mata, segundo as autoridades de Galmudug, cerca de vinte de seus soldados e civis. O AFRICOM abre uma investigação."
+],
+"c044a5ebed": [
+"Acordo de defesa sobre a Groenlândia",
+"Nova York, a respeito da Groenlândia",
+"Após meses de ameaças de anexação, Trump assina com Copenhague e Nuuk um acordo sem data de término: ampliação de Pituffik, novas zonas em Narsarsuaq e Mestersvig, veto a qualquer presença militar não pertencente à OTAN."
 ],
 "c05314d6d9": [
 "Bombas de grafite contra a rede elétrica",
@@ -10784,6 +11590,11 @@
 "Ordem nº 2: exército iraquiano dissolvido",
 "Bagdá, Iraque",
 "Bremer dissolve o exército, os serviços de segurança e o Ministério da Defesa. Centenas de milhares de homens armados perdem o emprego, o que muitos analistas associam ao crescimento da insurgência."
+],
+"c0bbe5da8f": [
+"Leonīds Zariņš lançado de paraquedas perto de Auce",
+"Auce, Letônia",
+"Recrutado pela CIA nos Estados Unidos, é lançado a partir da Alemanha. Traído por um contato que se tornara agente duplo, é preso e fuzilado sem julgamento em 1954."
 ],
 "c0d4c96781": [
 "Ataque de Damadola",
@@ -10840,6 +11651,11 @@
 "Cabul, Afeganistão",
 "Um ataque americano destrói as instalações da Al Jazeera. O Pentágono afirma ter mirado um local da Al-Qaeda."
 ],
+"c1bff96399": [
+"15 milhões de dólares pelo local secreto polonês",
+"Varsóvia, Polônia",
+"Segundo o Washington Post, dois oficiais da CIA entregam no início de 2003 à inteligência polonesa 15 milhões de dólares em dinheiro vivo, em caixas de papelão, pelo uso da base de Stare Kiejkuty."
+],
 "c1df8c6a83": [
 "Torturas no CECOT documentadas",
 "Tecoluca, El Salvador",
@@ -10869,6 +11685,16 @@
 "Direito de greve retirado dos funcionários públicos",
 "Tóquio, Japão",
 "Com base em uma carta de MacArthur, o governo Ashida publica a Portaria 201, que priva os funcionários públicos do direito de greve e de negociação coletiva. A medida marca a “reviravolta” da ocupação."
+],
+"c289e4b56a": [
+"Explosão de um Pershing II em Heilbronn",
+"Heilbronn, Alemanha",
+"O primeiro estágio de um míssil nuclear Pershing II pega fogo durante uma montagem no campo Redleg, em Waldheide. Três soldados americanos são mortos e vários ficam feridos. O acidente reacende a contestação aos euromísseis."
+],
+"c29152bc56": [
+"Pressões sobre a mina de Tanbreez",
+"Qaqortoq, Groenlândia",
+"Segundo o dono da Tanbreez Mining, citado pela Reuters em janeiro de 2025, autoridades americanas o dissuadiram de vender a jazida de terras raras a compradores ligados a Pequim. Ele a cede à americana Critical Metals."
 ],
 "c294dc5869": [
 "Dezoito bancos iranianos sancionados",
@@ -10950,6 +11776,11 @@
 "Isfahan, Irã",
 "Aviões americanos lançam bombas antibunker de 2.000 libras sobre um grande depósito de munições perto do monte Soffeh, em Isfahan. Trump divulga as imagens das explosões."
 ],
+"c3fdb1e248": [
+"Abu Omar transferido via Ramstein",
+"Ramstein, Alemanha",
+"Sequestrado em Milão pela CIA, o imã Abu Omar é levado a Aviano e depois à base de Ramstein, de onde um avião o leva ao Egito. A promotoria de Zweibrücken abre uma investigação sobre esse trânsito."
+],
 "c42248b009": [
 "Massacre de Zhazidong",
 "Chongqing, China",
@@ -10959,6 +11790,11 @@
 "Licença à Delta Crescent Energy",
 "Nordeste da Síria",
 "O Tesouro concede uma licença à empresa americana Delta Crescent Energy para explorar petróleo nas zonas curdas. Mike Pompeo o confirma no Senado. Damasco denuncia um roubo de seus recursos."
+],
+"c4438bb23f": [
+"Um informante da embaixada no FDP",
+"Berlim, Alemanha",
+"Telegramas diplomáticos publicados pelo WikiLeaks em 2010 relatam as negociações da coalizão CDU-FDP graças a um informante. Helmut Metzner, chefe de gabinete de Guido Westerwelle, admite ter passado informações à embaixada e é demitido."
 ],
 "c45e4429b4": [
 "Voo KAL 007: missão de espionagem alegada",
@@ -10974,6 +11810,11 @@
 "Sequestro de Matta Ballesteros",
 "Tegucigalpa, Honduras",
 "Policiais hondurenhos e marshals americanos capturam o traficante Juan Ramón Matta Ballesteros e o enviam aos Estados Unidos. Manifestantes incendeiam um anexo da embaixada."
+],
+"c473a30106": [
+"Agentes lançados na Curlândia",
+"Curlândia, Letônia",
+"Alfreds Riekstiņš e dois outros homens são deixados na Letônia para a inteligência americana. A segurança soviética, informada da operação, os espera."
 ],
 "c477292a18": [
 "Segundo grande ataque incendiário a Tóquio",
@@ -11070,6 +11911,16 @@
 "Teerã, Irã",
 "Os Estados Unidos e Israel lançam quase 900 ataques em doze horas contra os mísseis, as defesas e os dirigentes iranianos. É o início da guerra do Irã de 2026."
 ],
+"c5e10f20f5": [
+"Carta anunciando tarifas de 30% à UE",
+"Bruxelas, Bélgica",
+"Em carta a Ursula von der Leyen, Donald Trump anuncia tarifas de 30% sobre os produtos europeus em 1º de agosto, e mais em caso de retaliação. A ameaça leva ao acordo de Turnberry."
+],
+"c5ed8b56a6": [
+"Embargo americano de armas a Chipre",
+"Nicósia, Chipre",
+"Washington proíbe as vendas de armas à República de Chipre, oficialmente para favorecer a reunificação. O embargo é parcialmente suspenso em 2020, sob condições, entre elas a recusa de escala a navios militares russos."
+],
 "c601901c38": [
 "CIA informada das execuções sob Geisel",
 "Brasília, Brasil",
@@ -11135,6 +11986,11 @@
 "Vieques, Porto Rico",
 "Agentes federais e fuzileiros navais retiram os manifestantes que ocupavam o campo de tiro e prendem mais de 200. Os bombardeios de treinamento são retomados."
 ],
+"c7f3ca5a8c": [
+"Danske Bank se declara culpado",
+"Copenhague, Dinamarca",
+"O maior banco dinamarquês se declara culpado perante a Justiça americana de fraude bancária ligada à lavagem de dinheiro de sua subsidiária estoniana e aceita um confisco de 2,059 bilhões de dólares."
+],
 "c7f927a432": [
 "Massacre de Roboski",
 "Roboski, Turquia",
@@ -11154,6 +12010,11 @@
 "Desvio do avião egípcio para Sigonella",
 "Sigonella, Itália",
 "F-14 americanos interceptam o avião de linha egípcio que leva os sequestradores do Achille Lauro e o forçam a pousar na Sicília. Carabinieri e comandos americanos ficam frente a frente na base."
+],
+"c88a16e270": [
+"Novas sanções Magnitsky na Bulgária",
+"Sófia, Bulgária",
+"O Tesouro sanciona cinco autoridades búlgaras, entre elas o ex-ministro Rumen Ovcharov, o ex-ministro das Finanças Vladislav Goranov e o russófilo Nikolai Malinov, por corrupção, em especial em contratos de energia com a Rússia."
 ],
 "c890a34fb7": [
 "Operação Menu: bombardeio secreto do Camboja",
@@ -11209,6 +12070,11 @@
 "Jornal al-Hawza fechado por Bremer",
 "Bagdá, Iraque",
 "Paul Bremer manda fechar o jornal do movimento de Moqtada al-Sadr, acusado de incitação. A medida desencadeia manifestações e depois o levante xiita de abril de 2004."
+],
+"c9c1c6bfb3": [
+"Estupros cometidos por soldados americanos",
+"Alemanha",
+"Soldados americanos cometem estupros na Alemanha ocupada. As estimativas divergem muito: cerca de 11.000 segundo o criminologista J. Robert Lilly, até 190.000 segundo a historiadora Miriam Gebhardt, cujo método é contestado."
 ],
 "c9d223be51": [
 "Primeiro napalm na Europa em Royan",
@@ -11280,6 +12146,11 @@
 "Bamaco, Mali",
 "O capitão Amadou Sanogo, que derruba Amadou Toumani Touré, havia feito vários treinamentos militares nos Estados Unidos. O Pentágono o reconhece, ao mesmo tempo que condena o golpe."
 ],
+"caa81e017b": [
+"Biden: “não haverá mais Nord Stream 2”",
+"Washington, a respeito da Alemanha",
+"Ao lado de Olaf Scholz, Joe Biden declara que, em caso de invasão russa da Ucrânia, “não haverá mais Nord Stream 2” e que “vamos pôr fim a ele”. A frase é frequentemente citada após a sabotagem do gasoduto."
+],
 "caa97000a0": [
 "500 milhões de conexões alemãs por mês",
 "Alemanha",
@@ -11309,6 +12180,16 @@
 "Rede do Quai d'Orsay interceptada",
 "Paris, França",
 "Uma apresentação da NSA de maio de 2012 cita a rede privada do Ministério francês das Relações Exteriores entre as redes penetradas por ataques do tipo “man in the middle”. Revelado pela TV Globo em setembro de 2013."
+],
+"cafb8ae72f": [
+"Pressão contra os aeroportos chineses",
+"Nuuk, Groenlândia",
+"O secretário de Defesa James Mattis pressiona Copenhague a descartar a oferta da chinesa CCCC para três aeroportos groenlandeses. A Dinamarca financia ela mesma o projeto e a CCCC se retira em 2019."
+],
+"cb1035659f": [
+"O USTR ameaça empresas europeias",
+"Bruxelas, Bélgica",
+"Em resposta ao DSA e ao DMA, o representante americano de Comércio ameaça com taxas e restrições grupos europeus que nomeia: SAP, Siemens, DHL, Spotify, Mistral AI, Capgemini, Publicis, Amadeus."
 ],
 "cb13895a5d": [
 "Dois porta-aviões no estreito de Taiwan",
@@ -11485,6 +12366,11 @@
 "Trípoli, Líbia",
 "A Newsweek revela no verão de 1981 um plano da CIA para desestabilizar e derrubar Kadafi, combinando desinformação e ação paramilitar. Membros da comissão de inteligência da Câmara protestam junto a Reagan."
 ],
+"cd9f434810": [
+"Sanções contra o banco IIB em Budapeste",
+"Budapeste, Hungria",
+"O Tesouro sanciona o Banco Internacional de Investimento, controlado por Moscou e instalado em Budapeste, e dirigentes, entre eles um húngaro. No dia seguinte, a Hungria anuncia sua retirada; o banco deixa Budapeste."
+],
 "cda2a3c4b0": [
 "Retorno de Bonilla, financiado por Zemurray",
 "La Ceiba, Honduras",
@@ -11554,6 +12440,11 @@
 "Livro branco sobre a ingerência comunista",
 "San Salvador, El Salvador",
 "O Departamento de Estado publica um relatório acusando Cuba e o bloco soviético de armar a FMLN. O Wall Street Journal mostra em junho que várias de suas conclusões se baseiam em documentos mal interpretados."
+],
+"ceb21e88ec": [
+"Palomares: a descontaminação prometida nunca realizada",
+"Palomares, Espanha",
+"Após décadas de pedidos espanhóis, Washington assina uma declaração de intenções para remover para Nevada a terra contaminada por plutônio em 1966. Nenhum acordo definitivo se segue e o local continua poluído."
 ],
 "cecaa8c8cc": [
 "J&F (JBS) paga à justiça americana",
@@ -11705,6 +12596,11 @@
 "Boz Qandahari, Kunduz, Afeganistão",
 "Ataques americanos em apoio a forças afegãs e americanas matam 33 civis segundo o Pentágono, que reconhece os fatos, mas os considera conformes ao direito."
 ],
+"d116fa5865": [
+"Tarifas de 25% sobre queijos italianos",
+"Parma, Itália",
+"No conflito da Airbus, Washington taxa em 25% produtos italianos, entre eles o parmesão, o grana padano, o pecorino e o provolone, além de licores. A Itália não é membro do consórcio."
+],
 "d119c3ea12": [
 "Ataques estendidos ao Pacífico",
 "Pacífico oriental, Colômbia",
@@ -11770,6 +12666,16 @@
 "Ürümqi, China",
 "O Departamento de Comércio inclui 28 entidades chinesas, entre elas a Hikvision e a polícia de Xinjiang, na Entity List pela repressão aos uigures."
 ],
+"d1cd86fa68": [
+"Allianz paga 6 bilhões de dólares",
+"Munique, Alemanha",
+"A subsidiária americana da Allianz Global Investors se declara culpada de fraude nos fundos Structured Alpha, que ruíram em 2020. A seguradora alemã aceita pagar cerca de 6 bilhões de dólares às autoridades e aos investidores."
+],
+"d1d82c8c4c": [
+"Primeiro ataque americano a Nápoles",
+"Nápoles, Itália",
+"B-24 da aviação americana bombardeiam o porto e o centro de Nápoles em plena luz do dia. O ataque deixa centenas de civis mortos. Ele inaugura uma série de bombardeios aliados que atingem a cidade até 1943."
+],
 "d1e0d4707b": [
 "Total deixa South Pars",
 "Teerã, a respeito da França",
@@ -11834,6 +12740,11 @@
 "Retorno do Baath ao poder em 1968",
 "Bagdá, Iraque",
 "O partido Baath derruba o presidente Abdel Rahman Aref. Autores, entre eles Saïd Aburish, mencionam contatos com a CIA; nenhum documento público estabelece um papel americano."
+],
+"d2eac87633": [
+"SBM Offshore paga 238 milhões",
+"Amsterdã, Países Baixos",
+"O grupo holandês de serviços petrolíferos firma um acordo de acusação diferida com o Departamento de Justiça por subornos no Brasil, em Angola, na Guiné Equatorial, no Cazaquistão e no Iraque."
 ],
 "d2eca550b6": [
 "Pressão contra o Acordo de Meca",
@@ -11910,6 +12821,11 @@
 "Águas haitianas",
 "Navios americanos fazem respeitar o embargo da ONU contra a junta haitiana. Registrado pelo relatório R42738 do Serviço de Pesquisa do Congresso."
 ],
+"d4887c6a0c": [
+"Al-Hawsawi detido no “local Violeta”",
+"Antaviliai, Lituânia",
+"O saudita Mustafa al-Hawsawi é mantido incomunicável e maltratado pela CIA na Lituânia em 2005-2006. A CEDH condena a Lituânia por cumplicidade em 16 de janeiro de 2024."
+],
 "d48acfd134": [
 "Cepas biológicas exportadas para o Iraque",
 "Bagdá, Iraque",
@@ -11919,6 +12835,11 @@
 "O rancho de John Hull",
 "Costa Rica",
 "Esse fazendeiro americano, ligado à CIA, cede suas pistas do norte da Costa Rica aos Contras. Ele é indiciado na Costa Rica em 1989 e foge para os Estados Unidos."
+],
+"d49d6de444": [
+"Bombardeio de Nice",
+"Nice, França",
+"Um ataque americano à estação de cargas e ao bairro de Saint-Roch, em Nice, faz centenas de mortos e feridos civis, no âmbito da ofensiva aérea contra a rede ferroviária antes dos desembarques."
 ],
 "d4abcd433a": [
 "Queda do B-52 de Thule",
@@ -11939,6 +12860,11 @@
 "Abu Khabab al-Masri morto por um drone",
 "Azam Warsak, Waziristão do Sul, Paquistão",
 "Um ataque da CIA mata o químico da Al-Qaeda e várias outras pessoas no Waziristão do Sul."
+],
+"d518892222": [
+"A Letônia assina a declaração 5G",
+"Riga, Letônia",
+"Sob pressão americana contra a Huawei, a Letônia assina com Washington uma declaração conjunta sobre a segurança do 5G."
 ],
 "d51be6af8a": [
 "Bikini declarado habitável",
@@ -12000,6 +12926,11 @@
 "Mar do Caribe",
 "Um ataque mata seis pessoas ao largo da Venezuela. Famílias de Trinidad e Tobago afirmam que duas vítimas eram pescadores trinitários."
 ],
+"d5f28dba2f": [
+"A “nota americana” exige a expulsão do Eixo",
+"Dublin, Irlanda",
+"O enviado David Gray entrega a de Valera uma nota exigindo a expulsão dos diplomatas alemães e japoneses. Segundo os historiadores, o OSS sabia que a iniciativa era em grande parte política: tratava-se de colocar a Irlanda neutra no banco dos réus."
+],
 "d606560237": [
 "Sabotagem da mina de Matahambre",
 "Matahambre, Cuba",
@@ -12050,6 +12981,11 @@
 "Kadena, Okinawa, Japão",
 "Um aviador americano sequestra e agride sexualmente uma menina de menos de 16 anos. Tóquio só revela o caso em junho de 2024. O tribunal de Naha o condena a cinco anos de prisão."
 ],
+"d77a9775b3": [
+"Base Dal Molin imposta em Vicenza",
+"Vicenza, Itália",
+"Romano Prodi aceita a ampliação da base americana no aeroporto Dal Molin, considerando impossível voltar atrás no acordo prometido a Washington. Em 17 de fevereiro, dezenas de milhares de pessoas se manifestam; nenhum referendo local é organizado."
+],
 "d78076b783": [
 "Invasão do Camboja",
 "Leste do Camboja",
@@ -12059,6 +12995,11 @@
 "Lei César contra a Síria",
 "Damasco, Síria",
 "Entram em vigor sanções que atingem qualquer empresa, mesmo estrangeira, que negocie com o Estado sírio. A ONU se preocupa com seus efeitos sobre uma população já empobrecida."
+],
+"d7c945aaf9": [
+"Venda forçada das Antilhas Dinamarquesas",
+"Charlotte Amalie, Antilhas Dinamarquesas",
+"A Dinamarca assina a venda de suas Antilhas por 25 milhões de dólares. Segundo suas próprias memórias, o secretário de Estado Robert Lansing havia advertido Copenhague de que Washington poderia ocupar as ilhas em caso de recusa."
 ],
 "d7cbbe8b46": [
 "Boinas Verdes para o oleoduto da Occidental",
@@ -12079,6 +13020,11 @@
 "Sabotagens da KgU na RDA",
 "Berlim Ocidental",
 "O Grupo de Combate à Desumanidade, financiado pelos serviços americanos, conduz no início dos anos 1950 ações de sabotagem e propaganda na Alemanha Oriental."
+],
+"d861aa393d": [
+"Tarifa de 91,74% sobre massas italianas",
+"Campobasso, Itália",
+"O Departamento de Comércio propõe uma tarifa antidumping de 91,74% contra La Molisana, Garofalo e onze outros fabricantes de massas. As taxas definitivas de março de 2026 são reduzidas para entre 2,26% e 13,98%."
 ],
 "d89d09d624": [
 "Apreensão de combustível iraniano destinado à Venezuela",
@@ -12130,6 +13076,11 @@
 "Norte da Síria",
 "Uma bateria de artilharia dos Marines é enviada à Síria para apoiar a ofensiva sobre Raqqa. Registrado no relatório R42738 do Serviço de Pesquisa do Congresso."
 ],
+"d9e154f4c1": [
+"Postos de escuta da NSA em Viena",
+"Viena, Áustria",
+"O jornalista Erich Möchel, com base em um documento de Snowden, identifica instalações de interceptação em uma torre vizinha à ONU e em uma vila de Pötzleinsdorf. Washington e Viena negam."
+],
 "d9f97956c3": [
 "O “golpe” que não é um golpe",
 "Cairo, Egito",
@@ -12169,6 +13120,11 @@
 "Menwith Hill e os ataques direcionados",
 "Harrogate, Reino Unido",
 "A base da NSA em Yorkshire localiza por satélite os telefones de alvos e apoia “um número significativo” de operações de “capturar ou matar”, no Iraque, no Afeganistão e no Iêmen. Revelado pelo The Intercept em setembro de 2016."
+],
+"da8acb747d": [
+"Bombardeios de Foggia",
+"Foggia, Itália",
+"De maio a setembro de 1943, a aviação americana bombardeia repetidamente Foggia e seus aeródromos. A cidade é em grande parte destruída. Os balanços variam de vários milhares a quase 20 mil mortos, conforme as estimativas."
 ],
 "daca68aa69": [
 "Cuba contabiliza 638 tentativas contra Castro",
@@ -12525,6 +13481,11 @@
 "Saipan, Micronésia",
 "A imprensa americana revela que a CIA espionou os delegados do Congresso da Micronésia que negociavam com Washington o futuro status do território sob tutela."
 ],
+"dfbb92f53c": [
+"Seção 211: Pernod Ricard privada da Havana Club",
+"Paris, França",
+"A seção 211 de uma lei orçamentária proíbe fazer valer nos Estados Unidos marcas ligadas a bens confiscados em Cuba. Ela priva a joint venture da Pernod Ricard e do Estado cubano da marca Havana Club, em benefício da Bacardi. A OMC a condena em parte em 2002."
+],
 "dfc2091eb5": [
 "Eleições panamenhas sob supervisão",
 "Panamá",
@@ -12624,6 +13585,11 @@
 "2,17 bilhões: bombas GLSDB",
 "Kiev, Ucrânia",
 "Pacote de 2,175 bilhões de dólares incluindo bombas guiadas de longo alcance GLSDB (cerca de 150 km) e munições."
+],
+"e182c2a450": [
+"Fim das concessões tarifárias a Praga",
+"Praga, Tchecoslováquia",
+"Truman aplica a lei de 1951 que retira a tarifa de nação mais favorecida dos países comunistas. A Tchecoslováquia, embora membro do GATT, perde suas concessões tarifárias."
 ],
 "e1879cf143": [
 "A Kandahar Strike Force mata um chefe de polícia",
@@ -12795,10 +13761,20 @@
 "Caracas, Venezuela",
 "A direção da PDVSA, o patronato e a central sindical CTV paralisam a indústria petrolífera por dois meses. Caracas acusa Washington de apoio; a CTV recebia recursos da NED, mas nenhum papel direto está comprovado."
 ],
+"e497162b3d": [
+"Portugal afastado dos segredos nucleares da OTAN",
+"Lisboa, Portugal",
+"Temendo a presença de comunistas no governo após a Revolução dos Cravos, Kissinger apoia a saída de Portugal do grupo de planejamento nuclear da OTAN. Lisboa perde o acesso aos documentos mais sensíveis da Aliança."
+],
 "e49f9707de": [
 "Ramaphosa encurralado no Salão Oval",
 "Washington, Estados Unidos",
 "Donald Trump exibe diante de Cyril Ramaphosa um vídeo supostamente provando um “genocídio” de fazendeiros brancos e brande uma foto que se revela tirada na RD Congo."
+],
+"e4bfe2a2a9": [
+"Caso Noel Field, “Operação Splinter Factor”",
+"Praga, Tchecoslováquia",
+"Noel Field é preso em Praga, ponto de partida de expurgos na Europa Oriental. O jornalista Stewart Steven sustenta que Allen Dulles manipulou o caso para provocar esses expurgos. Tese contestada por outros historiadores."
 ],
 "e4c6fc549f": [
 "Trump saúda a saída de Morales",
@@ -12935,6 +13911,11 @@
 "Marquetalia, Colômbia",
 "No âmbito do plano LASO, concebido com os Estados Unidos, o exército colombiano ataca o enclave camponês de Marquetalia. As FARC nascem dessa ofensiva."
 ],
+"e7526fe2df": [
+"Artigo de Elon Musk pela AfD",
+"Berlim, Alemanha",
+"Escolhido por Trump para dirigir o futuro DOGE, Elon Musk publica no Welt am Sonntag um artigo de opinião que qualifica a AfD como “última faísca de esperança” antes das eleições legislativas. A responsável pelas páginas de opinião se demite."
+],
 "e7641c0d32": [
 "Backdoor Bvp47",
 "Pequim, China",
@@ -12969,6 +13950,11 @@
 "2,1 bilhões da USAI para os Patriot",
 "Kiev, Ucrânia",
 "Pacote USAI de 2,1 bilhões de dólares incluindo munições Patriot e drones Puma."
+],
+"e839fbfbbf": [
+"Escutas do Vaticano antes do conclave",
+"Cidade do Vaticano",
+"O semanário Panorama afirma que a NSA escutou ligações do Vaticano antes do conclave de 2013, entre elas as do cardeal Bergoglio. A NSA nega."
 ],
 "e85601103b": [
 "Trump apoia Orbán antes da eleição húngara",
@@ -13005,6 +13991,11 @@
 "URSS",
 "A Força Aérea dos EUA solta centenas de balões equipados com câmeras fotográficas sobre a URSS e a China. Moscou protesta e exibe os balões recuperados."
 ],
+"e8dcda5244": [
+"Prisão do esgrimista Pawłowski",
+"Varsóvia, Polônia",
+"Campeão olímpico de sabre e oficial, Jerzy Pawłowski é preso por espionagem em favor de um país da OTAN. É condenado a 25 anos de prisão. Trabalhava para a CIA desde 1964."
+],
 "e8e0be3823": [
 "Caça dispara contra o petroleiro Hasna",
 "Estreito de Ormuz, Irã",
@@ -13024,6 +14015,11 @@
 "Terras confiscadas em Okinawa",
 "Okinawa, Japão",
 "A administração militar americana expropria pela Portaria 109 terras agrícolas para ampliar suas bases, por vezes à baioneta e com escavadeiras. Aldeias inteiras são deslocadas."
+],
+"e90617a103": [
+"Projeto AECOB da CIA na Letônia",
+"Riga, Letônia",
+"A CIA aprova o projeto AECOB: infiltração de agentes letões recrutados no exílio para espionagem e contato com os “irmãos da floresta”. Documentos desclassificados; o projeto é abandonado em 1º de janeiro de 1958."
 ],
 "e91d20b6b1": [
 "Expedição “Urso Polar”",
@@ -13144,6 +14140,11 @@
 "Pacto de Madri com Franco",
 "Madri, Espanha",
 "Washington obtém bases militares na Espanha em troca de uma ajuda econômica e militar que consolida a ditadura franquista."
+],
+"eb2539b139": [
+"Deutsche Bank paga por corrupção",
+"Frankfurt, Alemanha",
+"O Deutsche Bank firma com o Departamento de Justiça um acordo de acusação diferida e paga mais de 120 milhões de dólares por subornos pagos por meio de intermediários (FCPA) e uma fraude em metais preciosos."
 ],
 "eb3c34e979": [
 "Atentado à estação de Bolonha",
@@ -13295,6 +14296,11 @@
 "Pequim, China",
 "Cerca de 2.500 soldados americanos participam da tomada de Pequim contra os Boxers. As tropas aliadas saqueiam a cidade nas semanas seguintes."
 ],
+"ed2868b21e": [
+"Chips de IA restringidos para os países bálticos",
+"Vilnius, Lituânia",
+"A regra americana sobre a “difusão da IA” exclui a Estônia, a Letônia e a Lituânia dos aliados sem restrição. Seus ministros protestam em 17 de janeiro. O governo Trump revoga a regra em maio."
+],
 "ed2e6279e2": [
 "Acordo secreto sobre a devolução de Okinawa",
 "Tóquio, Japão",
@@ -13380,6 +14386,11 @@
 "Cidade do México, México",
 "Após a expropriação das companhias petrolíferas por Lázaro Cárdenas, as majors americanas e britânicas organizam um boicote ao petróleo mexicano, apoiado por algum tempo por Washington."
 ],
+"ee2cace139": [
+"Pressão de Grenell em favor dos irmãos Tate",
+"Bucareste, Romênia",
+"Segundo o Financial Times, o enviado de Trump Richard Grenell pede ao ministro romeno Emil Hurezeanu que devolva os passaportes aos irmãos Tate, processados na Romênia. O ministro nega ter sentido pressão; os Tate partem para a Flórida em 27 de fevereiro."
+],
 "ee4001079d": [
 "Ferido executado em uma mesquita",
 "Faluja, Iraque",
@@ -13455,6 +14466,11 @@
 "Paris, França",
 "O representante americano de Comércio propõe tarifas de 100% sobre 2,4 bilhões de dólares de produtos franceses para punir o imposto sobre serviços digitais."
 ],
+"ef8c0fdf3c": [
+"Abu Zubaydah transferido para a Lituânia",
+"Vilnius, Lituânia",
+"A CIA transfere secretamente o detento para a Lituânia em 17 ou 18 de fevereiro de 2005 e o retira de lá em 25 de março de 2006. A CEDH o estabelece em 2018 e condena a Lituânia."
+],
 "efaadc552c": [
 "Ataques contra a rádio de Aidid",
 "Mogadíscio, Somália",
@@ -13495,6 +14511,11 @@
 "Buenos Aires, Argentina",
 "O Tesouro e o Banco Central argentino assinam uma linha de swap de 20 bilhões de dólares, apresentada como apoio ao governo de Javier Milei antes da votação de 26 de outubro."
 ],
+"f04693d748": [
+"Murat Kurnaz detido em Guantánamo",
+"Guantánamo, Cuba",
+"Preso no Paquistão e entregue aos americanos, esse turco residente em Bremen é mantido em Kandahar e depois em Guantánamo sem julgamento. Nenhuma prova contra ele é encontrada; é libertado em agosto de 2006 após uma intervenção de Angela Merkel."
+],
 "f0504bcba6": [
 "Programa “democracia” da USAID em Cuba",
 "Havana, Cuba",
@@ -13525,6 +14546,11 @@
 "Washington, sobre o Brasil",
 "Kenneth Blanco, alto funcionário do Departamento de Justiça americano, cita perante o Atlantic Council a cooperação informal com os procuradores brasileiros, ao mencionar a condenação de Lula."
 ],
+"f117c94aad": [
+"A Groenlândia transferida para o NORTHCOM",
+"Nuuk, Groenlândia",
+"O Pentágono transfere a Groenlândia do comando europeu para o comando Norte, encarregado da defesa do território americano, por ordem de Donald Trump. A decisão alimenta os temores de anexação."
+],
 "f11e1432bc": [
 "Um infiltrado da CIA no gabinete de Indira Gandhi",
 "Nova Délhi, Índia",
@@ -13544,6 +14570,11 @@
 "Boicote à eleição sandinista",
 "Manágua, Nicarágua",
 "O candidato da oposição Arturo Cruz se retira. Autoridades americanas reconheceram ter querido desacreditar o pleito."
+],
+"f18bef67cd": [
+"Ameaça de retaliação contra o imposto digital",
+"Varsóvia, Polônia",
+"O futuro embaixador Tom Rose considera “autodestrutivo” o imposto polonês sobre as grandes plataformas digitais e anuncia que Trump responderá."
 ],
 "f18d8cdd8f": [
 "Lei de Ajuda à China",
@@ -13574,6 +14605,11 @@
 "Missão Crowder em Cuba",
 "Havana, Cuba",
 "O general Enoch Crowder chega a bordo de um encouraçado e dita ao governo cubano reformas e ministros, sob ameaça de intervenção."
+],
+"f1e78c4330": [
+"Massacre de Portella della Ginestra",
+"Piana degli Albanesi, Itália",
+"O bando de Salvatore Giuliano atira contra uma concentração do 1º de Maio na Sicília: 11 mortos. Historiadores, entre eles Giuseppe Casarrubea, apontam, a partir de arquivos do OSS e da CIA, vínculos americanos; a questão continua controversa."
 ],
 "f1fe7f992d": [
 "Doutrina Truman: ajuda militar à Grécia",
@@ -13614,6 +14650,11 @@
 "Operação Odyssey Dawn",
 "Trípoli, Líbia",
 "Os Estados Unidos comandam a primeira fase dos ataques: mais de uma centena de mísseis Tomahawk, disparados com os britânicos, visam as defesas antiaéreas, e bombardeiros B-2 atacam uma base perto de Sirte. A OTAN assume em 31 de março."
+],
+"f28112ef05": [
+"Ameaça de sanções marítimas contra a Espanha",
+"Algeciras, Espanha",
+"A Federal Maritime Commission, que investiga as recusas de escala opostas a navios com cargas para Israel, considera proibir os navios de bandeira espanhola ou impor-lhes multas de até 2,3 milhões de dólares por viagem."
 ],
 "f2822099ee": [
 "Clinton reconhece o erro americano",
@@ -13664,6 +14705,11 @@
 "ORDEN e ANSESAL criadas com Washington",
 "San Salvador, El Salvador",
 "Em meados da década de 1960, o general Medrano cria a milícia ORDEN e o serviço ANSESAL com a ajuda de conselheiros americanos, segundo a investigação de Allan Nairn (1984). Elas alimentam os esquadrões da morte."
+],
+"f3c6f4cc60": [
+"Ameaça de tarifas de 50% sobre a UE",
+"Bruxelas, Bélgica",
+"Julgando as negociações lentas demais, Donald Trump anuncia tarifas de 50% sobre os produtos europeus a partir de 1º de junho. Ele as adia para 9 de julho após uma ligação de Ursula von der Leyen."
 ],
 "f3f92496a8": [
 "Unidades treinadas por Washington passam para os rebeldes",
@@ -13810,6 +14856,11 @@
 "Rio de Janeiro, Brasil",
 "Washington envia Vernon Walters, próximo do general Castelo Branco desde a guerra, como adido militar. Ele serve de elo com os conspiradores de 1964, segundo suas memórias e os arquivos."
 ],
+"f65773710c": [
+"Barr recorre aos serviços italianos",
+"Roma, Itália",
+"O ministro da Justiça William Barr se reúne em Roma com os chefes da inteligência italiana, com o aval de Giuseppe Conte, para buscar elementos sobre as origens da investigação russa. Os encontros suscitam polêmica na Itália."
+],
 "f67ac7de30": [
 "Ataques quase diários em 1999",
 "Norte e sul do Iraque",
@@ -13844,6 +14895,11 @@
 "Acordo militar com Honduras",
 "Tegucigalpa, Honduras",
 "Um mês antes da invasão da Guatemala, Washington assina um acordo de assistência militar com Honduras, que serve de retaguarda para as tropas de Castillo Armas."
+],
+"f71e28d142": [
+"Dirigentes da HateAid proibidas de obter visto",
+"Berlim, Alemanha",
+"O Departamento de Estado proíbe a entrada de Anna-Lena von Hodenberg e Josephine Ballon, que dirigem a ONG alemã HateAid, acusadas de “censura” por sua defesa do regulamento europeu sobre os serviços digitais."
 ],
 "f771c64146": [
 "Lobby contra o salário mínimo",
@@ -13890,6 +14946,11 @@
 "São Petersburgo, Rússia",
 "No dia das eleições de meio de mandato, o US Cyber Command derruba o acesso à Internet da Internet Research Agency. Trump confirma a operação em 2020."
 ],
+"f826a5bf35": [
+"Nexperia tomada sob pressão americana",
+"Nimega, Países Baixos",
+"Haia assume o controle da fabricante de chips Nexperia, subsidiária da Wingtech, um dia depois de uma regra americana que estende a lista negra às subsidiárias. Peças judiciais mostram que Washington exigia a saída do presidente chinês."
+],
 "f826c7d2b5": [
 "Sobreviventes estudados sem receber tratamento",
 "Hiroshima, Japão",
@@ -13909,6 +14970,11 @@
 "Fim das relações comerciais normais",
 "Moscou, Rússia",
 "Biden assina duas leis: uma retira da Rússia e da Bielorrússia o status de relações comerciais normais, a outra proíbe a importação de petróleo russo."
+],
+"f8b82b9dd3": [
+"Senadores americanos e o congelamento do South Stream",
+"Sófia, Bulgária",
+"Durante a visita a Sófia dos senadores McCain, Murphy e Johnson, que denunciam a atribuição da obra a um consórcio russo, o primeiro-ministro Oresharski suspende as obras do gasoduto South Stream, já alvo de Bruxelas."
 ],
 "f8dd04be69": [
 "Kennedy cogita agir contra Goulart",
@@ -13935,10 +15001,20 @@
 "Colômbia, Bolívia e Peru",
 "Bush envia ajuda militar contra o narcotráfico. De 50 a 100 conselheiros estão na Colômbia e equipes de forças especiais treinam os exércitos dos três países. Registrado pelo relatório R42738 do Serviço de Pesquisa do Congresso."
 ],
+"f91ca3c31c": [
+"Carta de Wolfowitz contra o Galileo",
+"Bruxelas, Bélgica",
+"O secretário adjunto de Defesa Paul Wolfowitz escreve aos ministros europeus para dissuadi-los de lançar o sistema de navegação Galileo, concorrente do GPS, invocando riscos para as operações militares americanas."
+],
 "f929ad8f41": [
 "Sanções bloqueadas após o Anfal",
 "Bagdá, Iraque",
 "O Senado vota por unanimidade uma lei de sanções após o gaseamento dos curdos durante a campanha Anfal. O governo Reagan se opõe e o texto morre na Câmara."
+],
+"f93e4d5b5a": [
+"Simulacros de julgamento em Schwäbisch Hall",
+"Schwäbisch Hall, Alemanha",
+"Investigadores do Exército interrogam os SS acusados do massacre de Malmedy. Uma subcomissão do Senado reconhece em 1949 o uso de simulacros de julgamento, mas rejeita as acusações de torturas físicas."
 ],
 "f95485382f": [
 "Eritreia federada à Etiópia",
@@ -14005,10 +15081,20 @@
 "Chenogne, Bélgica",
 "Durante a Batalha das Ardenas, soldados americanos matam cerca de 80 prisioneiros alemães. Ninguém é processado."
 ],
+"fac1c35053": [
+"Ameaças contra a lei anticolônias israelenses",
+"Dublin, Irlanda",
+"Dezesseis parlamentares do Congresso liderados por Claudia Tenney ameaçam a Irlanda com medidas fiscais antiboicote caso ela proíba os produtos das colônias. Outras cartas se seguem em outubro; o projeto é depois atenuado, sob pressão americana segundo seus críticos."
+],
 "fac3cbde12": [
 "Envio dos lançadores de foguetes HIMARS",
 "Kiev, Ucrânia",
 "Washington anuncia a entrega de lançadores múltiplos de foguetes HIMARS, que permitem à Ucrânia atingir depósitos e postos de comando russos a 80 km."
+],
+"fae774b75f": [
+"Roquefort taxado a 100% contra o embargo da carne bovina",
+"Roquefort-sur-Soulzon, França",
+"Para punir a proibição europeia da carne bovina com hormônios, o USTR impõe tarifas de 100% sobre uma lista que visa sobretudo a França: roquefort, foie gras, trufas, mostarda de Dijon. O valor, 116,8 milhões de dólares, é autorizado pela OMC."
 ],
 "faeab91bae": [
 "Procuradora do TPI sancionada",
@@ -14034,6 +15120,11 @@
 "Primeiro crédito suplementar de 13,6 bilhões",
 "Kiev, Ucrânia",
 "Biden sanciona a lei orçamentária de 2022, que inclui 13,6 bilhões de dólares para a Ucrânia, dos quais cerca de metade para a defesa."
+],
+"fb64b50903": [
+"Bombardeio de Saint-Étienne",
+"Saint-Étienne, França",
+"Visando as instalações ferroviárias, bombardeiros americanos partidos da Itália atingem o centro de Saint-Étienne. O ataque deixa quase mil civis mortos, o pior balanço da história da cidade."
 ],
 "fb7d24a934": [
 "Operação IAFEATURE em Angola",
@@ -14180,10 +15271,25 @@
 "Roterdã, Países Baixos",
 "B-17 da 8ª Força Aérea miram os estaleiros, mas atingem o bairro de Bospolder-Tussendijken. Várias centenas de civis holandeses são mortos."
 ],
+"fdcb22ef92": [
+"Voos da CIA via Groenlândia",
+"Narsarsuaq, Groenlândia",
+"Segundo um documentário da televisão dinamarquesa exibido em janeiro de 2008, aviões da CIA ligados às entregas extraordinárias fazem escala em Narsarsuaq. Um grupo de trabalho dinamarquês contabiliza 132 aeronaves suspeitas; a Anistia considera a apuração “sem mordente”."
+],
+"fdd20603b4": [
+"Espaço aéreo búlgaro fechado a aviões russos",
+"Sófia, Bulgária",
+"Enquanto Washington pede à Grécia que negue o sobrevoo a aviões russos rumo à Síria, a Bulgária fecha seu espaço aéreo a esses voos. Moscou acusa pressão americana; Sófia diz ter agido sozinha."
+],
 "fddd098be0": [
 "Espiões da CIA expulsos de Paris",
 "Paris, França",
 "O governo francês pede a saída de vários americanos, entre eles agentes da CIA sob cobertura diplomática, acusados de espionagem política e econômica."
+],
+"fdeb336a0b": [
+"Petróleo iraniano apreendido na Grécia",
+"Karystos, Grécia",
+"A pedido da Justiça americana, a Grécia apreende a carga iraniana do petroleiro Lana, ancorado ao largo da Eubeia. Teerã retalia em 27 de maio ao abordar dois petroleiros gregos no Golfo, libertados em novembro."
 ],
 "fe2c09c52a": [
 "Desembarque em Hankou em 1926",
@@ -14214,6 +15320,16 @@
 "Segundo golpe de Estado de Mobutu",
 "Léopoldville, Congo",
 "Mobutu toma o poder por trinta anos. Desde 1960 é um contato remunerado da CIA, que continua a apoiá-lo."
+],
+"fe8a8d365b": [
+"Paralisação da obra eólica Revolution Wind",
+"Ao largo de Rhode Island, Estados Unidos",
+"O governo Trump ordena a paralisação das obras do parque eólico da Ørsted, grupo controlado pelo Estado dinamarquês, quando ele está cerca de 80% concluído. Um juiz federal suspende a proibição em setembro."
+],
+"fe8c5beccc": [
+"Volkswagen paga 4,3 bilhões de dólares",
+"Wolfsburg, Alemanha",
+"A Volkswagen se declara culpada de três acusações pela fraude nos testes de emissões e paga 4,3 bilhões de dólares em penalidades penais e civis. Seis executivos alemães são indiciados e um monitor independente é imposto."
 ],
 "fea63e662f": [
 "Junta militar no Equador",

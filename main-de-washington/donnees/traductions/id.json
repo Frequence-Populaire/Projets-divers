@@ -347,7 +347,18 @@
 "Îles Malouines": "Kepulauan Falkland",
 "Îles Marshall": "Kepulauan Marshall",
 "Îles Marshall (tutelle américaine)": "Kepulauan Marshall (perwalian Amerika)",
-"Îles Salomon": "Kepulauan Solomon"
+"Îles Salomon": "Kepulauan Solomon",
+"Antilles danoises": "Hindia Barat Denmark",
+"Communauté économique européenne": "Komunitas Ekonomi Eropa",
+"Finlande": "Finlandia",
+"Groenland": "Greenland",
+"Irlande": "Irlandia",
+"Malte": "Malta",
+"Saint-Siège": "Takhta Suci",
+"Slovénie": "Slovenia",
+"Tchéquie": "Ceko",
+"Vatican": "Vatikan",
+"Îles Féroé (Danemark)": "Kepulauan Faroe (Denmark)"
 },
 "faits": {
 "000b8e1184": [
@@ -374,6 +385,11 @@
 "Kudeta Goïta, mitra pasukan AS",
 "Kati, Mali",
 "Kolonel Assimi Goïta, yang menggulingkan Ibrahim Boubacar Keïta, pernah bekerja dengan pasukan khusus Amerika dan ikut latihan Flintlock, kata AFRICOM."
+],
+"008b843098": [
+"Perang pisang: bea 100 %",
+"Brussel, Belgia",
+"Washington mengumumkan bea 100 % atas produk Eropa senilai 520 juta dolar untuk menghukum rezim pisang UE, yang menguntungkan negara-negara ACP. WTO kemudian menurunkan jumlah yang diizinkan menjadi 191,4 juta per tahun."
 ],
 "009c6141d9": [
 "Kermit Roosevelt memasuki Iran",
@@ -450,6 +466,11 @@
 "Yangon, Myanmar",
 "Myanmar melepaskan bantuan Amerika dan mengadu ke PBB atas keberadaan pasukan nasionalis Tiongkok di wilayahnya, yang dipasok dari Taiwan dengan dukungan CIA."
 ],
+"0196563f85": [
+"Penerbangan CIA melalui Helsinki",
+"Helsinki-Vantaa, Finlandia",
+"Menurut Amnesty dan Reprieve, pesawat rendisi mendaftarkan diri di Helsinki, seperti penerbangan dari Bagram pada 2004, padahal mendarat di Lituania, lokasi penjara rahasia. Kementerian Finlandia mencatat sekitar 150 pendaratan."
+],
 "01ebadef83": [
 "Agen BND memata-matai untuk CIA",
 "Pullach, Jerman",
@@ -489,6 +510,11 @@
 "UU ILSA terhadap Iran dan Libya",
 "Tripoli, Libya",
 "Clinton menandatangani Iran and Libya Sanctions Act, yang menjatuhkan sanksi kepada perusahaan asing yang berinvestasi di minyak Libya atau Iran. Uni Eropa menggugat jangkauan ekstrateritorial ini."
+],
+"028c6a13b6": [
+"Fresenius membayar 231 juta",
+"Bad Homburg, Jerman",
+"Fresenius Medical Care menyelesaikan gugatan Departemen Kehakiman dan SEC atas korupsi terhadap dokter dan pejabat kesehatan di setidaknya 17 negara, dan harus menerima seorang pemantau independen."
 ],
 "029c17b462": [
 "Pertempuran Najaf",
@@ -585,6 +611,11 @@
 "Amman, Yordania",
 "CIA membayar jutaan dolar kepada Raja Yordania mulai 1957. Washington Post mengungkapkannya pada 1977 dan pemerintahan Carter menghentikan pembayaran itu."
 ],
+"03b14bee39": [
+"Ramstein, relai serangan drone",
+"Ramstein, Jerman",
+"Sebuah dokumen yang diterbitkan The Intercept menunjukkan bahwa pangkalan Ramstein merelai lewat satelit tautan drone Amerika. Pada 2019, pengadilan Münster menilai pangkalan itu memainkan “peran sentral” dalam serangan di Yaman."
+],
 "03c7dadf86": [
 "Operasi Tulip: bantuan bagi eksil Libya",
 "Tripoli, Libya",
@@ -624,6 +655,21 @@
 "Dugaan koordinasi dengan Pretoria",
 "Angola Selatan",
 "Afrika Selatan menyerbu Angola (Operasi Savannah). Mantan agen John Stockwell menyatakan bahwa CIA mengoordinasikan tindakannya dengan Pretoria, yang dibantah Washington."
+],
+"04a7092ac3": [
+"46 juta panggilan Italia diawasi",
+"Roma, Italia",
+"Menurut L'Espresso, dokumen Edward Snowden menunjukkan pengumpulan metadata hampir 46 juta panggilan di Italia dalam satu bulan. Kepala NSA membantah dan menyebutnya data yang dikumpulkan bersama sekutu NATO."
+],
+"04a8192a57": [
+"Penerjunan CIA terakhir di Estonia",
+"Estonia",
+"Tiga agen Estonia diterjunkan di Estonia, operasi udara terakhir yang diketahui dari program REDSOX di Uni Soviet. Mereka segera tertangkap atau tewas. Perlawanan Estonia ternyata dikendalikan oleh KGB."
+],
+"04b396c505": [
+"Pompeo memperingatkan Budapest soal Huawei",
+"Budapest, Hongaria",
+"Dalam kunjungan ke Budapest, Mike Pompeo memperingatkan bahwa kehadiran Huawei dapat membuat Washington mengurangi kerja samanya dengan Hongaria. Pemerintah Orbán mempertahankan kontraknya dengan grup Tiongkok itu."
 ],
 "04e10533a8": [
 "Konvoi dikawal menuju Quemoy",
@@ -699,6 +745,11 @@
 "Tekanan terhadap peradilan Spanyol",
 "Madrid, Spanyol",
 "Kabel diplomatik yang terungkap pada 2010 menunjukkan kedutaan besar Amerika berupaya agar penuntutan terhadap tentara yang menewaskan jurnalis José Couso di Baghdad dihentikan."
+],
+"062318c98a": [
+"Ericsson mengaku bersalah",
+"Stockholm, Swedia",
+"Departemen Kehakiman menilai Ericsson melanggar kesepakatannya pada 2019 dengan menyembunyikan fakta di Djibouti, Tiongkok, dan Irak. Perusahaan itu mengaku bersalah dan membayar tambahan 206 juta dolar."
 ],
 "063e6bde9a": [
 "Pembebasan Orlando Bosch",
@@ -815,6 +866,11 @@
 "Sahara Barat",
 "Carter menyetujui penjualan pesawat OV-10 dan helikopter kepada Maroko untuk memerangi Polisario. Reagan memperbesar bantuan militer."
 ],
+"083b493a3f": [
+"Trump membatalkan kunjungannya karena Greenland",
+"Kopenhagen, Denmark",
+"Setelah Mette Frederiksen menyebut gagasan menjual Greenland “tidak masuk akal”, Donald Trump menunda kunjungan kenegaraan yang dijadwalkan pada 2 dan 3 September dan menyebut sang Perdana Menteri “jahat”."
+],
 "086b77e026": [
 "Pembentukan MAAG Indocina",
 "Saigon, Vietnam",
@@ -875,6 +931,11 @@
 "Asunción, Paraguay",
 "Presiden dimakzulkan dalam waktu kurang dari dua hari. Kabel WikiLeaks menunjukkan bahwa kedutaan besar mengetahui rencana oposisi sejak 2009; peran Amerika tidak terbukti."
 ],
+"09eadfbedb": [
+"Surat Grenell soal Nord Stream 2",
+"Berlin, Jerman",
+"Duta Besar Richard Grenell menulis kepada perusahaan Jerman yang terlibat dalam pipa gas Nord Stream 2 untuk memperingatkan bahwa mereka terancam sanksi Amerika. Berlin mengecamnya sebagai campur tangan."
+],
 "0a188abcf0": [
 "Operasi Commando Hunt di Jalur Ho Chi Minh",
 "Laos Selatan",
@@ -910,6 +971,11 @@
 "Ankara, Turki",
 "Militer merebut kekuasaan. Menurut jurnalis Mehmet Ali Birand, Paul Henze, mantan kepala stasiun CIA di Ankara yang saat itu bertugas di Dewan Keamanan Nasional, disebut mengatakan \"anak-anak kita yang melakukannya\". Henze membantahnya."
 ],
+"0ae0452c48": [
+"Lituania menandatangani deklarasi 5G",
+"Vilnius, Lituania",
+"Sebagai yang terakhir di antara tiga negara Baltik, Lituania menandatangani dengan Washington deklarasi bersama tentang 5G dalam program “Clean Network”, yang bertujuan menyingkirkan Huawei."
+],
 "0aedff5437": [
 "Pemusnahan babi kreol",
 "Haiti",
@@ -944,6 +1010,11 @@
 "Kunjungan John Brennan ke Kyiv",
 "Kyiv, Ukraina",
 "Direktur CIA berkunjung ke Kyiv tepat sebelum operasi “antiteror” di Donbas diluncurkan. Moskow melihatnya sebagai lampu hijau; CIA membantah memiliki peran apa pun."
+],
+"0bb772b9ec": [
+"Eksekusi pura-pura terhadap al-Nashiri",
+"Stare Kiejkuty, Polandia",
+"Di penjara rahasia di Polandia, seorang agen CIA mengancam Abd al-Rahim al-Nashiri dengan bor listrik dan mengokang pistol di dekat kepalanya. Laporan inspektur jenderal CIA (2004) menggambarkan metode yang tidak diizinkan ini."
 ],
 "0be402d95a": [
 "Kapal Manhattan di Jalur Barat Laut",
@@ -985,6 +1056,11 @@
 "Kuba",
 "CIA menyiapkan untuk Castro pakaian selam yang dibubuhi jamur dan alat pernapasan yang dicemari bakteri tuberkulosis, melalui pengacara James Donovan. Donovan memberikan pakaian selam lain. Komisi Church melaporkannya."
 ],
+"0c59a64d69": [
+"Airbus: produk senilai 7,5 miliar dikenai bea",
+"Toulouse, Prancis",
+"Setelah putusan WTO tentang subsidi Airbus, Washington mengenakan bea atas produk Eropa senilai 7,5 miliar dolar: 10 % untuk pesawat, 25 % untuk anggur Prancis, keju, dan wiski."
+],
 "0c7ade85f6": [
 "“Fuck the EU”: percakapan Nuland",
 "Kyiv, Ukraina",
@@ -994,6 +1070,11 @@
 "Insiden Salala",
 "Mohmand, Pakistan",
 "Helikopter dan sebuah AC-130 Amerika menyerang dua pos perbatasan Pakistan dan menewaskan 24 tentara. Islamabad menutup jalur pasokan NATO selama tujuh bulan."
+],
+"0ca728db77": [
+"Konrad Mizzi dan Keith Schembri dilarang masuk",
+"Valletta, Malta",
+"Departemen Luar Negeri melarang mantan menteri Malta Konrad Mizzi, keluarganya, dan mantan kepala staf Keith Schembri masuk ke Amerika Serikat karena “korupsi signifikan” terkait kontrak pembangkit listrik."
 ],
 "0cd2c9acc7": [
 "Kontrak SIVAM melawan Thomson-CSF",
@@ -1055,10 +1136,20 @@
 "Jenewa, Swiss",
 "Dokumen Snowden menunjukkan bahwa NSA memaksakan standar generator acak yang dilemahkan, yang diadopsi NIST dan ISO. Reuters mengungkap bahwa NSA membayar RSA 10 juta dolar untuk menggunakannya."
 ],
+"0e4c074fd0": [
+"Ancaman 200 % atas sampanye Prancis",
+"Reims, Prancis",
+"Setelah Emmanuel Macron menolak bergabung dengan “Board of Peace” untuk Gaza, Donald Trump mengancam mengenakan pajak 200 % atas anggur dan sampanye Prancis untuk memaksanya bergabung."
+],
 "0e5d586529": [
 "Serangan terhadap milisi pro-Iran di Irak",
 "Baghdad, Irak",
 "Serangan tanpa pengakuan, yang dikaitkan dengan Amerika Serikat, menyasar milisi Syiah Irak setelah 28 Februari. Abu Ali al-Askari, kader Kataib Hezbollah, tewas di Baghdad pada 14 Maret."
+],
+"0e5f89ec1b": [
+"Penyerbuan kedutaan Korea Utara di Madrid",
+"Madrid, Spanyol",
+"Sebuah komando kelompok Free Joseon, dipimpin Adrian Hong, mengikat para staf dan membawa komputer serta dokumen, yang kemudian diserahkan kepada FBI. Pers Spanyol menyebut kaitan dua penyerang dengan CIA, tanpa bukti publik."
 ],
 "0e6da4c4a0": [
 "Kudeta terhadap Hugo Chávez",
@@ -1189,6 +1280,11 @@
 "Sanksi PBB diperkuat",
 "Tripoli, Libya",
 "Resolusi 883 membekukan aset Libya di luar negeri dan melarang penjualan peralatan perminyakan kepada Libya, tetap demi memperoleh penyerahan tersangka Lockerbie."
+],
+"110948bf91": [
+"Enam pejabat Hongaria dilarang masuk",
+"Budapest, Hongaria",
+"Washington melarang enam pejabat Hongaria masuk karena korupsi, termasuk kepala otoritas pajak Ildikó Vida. Orbán menuduh Amerika Serikat menggunakan korupsi sebagai alat pengaruh; Vida menyangkal keterlibatan apa pun."
 ],
 "110dafce24": [
 "Veto atas sanksi untuk Namibia",
@@ -1550,6 +1646,11 @@
 "Guatemala, Guatemala",
 "Pemerintah Guatemala menerbitkan dokumen tentang konspirasi bersenjata yang didukung “kekuatan dari Utara”. Washington membantahnya. Arsip CIA kemudian membenarkan adanya konspirasi itu."
 ],
+"16cdce1743": [
+"Kematian Kostas Tsalikidis",
+"Athena, Yunani",
+"Insinyur Vodafone Yunani, saksi kunci penyadapan pemerintahan Karamanlis, ditemukan tewas tergantung. Semula disimpulkan bunuh diri, kasus itu diubah menjadi pembunuhan oleh peradilan Yunani; tidak ada kaitan Amerika yang terbukti."
+],
 "16de0fda39": [
 "Telia membayar 965 juta",
 "Stockholm, Swedia",
@@ -1650,6 +1751,11 @@
 "Washington, terhadap Vietnam Utara",
 "Berdasarkan serangan kedua Vietnam Utara yang tidak pernah terjadi, Kongres mengizinkan Johnson menggunakan kekuatan bersenjata di Asia Tenggara. Cek kosong ini menjadi landasan hukum eskalasi di Vietnam."
 ],
+"1793d84876": [
+"Veto atas F-16 Israel untuk Kroasia",
+"Zagreb, Kroasia",
+"Departemen Luar Negeri menuntut agar dua belas F-16 yang dijual Israel dilucuti dari perlengkapan Israelnya. Kontrak sekitar 500 juta dolar itu batal; Kroasia kemudian beralih ke Rafale Prancis."
+],
 "17a80d6014": [
 "Sanksi terhadap Sberbank dan VTB",
 "Moskow, Rusia",
@@ -1735,10 +1841,20 @@
 "Selat Hormuz",
 "Kapal perusak Amerika mengawal kapal dagang di Selat Hormuz, dengan perlindungan udara. Operasi ditangguhkan dua hari kemudian."
 ],
+"197dcd77b4": [
+"Volvo membayar untuk “minyak untuk pangan”",
+"Göteborg, Swedia",
+"Volvo setuju membayar hampir 20 juta dolar kepada SEC dan Departemen Kehakiman atas komisi gelap yang dibayarkan anak perusahaannya kepada rezim Irak, dalam program PBB tersebut."
+],
 "198753bdbf": [
 "Gencatan senjata ditunda di Lebanon",
 "Roma, Italia",
 "Pada konferensi Roma, Condoleezza Rice menentang seruan gencatan senjata segera, yang didukung sebagian besar peserta. Perang berlangsung hingga 14 Agustus."
+],
+"19a3069382": [
+"Bantuan militer ditangguhkan karena ICC",
+"Ljubljana, Slovenia",
+"Karena tidak ada perjanjian kekebalan bagi warga Amerika di hadapan ICC, Slovenia kehilangan bantuan militernya pada 1 Juli 2003. Pada November, Bush memberikan pengecualian terbatas untuk integrasi ke NATO dan operasi di Irak dan Afghanistan."
 ],
 "19c53d1911": [
 "Pembatasan visa terhadap warga Afrika Selatan",
@@ -1800,10 +1916,20 @@
 "Mosul, Irak",
 "Sebuah bom Amerika yang menghantam gedung di distrik al-Jadida menyebabkannya runtuh. Pentagon mengakui 105 warga sipil tewas, yang terbanyak dalam kampanye itu."
 ],
+"1ab9697407": [
+"Rencana Acheson untuk membagi Siprus",
+"Nikosia, Siprus",
+"Utusan Amerika Dean Acheson mengusulkan penggabungan Siprus dengan Yunani, dengan satu pangkalan berdaulat dan kantong-kantong Turki. Makarios menolak rencana ini, yang menurutnya sama dengan pemisahan wilayah dan berakhirnya kemerdekaan."
+],
 "1ac3239cbe": [
 "Interogasi Artichoke di Jerman",
 "Oberursel, Jerman",
 "Di Camp King, CIA menjalankan interogasi dengan obat-obatan terhadap tawanan dan agen yang dicurigai dalam program Artichoke, pendahulu MK-Ultra."
+],
+"1acd81952e": [
+"Sanksi Lukoil: kilang Burgas disita",
+"Burgas, Bulgaria",
+"Sanksi Amerika terhadap Lukoil mengancam kilang terbesar di Balkan. Sofia menunjuk seorang administrator khusus untuk mengambil alih kendalinya; Departemen Keuangan memberikan lisensi sementara kepada entitas Lukoil di Bulgaria."
 ],
 "1aed8672f6": [
 "Invasi Ethiopia ke Somalia",
@@ -1824,6 +1950,11 @@
 "Su-22 Suriah ditembak jatuh",
 "Dekat Tabqa, Suriah",
 "Sebuah F/A-18 Angkatan Laut AS menembak jatuh pesawat tempur Suriah yang telah membom posisi Pasukan Demokratik Suriah. Ini kemenangan udara-ke-udara pertama Amerika sejak 1999."
+],
+"1b162fea82": [
+"CIA mendirikan dan menggaji KYP Yunani",
+"Athena, Yunani",
+"Dinas intelijen Yunani KYP didirikan dengan model CIA, dengan bantuan agen keturunan Yunani-Amerika seperti Thomas Karamessines. Hingga 1964, agen-agennya digaji oleh pihak Amerika, praktik yang dihentikan oleh Georgios Papandreou."
 ],
 "1b4684716d": [
 "Kampanye disinformasi terhadap Prancis",
@@ -1885,6 +2016,11 @@
 "Santiago, Republik Dominika",
 "Marinir pimpinan Kolonel Joseph Pendleton bergerak dari Monte Cristi menuju Santiago dan menumpas perlawanan di Las Trencheras, lalu di Guayacanes."
 ],
+"1c235e45c8": [
+"Piano Solo: CIA dikaitkan dengan rencana",
+"Roma, Italia",
+"Jenderal De Lorenzo, kepala carabinieri, menyiapkan rencana penangkapan kaum kiri atas permintaan Presiden Segni. Sejarawan menyatakan rencana itu disusun bersama kepala stasiun CIA William Harvey dan Vernon Walters; peran Amerika masih diperdebatkan."
+],
 "1c34fb5fd8": [
 "Pertempuran Bud Bagsak",
 "Jolo, Filipina",
@@ -1935,6 +2071,11 @@
 "Laut Jepang, Uni Soviet",
 "Sebuah RB-29 pengintai Angkatan Udara AS hilang setelah diserang pesawat tempur Soviet. Kedua belas awaknya tidak pernah ditemukan."
 ],
+"1d29eb0972": [
+"Denda FCPA 95 juta terhadap Magyar Telekom",
+"Budapest, Hongaria",
+"Magyar Telekom dan induknya Deutsche Telekom membayar 95 juta dolar kepada DOJ dan SEC atas suap di Makedonia dan Montenegro. SEC juga menggugat tiga mantan eksekutif Hongaria, termasuk mantan CEO Elek Straub."
+],
 "1d2ffbb0d8": [
 "Operasi Desert Shield",
 "Arab Saudi",
@@ -1944,6 +2085,11 @@
 "Abu Yahya al-Libi tewas oleh drone",
 "Mir Ali, Waziristan Utara, Pakistan",
 "Serangan CIA menewaskan orang nomor dua Al-Qaeda. Islamabad memprotes pelanggaran kedaulatannya."
+],
+"1d7dc5b3bc": [
+"Sanofi membayar 25 juta berdasarkan FCPA",
+"Paris, Prancis",
+"SEC menuduh Sanofi atas suap yang dibayarkan anak-anak perusahaannya di Kazakhstan dan Timur Tengah. Grup farmasi Prancis itu setuju membayar 25,2 juta dolar."
 ],
 "1d853d04c4": [
 "Operasi Red Dog",
@@ -1985,6 +2131,11 @@
 "Kyiv, Ukraina",
 "Biden mengumumkan penarikan 200 juta dolar saat kunjungan Zelensky, ketika Kongres memblokir anggaran baru."
 ],
+"1e0b0bc273": [
+"Jaringan stay-behind Prancis diakui",
+"Paris, Prancis",
+"Paris mengakui keberadaan jaringan rahasia “stay-behind” di masa lalu, yang disebut telah dibubarkan. Jaringan itu dikoordinasikan dengan CIA dan MI6 oleh Clandestine Planning Committee, yang berada di bawah SHAPE, yang berkedudukan dekat Paris hingga 1967."
+],
 "1e0d28cb87": [
 "Artikel dan karikatur dibayar CIA",
 "Teheran, Iran",
@@ -1994,6 +2145,16 @@
 "Pemilu Uruguay 1971",
 "Montevideo, Uruguay",
 "Menghadapi Frente Amplio, Nixon dan Brasil di bawah Médici membahas dukungan diam-diam; Nixon kemudian mengatakan kepada Perdana Menteri Heath bahwa Brasil \"membantu mencurangi\" pemilu itu, menurut arsip yang dibuka klasifikasinya."
+],
+"1e26bf996a": [
+"Duta besar ditarik dari Stockholm",
+"Stockholm, Swedia",
+"Setelah Olof Palme berbaris menentang Perang Vietnam bersama duta besar Vietnam Utara di Moskow, Washington menarik duta besarnya, William Heath. Jabatan itu kosong hingga 1970."
+],
+"1e2a76afad": [
+"Austria mengajukan pengaduan terhadap NSA dan BND",
+"Wina, Austria",
+"Selektor yang diteruskan NSA kepada BND menyasar lembaga pemerintah dan perusahaan Austria. Kementerian Dalam Negeri mengajukan pengaduan terhadap pihak tak dikenal atas spionase yang merugikan Austria."
 ],
 "1e35878381": [
 "Veto yang melindungi invasi Afrika Selatan",
@@ -2275,6 +2436,11 @@
 "Karshi, Uzbekistan",
 "Amerika Serikat mendirikan pangkalan udara di Uzbekistan untuk perang Afganistan, sebagai imbalan bantuan kepada rezim Karimov. Tashkent mengusir mereka pada 2005."
 ],
+"225f038a52": [
+"Vance menyerang regulasi Eropa di Paris",
+"Paris, Prancis",
+"Pada KTT AI di Grand Palais, Wakil Presiden J. D. Vance mengecam “regulasi berlebihan” Eropa, menyasar DSA dan GDPR, serta memperingatkan soal kemitraan dengan Tiongkok. Amerika Serikat menolak menandatangani deklarasi akhir."
+],
 "22699dc618": [
 "Bantuan pangan diblokir saat kelaparan",
 "Dhaka, Bangladesh",
@@ -2374,6 +2540,11 @@
 "Laporan Senat tentang senjata yang dijual kepada Shah",
 "Washington, Amerika Serikat",
 "Laporan Komite Hubungan Luar Negeri Senat menyimpulkan bahwa Iran adalah pembeli senjata Amerika terbesar dan bergantung pada ribuan teknisi Amerika."
+],
+"241bef7644": [
+"Washington memperingatkan soal Mečiar",
+"Bratislava, Slovakia",
+"Menjelang pemilu legislatif, pejabat Amerika dan Duta Besar Ronald Weiser menyampaikan bahwa kembalinya Vladimír Mečiar berkuasa akan membahayakan undangan bagi Slovakia untuk bergabung dengan NATO."
 ],
 "24231ab1a6": [
 "Sanksi sekunder terhadap Korea Utara",
@@ -2500,6 +2671,11 @@
 "Laut Karibia",
 "Satuan Tugas Darat Marinir ke-2 dikerahkan untuk melindungi warga Amerika selama krisis Kuba, pada 1959 dan 1960. Tercatat dalam laporan R42738 Dinas Riset Kongres."
 ],
+"26fbb2a70a": [
+"Executive Life: 771 juta dolar",
+"Los Angeles, terkait Prancis",
+"Digugat di California atas pembelian terselubung perusahaan asuransi Executive Life, Crédit Lyonnais, negara Prancis melalui CDR, dan mitra mereka setuju membayar 771 juta dolar untuk mengakhiri bagian pidana perkara."
+],
 "271a94ed36": [
 "Washington menuntut pemilu dipercepat",
 "Washington, Amerika Serikat",
@@ -2524,6 +2700,11 @@
 "Pemadaman listrik besar di Venezuela",
 "Caracas, Venezuela",
 "Maduro menuduh adanya serangan siber Amerika; para pakar lebih menunjuk pada kurangnya perawatan jaringan yang terkait bendungan Guri."
+],
+"27b1a49314": [
+"Pengeboman Lyon",
+"Lyon, Prancis",
+"Pada hari yang sama, Angkatan Udara AS membom stasiun dan jalur kereta api Lyon. Bom juga jatuh di kawasan Vaise dan La Guillotière dan menewaskan ratusan warga sipil."
 ],
 "27b9e40135": [
 "Jembatan udara senjata di sekitar Suriah",
@@ -2575,6 +2756,11 @@
 "Shabwah, Yaman",
 "Komando Navy SEAL menyerang sebuah sarang Al-Qaeda. Sandera Luke Somers dan Pierre Korkie, yang pembebasannya dengan tebusan sedang dirundingkan, tewas."
 ],
+"28620d5943": [
+"Crypto AG: sandi Yunani dibaca",
+"Athena, Yunani",
+"Yunani membeli mesin Crypto AG, perusahaan Swiss yang secara rahasia dimiliki CIA dan BND. Menurut pengungkapan 2020, dinas Jerman heran bahwa Amerika juga memata-matai sekutu NATO seperti Yunani."
+],
 "2866bb7f50": [
 "Daftar Tudeh diserahkan ke Teheran",
 "Teheran, Iran",
@@ -2614,6 +2800,11 @@
 "Perintah No. 81 tentang benih",
 "Baghdad, Irak",
 "Otoritas Sementara memberlakukan perlindungan varietas tanaman berpaten, yang melarang petani menanam kembali benih yang dilindungi. LSM mengecamnya sebagai aturan yang menguntungkan produsen benih asing."
+],
+"297b6917be": [
+"Pengaduan ke WTO terhadap moratorium GMO",
+"Brussel, Belgia",
+"Bersama Kanada dan Argentina, Washington menggugat di WTO moratorium Eropa atas izin GMO. Panel memenangkan para penggugat pada 2006."
 ],
 "297fe2db5b": [
 "Kontrak Mistral dibatalkan",
@@ -2729,6 +2920,11 @@
 "Pendanaan partai Masyumi",
 "Jakarta, Indonesia",
 "Selama pemilu legislatif 1955, CIA menyalurkan sekitar satu juta dolar kepada partai Masyumi untuk menandingi Sukarno dan kaum komunis."
+],
+"2b8225a22a": [
+"Pengeboman Maribor",
+"Maribor, Slovenia",
+"Dari Januari 1944 hingga April 1945, angkatan udara Sekutu yang berpangkalan di Italia, termasuk Angkatan Udara AS, membom Maribor, pusat industri di bawah pendudukan Jerman. Hampir separuh kota rata dengan tanah dan ratusan warga sipil tewas."
 ],
 "2b8cc3c4df": [
 "Stasiun penyadapan di kedutaan besar Bangkok",
@@ -2905,6 +3101,11 @@
 "Matanzas, Kuba",
 "Sebuah pesawat kecil dari Florida meledak saat menyerang pabrik gula España. Pilot Amerika Robert Ellis Frost tewas. Kuba menuduh Washington membiarkan serangan semacam itu berangkat dari wilayahnya; Washington menyatakan penyesalan dan menyangkal tanggung jawab."
 ],
+"2e7b82a936": [
+"Memorandum 5G dipaksakan melawan Huawei di Rumania",
+"Washington, Amerika Serikat",
+"Klaus Iohannis menandatangani dengan Donald Trump sebuah memorandum 5G yang menyingkirkan pemasok yang “dikendalikan oleh negara lain”. Duta Besar Amerika untuk UE kemudian mengatakan kepada Bukares bahwa tujuannya adalah Rumania “tanpa Huawei”."
+],
 "2e81ac2444": [
 "Sanksi keuangan terhadap Venezuela",
 "Caracas, Venezuela",
@@ -2969,6 +3170,11 @@
 "RB-47 ditembak jatuh di Laut Barents",
 "Laut Barents",
 "Pesawat pengintai Amerika ditembak jatuh oleh pesawat tempur Soviet dekat Semenanjung Kola. Dua penyintas ditahan di Moskow hingga 1961."
+],
+"300862f7d0": [
+"Pendudukan Amerika atas Koblenz",
+"Koblenz, Jerman",
+"Setelah gencatan senjata, Angkatan Darat Ketiga AS menduduki sebuah zona Rhineland di sekitar Koblenz, tempat mereka mendirikan markas besar. Pasukan Amerika tinggal di sana hingga awal 1923."
 ],
 "3012a5b265": [
 "Eisenhower mengizinkan PBSUCCESS",
@@ -3035,6 +3241,11 @@
 "Teheran, Iran",
 "Sebuah serangan di Lapangan Arg memecahkan Aula Cermin Istana Golestan, situs Warisan Dunia UNESCO. Di Isfahan, Istana Chehel Sotoun dan Lapangan Naqsh-e Jahan juga terkena. Lebih dari 130 situs warisan rusak dalam 40 hari."
 ],
+"313c01ba7d": [
+"Bea baja George W. Bush",
+"Brussel, Belgia",
+"George W. Bush memberlakukan bea pengaman 8 hingga 30 % atas baja impor, yang terutama memukul Eropa. WTO menyatakannya ilegal pada November 2003; di bawah ancaman pembalasan Eropa, Washington mencabutnya pada Desember 2003."
+],
 "313eccd685": [
 "Pengeboman Nijmegen",
 "Nijmegen, Belanda",
@@ -3049,6 +3260,11 @@
 "Pemilu yang dicurangi di Guyana",
 "Georgetown, Guyana",
 "Pemerintahan Johnson membantu Forbes Burnham mencurangi pemilu pertama setelah kemerdekaan, yang dimenangkannya melawan Cheddi Jagan. Didokumentasikan oleh sejarawan Stephen Rabe."
+],
+"3192e3725f": [
+"Sanksi terhadap Aivars Lembergs",
+"Ventspils, Latvia",
+"Departemen Keuangan menjatuhkan sanksi karena korupsi kepada wali kota Ventspils berdasarkan Global Magnitsky Act, bersama pelabuhan bebas Ventspils dan tiga asosiasi."
 ],
 "31b9da31c4": [
 "Ancaman terhadap pelabuhan Sassnitz",
@@ -3074,6 +3290,11 @@
 "Tekanan terhadap Terusan Panama",
 "Panama, Panama",
 "Marco Rubio menuntut Panama mengurangi pengaruh Tiongkok atas terusan, yang diancam Trump akan direbut kembali. Panama kemudian keluar dari Jalur Sutra Baru."
+],
+"3298d52753": [
+"Jaringan stay-behind Belgia SDRA8 dan STC/Mob",
+"Brussel, Belgia",
+"Setelah pengungkapan di Italia, Brussel mengakui dua jaringan rahasia “stay-behind”, SDRA8 (militer) dan STC/Mob (Sûreté), yang dikoordinasikan dengan CIA dan MI6 dalam NATO. Sebuah komisi penyelidik parlemen memeriksa keduanya pada 1990-1991; keduanya dibubarkan."
 ],
 "32bc270041": [
 "Hoover dan jatuhnya Béla Kun",
@@ -3159,6 +3380,11 @@
 "Pengeboman sekolah Gorla",
 "Milan, Italia",
 "B-24 Amerika menjatuhkan bomnya di kawasan Gorla, Milan. Sekolah dasar terkena dan 184 anak tewas bersama para gurunya."
+],
+"34a8658932": [
+"Pengeboman Amerika pertama atas Budapest",
+"Budapest, Hongaria",
+"Angkatan udara Sekutu, termasuk Angkatan Udara ke-15 AS yang berpangkalan di Italia, mulai membom Budapest dengan menyasar industri dan stasiun kereta. Serangan pada 1944 menimbulkan banyak korban sipil di ibu kota Hongaria itu."
 ],
 "34cd8fef96": [
 "Pengeboman Sanseong-dong di Yecheon",
@@ -3320,6 +3546,11 @@
 "Nikaragua",
 "CIA menyebarkan di Nikaragua sebuah buku komik yang mengajarkan tindakan sabotase: menusuk ban, menyumbat toilet, memutus kabel listrik."
 ],
+"379e1da7b4": [
+"Antena MUOS di Niscemi digugat",
+"Niscemi, Italia",
+"Wilayah Sisilia mencabut izin stasiun satelit MUOS Angkatan Laut AS, yang dibangun di kawasan cagar alam; pengadilan kemudian memerintahkan penyitaan. Pembangunan dilanjutkan setelah laporan kesehatan dan izin baru."
+],
 "37fb115bc0": [
 "Serangan terhadap radar di sekitar Baghdad",
 "Baghdad, Irak",
@@ -3425,6 +3656,11 @@
 "La Paz, Bolivia",
 "Washington mensyaratkan bantuannya pada rencana penghematan yang dirancang ekonom Amerika George Eder, yang membekukan upah dan menghambat revolusi 1952."
 ],
+"39865a7173": [
+"Berakhirnya Baltic Security Initiative",
+"Riga, Latvia",
+"Pentagon mengumumkan berakhirnya bantuan militer “Section 333”, yang mencakup Baltic Security Initiative (lebih dari satu miliar dolar sejak 2021). Senator dari kedua partai memprotes."
+],
 "39ac984f7f": [
 "Penjara Bagram",
 "Bagram, Afganistan",
@@ -3524,6 +3760,11 @@
 "Ekspropriasi di Vieques",
 "Vieques, Puerto Riko",
 "Angkatan Laut AS mengambil alih sekitar dua pertiga pulau itu untuk membangun lapangan tembak dan depot amunisi. Penduduk didesak ke bagian tengah pulau."
+],
+"3b747d788f": [
+"Perjanjian kekebalan ICC ditandatangani Bukares",
+"Bukares, Rumania",
+"Dalam kampanye Amerika untuk membebaskan warganya dari Mahkamah Pidana Internasional, Rumania menjadi negara pertama yang menandatangani apa yang disebut perjanjian “Pasal 98”. UE, yang ingin dimasukinya, mengkritik langkah ini."
 ],
 "3b8c943a7b": [
 "Kristi Noem mendukung Nawrocki",
@@ -3735,6 +3976,11 @@
 "Curitiba, Brasil",
 "Delegasi FBI dan Departemen Kehakiman Amerika bertemu jaksa Lava Jato tanpa melalui Kementerian Kehakiman Brasil, ungkap The Intercept dan Agência Pública pada 2020."
 ],
+"3e8b917ed4": [
+"Memorandum 5G anti-Huawei dengan Estonia",
+"Tallinn, Estonia",
+"Wakil Presiden Mike Pence dan Perdana Menteri Jüri Ratas menandatangani dokumen yang mencadangkan 5G bagi pemasok “tepercaya”, pada dasarnya melawan Huawei, dalam kampanye Amerika terhadap para sekutu."
+],
 "3ed4f1b339": [
 "Kapal Amerika untuk Juan Vicente Gómez",
 "La Guaira, Venezuela",
@@ -3810,6 +4056,11 @@
 "Baghdad, Irak",
 "Los Angeles Times mengungkap bahwa militer, melalui perusahaan Lincoln Group, membayar surat kabar Irak untuk memuat artikel-artikel positif yang ditulis personel militer. Pentagon membenarkannya."
 ],
+"3ffdb77a78": [
+"Rencana Amerika atas aset Rusia di Euroclear",
+"Brussel, Belgia",
+"Menurut teks yang dipublikasikan dari rencana perdamaian Amerika 28 butir, aset Rusia yang dibekukan senilai 100 miliar dolar akan dipakai untuk rekonstruksi Ukraina yang dipimpin Washington, yang akan menerima separuh keuntungannya. Sebagian besar berada di Euroclear, yang hendak dimobilisasi UE."
+],
 "4015d4a086": [
 "Awal perang dagang dengan Tiongkok",
 "Beijing, Tiongkok",
@@ -3824,6 +4075,16 @@
 "Veto atas penyitaan di Yerusalem Timur",
 "Dewan Keamanan, New York",
 "Sendirian melawan empat belas anggota, Amerika Serikat memblokir rancangan resolusi yang meminta Israel membatalkan penyitaan tanah di Yerusalem Timur."
+],
+"405a93c23e": [
+"Rumsfeld menentang yurisdiksi universal Belgia",
+"Brussel, Belgia",
+"Setelah pengaduan yang menyasar pejabat Amerika, termasuk Tommy Franks, Donald Rumsfeld mengancam memblokir pendanaan markas besar NATO yang baru di Brussel. Belgia mempersempit undang-undang yurisdiksi universalnya pada Agustus 2003."
+],
+"4091b3a9df": [
+"Pengungkapan Józef Światło di RFE",
+"Warsawa, Polandia",
+"Kolonel keamanan Polandia ini membelot ke Barat di Berlin pada Desember 1953 dan ditangani CIA. Radio Free Europe menyiarkan sekitar 140 siaran pengungkapannya pada 1954-1955, yang mengguncang rezim."
 ],
 "4097cee809": [
 "Penerbangan U-2 pertama di atas Uni Soviet",
@@ -3869,6 +4130,11 @@
 "Garda Nasional dilatih Marinir",
 "Managua, Nikaragua",
 "Marinir membentuk dan memimpin Garda Nasional Nikaragua, yang dikerahkan melawan Sandino. Anastasio Somoza memimpinnya pada 1933, saat orang Amerika pergi."
+],
+"413de5f7a2": [
+"Washington mempertimbangkan kemerdekaan Azores",
+"Ponta Delgada, Portugal",
+"Dokumen yang telah dideklasifikasi menunjukkan bahwa pemerintahan Ford siap mendukung kemerdekaan Azores jika kaum komunis merebut kekuasaan di Lisboa. Kontak informal dijalin dengan orang-orang dekat Front Pembebasan Azores."
 ],
 "4142f2662e": [
 "Referendum curang Diệm",
@@ -3985,10 +4251,20 @@
 "Pangkalan Guantánamo, Kuba",
 "CIA memindahkan sejumlah tahanan dari penjara rahasianya ke fasilitas terpisah di pangkalan itu, lalu menariknya keluar pada musim semi 2004, sebelum putusan Mahkamah Agung. Laporan Senat tentang penyiksaan membenarkannya."
 ],
+"4339039191": [
+"Penyadapan Ayios Nikolaos dibiayai NSA",
+"Ayios Nikolaos, Siprus",
+"Dokumen Snowden menunjukkan bahwa stasiun Inggris di Ayios Nikolaos, di dalam pangkalan Dhekelia, menyadap internet dan telekomunikasi Timur Tengah untuk program Tempora. NSA membiayai separuhnya."
+],
 "434a80d9c6": [
 "Dukungan bagi pemberontak melawan Derg",
 "Addis Ababa, Ethiopia",
 "Kelompok pemberontak penentang rezim Marxis Mengistu menerima dukungan Amerika, yang sifatnya tidak jelas. Saat Uni Soviet meninggalkan Addis Ababa pada 1990, Washington terus mendukung mereka."
+],
+"435100c0f8": [
+"Tekanan terhadap “lex TVN”",
+"Warsawa, Polandia",
+"Departemen Luar Negeri mendesak Presiden Duda memblokir undang-undang yang akan memaksa perusahaan Amerika Discovery menjual saluran TVN. Duda memveto-nya pada 27 Desember dengan merujuk pada perjanjian investasi dengan Amerika Serikat."
 ],
 "43838818a7": [
 "Penarikan senilai 200 juta",
@@ -4070,6 +4346,11 @@
 "Shindand, Herat, Afganistan",
 "Setelah pertempuran dengan pasukan khusus Amerika, serangan udara menewaskan puluhan penduduk desa di Lembah Zerkoh, menurut penyelidikan PBB dan pemerintah Afganistan."
 ],
+"44c3275f4f": [
+"FinCEN menjatuhkan vonis atas bank ABLV",
+"Riga, Latvia",
+"Departemen Keuangan menuduh ABLV, bank terbesar ketiga Latvia, melakukan pencucian uang dan membantu Korea Utara, serta mengusulkan memutusnya dari dolar. ECB menyatakannya bangkrut pada 23 Februari dan bank itu dilikuidasi. FinCEN mencabut tindakan itu pada 2024."
+],
 "44d64aa66b": [
 "Paket PURL pertama dibayar Belanda",
 "Kyiv, Ukraina",
@@ -4130,6 +4411,11 @@
 "Cassino, Italia",
 "Pesawat pengebom Amerika meratakan biara itu, yang tidak dijadikan basis pertahanan oleh tentara Jerman mana pun. Warga sipil yang mengungsi di sana tewas."
 ],
+"46230464ee": [
+"Pengeboman Frascati",
+"Frascati, Italia",
+"Pada hari pengumuman gencatan senjata Italia, B-17 Amerika menyasar markas besar Jerman milik Kesselring di Frascati. Pusat kota rata dengan tanah dan ratusan penduduk tewas."
+],
 "463a2e5193": [
 "Drone menyerang seminari di Hangu",
 "Hangu, Khyber Pakhtunkhwa, Pakistan",
@@ -4155,6 +4441,11 @@
 "Plattling, Jerman",
 "Pasukan Amerika secara paksa menyerahkan tawanan dan pengungsi Soviet kepada Uni Soviet, yang banyak di antaranya menolak pulang. Beberapa bunuh diri selama pemindahan dari Dachau dan Plattling."
 ],
+"46b50d254e": [
+"Pengeboman Rennes",
+"Rennes, Prancis",
+"Serangan pembom Amerika yang menyasar stasiun langsir Rennes mengenai permukiman dan menimbulkan ratusan korban sipil. Ini salah satu pengeboman paling mematikan yang dialami kota itu."
+],
 "46c1539c43": [
 "Rencana Patty terhadap Fidel dan Raúl Castro",
 "Santiago de Cuba, Kuba",
@@ -4174,6 +4465,11 @@
 "Embargo Undang-Undang Kebebasan Burma",
 "Yangon, Myanmar",
 "Undang-undang itu melarang semua impor produk Burma. Menurut serikat pekerja dan LSM, puluhan ribu buruh perempuan tekstil kehilangan pekerjaan, sebuah dampak yang dibantah para pendukung sanksi."
+],
+"4707f903fa": [
+"Surat perintah Amerika atas surel di Dublin",
+"Dublin, Irlandia",
+"Departemen Kehakiman menuntut dari Microsoft surel yang disimpan di pusat datanya di Irlandia, di luar bantuan hukum timbal balik. Dublin mengingatkan Mahkamah Agung bahwa jalur bantuan hukum tersedia; CLOUD Act 2018 menutup perkara demi kemenangan Washington."
 ],
 "470915e42f": [
 "Operasi Hotfoot, lalu White Star",
@@ -4215,6 +4511,11 @@
 "Pyongyang, Korea Utara",
 "Dewan Keamanan mengadopsi teks yang disusun Washington yang membatasi produk minyak olahan hingga 500.000 barel per tahun. Badan-badan PBB kemudian melaporkan dampaknya pada bantuan kemanusiaan."
 ],
+"47ca2c5d8b": [
+"Deklarasi 5G anti-Huawei dengan Polandia",
+"Warsawa, Polandia",
+"Mike Pence dan Andrzej Duda menandatangani deklarasi bersama tentang keamanan 5G, yang bertujuan menyingkirkan pemasok peralatan Tiongkok seperti Huawei, inti kampanye tekanan Amerika."
+],
 "47db245f95": [
 "Almunia, Unicef, dan Médecins du Monde",
 "Brussel, Belgia",
@@ -4244,6 +4545,11 @@
 "Contra di Nikaragua",
 "Nikaragua",
 "Reagan menandatangani \"finding\" presiden yang mengizinkan CIA mempersenjatai Contra melawan pemerintah Sandinista. Perang itu menewaskan puluhan ribu orang."
+],
+"483b9d988a": [
+"Pengadilan Rajk dan “Operation Splinter Factor”",
+"Budapest, Hongaria",
+"Pengadilan László Rajk menunjuk Noel Field sebagai kepala jaringan mata-mata Amerika. Jurnalis Stewart Steven menyatakan pada 1974 bahwa Allen Dulles memanipulasi kasus itu untuk memicu pembersihan; sejarawan membantah tesis ini."
 ],
 "48a4c11841": [
 "Penghancuran jembatan B1 Karaj",
@@ -4300,6 +4606,11 @@
 "Meksiko, Meksiko",
 "Bea cukai Amerika mengungkap operasi penyusupan terhadap pencucian uang di bank-bank Meksiko, dijalankan tanpa memberi tahu Meksiko, yang mengecamnya sebagai pelanggaran kedaulatan."
 ],
+"495569396d": [
+"Bantuan militer dipotong karena menolak kekebalan",
+"Zagreb, Kroasia",
+"Kroasia menolak menandatangani perjanjian yang membebaskan warga Amerika dari ICC. Washington memotong sekitar 19 juta dolar bantuan militernya, seperti diumumkan Duta Besar Rossin. Bantuan dilanjutkan pada 2006."
+],
 "495bb7033f": [
 "Serangan ATACMS ke wilayah Rusia",
 "Bryansk, Rusia",
@@ -4315,6 +4626,11 @@
 "Hong Kong",
 "Departemen Keuangan menyanksi kepala eksekutif Carrie Lam dan sepuluh pejabat Hong Kong dan Tiongkok atas penindasan di Hong Kong."
 ],
+"4a118dddeb": [
+"Laporan Van Vliet tentang Katyń disembunyikan",
+"Warsawa, Polandia",
+"Sebagai saksi penggalian di Katyń, Kolonel Van Vliet menulis laporan pada 1945 yang menunjuk Moskow. Dokumen itu lenyap di Pentagon. Komisi Madden Kongres (1952) menyimpulkan bahwa pejabat Amerika menutupi bukti."
+],
 "4a18251956": [
 "Penyitaan kapal tanker Centuries",
 "Laut Karibia",
@@ -4324,6 +4640,11 @@
 "Hampir 400 sasaran disanksi",
 "Moskow, Rusia",
 "Departemen Keuangan dan Luar Negeri menyanksi hampir 400 orang dan entitas di Rusia dan negara ketiga yang memasok barang bagi industri militer Rusia."
+],
+"4a2b4858a3": [
+"Kematian Juozas Lukša, utusan CIA",
+"Pabartupis, Lituania",
+"Pemimpin partisan itu, yang diterjunkan CIA pada 1950, tewas dibunuh MGB setelah dijebak oleh Jonas Kukauskas, agen kelompok kedua yang diterjunkan CIA dan dibalikkan oleh Soviet."
 ],
 "4a491b00bc": [
 "Tiga C-130 untuk Mobutu",
@@ -4339,6 +4660,11 @@
 "Rumah Sakit Gandhi Teheran rusak",
 "Teheran, Iran",
 "Serangan Israel-Amerika merusak berat Rumah Sakit Gandhi di Teheran utara. Direktur WHO menilai kejadian itu “sangat mengkhawatirkan”."
+],
+"4aa3ad45da": [
+"Bea 25 % atas minyak zaitun dan anggur",
+"Madrid, Spanyol",
+"Dalam sengketa Airbus, Washington mengenakan bea 25 % atas minyak zaitun kemasan botol, anggur, dan keju Spanyol. Spanyol menjadi sasaran sebagai satu dari empat negara yang mensubsidi pembuat pesawat itu."
 ],
 "4ab1d8c104": [
 "Lansdale melawan Huk",
@@ -4395,6 +4721,11 @@
 "Kyiv, Ukraina",
 "Zelensky mengumumkan tibanya tank M1 Abrams Amerika pertama di Ukraina."
 ],
+"4b5334014e": [
+"Unit pengawasan kedutaan di Kopenhagen",
+"Kopenhagen, Denmark",
+"Setelah pengungkapan di Norwegia tentang “Surveillance Detection Units”, PET Denmark mengakui telah mengetahui sejak 2004 adanya pengawasan yang dilakukan kedutaan Amerika di sekitar gedungnya."
+],
 "4b77b40dbb": [
 "Hakim Moraes disanksi",
 "Brasília, Brasil",
@@ -4445,6 +4776,11 @@
 "Israel",
 "Departemen Luar Negeri menyatakan keadaan darurat untuk menjual hampir 14.000 peluru tank kepada Israel tanpa tinjauan Kongres. Langkah itu diulang pada 29 Desember untuk komponen peluru 155 mm."
 ],
+"4c67f7dbe3": [
+"“Proyek No. 1” CIA di Vilnius",
+"Vilnius, Lituania",
+"Menurut penyelidikan Seimas 2009, CIA dan dinas keamanan Lituania menyiapkan bangunan pertama di Vilnius sejak 2002. Komisi menyimpulkan bahwa bangunan itu tidak dipakai untuk menahan tahanan."
+],
 "4c6fe7b51b": [
 "Pengiriman bom tandan ke Ukraina",
 "Kyiv, Ukraina",
@@ -4454,6 +4790,11 @@
 "1,2 miliar USAI untuk pertahanan udara",
 "Kyiv, Ukraina",
 "Paket USAI 1,2 miliar dolar untuk sistem antipesawat dan amunisi."
+],
+"4c797f58cb": [
+"Goleniewski, agen dalam CIA",
+"Warsawa, Polandia",
+"Perwira intelijen Polandia Michał Goleniewski (“Sniper”) menyerahkan rahasia Polandia dan Soviet kepada CIA sejak 1959, lalu pindah ke Amerika Serikat pada Januari 1961. Warsawa menjatuhkan hukuman mati in absentia kepadanya."
 ],
 "4c9c35f4c6": [
 "Operasi Fast and Furious",
@@ -4614,6 +4955,11 @@
 "GAO nilai pembekuan bantuan ilegal",
 "Washington, terkait Ukraina",
 "Government Accountability Office menyimpulkan bahwa penangguhan bantuan kepada Ukraina oleh pemerintahan Trump melanggar undang-undang pengendalian anggaran (Impoundment Control Act)."
+],
+"4e38a38da1": [
+"Perjanjian radar antirudal di Brdy",
+"Brdy, Ceko",
+"Praha menandatangani dengan Washington pemasangan radar perisai antirudal Amerika, sementara 60 hingga 70 % warga Ceko menentangnya menurut jajak pendapat. Obama membatalkan proyek itu pada September 2009."
 ],
 "4e5c86d39b": [
 "Misi rahasia McFarlane ke Teheran",
@@ -4820,6 +5166,11 @@
 "Georgetown, Guyana Britania",
 "Mogok umum melawan Jagan dibiayai secara rahasia oleh CIA melalui serikat pekerja Amerika. Seri resmi FRUS membenarkan aksi rahasia itu."
 ],
+"51ab33b985": [
+"Intesa Sanpaolo membayar 235 juta",
+"Turin, Italia",
+"Regulator keuangan New York menjatuhkan denda 235 juta dolar kepada bank Italia itu, yang dituduh antara lain memproses pada 2002-2006 lebih dari 11 miliar dolar transaksi untuk nasabah Iran dan entitas lain yang terkena sanksi."
+],
 "51ade067fa": [
 "Saksi UCA diperiksa FBI",
 "San Salvador, El Salvador",
@@ -4875,6 +5226,11 @@
 "Haiti",
 "Analis CIA Brian Latell menyampaikan kepada para senator gambaran Aristide yang \"tidak stabil\" dan menjalani pengobatan. Klaim ini, yang diulang lawan-lawannya di Kongres, kemudian dibantah."
 ],
+"5273d30b5b": [
+"AB InBev membayar 6 juta berdasarkan FCPA",
+"Leuven, Belgia",
+"SEC menuduh pembuat bir Belgia itu atas pembayaran ilegal oleh anak perusahaannya di India dan klausul kerahasiaan yang menghalangi seorang pelapor. AB InBev menyelesaikan perkara dengan sekitar 6 juta dolar."
+],
 "5288476681": [
 "Dakwaan terhadap dua warga Libya atas Lockerbie",
 "Tripoli, Libya",
@@ -4894,6 +5250,11 @@
 "Konsulat Amerika di Chengdu ditutup",
 "Chengdu, Tiongkok",
 "Sebagai balasan, Beijing menutup konsulat Amerika di Chengdu, dengan tuduhan campur tangan dalam urusan dalam negeri Tiongkok, terutama di Tibet."
+],
+"52afe673a1": [
+"Emas Cekoslowakia ditahan Washington",
+"Praha, Cekoslowakia",
+"Amerika Serikat menghalangi pengembalian emas moneter Cekoslowakia yang dijarah Nazi demi memperoleh ganti rugi atas aset Amerika yang dinasionalisasi. Kongres menolak sebuah kesepakatan pada 1974. Emas itu baru dikembalikan pada 1982."
 ],
 "52be3c789d": [
 "Surat Barnett tentang “pembunuhan membabi buta”",
@@ -4924,6 +5285,11 @@
 "Dino Bouterse dijebak DEA",
 "Panama",
 "Putra presiden Suriname ditangkap di Panama lewat jebakan DEA lalu dipindahkan ke New York, tempat ia dihukum atas perdagangan narkoba dan dukungan kepada Hizbullah."
+],
+"5367670a85": [
+"CEO Meliá dilarang masuk",
+"Palma, Spanyol",
+"Departemen Luar Negeri melarang Gabriel Escarrer, CEO grup hotel Mallorca Meliá, dan keluarganya masuk ke Amerika Serikat berdasarkan Judul IV Undang-Undang Helms-Burton, karena hotel-hotelnya di Kuba."
 ],
 "5372e72e09": [
 "Penghancuran panen yang disengaja",
@@ -4994,6 +5360,11 @@
 "Pengiriman Mistral ke Rusia ditangguhkan",
 "Saint-Nazaire, Prancis",
 "Setelah aneksasi Krimea, Paris menangguhkan pengiriman dua kapal induk helikopter ke Rusia, di bawah tekanan publik yang kuat dari Washington, yang menuntut pembatalan kontrak."
+],
+"547616b050": [
+"Washington membela Marine Le Pen",
+"Paris, Prancis",
+"Setelah Marine Le Pen dijatuhi hukuman lima tahun tidak boleh mencalonkan diri, Departemen Luar Negeri menilai pengecualiannya “mengkhawatirkan” dan Donald Trump menulis “FREE MARINE LE PEN!”, seraya menyebutnya “perburuan penyihir”."
 ],
 "54816a1d28": [
 "Serangan di Jurf al-Sakhar, Irak",
@@ -5180,6 +5551,11 @@
 "Abbottabad, Pakistan",
 "CIA bersama dokter Shakil Afridi menyelenggarakan vaksinasi hepatitis B palsu untuk memperoleh DNA keluarga Bin Laden. Taliban kemudian menggunakannya untuk melawan para petugas vaksin polio."
 ],
+"570826e621": [
+"OFAC membuat Raiffeisen mundur",
+"Wina, Austria",
+"Di bawah ancaman tindakan Departemen Keuangan AS, yang dapat memutusnya dari sistem keuangan dolar, Raiffeisen Bank International membatalkan pembelian saham Strabag yang terkait oligark yang terkena sanksi Oleg Deripaska."
+],
 "57146d60a0": [
 "Perluasan sanksi 2014",
 "Moskow, Rusia",
@@ -5310,6 +5686,11 @@
 "Perbatasan Meksiko",
 "Nixon memerintahkan pemeriksaan setiap kendaraan di perbatasan selama tiga pekan untuk memaksa Meksiko memerangi mariyuana. Perdagangan lintas batas lumpuh."
 ],
+"587f1735ba": [
+"Tekanan atas undang-undang Holocaust Polandia",
+"Warsawa, Polandia",
+"Menurut Onet, Washington mengancam tidak lagi menerima Presiden Duda dan Perdana Menteri Morawiecki serta membekukan proyek militer jika undang-undang itu tidak diubah. Ada bantahan resmi. Warsawa melonggarkannya pada Juni 2018."
+],
 "58a4e7a5b6": [
 "TURBINE dan QUANTUM: infeksi massal",
 "Dunia",
@@ -5389,6 +5770,11 @@
 "Sanksi terhadap pejabat Kuba",
 "Havana, Kuba",
 "Trump menandatangani perintah yang menyanksi pejabat pemerintah Kuba yang dituduh melakukan penindasan dan mengancam keamanan Amerika Serikat, di tengah blokade minyak."
+],
+"59fc1a45ad": [
+"Penangkapan seorang eksekutif Volkswagen",
+"Miami, Amerika Serikat",
+"Oliver Schmidt, mantan kepala urusan lingkungan Volkswagen di Amerika Serikat, ditangkap di bandara Miami dalam kasus mesin diesel yang dimanipulasi. Ia dijatuhi hukuman tujuh tahun penjara pada Desember 2017."
 ],
 "5a115851af": [
 "Enam belas kapal penyebar ranjau dihancurkan di Hormuz",
@@ -5490,6 +5876,11 @@
 "Beijing, Tiongkok",
 "Sebuah perintah melarang warga Amerika berinvestasi pada perusahaan Tiongkok yang ditetapkan terkait militer."
 ],
+"5bc86e28c8": [
+"Unit pengawasan kedutaan di Helsinki",
+"Helsinki, Finlandia",
+"Polisi keamanan Supo mula-mula membantah mengetahui adanya unit pengawasan di kedutaan Amerika, lalu mengakui telah diberi tahu. Unit itu bagian dari jaringan “Surveillance Detection Units” yang terungkap di Norwegia."
+],
 "5be0d16f20": [
 "Kasus Cerro Maravilla",
 "Villalba, Puerto Riko",
@@ -5539,6 +5930,11 @@
 "Ivy King, bom fisi terbesar",
 "Enewetak, Kepulauan Marshall",
 "Dua pekan setelah Ivy Mike, sebuah pesawat pengebom menjatuhkan bom fisi 500 kiloton di Enewetak, yang terkuat yang pernah diuji Amerika Serikat."
+],
+"5c5ac7d0d2": [
+"Utusan khusus untuk “mengintegrasikan” Greenland",
+"Nuuk, Greenland",
+"Trump menunjuk Gubernur Louisiana Jeff Landry sebagai utusan khusus untuk Greenland; ia menyambut baik rencana menjadikan pulau itu bagian dari Amerika Serikat. Kopenhagen memanggil Duta Besar Ken Howery."
 ],
 "5c5b7e6ea6": [
 "Pelatihan Otpor di Budapest",
@@ -5609,6 +6005,11 @@
 "100 juta untuk Javelin",
 "Kyiv, Ukraina",
 "Biden mengizinkan penarikan 100 juta dolar untuk memenuhi kebutuhan mendesak akan rudal antitank Javelin."
+],
+"5dacf07743": [
+"Aginter Press, kaitan yang dituduhkan dengan CIA",
+"Lisboa, Portugal",
+"Kantor berita palsu yang didirikan di Lisboa oleh Yves Guérin-Sérac, dilindungi PIDE, yang melatih militan sayap kanan ekstrem. Penyelidikan Italia dan sejarawan menyebut adanya kaitan dengan CIA dan NATO, yang tidak pernah terbukti."
 ],
 "5dad92a655": [
 "Pembunuhan Jenderal Schneider",
@@ -5715,6 +6116,11 @@
 "Jerman yang diduduki",
 "Program yang disetujui pada 1948 untuk merekrut emigran Eropa Timur bagi tujuan propaganda dan aksi rahasia. Program itu menerima mantan kolaborator Nazi."
 ],
+"5f35656197": [
+"Sebuah A-10 jatuh di Remscheid",
+"Remscheid, Jerman",
+"Pesawat serang A-10 Angkatan Udara AS yang sedang terbang latihan pada ketinggian rendah jatuh menimpa sebuah gedung. Enam penghuni dan sang pilot tewas, sekitar lima puluh orang terluka."
+],
 "5f7ba1fe05": [
 "Castle Nectar di Enewetak",
 "Enewetak, Kepulauan Marshall",
@@ -5740,10 +6146,20 @@
 "Santo Domingo, Republik Dominika",
 "Pemerintahan militer membentuk Garda Nasional yang dilatih Marinir untuk menggantikan tentara yang dibubarkan. Garda itu kelak menjadi alat kekuasaan Trujillo."
 ],
+"5fc8b6e9ca": [
+"Penarikan 11.900 tentara sebagai hukuman",
+"Berlin, Jerman",
+"Pentagon mengumumkan penarikan sekitar 11.900 tentara dari Jerman. Donald Trump membenarkannya dengan alasan belanja militer Jerman dinilai tidak memadai. Joe Biden membekukan langkah itu pada Februari 2021."
+],
 "5fdc39c54e": [
 "Tabrakan USS Gato dengan K-19",
 "Laut Barents, Uni Soviet",
 "Kapal selam Amerika Gato, yang sedang menjalankan misi pengawasan, menabrak kapal selam nuklir Soviet K-19 di lepas Semenanjung Kola."
+],
+"603b36c308": [
+"Perang ayam: konyak dan kendaraan niaga dikenai bea",
+"Brussel, Belgia",
+"Sebagai balasan atas bea MEE terhadap ayam Amerika, Washington menaikkan bea atas brendi (konyak Prancis), pati, dekstrin, dan kendaraan niaga ringan menjadi 25 %. Langkah ini berlaku pada 7 Januari 1964; pajak atas kendaraan niaga masih ada hingga kini."
 ],
 "6056f11b0b": [
 "Pembentukan Dana Afganistan di Swiss",
@@ -5815,15 +6231,35 @@
 "Kyiv, Ukraina",
 "Undang-undang anggaran sementara yang ditandatangani Biden memuat 12,3 miliar dolar untuk Ukraina, sebagian untuk mengisi kembali persediaan."
 ],
+"6197c9890b": [
+"Armada Keenam berpangkalan di Elefsina",
+"Elefsina, Yunani",
+"Junta memberi Angkatan Laut AS pelabuhan pangkalan dekat Athena bagi kapal perusak Armada Keenam dan keluarga mereka. Para pengkritik melihatnya sebagai dukungan bagi rezim; pemerintah demokratis mencabut izin itu setelah 1974."
+],
 "61c0e8545e": [
 "Pengeboman “Kashmir Princess”",
 "Kepulauan Natuna, Indonesia",
 "Pesawat carteran untuk delegasi Tiongkok ke Bandung meledak di udara, 16 orang tewas. Zhou Enlai, yang menjadi sasaran serangan itu, tidak berada di dalamnya. Beijing menuduh dinas nasionalis dan Amerika; peran CIA belum terbukti."
 ],
+"61d48106d5": [
+"Jaringan stay-behind Luksemburg diakui",
+"Luksemburg",
+"Di hadapan Dewan Perwakilan, Perdana Menteri Jacques Santer membenarkan adanya jaringan rahasia “stay-behind” di Luksemburg, yang terhubung dengan struktur koordinasi NATO tempat CIA dan MI6 duduk."
+],
+"61d7ce8da8": [
+"SAP membayar 220 juta",
+"Walldorf, Jerman",
+"Penerbit perangkat lunak Jerman itu menyelesaikan gugatan Departemen Kehakiman dan SEC atas korupsi di Afrika Selatan dan Indonesia, dan menandatangani perjanjian penuntutan yang ditangguhkan selama tiga tahun."
+],
 "61f838910f": [
 "Pendaratan selama kerusuhan revolusioner",
 "Tiongkok",
 "Pada akhir Agustus, pasukan Amerika melindungi warga Amerika dan kepentingan mereka di Kentucky Island, lalu di Camp Nicholson, selama kerusuhan revolusioner. Tercatat dalam laporan R42738 Dinas Riset Kongres."
+],
+"621854171f": [
+"Agen CIA diterjunkan di Rumania",
+"Târgu Cărbunești, Rumania",
+"Pada awal 1950-an, CIA menerjunkan di Rumania para emigran terlatih untuk mendukung gerilya antikomunis, termasuk satu tim di dekat Târgu Cărbunești. Sebagian besar tertangkap; sebagian dieksekusi, sebagian lain dibalikkan."
 ],
 "621ba12c93": [
 "Operasi Barrel Roll di Laos",
@@ -5879,6 +6315,11 @@
 "Telegram Allen Dulles tentang Lumumba",
 "Léopoldville, Kongo",
 "Direktur CIA mengirim telegram kepada stasiun bahwa penyingkiran Lumumba harus menjadi “tujuan mendesak dan prioritas” aksi rahasia. Telegram itu dikutip oleh Komisi Church."
+],
+"62fef382bf": [
+"Tekanan sebelum penggerebekan The Pirate Bay",
+"Stockholm, Swedia",
+"Kabel diplomatik yang diterbitkan WikiLeaks menunjukkan bahwa kedutaan besar Amerika menekan Stockholm untuk bertindak terhadap berbagi berkas, dengan ancaman daftar pengawasan perdagangan. Polisi menyita server situs tersebut."
 ],
 "633ba61a4a": [
 "Iran diputus dari jaringan SWIFT",
@@ -5970,6 +6411,11 @@
 "Kyiv, Ukraina",
 "Diumumkan saat kunjungan Zelensky ke Washington, penarikan ini mencakup peluru artileri, termasuk peluru tandan, dan pertahanan antipesawat."
 ],
+"649ec3288e": [
+"Boikot terhadap Ketua Sejm",
+"Warsawa, Polandia",
+"Duta Besar Tom Rose memutus semua kontak dengan Włodzimierz Czarzasty, yang menolak mendukung pencalonan Trump untuk Hadiah Nobel Perdamaian, lalu menyinggung soal tetapnya pasukan Amerika. Donald Tusk memprotes."
+],
 "64ba292aac": [
 "Veto keenam soal Gaza",
 "Dewan Keamanan, New York",
@@ -6015,6 +6461,11 @@
 "Roma, Italia",
 "Giulio Andreotti mengungkap keberadaan Gladio, jaringan rahasia \"stay-behind\" yang dibentuk bersama CIA dan NATO. Parlemen Eropa pada November 1990 menuntut penyelidikan di semua negara terkait."
 ],
+"6575ee0fd1": [
+"Agen kurir dikirim ke Cekoslowakia",
+"Cekoslowakia",
+"Dari 1948 hingga awal 1950-an, dinas Amerika di Bavaria (CIC, lalu CIA) mengirim kurir yang direkrut dari kamp pengungsi melintasi perbatasan. Banyak yang ditangkap, dipenjara, atau dieksekusi."
+],
 "657c1a1593": [
 "Agen Korea diterjunkan ke Utara",
 "Korea Utara",
@@ -6030,10 +6481,20 @@
 "Konstantinopel, Kekaisaran Utsmaniyah",
 "Pasukan Amerika menjaga legasi di Konstantinopel selama Perang Balkan Pertama. Tercatat dalam laporan R42738 Dinas Riset Kongres."
 ],
+"659bb021c6": [
+"Serangan besar Amerika atas Palermo",
+"Palermo, Italia",
+"Pembom Amerika melancarkan serangan besar-besaran atas Palermo sebelum pendaratan di Sisilia. Pusat kota bersejarah luluh lantak dan ratusan warga sipil tewas."
+],
 "65ae784b78": [
 "Pembalasan di Samar setelah Balangiga",
 "Samar, Filipina",
 "Setelah serangan di Balangiga, Jenderal Jacob Smith memerintahkan agar Samar dijadikan “gurun yang meraung” dan setiap orang berusia di atas sepuluh tahun dibunuh. Ia diadili di mahkamah militer pada 1902 dan dipensiunkan."
+],
+"65d4211799": [
+"Sebuah pesawat menunggu Snowden di Kopenhagen",
+"Kopenhagen, Denmark",
+"Denmark mengizinkan pendaratan pesawat N977GA, yang sudah pernah dipakai untuk rendisi, siap membawa Edward Snowden kembali ke Amerika Serikat jika ia diserahkan. Menteri Kehakiman Søren Pind membenarkannya pada 2016."
 ],
 "660720fd1d": [
 "Pengeboman Rumah Sakit Bạch Mai",
@@ -6089,6 +6550,11 @@
 "Operasi Linebacker II",
 "Hanoi dan Haiphong, Vietnam Utara",
 "Pengeboman yang disebut \"Natal\" oleh B-52 di Hanoi dan Haiphong hingga 29 Desember. Hanoi menghitung sekitar 1.600 warga sipil tewas."
+],
+"674a799ff2": [
+"Philips membayar 62 juta dolar",
+"Amsterdam, Belanda",
+"Philips setuju membayar 62 juta dolar kepada SEC, yang menuduhnya berdasarkan FCPA atas pembayaran tidak wajar oleh anak perusahaan di Tiongkok untuk memenangkan kontrak peralatan medis."
 ],
 "6770c4dea2": [
 "Perintah Eksekutif 13661: pejabat Rusia disasar",
@@ -6290,6 +6756,11 @@
 "Saigon, Vietnam Selatan",
 "Lingkaran Nixon, lewat Anna Chennault, mendesak Thiệu memboikot perundingan damai sebelum pemilu. Penyadapan FBI dan catatan Haldeman membuktikannya."
 ],
+"6a7205f417": [
+"Kissinger dan ofensif kedua Turki",
+"Nikosia, Siprus",
+"Menurut catatan yang telah dideklasifikasi, Kissinger berkata kepada Ford sehari sebelumnya bahwa Turki tidak boleh dilawan. Pada 14 Agustus, Ankara melancarkan ofensif keduanya dan menduduki sekitar 37 % pulau itu. Arsip Inggris menunjukkan Washington mencegah London untuk campur tangan."
+],
 "6a89532021": [
 "Pengeboman stasiun Iri",
 "Iri (Iksan), Korea Selatan",
@@ -6350,6 +6821,11 @@
 "Tegucigalpa, Honduras",
 "Pada 8 hingga 12 September 1919, Marinir mendarat untuk menjaga ketertiban di zona netral selama upaya revolusi."
 ],
+"6bb756ce19": [
+"“Dengan satu atau lain cara”",
+"Nuuk, Greenland",
+"Di hadapan Kongres, Donald Trump menyatakan soal Greenland: “Dengan satu atau lain cara, kami akan mendapatkannya.” Nuuk dan Kopenhagen menolak segala aneksasi."
+],
 "6bc26f4009": [
 "Informan DEA di antara para pembunuh",
 "Port-au-Prince, Haiti",
@@ -6405,10 +6881,20 @@
 "Tabas, Iran",
 "Serangan untuk membebaskan sandera kedutaan. Operasi itu gagal di gurun: sebuah helikopter menabrak pesawat dan 8 personel militer Amerika tewas."
 ],
+"6cb3e5c2b3": [
+"C-47 Amerika dipaksa mendarat di Hongaria",
+"Pápa, Hongaria",
+"MiG Soviet memaksa sebuah C-47 Angkatan Udara AS, yang terbang dari Munich menuju Beograd, mendarat di Pápa. Budapest menuduh keempat awaknya melakukan spionase lalu menghukum mereka karena melanggar perbatasan; Washington membayar 120.000 dolar dengan disertai protes."
+],
 "6cbea98ef9": [
 "Pembakaran Cam Ne",
 "Cam Ne, Vietnam Selatan",
 "Marinir membakar rumah-rumah di sebuah desa, kadang dengan pemantik Zippo. Liputan Morley Safer dari CBS mengguncang opini publik Amerika."
+],
+"6ccc1150b4": [
+"Tekanan terhadap Huawei di Faroe",
+"Tórshavn, Kepulauan Faroe",
+"Duta Besar Amerika Carla Sands secara terbuka, dalam surat kabar Sosialurin, meminta operator publik Føroya Tele menyingkirkan Huawei dari jaringan 5G-nya demi pemasok Amerika atau Eropa."
 ],
 "6d17b5d4f4": [
 "Technip membayar 338 juta berdasarkan FCPA",
@@ -6429,6 +6915,11 @@
 "Zat kimia untuk pemotong tebu",
 "Kuba",
 "Di antara tugas Mongoose, Lansdale mencantumkan kajian tentang “melumpuhkan” pekerja gula selama panen dengan zat biologis atau kimia. Komisi Church mengutip proyek ini."
+],
+"6d4b7daaa6": [
+"Penjualan Viggen ke India diblokir",
+"Linköping, Swedia",
+"Pemerintahan Carter menolak izin ekspor mesin RM8 yang berasal dari Amerika, sehingga Saab tidak dapat menjual jet tempur Viggen ke India, yang memilih Jaguar buatan Prancis-Inggris."
 ],
 "6d4cb78409": [
 "Bom dikirim darurat untuk perang di Lebanon",
@@ -6575,6 +7066,11 @@
 "Pangkalan Guantánamo, Kuba",
 "Clinton memerintahkan pencegatan di laut terhadap warga Kuba yang melarikan diri dari pulau itu dan menahan mereka di pangkalan: lebih dari 30.000 orang ditahan di sana, sebagian lebih dari setahun, sebelum kesepakatan migrasi pada 1995."
 ],
+"6f7fe96e21": [
+"Penerbangan lintas Austria netral menuju Lebanon",
+"Austria",
+"Saat intervensi di Lebanon, pesawat militer Amerika melintasi wilayah udara Austria dari Jerman selatan. Di bawah tekanan Soviet, Wina memprotes pelanggaran netralitasnya ini."
+],
 "6f83024fd2": [
 "Ekspropriasi SHADA",
 "Haiti",
@@ -6604,6 +7100,11 @@
 "Serangan ke restoran al-Saa",
 "Baghdad, Irak",
 "Sebuah B-1 menjatuhkan empat bom di lingkungan al-Mansour tempat Saddam Hussein dilaporkan berada. Ia tidak ada di sana; Human Rights Watch mencatat banyak warga sipil tewas."
+],
+"6ff1c4e5ce": [
+"Denda OFAC terhadap Swedbank Latvia",
+"Riga, Latvia",
+"Anak perusahaan Swedbank di Latvia membayar 3,43 juta dolar untuk 386 pembayaran terkait Krimea yang dilewatkan melalui bank koresponden Amerika pada 2015-2016."
 ],
 "700947b498": [
 "Putusan Hamdan lawan Rumsfeld",
@@ -6654,6 +7155,11 @@
 "Pengeboman Mortsel",
 "Mortsel, Belgia",
 "Pesawat pengebom Amerika yang menyasar pabrik Erla meleset dan menghantam kota: 936 warga sipil tewas, termasuk lebih dari 200 anak."
+],
+"70aeb39f37": [
+"VimpelCom membayar 795 juta dolar",
+"Amsterdam, Belanda",
+"Grup telekomunikasi VimpelCom (kelak VEON), yang berbasis di Amsterdam, setuju membayar 795 juta dolar kepada otoritas Amerika dan Belanda atas suap di Uzbekistan, sebagian di antaranya berdasarkan FCPA."
 ],
 "7103e0a80f": [
 "Penjara hitam Bagram",
@@ -6760,6 +7266,11 @@
 "Strasbourg, Prancis",
 "Parlemen Eropa menyimpulkan adanya jaringan penyadapan Amerika-Inggris dan mengimbau warga Eropa mengenkripsi komunikasi mereka."
 ],
+"722a0ae991": [
+"Undang-undang “invasi Den Haag”",
+"Den Haag, Belanda",
+"George W. Bush menandatangani American Service-Members' Protection Act. Undang-undang itu mengizinkan “segala cara yang diperlukan” untuk membebaskan seorang Amerika atau sekutunya yang ditahan oleh Mahkamah Pidana Internasional, yang berkedudukan di Belanda."
+],
 "72399ff166": [
 "Penculikan orang Jepang dari Peru",
 "Lima, Peru",
@@ -6839,6 +7350,11 @@
 "Yayasan Kemanusiaan Gaza",
 "Gaza, Palestina",
 "Washington mendukung dan mendanai sistem distribusi bantuan yang dijaga kontraktor Amerika ini. Ratusan warga Palestina tewas di dekat lokasinya, terutama oleh militer Israel."
+],
+"739c3b909b": [
+"Rencana pemerintahan militer Sekutu di Prancis",
+"Paris, Prancis",
+"Roosevelt, yang menolak mengakui pemerintahan sementara De Gaulle, menyiapkan pemerintahan militer Sekutu (AMGOT) untuk wilayah yang dibebaskan. De Gaulle memaksakan otoritasnya sendiri; Washington mengakui GPRF pada Oktober 1944. Cakupan rencana ini masih diperdebatkan."
 ],
 "73a895f021": [
 "Serangan Baghouz disembunyikan",
@@ -7100,6 +7616,11 @@
 "Hilla, Irak",
 "Pasukan Amerika menembakkan amunisi curah ke wilayah perkotaan, terutama di sekitar Hilla dan Baghdad. Human Rights Watch menyebutnya salah satu penyebab utama kematian warga sipil selama invasi."
 ],
+"78634c91d1": [
+"Pencabutan status dagang Polandia",
+"Warsawa, Polandia",
+"Setelah Solidarność dilarang, Reagan mencabut tarif negara paling disukai dari Polandia, yang membuat ekspornya ke Amerika Serikat lebih mahal."
+],
 "78652a8217": [
 "“Collateral Murder”",
 "Baghdad, Irak",
@@ -7114,6 +7635,11 @@
 "Pengerahan IFOR di Bosnia",
 "Tuzla, Bosnia-Herzegovina",
 "Sekitar 20.000 tentara Amerika dikerahkan di Bosnia dalam pasukan NATO yang bertugas menerapkan Kesepakatan Dayton. Tercatat dalam laporan R42738 Layanan Riset Kongres."
+],
+"7928845449": [
+"Musk lewat video di rapat umum AfD di Halle",
+"Halle, Jerman",
+"Setelah menjadi penasihat Donald Trump, Elon Musk tampil lewat video pada peluncuran kampanye AfD. Ia menilai ada “terlalu banyak fokus pada rasa bersalah atas masa lalu” dan menyerukan agar memilih AfD."
 ],
 "7928f47ffb": [
 "Undang-Undang RENACER",
@@ -7164,6 +7690,16 @@
 "Pabrik Al-Shifa dibom",
 "Khartoum, Sudan",
 "Rudal menghancurkan pabrik yang memproduksi sebagian besar obat-obatan Sudan, yang disebut sebagai lokasi senjata kimia terkait bin Laden. Tidak ada bukti kuat yang diajukan."
+],
+"79b58f19e5": [
+"Surat Vilnius untuk perang Irak",
+"Vilnius, Lituania",
+"Sepuluh negara calon anggota NATO, termasuk ketiga negara Baltik, mendukung intervensi di Irak. Teksnya disusun oleh pelobi Amerika Bruce Jackson, yang mengaitkan penandatanganan dengan dukungan Washington bagi keanggotaan mereka."
+],
+"79b6b2920e": [
+"Truman menawarkan membeli Greenland",
+"Nuuk, Greenland",
+"Menteri Luar Negeri James Byrnes menawarkan kepada menteri Denmark Gustav Rasmussen 100 juta dolar dalam bentuk emas untuk pulau itu, menurut sebuah telegram resmi. Kopenhagen menolak tetapi tetap mengizinkan pangkalan Amerika."
 ],
 "79bdd38bc6": [
 "Wilayah udara ditutup bagi pesawat Rusia",
@@ -7230,6 +7766,11 @@
 "Kyiv, Ukraina",
 "Penarikan 300 juta dolar yang mencakup roket Hydra-70 dan peluru artileri."
 ],
+"7a9236096d": [
+"Lutnick menyebut Irlandia “penipuan pajak”",
+"Dublin, Irlandia",
+"Menteri Perdagangan Howard Lutnick mengatakan “penipuan” pajak itu “harus berhenti”, setelah Trump menuduh Irlandia “mengambil” laboratorium Amerika. Dublin khawatir akan bea masuk atas farmasi, ekspor terbesarnya ke Amerika Serikat."
+],
 "7b0abed744": [
 "Berbagi intelijen ditangguhkan",
 "Kyiv, Ukraina",
@@ -7259,6 +7800,11 @@
 "Pemerkosaan dan pembunuhan di Mahmudiyah",
 "Yusufiyah, Irak",
 "Tentara memperkosa dan membunuh Abeer al-Janabi, 14 tahun, lalu membunuh kedua orang tuanya dan adik perempuannya yang berusia 6 tahun. Lima personel militer dihukum, termasuk Steven Green dengan hukuman seumur hidup dan tiga lainnya dengan hukuman 90 hingga 110 tahun."
+],
+"7baa15b66b": [
+"Penerbangan ke Guantánamo melalui Rota dan Morón",
+"Rota, Spanyol",
+"Menurut dokumen rahasia yang diterbitkan El País pada 2008, pemerintah Aznar menyetujui dalam waktu kurang dari 24 jam agar pesawat Amerika yang mengangkut tahanan dari Afghanistan ke Guantánamo singgah di pangkalan Rota dan Morón."
 ],
 "7bc51e41d7": [
 "Jaringan mata-mata Kalamatiano",
@@ -7339,6 +7885,11 @@
 "Konferensi iklim Bali",
 "Nusa Dua, Indonesia",
 "Berdasarkan dokumen Snowden, NSA dan intelijen Australia mengawasi delegasi di sana, termasuk nomor telepon pejabat Indonesia."
+],
+"7cffd2dd91": [
+"Pembebasan visa dibatasi bagi warga Hongaria",
+"Budapest, Hongaria",
+"Washington mempersingkat izin ESTA warga Hongaria menjadi satu tahun dan satu kali perjalanan, dengan alasan naturalisasi massal non-penduduk yang kurang diverifikasi. Langkah ini dicabut pada September 2025."
 ],
 "7d0b8e3b25": [
 "Élysée diretas",
@@ -7509,6 +8060,11 @@
 "Komplotan melawan Castro di Chile",
 "Santiago, Chile",
 "Selama kunjungan Castro ke Chile, eksil Kuba yang membawa dokumen palsu wartawan Venezuela dan kamera yang menyembunyikan senjata mengurungkan niat menembak. Antonio Veciana menyebut rencana itu berasal dari kontak CIA-nya, \"Maurice Bishop\", yang perannya tidak pernah dikuatkan."
+],
+"803e3716f0": [
+"SWIFT memutus Iran meski ditentang UE",
+"La Hulpe, Belgia",
+"Setelah sanksi terhadap Iran diberlakukan kembali dan di bawah ancaman Menteri Keuangan Steven Mnuchin, perusahaan Belgia SWIFT memutus sambungan bank-bank Iran, meskipun UE ingin mempertahankan kesepakatan nuklir."
 ],
 "80475e0647": [
 "UU Helms-Burton",
@@ -7880,6 +8436,11 @@
 "Kyiv, Ukraina",
 "Paket 820 juta dolar, termasuk dua sistem antipesawat NASAMS yang dibiayai USAI dan amunisi untuk HIMARS."
 ],
+"86e3c477bc": [
+"Stasiun penyadapan Bad Aibling",
+"Bad Aibling, Jerman",
+"Selama 52 tahun, dinas Amerika mengoperasikan stasiun intersepsi di Bavaria. Dengan nama GARLICK, stasiun itu menjadi salah satu pos satelit utama jaringan Echelon. NSA menyerahkannya kepada BND pada 2004."
+],
 "86e5126fd6": [
 "Kuba disasar dalam perintah perjalanan",
 "Washington, Amerika Serikat",
@@ -7954,6 +8515,11 @@
 "Veto terhadap pengamat PBB",
 "Dewan Keamanan, New York",
 "Pada awal intifada kedua, Amerika Serikat menghalangi pembentukan pasukan pengamat PBB yang bertugas melindungi warga sipil Palestina."
+],
+"883533ec55": [
+"Presiden Waldheim dilarang masuk",
+"Wina, Austria",
+"Departemen Kehakiman memasukkan Presiden Austria Kurt Waldheim ke daftar pengawasannya atas dugaan perannya dalam penganiayaan Nazi. Ia adalah kepala negara aktif pertama yang dilarang masuk ke Amerika Serikat."
 ],
 "8844de252e": [
 "Operasi HARDROCK BAKER",
@@ -8135,6 +8701,11 @@
 "Panama, Panama",
 "Bush menyetujui jutaan dolar dana rahasia untuk oposisi terhadap Noriega dalam pemilu, yang dibatalkan oleh rezim."
 ],
+"8acfe8618a": [
+"Operasi Veto: selebaran atas Cekoslowakia",
+"Cekoslowakia",
+"Free Europe Committee, yang didanai CIA, menerbangkan puluhan juta selebaran dengan balon sebelum pemilu, memuat “sepuluh tuntutan” sebuah gerakan oposisi fiktif."
+],
 "8ae0ac50be": [
 "Tim Jawbreaker dan koper berisi dolar",
 "Lembah Panjshir, Afganistan",
@@ -8220,10 +8791,20 @@
 "Washington, Amerika Serikat",
 "Clinton melarang lewat dekret hampir seluruh perdagangan dan investasi Amerika dengan Iran."
 ],
+"8c67cb7db8": [
+"Abu Zubaydah ditahan di Polandia",
+"Stare Kiejkuty, Polandia",
+"Abu Zubaydah dipindahkan ke penjara rahasia CIA di Polandia, tempat ia berada hingga September 2003. Pengadilan Hak Asasi Manusia Eropa menetapkan hal itu pada 2014 dan menghukum Polandia."
+],
 "8c8d3c4d16": [
 "Irak dicoret dari daftar negara teroris",
 "Baghdad, Irak",
 "Pemerintahan Reagan mengeluarkan Irak dari daftar negara pendukung terorisme, yang membuka jalan bagi kredit dan ekspor Amerika di tengah perang melawan Iran."
+],
+"8c8f176c6b": [
+"Drone CIA dari pesisir Kroasia",
+"Zadar, Kroasia",
+"Menurut Newsweek, CIA menerbangkan drone GNAT-750 dari pangkalan dekat Zadar, sebelum dan selama Operasi Badai. Pejabat Kroasia menyatakan menerima citranya; Washington menyebutnya berbagi yang “terbatas”."
 ],
 "8ccbf63434": [
 "Penyitaan arsip FRAPH",
@@ -8234,6 +8815,11 @@
 "Bank Rusia dikeluarkan dari SWIFT",
 "Moskow, Rusia",
 "Amerika Serikat, UE, Inggris, dan Kanada mengumumkan pengeluaran bank-bank Rusia tertentu dari sistem SWIFT serta langkah terhadap Bank Sentral."
+],
+"8cf077c0f6": [
+"Musk: “hakim-hakim itu harus pergi”",
+"Roma, Italia",
+"Setelah hakim Roma menolak mengesahkan penahanan migran di Albania, Elon Musk, yang dipilih Trump untuk memimpin DOGE, menulis bahwa “hakim-hakim itu harus pergi”. Presiden Mattarella mengingatkan bahwa Italia “mampu mengurus dirinya sendiri”."
 ],
 "8d69cd38ae": [
 "Penarikan senilai 400 juta",
@@ -8295,6 +8881,11 @@
 "Lima, Peru",
 "Sebagai kepala intelijen de facto Fujimori, Montesinos menerima dukungan CIA selama satu dekade, yang secara resmi ditujukan untuk memerangi narkoba, meskipun ada tuduhan penyiksaan dan regu maut."
 ],
+"8e730dc450": [
+"Sanksi terhadap “fasilitator” Siprus",
+"Nikosia, Siprus",
+"Washington dan London menjatuhkan sanksi kepada warga dan perusahaan Siprus yang dituduh menyembunyikan aset Alisher Usmanov dan Roman Abramovich. Bank membekukan rekening mereka dan Nikosia mengundang FBI untuk menyelidiki."
+],
 "8e96c3cae6": [
 "Perintah 13902 atas ekonomi Iran",
 "Teheran, Iran",
@@ -8309,6 +8900,11 @@
 "Operasi Mayaguez diluncurkan dari Thailand",
 "U-Tapao, Thailand",
 "Washington memberangkatkan Marinir dan helikopter dari pangkalan U-Tapao ke Kamboja tanpa persetujuan pemerintah Thailand, yang memprotes secara resmi pelanggaran kedaulatannya."
+],
+"8eccd3baa9": [
+"Total diancam sanksi ILSA soal South Pars",
+"Paris, Prancis",
+"Total menandatangani kontrak senilai 2 miliar dolar dengan Iran untuk ladang gas South Pars. Washington membuka pemeriksaan berdasarkan undang-undang ILSA dan mengancam perusahaan itu dengan sanksi, sebelum memberikan pengecualian pada Mei 1998 karena penentangan UE."
 ],
 "8ee0dc0f06": [
 "Radio rahasia “La Voz de la Liberación”",
@@ -8480,6 +9076,11 @@
 "Pyongyang, Korea Utara",
 "Departemen Keuangan mengumumkan rangkaian sanksi terbesarnya terhadap Korea Utara: 56 sasaran, terutama kapal dan perusahaan pelayaran."
 ],
+"9208d22ffe": [
+"Surat Duta Besar Kushner kepada Macron",
+"Paris, Prancis",
+"Dalam surat terbuka, Duta Besar Charles Kushner mencela Emmanuel Macron karena tidak bertindak melawan antisemitisme. Paris memanggilnya atas tuduhan campur tangan dalam urusan dalam negerinya; ia mengirim diplomat lain."
+],
 "922e8784ca": [
 "Sopir truk tewas di pangkalan Manas",
 "Bishkek, Kirgizstan",
@@ -8529,6 +9130,11 @@
 "Perintah eksekutif Obama: “ancaman luar biasa”",
 "Washington, Amerika Serikat",
 "Perintah Eksekutif 13692 menyatakan Venezuela sebagai “ancaman yang tidak biasa dan luar biasa” bagi keamanan Amerika dan menyanksi tujuh pejabat. Perintah ini menjadi dasar sanksi berikutnya."
+],
+"9305c2d8d2": [
+"Penerbangan CIA melalui Palma de Mallorca",
+"Palma, Spanyol",
+"Menurut Diario de Mallorca, lebih dari 100 penerbangan CIA singgah di Palma, termasuk yang memindahkan Khaled el-Masri ke penjara rahasia di Afghanistan. Hakim Ismael Moreno menghentikan sementara penyelidikan karena tidak dapat mengidentifikasi awak pesawat."
 ],
 "931c0ea7b4": [
 "Ancaman memotong kredit ke Italia",
@@ -8640,6 +9246,11 @@
 "Washington, Amerika Serikat",
 "Sebuah memorandum presiden memerintahkan penyiapan pembalasan terhadap pajak digital dan aturan digital Eropa yang menyasar perusahaan Amerika."
 ],
+"9511d28bf4": [
+"Crypto AG: sandi Italia dibaca",
+"Roma, Italia",
+"Italia adalah salah satu pelanggan pertama Crypto AG, perusahaan Swiss yang secara rahasia dimiliki CIA dan BND. Menurut Washington Post dan ZDF pada 2020, komunikasi terenkripsinya dibaca, meskipun berstatus sekutu NATO."
+],
 "955100e93f": [
 "Tiga kematian di Guantánamo",
 "Guantánamo, Kuba",
@@ -8710,6 +9321,11 @@
 "Albania",
 "Operasi Valuable/BGFiend: CIA dan MI6 menyusupkan para eksil Albania hingga 1953. Dikhianati antara lain oleh Kim Philby, sebagian besar ditangkap atau dibunuh."
 ],
+"965f7a2ad2": [
+"Operasi Focus: balon selebaran di Hongaria",
+"Budapest, Hongaria",
+"Free Europe Committee, yang didanai CIA, meluncurkan balon dari Bavaria dengan lebih dari 16 juta selebaran yang ditandatangani gerakan oposisi fiktif, NEM, yang menyerukan perlawanan pasif. Budapest memprotes kepada Washington."
+],
 "9669c9ca8b": [
 "Pasukan payung setelah serbuan kedutaan",
 "Kuwait dan Irak",
@@ -8735,6 +9351,11 @@
 "Kepulauan Shengsi, Tiongkok",
 "Pesawat tempur Tiongkok menembak jatuh P4M Mercator Angkatan Laut AS yang bertugas intelijen elektronik malam hari di lepas Zhejiang. Ke-16 awaknya tewas."
 ],
+"96fbef0922": [
+"Musk menerima Alice Weidel di X",
+"Berlin, Jerman",
+"Menjelang pemilu legislatif Jerman, Elon Musk, yang dipilih untuk memimpin DOGE, berbincang langsung di X dengan kandidat AfD Alice Weidel dan menyerukan agar memilih partainya."
+],
 "972d15cc54": [
 "Korvet Iran ditenggelamkan di Chabahar",
 "Chabahar, Iran",
@@ -8749,6 +9370,11 @@
 "Tabrakan USS Grayling di Laut Barents",
 "Laut Barents, Rusia",
 "USS Grayling, yang membuntuti kapal selam pembawa rudal Rusia, menabraknya. Yeltsin memprotes dan Clinton menyatakan penyesalan."
+],
+"9741d2e68f": [
+"Rudal ke radar Serbia di Knin",
+"Knin, Kroasia",
+"Pada hari pertama ofensif Kroasia, EA-6B dan F/A-18 Angkatan Laut AS menembakkan rudal antiradar ke lokasi pertahanan udara Serbia di Knin dan Udbina, setelah dikunci oleh radar mereka."
 ],
 "97537e3b0a": [
 "Komando polisi dan “opsi Salvador”",
@@ -9025,6 +9651,11 @@
 "Sokoto, Nigeria",
 "Amerika Serikat menyerang kamp Negara Islam di barat laut Nigeria, dengan koordinasi bersama Abuja, menurut Donald Trump dan AFRICOM."
 ],
+"9d47052650": [
+"Washington membatalkan perjanjian pajak dengan Hongaria",
+"Budapest, Hongaria",
+"Departemen Keuangan AS memberitahukan berakhirnya perjanjian pajak 1979 dengan Hongaria, yang memblokir pajak minimum global di UE. Pembatalan berlaku pada Januari 2023 dan menaikkan beban pajak atas arus antara kedua negara."
+],
 "9d4dbe8d87": [
 "Kampanye OK'98 melawan Mečiar",
 "Bratislava, Slovakia",
@@ -9049,6 +9680,11 @@
 "Penerima beasiswa dan relawan diminta memata-matai",
 "La Paz, Bolivia",
 "Seorang petugas keamanan kedutaan meminta seorang penerima beasiswa Fulbright dan relawan Peace Corps melaporkan warga Kuba dan Venezuela di Bolivia. Kedutaan mengakui adanya “kesalahan”."
+],
+"9dbdbf1991": [
+"Rabobank mengaku bersalah",
+"Utrecht, Belanda",
+"Anak perusahaan bank Belanda di California itu mengaku bersalah menghalangi pemeriksaan regulator Amerika atas sistem antipencucian uangnya di perbatasan Meksiko. Bank itu membayar sekitar 369 juta dolar."
 ],
 "9dc1e81a2f": [
 "Kematian Shimoyama, keterlibatan yang dituduhkan",
@@ -9079,6 +9715,11 @@
 "Uday dan Qusay Hussein tewas di Mosul",
 "Mosul, Irak",
 "Pasukan khusus dan Divisi Lintas Udara ke-101 mengepung sebuah vila dan menewaskan kedua putra Saddam Hussein, serta Mustafa, putra Qusay yang berusia 14 tahun."
+],
+"9e839ef0c5": [
+"Wakil Presiden Agnew mengunjungi junta",
+"Athena, Yunani",
+"Spiro Agnew adalah pemimpin senior Barat pertama yang mengunjungi Yunani sejak kudeta 1967. Ia bertemu Georgios Papadopoulos dan menilai bantuan militer kepada junta “sangat penting” bagi Amerika Serikat."
 ],
 "9e879bf041": [
 "Penerbangan di atas Siberia (Homerun)",
@@ -9130,6 +9771,11 @@
 "Punta del Este, Uruguay",
 "Atas dorongan Washington, Organisasi Negara-Negara Amerika mengeluarkan pemerintah Kuba. Hanya enam negara yang abstain."
 ],
+"9fa9189a53": [
+"CIA mendanai sosial demokrat Finlandia",
+"Helsinki, Finlandia",
+"Pada 1950-an, menurut sejarawan Finlandia yang bersandar pada arsip, dana Amerika, termasuk dari CIA, mendukung sayap antikomunis Partai Sosial Demokrat dan persnya menghadapi kaum komunis."
+],
 "9fec8bfa31": [
 "Kudeta terhadap Makarios",
 "Nikosia, Siprus",
@@ -9175,6 +9821,11 @@
 "Kyiv, Ukraina",
 "Penarikan 175 juta dolar berupa amunisi HIMARS dan pertahanan antipesawat."
 ],
+"a0e0857d5d": [
+"Pesawat rendisi CIA di Shannon",
+"Shannon, Irlandia",
+"Amnesty mencatat sekitar lima puluh kali singgah di Shannon oleh pesawat yang dipakai CIA untuk rendisi. Sebuah kabel 2007 yang diterbitkan WikiLeaks menunjukkan Menteri Dermot Ahern yakin bahwa setidaknya tiga penerbangan semacam itu telah menyentuh Irlandia."
+],
 "a0fb997e9b": [
 "Revolusi Mawar",
 "Tbilisi, Georgia",
@@ -9184,6 +9835,11 @@
 "Pembantaian Azizabad",
 "Herat, Afganistan",
 "Penyerbuan dan serangan udara Amerika menewaskan sekitar 90 warga sipil menurut PBB, termasuk sekitar enam puluh anak. Militer semula membantah lalu mengakui 33 korban sipil."
+],
+"a11a099699": [
+"Bantuan Marshall diancam demi Indonesia",
+"Den Haag, Belanda",
+"Setelah “aksi polisionil” Belanda yang kedua, Washington menangguhkan bantuan untuk Hindia Belanda dan mengancam memotong Rencana Marshall bagi Belanda jika tidak menerima kemerdekaan Indonesia."
 ],
 "a12120a967": [
 "Serangan siber terhadap propaganda Iran",
@@ -9285,6 +9941,11 @@
 "Minsk, Belarus",
 "Pada peringatan ketiga pemilu 2020, Departemen Keuangan menyanksi maskapai nasional Belavia serta sejumlah entitas dan orang dekat Lukashenko."
 ],
+"a3289716fb": [
+"Bea atas zaitun hitam Spanyol",
+"Sevilla, Spanyol",
+"Washington memberlakukan bea antidumping dan antisubsidi yang dapat mencapai sekitar 20 % dan 27 % atas zaitun meja hitam dari Spanyol. Pada 2021, WTO menilai sebagian bea itu bertentangan dengan aturannya; bea tetap berlaku."
+],
 "a3ac5447d3": [
 "Pilot CIA ditembak jatuh di Ambon",
 "Ambon, Indonesia",
@@ -9315,10 +9976,20 @@
 "Kyiv, Ukraina",
 "Biden menandatangani Additional Ukraine Supplemental Appropriations Act, yang membuka sekitar 40 miliar dolar, sekitar dua puluh miliar di antaranya untuk pertahanan."
 ],
+"a418df0762": [
+"Abrilada: kudeta gagal terhadap Salazar",
+"Lisboa, Portugal",
+"Menteri Pertahanan Botelho Moniz berusaha menyingkirkan Salazar untuk mengubah kebijakan kolonial. Sejarawan berpendapat pemerintahan Kennedy, yang menentang kebijakan itu, siap mendukung perubahan tersebut secara diam-diam; peran Amerika tidak terbukti."
+],
 "a4526a8ab1": [
 "Komite pertahanan melawan komunisme",
 "Guatemala, Guatemala",
 "Rezim Castillo Armas membentuk komite yang mendata puluhan ribu orang yang dicurigai dan menangkap ribuan orang. Para sejarawan menggambarkan dukungan CIA terhadap pendataan itu."
+],
+"a47904cd7f": [
+"Unit pengawasan kedutaan di Stockholm",
+"Stockholm, Swedia",
+"Menteri Kehakiman Beatrice Ask membenarkan bahwa kedutaan Amerika sejak 2000 melakukan pengawasan rahasia terhadap orang-orang di sekitar gedungnya tanpa sepengetahuan otoritas Swedia. Seorang jaksa membuka penyelidikan."
 ],
 "a48d224d82": [
 "Kesepakatan Rubio-Bukele soal tahanan",
@@ -9365,6 +10036,11 @@
 "Meksiko, Meksiko",
 "Washington memasukkan kartel Sinaloa, Tren de Aragua, dan kelompok lain ke daftar organisasi teroris, dasar hukum yang kemudian dipakai untuk serangan militer."
 ],
+"a521d670ca": [
+"Seorang Swedia ditahan di Guantánamo",
+"Guantánamo, Kuba",
+"Mehdi Ghezali, warga Swedia yang ditangkap di Pakistan, ditahan tanpa diadili selama 930 hari di Guantánamo, lalu dibebaskan pada Juli 2004 tanpa dakwaan. Ia mengaku mengalami dingin, kebisingan, dan cahaya terus-menerus."
+],
 "a5226a1370": [
 "Kunjungan Biden ke Kyiv, 460 juta",
 "Kyiv, Ukraina",
@@ -9395,6 +10071,16 @@
 "Dar es Salaam, Tanzania",
 "Ditangkap di Dar es Salaam, warga Yaman ini dipindahkan ke Djibouti lalu ke penjara-penjara rahasia CIA. Ia dikembalikan ke Yaman pada 2005 tanpa dakwaan, menurut Amnesty International."
 ],
+"a5c2a6eac6": [
+"Radio Liberty menyiar ke negara-negara Baltik",
+"München, Jerman",
+"Radio Liberty, yang didanai Kongres, meluncurkan program dalam bahasa Estonia, Latvia, dan Lituania, yang pada 1983 digabung dalam satu layanan Baltik. Siaran dihentikan pada 2004."
+],
+"a5c4bf7a07": [
+"Transit pasukan ke Irak melalui Shannon",
+"Shannon, Irlandia",
+"Puluhan ribu tentara Amerika transit melalui Bandara Shannon menuju Irak. Pada 2003, Pengadilan Tinggi menilai bahwa negara dengan demikian melanggar hukum netralitas (Konvensi Den Haag), tanpa memerintahkan penghentiannya."
+],
 "a5f1c62776": [
 "Penangkapan Nicolás Maduro",
 "Caracas, Venezuela",
@@ -9420,6 +10106,11 @@
 "Kyiv, Ukraina",
 "Biden menandatangani paket keamanan nasional senilai 95 miliar dolar, 60,8 miliar di antaranya untuk Ukraina, dan segera mengumumkan penarikan satu miliar."
 ],
+"a6498ba28d": [
+"Pencemaran di pangkalan Lajes",
+"Praia da Vitória, Portugal",
+"Sebuah studi Angkatan Darat AS mencatat 35 lokasi yang tercemar hidrokarbon dan logam berat di tanah dan air tanah Pulau Terceira di sekitar pangkalan Lajes. Laboratorium Portugal LNEC memastikan pencemaran itu pada 2009."
+],
 "a65b325829": [
 "Perintah 200-05/91 dan jaringan intelijen",
 "Bogotá, Kolombia",
@@ -9435,6 +10126,11 @@
 "Caracas, Venezuela",
 "National Endowment for Democracy melipatgandakan hibahnya kepada kelompok-kelompok Venezuela, termasuk serikat pekerja dan organisasi pengusaha yang kelak memimpin kudeta 2002. Jumlahnya telah dipublikasikan oleh NED."
 ],
+"a69bfa1dae": [
+"Operasi Spotlight: selebaran atas Polandia",
+"Polandia",
+"Free Europe Press, yang didanai CIA, menerbangkan dengan balon ke Polandia brosur yang memuat pengungkapan Józef Światło tentang polisi politik."
+],
 "a6aa3419a2": [
 "Kamp pelatihan Retalhuleu",
 "Retalhuleu, Guatemala",
@@ -9444,6 +10140,11 @@
 "Korea Utara kembali disebut negara teroris",
 "Pyongyang, Korea Utara",
 "Trump memasukkan kembali Korea Utara ke daftar negara pendukung terorisme, dengan menyebut antara lain pembunuhan Kim Jong-nam."
+],
+"a6c7e6a386": [
+"Penerbangan CIA melalui Portugal",
+"Azores, Portugal",
+"Pesawat CIA yang mengangkut tahanan ke Guantánamo melintasi Azores dan singgah di Porto atau Ponta Delgada. Setelah dilaporkan oleh anggota Parlemen Eropa Ana Gomes, kejaksaan membuka penyelidikan pada Februari 2007, yang dihentikan pada 2009 karena kurang bukti."
 ],
 "a6f4a84203": [
 "Nixon dan Médici melawan Allende dan Castro",
@@ -9465,10 +10166,20 @@
 "Sverdlovsk, Uni Soviet",
 "Pesawat mata-mata Francis Gary Powers ditembak jatuh. Washington awalnya menyangkal, lalu mengakui penerbangan-penerbangan itu. KTT Paris gagal."
 ],
+"a7432d3ec4": [
+"Tekanan terhadap Jalur Sutra Italia",
+"Roma, Italia",
+"Gedung Putih secara terbuka memperingatkan Roma soal keikutsertaannya dalam Jalur Sutra Baru, yang ditandatangani pada 23 Maret 2019. Italia, satu-satunya negara G7 yang bergabung, keluar pada akhir 2023."
+],
 "a76b499a40": [
 "Pil diberikan kepada Tony Varona",
 "Miami, Amerika Serikat",
 "Setelah kegagalan Juan Orta, Roselli dan Trafficante menyerahkan pil kepada eksil Tony Varona, yang mengaku punya kontak di sebuah restoran yang sering dikunjungi Castro. Kegagalan Teluk Babi mengakhiri proyek itu, menurut Komisi Church."
+],
+"a76c93584f": [
+"Program AEFREEMAN untuk negara-negara Baltik",
+"Tallinn, Estonia",
+"CIA mendanai organisasi eksil Baltik untuk “mengganggu” rezim Soviet. Bagian Estonia, AEROOT/AEBASIN (1953-1960), juga merencanakan infiltrasi agen. Dokumen telah dideklasifikasi."
 ],
 "a781f57ce1": [
 "Intelijen yang dimanipulasi untuk kedua pihak",
@@ -9554,6 +10265,11 @@
 "Serangan terhadap Houthi",
 "Hodeidah, Yaman",
 "Setelah serangan Houthi di Laut Merah, Amerika Serikat dan Inggris membom sasaran di Yaman, yang pertama dari serangkaian panjang."
+],
+"a8ebd1a4e3": [
+"Pengungsi tewas di Castel Gandolfo",
+"Castel Gandolfo, Vatikan",
+"Selama pertempuran Anzio, pembom Sekutu, yang menurut sebagian besar catatan adalah pembom Amerika, menghantam properti kepausan di Castel Gandolfo tempat ribuan pengungsi berlindung. Ratusan warga sipil tewas. Takhta Suci memprotes."
 ],
 "a91385c2bd": [
 "Larangan visa untuk Thierry Breton",
@@ -9650,10 +10366,20 @@
 "Frankfurt, Jerman",
 "Bank Jerman itu dikenai sanksi atas pelanggaran embargo Amerika terhadap Iran dan Sudan serta kelalaian antipencucian uang."
 ],
+"aabbd81fbb": [
+"Embargo minyak terhadap Spanyol Franco",
+"Madrid, Spanyol",
+"Washington menghentikan pengiriman minyaknya untuk memaksa penghentian penjualan wolfram ke Jerman. Ekonomi Spanyol lumpuh; kesepakatan Mei 1944 mengurangi ekspor itu dan memulihkan pengiriman."
+],
 "ab093ef940": [
 "Amandemen Platt",
 "Havana, Kuba",
 "Washington memaksakan dalam Konstitusi Kuba hak intervensi Amerika dan penyerahan pangkalan angkatan laut, sebagai syarat penarikan pasukan."
+],
+"ab16debd1c": [
+"Penangkapan bos Pilatus Bank",
+"Valletta, Malta",
+"Ali Sadr Hashemi Nejad, presiden bank Malta Pilatus, ditangkap dekat Washington karena menghindari sanksi terhadap Iran. Regulator Malta segera menyingkirkannya dari pimpinan bank."
 ],
 "ab604e2a61": [
 "Rencana Omega terhadap Nasser",
@@ -9765,6 +10491,11 @@
 "Kunming, Tiongkok",
 "Sebelum memasuki perang, Washington mengizinkan perekrutan pilot militer yang mengundurkan diri untuk American Volunteer Group, yang bertempur melawan Jepang demi Tiongkok."
 ],
+"acf76325b2": [
+"Majalah Tilanne dibiayai CIA",
+"Helsinki, Finlandia",
+"Didirikan oleh mantan komunis Finlandia, majalah kiri ini terbit dari 1961 hingga 1967. Sebagian didanai oleh Congress for Cultural Freedom, yang penyandang dana rahasianya adalah CIA."
+],
 "acfecd428d": [
 "Penyerbuan untuk membebaskan James Foley",
 "Provinsi Raqqa, Suriah",
@@ -9854,6 +10585,11 @@
 "Peluncuran Radio Free Iraq",
 "Praha, Republik Ceko",
 "Radio Free Europe/Radio Liberty, yang dibiayai Kongres, meluncurkan siaran radio berbahasa Arab untuk warga Irak, dalam kerangka kebijakan perubahan rezim."
+],
+"aed301ff17": [
+"Memilih antara sekutu dan Tiongkok",
+"Lisboa, Portugal",
+"Duta Besar George Glass menyatakan kepada Expresso bahwa Portugal harus memilih antara sekutunya dan Tiongkok, terutama soal 5G dan pelabuhan Sines. Menteri Santos Silva membalas bahwa Lisboa memutuskan sendiri."
 ],
 "aedf4c9e99": [
 "Ahmed Abdi Godane tewas dalam serangan",
@@ -10015,6 +10751,11 @@
 "Laut Karibia",
 "Pete Hegseth mengumumkan operasi “Tombak Selatan” terhadap “narkoteroris”; kapal induk Gerald R. Ford tiba di Karibia beberapa hari kemudian."
 ],
+"b210970808": [
+"Embargo senjata terhadap Spanyol Republik",
+"Madrid, Spanyol",
+"Kongres melarang semua penjualan senjata kepada kedua pihak dalam perang saudara. Pemerintah republik yang sah tidak dapat lagi mempersenjatai diri di Amerika Serikat, sementara Jerman dan Italia mempersenjatai Franco. Roosevelt menegaskan embargo itu pada 1 Mei 1937."
+],
 "b21f001fec": [
 "Undang-Undang BURMA: bantuan bagi penentang junta",
 "Naypyidaw, Myanmar",
@@ -10034,6 +10775,11 @@
 "F-16 pertama di Ukraina",
 "Kyiv, Ukraina",
 "Zelensky memperkenalkan F-16 pertama yang dikirim sekutu Eropa dengan izin Washington dan diterbangkan pilot Ukraina yang dilatih di Amerika Serikat."
+],
+"b2592bf835": [
+"Musk membela Georgescu melawan peradilan Rumania",
+"Bukares, Rumania",
+"Elon Musk, saat itu penasihat Trump di DOGE, menyebut pengecualian Călin Georgescu dari pemilihan presiden sebagai “kegilaan” dan menyebut presiden Mahkamah Konstitusi “tiran”. Bentrokan pecah di Bukares setelah pengecualian itu."
 ],
 "b28c544148": [
 "Blackwater dalam program rahasia JSOC",
@@ -10075,6 +10821,11 @@
 "Laut Karibia",
 "Penjaga pantai dan pasukan Southern Spear menyita kapal tanker Olina, kapal kelima yang disita dalam “karantina” atas minyak Venezuela."
 ],
+"b2f78b9d8d": [
+"Seorang tahanan Guantánamo ditukar dengan pertemuan",
+"Ljubljana, Slovenia",
+"Menurut kabel yang diterbitkan WikiLeaks, diplomat Amerika mengaitkan pertemuan dengan Obama dengan penerimaan seorang tahanan Guantánamo oleh Slovenia. Ljubljana membantah adanya tawar-menawar apa pun."
+],
 "b319082ea9": [
 "Lokakarya anti-AIDS untuk merekrut di Kuba",
 "Havana, Kuba",
@@ -10084,6 +10835,11 @@
 "Junta Argentina",
 "Buenos Aires, Argentina",
 "Militer menggulingkan Isabel Perón. Washington, yang telah diberi tahu sebelumnya, segera mengakui junta itu, yang menyebabkan ribuan orang hilang."
+],
+"b32f170019": [
+"Kedutaan menuntut diakhirinya kebijakan DEI",
+"Paris, Prancis",
+"Kedutaan Amerika meminta perusahaan Prancis pemasok pemerintah federal untuk mengesahkan dalam lima hari bahwa mereka tidak memiliki program keberagaman. Paris mengecamnya sebagai campur tangan yang “tidak dapat diterima”."
 ],
 "b332451ac5": [
 "Surat Muccio tentang pengungsi",
@@ -10099,6 +10855,11 @@
 "Kabel bawah laut SEA-ME-WE 4 diretas",
 "Marseille, Prancis",
 "Unit TAO NSA menembus situs manajemen konsorsium kabel yang menghubungkan Marseille dengan Asia Tenggara dan memperoleh peta sirkuitnya. Diungkap oleh Der Spiegel dan Le Monde pada Desember 2013."
+],
+"b366ee419c": [
+"Rubio mendukung Orbán di Budapest sebelum pemilu",
+"Budapest, Hongaria",
+"Dalam kunjungan ke Budapest, Marco Rubio mendukung terpilihnya kembali Viktor Orbán: “kami ingin Anda terus berlanjut”. Ia mengaitkan “zaman keemasan” hubungan bilateral dengan tetapnya Orbán berkuasa. Orbán kalah dalam pemilu 12 April."
 ],
 "b36ef9a798": [
 "Marinir di konsulat Fuzhou",
@@ -10195,6 +10956,11 @@
 "Long Tieng, Laos",
 "Sejarawan Alfred McCoy mendokumentasikan pengangkutan opium oleh pesawat yang terkait CIA untuk sekutu-sekutu Laos. CIA menyangkal keterlibatan langsung."
 ],
+"b5b059daea": [
+"TechnipFMC membayar 301 juta dolar",
+"Paris, Prancis",
+"Digugat atas suap Technip di Brasil dan FMC di Irak, grup Prancis-Amerika TechnipFMC menyepakati dengan peradilan Amerika penyelesaian senilai 301 juta dolar, yang dibagi dengan Brasil."
+],
 "b635c52bd7": [
 "Pengadilan Rolando Cubela di Havana",
 "Havana, Kuba",
@@ -10250,6 +11016,11 @@
 "Taiwan",
 "Wall Street Journal mengungkap bahwa personel militer Amerika melatih militer Taiwan secara rahasia; Presiden Tsai Ing-wen membenarkannya."
 ],
+"b6ed1bc99c": [
+"Pemilik kapal Yunani Suez Rajan dihukum",
+"Athena, Yunani",
+"Perusahaan Yunani Empire Navigation mengaku bersalah di hadapan peradilan Amerika karena mengangkut minyak Iran dan membayar 2,4 juta dolar. Sekitar satu juta barel yang disita dibongkar di Houston."
+],
 "b73dfc3d8a": [
 "Ekspedisi hukuman terhadap Villa",
 "Chihuahua, Meksiko",
@@ -10270,10 +11041,20 @@
 "Mesir",
 "Setelah pengeboman sebuah kota Sudan oleh pesawat Libya, Washington mengirim pesawat pengawas AWACS ke Mesir atas permintaan Sudan dan Mesir. Tercatat dalam laporan R42738 Layanan Riset Kongres."
 ],
+"b7a267517b": [
+"Pengeboman Zadar",
+"Zadar (Zara), Kroasia",
+"Angkatan Udara ke-12 AS membuka rangkaian serangan Sekutu atas Zara, yang saat itu milik Italia, dan berlangsung hingga Oktober 1944. Sekitar 80 % bangunan hancur; perkiraan korban tewas berkisar dari kurang dari 1.000 hingga 4.000."
+],
 "b7da51360c": [
 "Bus sekolah Dahyan",
 "Saada, Yaman",
 "Serangan koalisi pimpinan Saudi menewaskan 40 anak di dalam bus. CNN mengidentifikasi bom berpemandu laser buatan Lockheed Martin yang dijual oleh Amerika Serikat."
+],
+"b81eaf5ac4": [
+"Kedutaan mengomentari kematian Quentin Deranque",
+"Lyon, Prancis",
+"Kedutaan Amerika di media sosial mengaitkan kematian aktivis sayap kanan ekstrem itu dengan kelompok kiri ekstrem. Paris menilainya sebagai instrumentalisasi; Charles Kushner tidak memenuhi panggilan dan kehilangan akses langsung ke para menteri."
 ],
 "b83b19ea38": [
 "Reagan membela Ríos Montt",
@@ -10470,6 +11251,11 @@
 "Pullach, Jerman",
 "NSA meminta BND mengawasi target-target Eropa, termasuk EADS, Eurocopter, dan pejabat Prancis. Bundestag menyelidikinya."
 ],
+"bb44dc30db": [
+"Vance mengecam pembatalan pemilihan presiden",
+"München, Jerman",
+"Pada Konferensi München, Wakil Presiden JD Vance menyatakan bahwa Rumania membatalkan pemilihan presidennya berdasarkan “kecurigaan yang rapuh” dinas-dinasnya dan di bawah “tekanan besar” negara-negara tetangganya. Kelompok sayap kanan ekstrem Rumania menyambut pidato itu."
+],
 "bb4edb2cea": [
 "Kelly: tidak ada komitmen terhadap Kuwait",
 "Baghdad, Irak",
@@ -10595,6 +11381,11 @@
 "New York, Amerika Serikat",
 "Pada musim panas 2012, NSA membobol enkripsi sistem konferensi video internal Perserikatan Bangsa-Bangsa; dalam tiga minggu, komunikasi yang berhasil didekode naik dari 12 menjadi 458. Diungkap oleh Der Spiegel pada Agustus 2013."
 ],
+"bd893065cb": [
+"Washington membekukan hubungan dengan Swedia",
+"Stockholm, Swedia",
+"Setelah Olof Palme membandingkan pengeboman Hanoi dengan kejahatan Nazi, pemerintahan Nixon menyebutnya “penghinaan kasar”, menarik duta besarnya, dan menolak duta besar Swedia yang baru selama lebih dari setahun."
+],
 "bdd3e32232": [
 "Serangan masif setelah jatuhnya Assad",
 "Gurun tengah, Suriah",
@@ -10695,6 +11486,11 @@
 "Lebanon selatan",
 "Pada hari-hari terakhir perang, Israel menembakkan jutaan amunisi curah, sebagian buatan Amerika. Laporan Departemen Luar Negeri kepada Kongres (Januari 2007) menyimpulkan kemungkinan adanya pelanggaran perjanjian penggunaan."
 ],
+"bf88abc125": [
+"Persembunyian senjata stay-behind Belanda",
+"Belanda",
+"Para pejalan kaki menemukan gudang senjata yang terkubur. Pemerintah mengakui bahwa itu bagian dari jaringan rahasia stay-behind, yang dibentuk bersama dinas Inggris dan Amerika dalam kerangka NATO."
+],
 "bfc2521a64": [
 "Rumah sakit MSF dibom di Kunduz",
 "Kunduz, Afganistan",
@@ -10735,6 +11531,11 @@
 "Samudra Pasifik",
 "CIA membangun Glomar Explorer untuk mengangkat bangkai kapal selam Soviet K-129. Hanya sebagian lambung yang berhasil diangkat."
 ],
+"c00ce2c583": [
+"Senin Paskah berdarah di Grosseto",
+"Grosseto, Italia",
+"Pada Senin Paskah, pesawat Amerika membom dan menembaki Grosseto, termasuk sebuah pasar malam. Lebih dari seratus warga sipil tewas, banyak di antaranya anak-anak."
+],
 "c026ba020d": [
 "Penangkapan Frédéric Pierucci",
 "New York, terkait Prancis",
@@ -10744,6 +11545,11 @@
 "Tentara Somalia tewas dekat Galkayo",
 "Galkayo, Somalia",
 "Serangan Amerika yang disebut menyasar Al-Shabaab menewaskan sekitar dua puluh tentara dan warga sipil, menurut otoritas Galmudug. AFRICOM membuka penyelidikan."
+],
+"c044a5ebed": [
+"Perjanjian pertahanan soal Greenland",
+"New York, terkait Greenland",
+"Setelah berbulan-bulan ancaman aneksasi, Trump menandatangani dengan Kopenhagen dan Nuuk sebuah perjanjian tanpa batas waktu: perluasan Pituffik, zona baru di Narsarsuaq dan Mestersvig, veto atas kehadiran militer non-NATO."
 ],
 "c05314d6d9": [
 "Bom serat grafit pada jaringan listrik",
@@ -10784,6 +11590,11 @@
 "Perintah No. 2: tentara Irak dibubarkan",
 "Baghdad, Irak",
 "Bremer membubarkan tentara, dinas keamanan, dan Kementerian Pertahanan. Ratusan ribu pria bersenjata kehilangan pekerjaan, yang oleh banyak analis dikaitkan dengan bangkitnya pemberontakan."
+],
+"c0bbe5da8f": [
+"Leonīds Zariņš diterjunkan dekat Auce",
+"Auce, Latvia",
+"Direkrut CIA di Amerika Serikat, ia diterjunkan dari Jerman. Dikhianati oleh seorang kontak yang menjadi agen ganda, ia ditangkap dan ditembak mati tanpa pengadilan pada 1954."
 ],
 "c0d4c96781": [
 "Serangan Damadola",
@@ -10840,6 +11651,11 @@
 "Kabul, Afganistan",
 "Serangan Amerika menghancurkan kantor Al Jazeera. Pentagon menyatakan mengincar sebuah lokasi Al-Qaeda."
 ],
+"c1bff96399": [
+"15 juta dolar untuk situs hitam Polandia",
+"Warsawa, Polandia",
+"Menurut Washington Post, dua perwira CIA menyerahkan pada awal 2003 kepada intelijen Polandia 15 juta dolar tunai, dalam kardus, untuk penggunaan pangkalan Stare Kiejkuty."
+],
 "c1df8c6a83": [
 "Penyiksaan di CECOT didokumentasikan",
 "Tecoluca, El Salvador",
@@ -10869,6 +11685,16 @@
 "Hak mogok pegawai negeri dicabut",
 "Tokyo, Jepang",
 "Atas surat MacArthur, pemerintahan Ashida menerbitkan Ordonansi 201, yang mencabut hak mogok dan hak perundingan kolektif pegawai negeri. Langkah itu menandai “arah balik” pendudukan."
+],
+"c289e4b56a": [
+"Ledakan Pershing II di Heilbronn",
+"Heilbronn, Jerman",
+"Tahap pertama rudal nuklir Pershing II terbakar saat perakitan di Camp Redleg, di Waldheide. Tiga tentara Amerika tewas dan beberapa orang terluka. Kecelakaan itu menghidupkan kembali penentangan terhadap euromisil."
+],
+"c29152bc56": [
+"Tekanan atas tambang Tanbreez",
+"Qaqortoq, Greenland",
+"Menurut bos Tanbreez Mining, yang dikutip Reuters pada Januari 2025, pejabat Amerika mencegahnya menjual endapan tanah jarang itu kepada pembeli yang terkait Beijing. Ia melepasnya kepada perusahaan Amerika Critical Metals."
 ],
 "c294dc5869": [
 "Delapan belas bank Iran disanksi",
@@ -10950,6 +11776,11 @@
 "Isfahan, Iran",
 "Pesawat Amerika menjatuhkan bom penghancur bunker 2.000 pon di sebuah depot amunisi besar dekat Gunung Soffeh di Isfahan. Trump menyebarkan gambar ledakannya."
 ],
+"c3fdb1e248": [
+"Abu Omar dipindahkan melalui Ramstein",
+"Ramstein, Jerman",
+"Diculik di Milan oleh CIA, imam Abu Omar dibawa ke Aviano lalu ke pangkalan Ramstein, dari sana sebuah pesawat membawanya ke Mesir. Kejaksaan Zweibrücken membuka penyelidikan atas transit ini."
+],
 "c42248b009": [
 "Pembantaian Zhazidong",
 "Chongqing, Tiongkok",
@@ -10959,6 +11790,11 @@
 "Lisensi untuk Delta Crescent Energy",
 "Suriah timur laut",
 "Departemen Keuangan memberi lisensi kepada perusahaan Amerika Delta Crescent Energy untuk mengeksploitasi minyak di wilayah Kurdi. Mike Pompeo membenarkannya di Senat. Damaskus mengecamnya sebagai pencurian sumber dayanya."
+],
+"c4438bb23f": [
+"Seorang informan kedutaan di FDP",
+"Berlin, Jerman",
+"Kabel diplomatik yang diterbitkan WikiLeaks pada 2010 melaporkan perundingan koalisi CDU-FDP berkat seorang informan. Helmut Metzner, kepala staf Guido Westerwelle, mengaku telah memberi informasi kepada kedutaan dan dipecat."
 ],
 "c45e4429b4": [
 "Penerbangan KAL 007: dugaan misi mata-mata",
@@ -10974,6 +11810,11 @@
 "Penculikan Matta Ballesteros",
 "Tegucigalpa, Honduras",
 "Polisi Honduras dan marshal Amerika menangkap pengedar Juan Ramón Matta Ballesteros dan mengirimnya ke Amerika Serikat. Perusuh membakar sebuah gedung tambahan kedutaan."
+],
+"c473a30106": [
+"Agen diterjunkan di Kurzeme",
+"Kurzeme, Latvia",
+"Alfreds Riekstiņš dan dua pria lain didaratkan di Latvia untuk intelijen Amerika. Keamanan Soviet, yang telah mendapat informasi tentang operasi itu, sudah menunggu mereka."
 ],
 "c477292a18": [
 "Serangan bom pembakar besar kedua atas Tokyo",
@@ -11070,6 +11911,16 @@
 "Teheran, Iran",
 "Amerika Serikat dan Israel melancarkan hampir 900 serangan dalam dua belas jam terhadap rudal, pertahanan, dan pemimpin Iran. Ini awal perang Iran 2026."
 ],
+"c5e10f20f5": [
+"Surat yang mengumumkan bea 30 % bagi UE",
+"Brussel, Belgia",
+"Dalam surat kepada Ursula von der Leyen, Donald Trump mengumumkan bea 30 % atas produk Eropa pada 1 Agustus, dan lebih tinggi jika ada pembalasan. Ancaman itu mengarah pada kesepakatan Turnberry."
+],
+"c5ed8b56a6": [
+"Embargo senjata Amerika terhadap Siprus",
+"Nikosia, Siprus",
+"Washington melarang penjualan senjata kepada Republik Siprus, secara resmi untuk mendorong penyatuan kembali. Embargo itu dicabut sebagian pada 2020, dengan syarat, termasuk penolakan singgah bagi kapal militer Rusia."
+],
 "c601901c38": [
 "CIA mengetahui eksekusi di bawah Geisel",
 "Brasília, Brasil",
@@ -11135,6 +11986,11 @@
 "Vieques, Puerto Riko",
 "Agen federal dan Marinir mengusir para demonstran yang menduduki lapangan tembak dan menangkap lebih dari 200 orang. Pengeboman latihan dilanjutkan."
 ],
+"c7f3ca5a8c": [
+"Danske Bank mengaku bersalah",
+"Kopenhagen, Denmark",
+"Bank terbesar Denmark itu mengaku bersalah di hadapan peradilan Amerika atas penipuan perbankan terkait pencucian uang oleh anak perusahaannya di Estonia dan menyetujui penyitaan 2,059 miliar dolar."
+],
 "c7f927a432": [
 "Pembantaian Roboski",
 "Roboski, Turki",
@@ -11154,6 +12010,11 @@
 "Pembelokan pesawat Mesir ke Sigonella",
 "Sigonella, Italia",
 "F-14 Amerika mencegat pesawat penumpang Mesir yang membawa pembajak Achille Lauro dan memaksanya mendarat di Sisilia. Carabinieri dan pasukan komando Amerika berhadapan di pangkalan."
+],
+"c88a16e270": [
+"Sanksi Magnitsky baru di Bulgaria",
+"Sofia, Bulgaria",
+"Departemen Keuangan menjatuhkan sanksi kepada lima pejabat Bulgaria, termasuk mantan menteri Rumen Ovcharov, mantan Menteri Keuangan Vladislav Goranov, dan tokoh pro-Rusia Nikolay Malinov, karena korupsi, terutama dalam kontrak energi dengan Rusia."
 ],
 "c890a34fb7": [
 "Operasi Menu: pengeboman rahasia Kamboja",
@@ -11209,6 +12070,11 @@
 "Surat kabar al-Hawza ditutup Bremer",
 "Baghdad, Irak",
 "Paul Bremer menutup surat kabar milik gerakan Moqtada al-Sadr, yang dituduh menghasut. Langkah itu memicu demonstrasi lalu pemberontakan Syiah pada April 2004."
+],
+"c9c1c6bfb3": [
+"Pemerkosaan oleh tentara Amerika",
+"Jerman",
+"Tentara Amerika melakukan pemerkosaan di Jerman yang diduduki. Perkiraan sangat berbeda: sekitar 11.000 menurut kriminolog J. Robert Lilly, hingga 190.000 menurut sejarawan Miriam Gebhardt, yang metodenya diperdebatkan."
 ],
 "c9d223be51": [
 "Napalm pertama di Eropa di Royan",
@@ -11280,6 +12146,11 @@
 "Bamako, Mali",
 "Kapten Amadou Sanogo, yang menggulingkan Amadou Toumani Touré, pernah mengikuti beberapa pelatihan militer di Amerika Serikat. Pentagon mengakuinya sambil mengecam kudeta itu."
 ],
+"caa81e017b": [
+"Biden: “tidak akan ada lagi Nord Stream 2”",
+"Washington, terkait Jerman",
+"Di samping Olaf Scholz, Joe Biden menyatakan bahwa jika Rusia menginvasi Ukraina “tidak akan ada lagi Nord Stream 2” dan bahwa “kami akan mengakhirinya”. Ucapan itu sering dikutip setelah sabotase pipa gas tersebut."
+],
 "caa97000a0": [
 "500 juta koneksi Jerman per bulan",
 "Jerman",
@@ -11309,6 +12180,16 @@
 "Jaringan Quai d'Orsay disadap",
 "Paris, Prancis",
 "Sebuah presentasi NSA Mei 2012 menyebut jaringan privat Kementerian Luar Negeri Prancis di antara jaringan yang ditembus melalui serangan “man-in-the-middle”. Diungkap oleh TV Globo pada September 2013."
+],
+"cafb8ae72f": [
+"Tekanan terhadap bandara Tiongkok",
+"Nuuk, Greenland",
+"Menteri Pertahanan James Mattis mendesak Kopenhagen menyingkirkan tawaran perusahaan Tiongkok CCCC untuk tiga bandara Greenland. Denmark membiayai proyek itu sendiri dan CCCC mundur pada 2019."
+],
+"cb1035659f": [
+"USTR mengancam perusahaan Eropa",
+"Brussel, Belgia",
+"Sebagai balasan atas DSA dan DMA, Perwakilan Dagang Amerika mengancam akan mengenakan biaya dan pembatasan terhadap grup Eropa yang ia sebut: SAP, Siemens, DHL, Spotify, Mistral AI, Capgemini, Publicis, Amadeus."
 ],
 "cb13895a5d": [
 "Dua kapal induk di Selat Taiwan",
@@ -11485,6 +12366,11 @@
 "Tripoli, Libya",
 "Newsweek mengungkap pada musim panas 1981 rencana CIA untuk mengguncang dan menggulingkan Qaddafi, yang memadukan disinformasi dan aksi paramiliter. Anggota komite intelijen DPR memprotes kepada Reagan."
 ],
+"cd9f434810": [
+"Sanksi terhadap bank IIB di Budapest",
+"Budapest, Hongaria",
+"Departemen Keuangan menjatuhkan sanksi kepada International Investment Bank, yang dikendalikan Moskow dan berkedudukan di Budapest, serta para pimpinannya, termasuk seorang warga Hongaria. Keesokan harinya Hongaria mengumumkan penarikan dirinya; bank itu meninggalkan Budapest."
+],
 "cda2a3c4b0": [
 "Kembalinya Bonilla, dibiayai Zemurray",
 "La Ceiba, Honduras",
@@ -11554,6 +12440,11 @@
 "Buku putih tentang campur tangan komunis",
 "San Salvador, El Salvador",
 "Departemen Luar Negeri menerbitkan laporan yang menuduh Kuba dan blok Soviet mempersenjatai FMLN. Wall Street Journal menunjukkan pada Juni bahwa beberapa kesimpulannya bertumpu pada dokumen yang salah ditafsirkan."
+],
+"ceb21e88ec": [
+"Palomares: pembersihan yang dijanjikan tak pernah dilakukan",
+"Palomares, Spanyol",
+"Setelah puluhan tahun permintaan Spanyol, Washington menandatangani pernyataan niat untuk memindahkan ke Nevada tanah yang tercemar plutonium pada 1966. Tidak ada kesepakatan akhir yang menyusul dan lokasi itu tetap tercemar."
 ],
 "cecaa8c8cc": [
 "J&F (JBS) membayar ke peradilan Amerika",
@@ -11705,6 +12596,11 @@
 "Boz Qandahari, Kunduz, Afganistan",
 "Serangan Amerika untuk mendukung pasukan Afganistan dan Amerika menewaskan 33 warga sipil menurut Pentagon, yang mengakui kejadian itu tetapi menilainya sesuai hukum."
 ],
+"d116fa5865": [
+"Bea 25 % atas keju Italia",
+"Parma, Italia",
+"Dalam sengketa Airbus, Washington mengenakan bea 25 % atas produk Italia, termasuk parmesan, grana padano, pecorino, dan provolone, serta minuman likeur. Italia bukan anggota konsorsium itu."
+],
 "d119c3ea12": [
 "Serangan meluas ke Pasifik",
 "Pasifik timur, Kolombia",
@@ -11770,6 +12666,16 @@
 "Ürümqi, Tiongkok",
 "Departemen Perdagangan memasukkan 28 entitas Tiongkok, termasuk Hikvision dan kepolisian Xinjiang, ke Entity List atas penindasan terhadap warga Uighur."
 ],
+"d1cd86fa68": [
+"Allianz membayar 6 miliar dolar",
+"München, Jerman",
+"Anak perusahaan Amerika Allianz Global Investors mengaku bersalah atas penipuan dana Structured Alpha, yang ambruk pada 2020. Perusahaan asuransi Jerman itu setuju membayar sekitar 6 miliar dolar kepada otoritas dan investor."
+],
+"d1d82c8c4c": [
+"Serangan udara Amerika pertama atas Napoli",
+"Napoli, Italia",
+"Pesawat B-24 Angkatan Udara AS membom pelabuhan dan pusat kota Napoli pada siang hari. Serangan itu menewaskan ratusan warga sipil. Serangan ini membuka rangkaian pengeboman Sekutu yang menghantam kota tersebut hingga 1943."
+],
 "d1e0d4707b": [
 "Total hengkang dari South Pars",
 "Teheran, terkait Prancis",
@@ -11834,6 +12740,11 @@
 "Kembalinya Baath berkuasa pada 1968",
 "Baghdad, Irak",
 "Partai Baath menggulingkan Presiden Abdul Rahman Arif. Sejumlah penulis, termasuk Saïd Aburish, menyebut adanya kontak dengan CIA; tidak ada dokumen publik yang membuktikan peran Amerika."
+],
+"d2eac87633": [
+"SBM Offshore membayar 238 juta",
+"Amsterdam, Belanda",
+"Grup pemasok industri perminyakan Belanda itu menyepakati perjanjian penuntutan yang ditangguhkan dengan Departemen Kehakiman atas suap di Brasil, Angola, Guinea Khatulistiwa, Kazakhstan, dan Irak."
 ],
 "d2eca550b6": [
 "Tekanan terhadap Kesepakatan Mekkah",
@@ -11910,6 +12821,11 @@
 "Perairan Haiti",
 "Kapal-kapal Amerika menegakkan embargo PBB terhadap junta Haiti. Tercatat dalam laporan R42738 Layanan Riset Kongres."
 ],
+"d4887c6a0c": [
+"Al-Hawsawi ditahan di “Situs Violet”",
+"Antaviliai, Lituania",
+"Mustafa al-Hawsawi, warga Arab Saudi, ditahan tanpa kontak dan diperlakukan buruk oleh CIA di Lituania pada 2005-2006. ECHR menghukum Lituania atas keterlibatan pada 16 Januari 2024."
+],
 "d48acfd134": [
 "Galur biologis diekspor ke Irak",
 "Baghdad, Irak",
@@ -11919,6 +12835,11 @@
 "Peternakan John Hull",
 "Kosta Rika",
 "Petani Amerika yang terkait CIA ini meminjamkan landasan di utara Kosta Rika kepada Contra. Ia didakwa di Kosta Rika pada 1989 dan melarikan diri ke Amerika Serikat."
+],
+"d49d6de444": [
+"Pengeboman Nice",
+"Nice, Prancis",
+"Serangan Amerika terhadap stasiun barang dan kawasan Saint-Roch di Nice menewaskan dan melukai ratusan warga sipil, sebagai bagian dari ofensif udara terhadap jaringan kereta api menjelang pendaratan."
 ],
 "d4abcd433a": [
 "Jatuhnya B-52 di Thule",
@@ -11939,6 +12860,11 @@
 "Abu Khabab al-Masri tewas oleh drone",
 "Azam Warsak, Waziristan Selatan, Pakistan",
 "Serangan CIA menewaskan ahli kimia Al-Qaeda itu dan beberapa orang lain di Waziristan Selatan."
+],
+"d518892222": [
+"Latvia menandatangani deklarasi 5G",
+"Riga, Latvia",
+"Di bawah tekanan Amerika terhadap Huawei, Latvia menandatangani dengan Washington deklarasi bersama tentang keamanan 5G."
 ],
 "d51be6af8a": [
 "Bikini dinyatakan layak huni",
@@ -12000,6 +12926,11 @@
 "Laut Karibia",
 "Sebuah serangan menewaskan enam orang di lepas Venezuela. Keluarga dari Trinidad dan Tobago menyatakan dua korban adalah nelayan Trinidad."
 ],
+"d5f28dba2f": [
+"“Nota Amerika” menuntut pengusiran negara Poros",
+"Dublin, Irlandia",
+"Utusan David Gray menyerahkan kepada de Valera sebuah nota yang menuntut pengusiran diplomat Jerman dan Jepang. Menurut para sejarawan, OSS tahu langkah itu sebagian besar bersifat politis: tujuannya adalah menyudutkan Irlandia yang netral."
+],
 "d606560237": [
 "Sabotase tambang Matahambre",
 "Matahambre, Kuba",
@@ -12050,6 +12981,11 @@
 "Kadena, Okinawa, Jepang",
 "Seorang prajurit udara Amerika menculik dan melakukan kekerasan seksual terhadap gadis berusia di bawah 16 tahun. Tokyo baru mengungkap kasus itu pada Juni 2024. Pengadilan Naha memvonisnya lima tahun penjara."
 ],
+"d77a9775b3": [
+"Pangkalan Dal Molin dipaksakan di Vicenza",
+"Vicenza, Italia",
+"Romano Prodi menyetujui perluasan pangkalan Amerika di bandara Dal Molin, dengan alasan mustahil membatalkan kesepakatan yang dijanjikan kepada Washington. Pada 17 Februari, puluhan ribu orang berdemonstrasi; tidak ada referendum lokal yang diadakan."
+],
 "d78076b783": [
 "Invasi Kamboja",
 "Kamboja Timur",
@@ -12059,6 +12995,11 @@
 "Undang-Undang Caesar terhadap Suriah",
 "Damaskus, Suriah",
 "Berlakunya sanksi yang menyasar setiap perusahaan, termasuk asing, yang berdagang dengan negara Suriah. PBB mengkhawatirkan dampaknya pada penduduk yang sudah miskin."
+],
+"d7c945aaf9": [
+"Penjualan paksa Hindia Barat Denmark",
+"Charlotte Amalie, Hindia Barat Denmark",
+"Denmark menandatangani penjualan Hindia Baratnya seharga 25 juta dolar. Menurut memoarnya sendiri, Menteri Luar Negeri Robert Lansing telah memperingatkan Kopenhagen bahwa Washington dapat menduduki kepulauan itu jika ditolak."
 ],
 "d7cbbe8b46": [
 "Baret Hijau untuk pipa minyak Occidental",
@@ -12079,6 +13020,11 @@
 "Sabotase KgU di Jerman Timur",
 "Berlin Barat",
 "Kelompok Perjuangan Melawan Ketidakmanusiawian, yang dibiayai dinas Amerika, melakukan aksi sabotase dan propaganda di Jerman Timur pada awal 1950-an."
+],
+"d861aa393d": [
+"Pajak 91,74 % atas pasta Italia",
+"Campobasso, Italia",
+"Departemen Perdagangan mengusulkan pajak antidumping 91,74 % terhadap La Molisana, Garofalo, dan sebelas produsen pasta lainnya. Tarif final Maret 2026 diturunkan menjadi antara 2,26 % dan 13,98 %."
 ],
 "d89d09d624": [
 "Penyitaan bahan bakar Iran untuk Venezuela",
@@ -12130,6 +13076,11 @@
 "Suriah bagian utara",
 "Satu baterai artileri Marinir dikerahkan ke Suriah untuk mendukung ofensif di Raqqa. Tercatat dalam laporan R42738 Dinas Riset Kongres."
 ],
+"d9e154f4c1": [
+"Pos penyadapan NSA di Wina",
+"Wina, Austria",
+"Jurnalis Erich Möchel, berdasarkan dokumen Snowden, mengidentifikasi instalasi intersepsi di sebuah menara dekat PBB dan sebuah vila di Pötzleinsdorf. Washington dan Wina membantahnya."
+],
 "d9f97956c3": [
 "“Kudeta” yang bukan kudeta",
 "Kairo, Mesir",
@@ -12169,6 +13120,11 @@
 "Menwith Hill dan serangan terarah",
 "Harrogate, Inggris",
 "Pangkalan NSA di Yorkshire itu melacak lokasi telepon target lewat satelit dan mendukung “sejumlah besar” operasi “tangkap-bunuh” di Irak, Afganistan, dan Yaman. Diungkap oleh The Intercept pada September 2016."
+],
+"da8acb747d": [
+"Pengeboman Foggia",
+"Foggia, Italia",
+"Dari Mei hingga September 1943, Angkatan Udara AS berulang kali membom Foggia dan lapangan terbangnya. Kota itu sebagian besar hancur. Jumlah korban tewas bervariasi dari beberapa ribu hingga hampir 20.000 menurut berbagai perkiraan."
 ],
 "daca68aa69": [
 "Kuba menghitung 638 upaya terhadap Castro",
@@ -12525,6 +13481,11 @@
 "Saipan, Mikronesia",
 "Pers Amerika mengungkap bahwa CIA memata-matai para delegasi Kongres Mikronesia yang merundingkan status masa depan wilayah perwalian itu dengan Washington."
 ],
+"dfbb92f53c": [
+"Pasal 211: Pernod Ricard kehilangan Havana Club",
+"Paris, Prancis",
+"Pasal 211 sebuah undang-undang anggaran melarang penegakan di Amerika Serikat atas merek yang terkait aset yang disita di Kuba. Ketentuan itu merampas merek Havana Club dari usaha patungan Pernod Ricard dan negara Kuba, demi Bacardi. WTO mengecamnya sebagian pada 2002."
+],
 "dfc2091eb5": [
 "Pemilu Panama di bawah pengawasan",
 "Panama",
@@ -12624,6 +13585,11 @@
 "2,17 miliar: bom GLSDB",
 "Kyiv, Ukraina",
 "Paket 2,175 miliar dolar yang mencakup bom berpemandu jarak jauh GLSDB (sekitar 150 km) dan amunisi."
+],
+"e182c2a450": [
+"Berakhirnya konsesi tarif bagi Praha",
+"Praha, Cekoslowakia",
+"Truman menerapkan undang-undang 1951 yang mencabut tarif negara paling disukai dari negara-negara komunis. Cekoslowakia, meskipun anggota GATT, kehilangan konsesi tarifnya."
 ],
 "e1879cf143": [
 "Kandahar Strike Force membunuh kepala polisi",
@@ -12795,10 +13761,20 @@
 "Caracas, Venezuela",
 "Manajemen PDVSA, kalangan pengusaha, dan pusat serikat pekerja CTV melumpuhkan industri minyak selama dua bulan. Caracas menuduh Washington memberi dukungan; CTV menerima dana dari NED, tetapi tidak ada peran langsung yang terbukti."
 ],
+"e497162b3d": [
+"Portugal disisihkan dari rahasia nuklir NATO",
+"Lisboa, Portugal",
+"Khawatir akan kehadiran kaum komunis di pemerintahan setelah Revolusi Anyelir, Kissinger mendukung penarikan Portugal dari kelompok perencanaan nuklir NATO. Lisboa kehilangan akses ke dokumen paling sensitif Aliansi."
+],
 "e49f9707de": [
 "Ramaphosa dijebak di Ruang Oval",
 "Washington, Amerika Serikat",
 "Donald Trump memutar di hadapan Cyril Ramaphosa sebuah video yang dimaksudkan membuktikan “genosida” petani kulit putih dan memperlihatkan sebuah foto yang ternyata diambil di RD Kongo."
+],
+"e4bfe2a2a9": [
+"Kasus Noel Field, “Operasi Splinter Factor”",
+"Praha, Cekoslowakia",
+"Noel Field ditangkap di Praha, titik awal pembersihan di Eropa Timur. Jurnalis Stewart Steven berpendapat bahwa Allen Dulles memanipulasi kasus itu untuk memicu pembersihan tersebut. Tesis ini dibantah oleh sejarawan lain."
 ],
 "e4c6fc549f": [
 "Trump menyambut kepergian Morales",
@@ -12935,6 +13911,11 @@
 "Marquetalia, Kolombia",
 "Dalam kerangka rencana LASO yang dirancang bersama Amerika Serikat, militer Kolombia menyerang kantong petani Marquetalia. FARC lahir dari ofensif ini."
 ],
+"e7526fe2df": [
+"Opini Elon Musk untuk AfD",
+"Berlin, Jerman",
+"Elon Musk, yang dipilih Trump untuk memimpin DOGE mendatang, menerbitkan di Welt am Sonntag sebuah opini yang menyebut AfD sebagai “percikan harapan terakhir” menjelang pemilu legislatif. Penanggung jawab halaman opini itu mengundurkan diri."
+],
 "e7641c0d32": [
 "Pintu belakang Bvp47",
 "Beijing, Tiongkok",
@@ -12969,6 +13950,11 @@
 "2,1 miliar USAI untuk Patriot",
 "Kyiv, Ukraina",
 "Paket USAI 2,1 miliar dolar yang mencakup amunisi Patriot dan drone Puma."
+],
+"e839fbfbbf": [
+"Penyadapan Vatikan sebelum konklaf",
+"Kota Vatikan",
+"Mingguan Panorama menyatakan bahwa NSA menyadap panggilan dari Vatikan sebelum konklaf 2013, termasuk panggilan Kardinal Bergoglio. NSA membantah."
 ],
 "e85601103b": [
 "Trump mendukung Orbán sebelum pemilu Hongaria",
@@ -13005,6 +13991,11 @@
 "Uni Soviet",
 "Angkatan Udara AS melepaskan ratusan balon berkamera di atas Uni Soviet dan Tiongkok. Moskow memprotes dan memamerkan balon-balon yang berhasil ditemukan."
 ],
+"e8dcda5244": [
+"Penangkapan atlet anggar Pawłowski",
+"Warsawa, Polandia",
+"Juara Olimpiade anggar sabel dan perwira, Jerzy Pawłowski, ditangkap karena spionase untuk sebuah negara NATO. Ia dijatuhi hukuman 25 tahun penjara. Ia bekerja untuk CIA sejak 1964."
+],
 "e8e0be3823": [
 "Pesawat tempur menembak kapal tanker Hasna",
 "Selat Hormuz, Iran",
@@ -13024,6 +14015,11 @@
 "Tanah disita di Okinawa",
 "Okinawa, Jepang",
 "Administrasi militer Amerika mengambil alih lahan pertanian melalui Ordonansi 109 untuk memperluas pangkalannya, kadang dengan todongan bayonet dan buldoser. Seluruh desa dipindahkan."
+],
+"e90617a103": [
+"Proyek AECOB CIA di Latvia",
+"Riga, Latvia",
+"CIA menyetujui proyek AECOB: infiltrasi agen Latvia yang direkrut di pengasingan untuk spionase dan kontak dengan “saudara-saudara hutan”. Dokumen telah dideklasifikasi; proyek dihentikan pada 1 Januari 1958."
 ],
 "e91d20b6b1": [
 "Ekspedisi “Beruang Kutub”",
@@ -13144,6 +14140,11 @@
 "Pakta Madrid dengan Franco",
 "Madrid, Spanyol",
 "Washington memperoleh pangkalan militer di Spanyol sebagai imbalan bantuan ekonomi dan militer yang memperkuat kediktatoran Franco."
+],
+"eb2539b139": [
+"Deutsche Bank membayar untuk korupsi",
+"Frankfurt, Jerman",
+"Deutsche Bank menyepakati perjanjian penuntutan yang ditangguhkan dengan Departemen Kehakiman dan membayar lebih dari 120 juta dolar atas suap yang dibayarkan lewat perantara (FCPA) dan penipuan logam mulia."
 ],
 "eb3c34e979": [
 "Pengeboman stasiun Bologna",
@@ -13295,6 +14296,11 @@
 "Beijing, Tiongkok",
 "Sekitar 2.500 tentara Amerika ikut merebut Beijing dari tangan kaum Boxer. Pasukan sekutu menjarah kota itu dalam beberapa pekan berikutnya."
 ],
+"ed2868b21e": [
+"Cip AI dibatasi bagi negara-negara Baltik",
+"Vilnius, Lituania",
+"Aturan Amerika tentang “difusi AI” mengecualikan Estonia, Latvia, dan Lituania dari daftar sekutu tanpa pembatasan. Para menteri mereka memprotes pada 17 Januari. Pemerintahan Trump mencabut aturan itu pada Mei."
+],
 "ed2e6279e2": [
 "Kesepakatan rahasia tentang pengembalian Okinawa",
 "Tokyo, Jepang",
@@ -13380,6 +14386,11 @@
 "Kota Meksiko, Meksiko",
 "Setelah ekspropriasi perusahaan minyak oleh Lázaro Cárdenas, perusahaan besar Amerika dan Inggris mengorganisasi boikot minyak Meksiko, yang sempat didukung Washington."
 ],
+"ee2cace139": [
+"Tekanan Grenell demi saudara Tate",
+"Bukares, Rumania",
+"Menurut Financial Times, utusan Trump Richard Grenell meminta Menteri Rumania Emil Hurezeanu mengembalikan paspor saudara Tate, yang diproses hukum di Rumania. Sang menteri menyangkal merasakan tekanan; keduanya berangkat ke Florida pada 27 Februari."
+],
 "ee4001079d": [
 "Korban luka dihabisi di masjid",
 "Fallujah, Irak",
@@ -13455,6 +14466,11 @@
 "Paris, Prancis",
 "Perwakilan Dagang Amerika mengusulkan bea 100 % atas produk Prancis senilai 2,4 miliar dolar untuk menghukum pajak layanan digital."
 ],
+"ef8c0fdf3c": [
+"Abu Zubaydah dipindahkan ke Lituania",
+"Vilnius, Lituania",
+"CIA secara rahasia memindahkan tahanan itu ke Lituania pada 17 atau 18 Februari 2005 dan mengeluarkannya pada 25 Maret 2006. ECHR menetapkan hal itu pada 2018 dan menghukum Lituania."
+],
 "efaadc552c": [
 "Serangan terhadap radio Aidid",
 "Mogadishu, Somalia",
@@ -13495,6 +14511,11 @@
 "Buenos Aires, Argentina",
 "Departemen Keuangan dan Bank Sentral Argentina menandatangani lini pertukaran 20 miliar dolar, yang disebut sebagai dukungan bagi pemerintah Javier Milei menjelang pemilu 26 Oktober."
 ],
+"f04693d748": [
+"Murat Kurnaz ditahan di Guantánamo",
+"Guantánamo, Kuba",
+"Ditangkap di Pakistan dan diserahkan kepada Amerika, warga Turki yang tinggal di Bremen ini ditahan di Kandahar lalu di Guantánamo tanpa diadili. Tidak ditemukan bukti terhadapnya; ia dibebaskan pada Agustus 2006 setelah campur tangan Angela Merkel."
+],
 "f0504bcba6": [
 "Program \"demokrasi\" USAID di Kuba",
 "Havana, Kuba",
@@ -13525,6 +14546,11 @@
 "Washington, terkait Brasil",
 "Kenneth Blanco, pejabat senior Departemen Kehakiman AS, di hadapan Atlantic Council menyebut kerja sama informal dengan jaksa Brasil, seraya menyinggung vonis terhadap Lula."
 ],
+"f117c94aad": [
+"Greenland dialihkan ke NORTHCOM",
+"Nuuk, Greenland",
+"Pentagon memindahkan Greenland dari komando Eropa ke komando Utara, yang bertugas mempertahankan wilayah Amerika, atas perintah Donald Trump. Keputusan itu memperkuat kekhawatiran akan aneksasi."
+],
 "f11e1432bc": [
 "Mata-mata CIA di kabinet Indira Gandhi",
 "New Delhi, India",
@@ -13544,6 +14570,11 @@
 "Boikot pemilu Sandinista",
 "Managua, Nikaragua",
 "Kandidat oposisi Arturo Cruz mengundurkan diri. Pejabat Amerika mengakui bahwa mereka ingin mendiskreditkan pemilu itu."
+],
+"f18bef67cd": [
+"Ancaman pembalasan terhadap pajak digital",
+"Warsawa, Polandia",
+"Calon duta besar Tom Rose menilai pajak Polandia atas platform digital besar “merugikan diri sendiri” dan mengumumkan bahwa Trump akan membalas."
 ],
 "f18d8cdd8f": [
 "UU Bantuan untuk Tiongkok",
@@ -13574,6 +14605,11 @@
 "Misi Crowder di Kuba",
 "Havana, Kuba",
 "Jenderal Enoch Crowder tiba dengan kapal perang dan mendikte reformasi serta menteri kepada pemerintah Kuba, di bawah ancaman intervensi."
+],
+"f1e78c4330": [
+"Pembantaian Portella della Ginestra",
+"Piana degli Albanesi, Italia",
+"Kelompok Salvatore Giuliano menembaki kerumunan peringatan Hari Buruh di Sisilia: 11 orang tewas. Sejumlah sejarawan, termasuk Giuseppe Casarrubea, berdasarkan arsip OSS dan CIA menyebut adanya kaitan dengan Amerika; masalah ini masih diperdebatkan."
 ],
 "f1fe7f992d": [
 "Doktrin Truman: bantuan militer untuk Yunani",
@@ -13614,6 +14650,11 @@
 "Operasi Odyssey Dawn",
 "Tripoli, Libya",
 "Amerika Serikat memimpin tahap pertama serangan: lebih dari seratus rudal Tomahawk, ditembakkan bersama Inggris, menyasar pertahanan udara, dan pembom B-2 menghantam sebuah pangkalan dekat Sirte. NATO mengambil alih pada 31 Maret."
+],
+"f28112ef05": [
+"Ancaman sanksi maritim terhadap Spanyol",
+"Algeciras, Spanyol",
+"Federal Maritime Commission, yang menyelidiki penolakan singgah bagi kapal yang membawa muatan untuk Israel, mempertimbangkan melarang kapal berbendera Spanyol atau mendendanya hingga 2,3 juta dolar per pelayaran."
 ],
 "f2822099ee": [
 "Clinton mengakui kesalahan AS",
@@ -13664,6 +14705,11 @@
 "ORDEN dan ANSESAL dibentuk bersama Washington",
 "San Salvador, El Salvador",
 "Pada pertengahan 1960-an, Jenderal Medrano membentuk milisi ORDEN dan dinas ANSESAL dengan bantuan penasihat Amerika, menurut investigasi Allan Nairn (1984). Keduanya menjadi sumber pasokan bagi regu maut."
+],
+"f3c6f4cc60": [
+"Ancaman bea 50 % atas UE",
+"Brussel, Belgia",
+"Menilai perundingan terlalu lambat, Donald Trump mengumumkan bea 50 % atas produk Eropa mulai 1 Juni. Ia menundanya ke 9 Juli setelah panggilan telepon dari Ursula von der Leyen."
 ],
 "f3f92496a8": [
 "Unit yang dilatih Washington membelot ke pemberontak",
@@ -13810,6 +14856,11 @@
 "Rio de Janeiro, Brasil",
 "Washington mengirim Vernon Walters, orang dekat Jenderal Castelo Branco sejak perang, sebagai atase militer. Ia menjadi penghubung dengan para konspirator 1964, menurut memoarnya dan arsip."
 ],
+"f65773710c": [
+"Barr meminta bantuan dinas Italia",
+"Roma, Italia",
+"Jaksa Agung William Barr bertemu para kepala intelijen Italia di Roma, dengan persetujuan Giuseppe Conte, untuk mencari bahan tentang asal-usul penyelidikan Rusia. Pertemuan itu memicu polemik di Italia."
+],
 "f67ac7de30": [
 "Serangan nyaris setiap hari pada 1999",
 "Irak Utara dan Selatan",
@@ -13844,6 +14895,11 @@
 "Perjanjian militer dengan Honduras",
 "Tegucigalpa, Honduras",
 "Sebulan sebelum invasi Guatemala, Washington menandatangani perjanjian bantuan militer dengan Honduras, yang menjadi basis belakang pasukan Castillo Armas."
+],
+"f71e28d142": [
+"Pemimpin HateAid dilarang visa",
+"Berlin, Jerman",
+"Departemen Luar Negeri melarang Anna-Lena von Hodenberg dan Josephine Ballon, pemimpin LSM Jerman HateAid, masuk ke Amerika Serikat; keduanya dituduh melakukan “sensor” karena membela peraturan Eropa tentang layanan digital."
 ],
 "f771c64146": [
 "Lobi melawan upah minimum",
@@ -13890,6 +14946,11 @@
 "Sankt Peterburg, Rusia",
 "Pada hari pemilu sela, US Cyber Command memutus akses Internet Internet Research Agency. Trump membenarkan operasi itu pada 2020."
 ],
+"f826a5bf35": [
+"Nexperia disita di bawah tekanan Amerika",
+"Nijmegen, Belanda",
+"Den Haag mengambil alih pembuat cip Nexperia, anak perusahaan Wingtech, sehari setelah aturan Amerika memperluas daftar hitam ke anak-anak perusahaan. Berkas pengadilan menunjukkan bahwa Washington menuntut kepergian CEO Tiongkoknya."
+],
 "f826c7d2b5": [
 "Penyintas diteliti tanpa diobati",
 "Hiroshima, Jepang",
@@ -13909,6 +14970,11 @@
 "Berakhirnya hubungan dagang normal",
 "Moskow, Rusia",
 "Biden menandatangani dua undang-undang: satu mencabut status hubungan dagang normal bagi Rusia dan Belarus, yang lain melarang impor minyak Rusia."
+],
+"f8b82b9dd3": [
+"Senator Amerika dan pembekuan South Stream",
+"Sofia, Bulgaria",
+"Selama kunjungan senator McCain, Murphy, dan Johnson ke Sofia, yang mengecam pemberian proyek kepada konsorsium Rusia, Perdana Menteri Oresharski menangguhkan pekerjaan pipa gas South Stream, yang sudah disorot Brussel."
 ],
 "f8dd04be69": [
 "Kennedy mempertimbangkan bertindak melawan Goulart",
@@ -13935,10 +15001,20 @@
 "Kolombia, Bolivia, dan Peru",
 "Bush mengirim bantuan militer melawan perdagangan narkoba. Antara 50 dan 100 penasihat berada di Kolombia dan tim pasukan khusus melatih militer ketiga negara itu. Tercatat dalam laporan R42738 Layanan Riset Kongres."
 ],
+"f91ca3c31c": [
+"Surat Wolfowitz menentang Galileo",
+"Brussel, Belgia",
+"Wakil Menteri Pertahanan Paul Wolfowitz menulis kepada para menteri Eropa untuk mencegah mereka meluncurkan sistem navigasi Galileo, pesaing GPS, dengan alasan risiko bagi operasi militer Amerika."
+],
 "f929ad8f41": [
 "Sanksi diblokir setelah Anfal",
 "Baghdad, Irak",
 "Senat memberikan suara bulat untuk undang-undang sanksi setelah serangan gas terhadap warga Kurdi dalam kampanye Anfal. Pemerintahan Reagan menentangnya dan rancangan itu gugur di DPR."
+],
+"f93e4d5b5a": [
+"Pengadilan pura-pura di Schwäbisch Hall",
+"Schwäbisch Hall, Jerman",
+"Penyelidik militer menginterogasi anggota SS yang dituduh dalam pembantaian Malmedy. Subkomite Senat pada 1949 mengakui penggunaan pengadilan pura-pura, tetapi menolak tuduhan penyiksaan fisik."
 ],
 "f95485382f": [
 "Eritrea difederasikan dengan Etiopia",
@@ -14005,10 +15081,20 @@
 "Chenogne, Belgia",
 "Selama Pertempuran Ardennes, tentara Amerika membunuh sekitar 80 tawanan Jerman. Tidak ada yang dituntut."
 ],
+"fac1c35053": [
+"Ancaman terhadap undang-undang antipermukiman Israel",
+"Dublin, Irlandia",
+"Enam belas anggota Kongres yang dipimpin Claudia Tenney mengancam Irlandia dengan langkah pajak antiboikot jika melarang produk permukiman. Surat-surat lain menyusul pada Oktober; rancangan itu kemudian dilunakkan, karena tekanan Amerika menurut para pengkritiknya."
+],
 "fac3cbde12": [
 "Pengiriman peluncur roket HIMARS",
 "Kyiv, Ukraina",
 "Washington mengumumkan pengiriman peluncur roket ganda HIMARS, yang memungkinkan Ukraina menyerang depot dan pos komando Rusia sejauh 80 km."
+],
+"fae774b75f": [
+"Roquefort dikenai bea 100 % akibat embargo daging sapi",
+"Roquefort-sur-Soulzon, Prancis",
+"Untuk menghukum larangan Eropa atas daging sapi berhormon, USTR memberlakukan bea 100 % atas daftar yang terutama menyasar Prancis: roquefort, foie gras, truffle, mustard Dijon. Jumlahnya, 116,8 juta dolar, diizinkan oleh WTO."
 ],
 "faeab91bae": [
 "Jaksa ICC disanksi",
@@ -14034,6 +15120,11 @@
 "Tambahan anggaran pertama 13,6 miliar",
 "Kyiv, Ukraina",
 "Biden menandatangani undang-undang anggaran 2022, yang memuat 13,6 miliar dolar untuk Ukraina, sekitar separuhnya untuk pertahanan."
+],
+"fb64b50903": [
+"Pengeboman Saint-Étienne",
+"Saint-Étienne, Prancis",
+"Dengan menyasar instalasi kereta api, pembom Amerika yang lepas landas dari Italia menghantam pusat kota Saint-Étienne. Serangan itu menewaskan hampir seribu warga sipil, korban terbanyak dalam sejarah kota tersebut."
 ],
 "fb7d24a934": [
 "Operasi IAFEATURE di Angola",
@@ -14180,10 +15271,25 @@
 "Rotterdam, Belanda",
 "B-17 Angkatan Udara ke-8 menyasar galangan kapal tetapi menghantam kawasan Bospolder-Tussendijken. Beberapa ratus warga sipil Belanda tewas."
 ],
+"fdcb22ef92": [
+"Penerbangan CIA melalui Greenland",
+"Narsarsuaq, Greenland",
+"Menurut dokumenter televisi Denmark yang ditayangkan pada Januari 2008, pesawat CIA yang terkait praktik rendisi singgah di Narsarsuaq. Sebuah gugus tugas Denmark mendata 132 pesawat yang mencurigakan; Amnesty menilai pemeriksaan itu “tidak bertaring”."
+],
+"fdd20603b4": [
+"Wilayah udara Bulgaria ditutup bagi pesawat Rusia",
+"Sofia, Bulgaria",
+"Ketika Washington meminta Yunani menolak izin melintas bagi pesawat Rusia menuju Suriah, Bulgaria menutup wilayah udaranya bagi penerbangan tersebut. Moskow menuduh adanya tekanan Amerika; Sofia menyatakan bertindak sendiri."
+],
 "fddd098be0": [
 "Mata-mata CIA diusir dari Paris",
 "Paris, Prancis",
 "Pemerintah Prancis meminta sejumlah warga Amerika, termasuk agen CIA yang menyamar sebagai diplomat, angkat kaki karena dituduh melakukan spionase politik dan ekonomi."
+],
+"fdeb336a0b": [
+"Minyak Iran disita di Yunani atas permintaan Washington",
+"Karystos, Yunani",
+"Atas permintaan peradilan Amerika, Yunani menyita muatan Iran dari kapal tanker Lana yang berlabuh di lepas pantai Euboea. Teheran membalas pada 27 Mei dengan menyita dua kapal tanker Yunani di Teluk, yang dibebaskan pada November."
 ],
 "fe2c09c52a": [
 "Pendaratan di Hankou pada 1926",
@@ -14214,6 +15320,16 @@
 "Kudeta kedua Mobutu",
 "Léopoldville, Kongo",
 "Mobutu merebut kekuasaan selama tiga puluh tahun. Sejak 1960 ia menjadi kontak CIA yang dibayar, dan CIA terus mendukungnya."
+],
+"fe8a8d365b": [
+"Penghentian proyek angin Revolution Wind",
+"Lepas pantai Rhode Island, Amerika Serikat",
+"Pemerintahan Trump memerintahkan penghentian pekerjaan taman angin Ørsted, grup yang dikendalikan negara Denmark, padahal sudah selesai sekitar 80 %. Seorang hakim federal mencabut larangan itu pada September."
+],
+"fe8c5beccc": [
+"Volkswagen membayar 4,3 miliar dolar",
+"Wolfsburg, Jerman",
+"Volkswagen mengaku bersalah atas tiga dakwaan penipuan uji emisi dan membayar 4,3 miliar dolar denda pidana dan perdata. Enam eksekutif Jerman didakwa dan seorang pemantau independen diwajibkan."
 ],
 "fea63e662f": [
 "Junta militer di Ekuador",
