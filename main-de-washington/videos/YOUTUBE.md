@@ -4,7 +4,7 @@ Six vidéos, une par vue. Chaque description se copie telle quelle. Les chapitre
 
 Liens à vérifier avant publication :
 - carte interactive : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
-- données et méthode : https://github.com/frequence-populaire/projets-divers/tree/main/main-de-washington (le dépôt doit être public)
+- données et méthode : https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington
 
 ---
 
@@ -54,7 +54,7 @@ Chaque fait porte un niveau d'attribution : 1 987 sont reconnus (opération ouve
 https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
 
 📂 Données ouvertes, sources et méthode :
-https://github.com/frequence-populaire/projets-divers/tree/main/main-de-washington
+https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington
 
 Méthode : la base a été constituée avec l'aide d'outils d'IA, puis relue. Les faits antérieurs à 2025 reposent en grande partie sur des recherches Wikipédia et des ouvrages de référence (commission Church, archives FRUS, National Security Archive, O'Rourke, Levin, Weiner). Les faits de 2025-2026 et les fuites (WikiLeaks, Snowden) renvoient à un article de presse. Une correction ? Signalez-la en commentaire ou sur GitHub, source à l'appui.
 
@@ -92,7 +92,7 @@ Un point plein pour un fait reconnu, un cercle pour un fait documenté, un cercl
 2:19 2026 · Maduro capturé, guerre contre l'Iran
 
 🗺️ Carte interactive : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
-📂 Données et méthode : https://github.com/frequence-populaire/projets-divers/tree/main/main-de-washington
+📂 Données et méthode : https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington
 
 La période reprend, en l'élargissant à 2013, celle de « La guerre grise » de Tristan Mendès France, la carte des opérations hybrides russes en Europe.
 
@@ -130,7 +130,7 @@ Un point plein pour un fait reconnu, un cercle pour un fait documenté, un cercl
 2:09 2025 · Trump II : tarifs, Groenland
 
 🗺️ Carte interactive (vue « Europe ») : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
-📂 Données et méthode : https://github.com/frequence-populaire/projets-divers/tree/main/main-de-washington
+📂 Données et méthode : https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington
 
 #Europe #ÉtatsUnis #OTAN #Gladio #NSA #Alstom #Géopolitique #FréquencePopulaire
 
@@ -160,7 +160,7 @@ Les pays les plus visés dans ce cadre : Ukraine (128 faits), Russie (67), Syrie
 0:52 2025 · Trump II
 
 🗺️ Carte interactive (vue « Europe », période 2013 → 2026) : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
-📂 Données et méthode : https://github.com/frequence-populaire/projets-divers/tree/main/main-de-washington
+📂 Données et méthode : https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington
 
 Même cadrage et même période que « La guerre grise » de Tristan Mendès France, élargie à 2013. Mais cette fois, les flèches partent de Washington.
 
@@ -199,7 +199,7 @@ Premier allié visé : la France, avec 65 faits, devant le Brésil (41), le Guat
 2:06 2025 · Trump II : Canada, Brésil, Groenland
 
 🗺️ Carte interactive (vue « Alliés ») : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
-📂 Données et méthode, dont la liste des alliances et de leurs dates : https://github.com/frequence-populaire/projets-divers/tree/main/main-de-washington
+📂 Données et méthode, dont la liste des alliances et de leurs dates : https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington
 
 #ÉtatsUnis #Alliés #OTAN #PacteDeRio #France #Brésil #Géopolitique #FréquencePopulaire
 
@@ -229,6 +229,6 @@ Les alliés les plus visés : France (33 faits), Allemagne (21), Brésil (21), A
 0:47 2025 · Trump II : Canada, Brésil, Groenland
 
 🗺️ Carte interactive (vue « Alliés », période 2013 → 2026) : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
-📂 Données et méthode : https://github.com/frequence-populaire/projets-divers/tree/main/main-de-washington
+📂 Données et méthode : https://github.com/Frequence-Populaire/Projets-divers/tree/main/main-de-washington
 
 #ÉtatsUnis #Alliés #France #Merkel #Alstom #AUKUS #Canada #FréquencePopulaire

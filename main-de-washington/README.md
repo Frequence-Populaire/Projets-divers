@@ -8,6 +8,8 @@ Le projet reprend la visualisation de [« La guerre grise »](https://claude.ai/
 
 ## Ouvrir la carte
 
+Version en ligne : https://claude.ai/artifact/1wDEe16pXEbcooL6Yk7eLV
+
 Ouvrez `index.html` dans un navigateur. La page est autonome : carte, données et code sont intégrés dans le fichier. Seules les polices viennent de Google Fonts.
 
 Deux sélecteurs, au-dessus de la carte, filtrent la carte, la chronologie et le tableau :
