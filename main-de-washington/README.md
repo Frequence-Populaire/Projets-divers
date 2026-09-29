@@ -67,6 +67,7 @@ main-de-washington/
 │   ├── proj.json           paramètres de la projection Equal Earth
 │   └── countries.txt       noms de pays valides pour les cibles
 ├── sources/                documents sources dépouillés (voir sources/README.md)
+├── videos/                 les six vues en vidéo MP4 1920×1080
 ├── scripts/
 │   ├── geo.py              projette les frontières → carte/
 │   ├── build.py            assemble index.html
@@ -113,6 +114,16 @@ python3 scripts/export_csv.py   # régénère donnees/incidents.csv
 Pour ajouter un fait, insérez une ligne dans `donnees/incidents.json` au bon endroit chronologique, en suivant les règles de `methode/BRIEF.md`, puis relancez les trois commandes.
 
 ### Vidéos
+
+Les six vues sont disponibles en MP4 1920×1080 dans `videos/` :
+
+| Vue | 1900 → 2026 | 2013 → 2026 |
+|---|---|---|
+| Monde | [4 min 05](videos/main-de-washington_monde_1900-2026.mp4) | [2 min 32](videos/main-de-washington_monde_2013-2026.mp4) |
+| Europe | [2 min 21](videos/main-de-washington_europe_1900-2026.mp4) | [1 min 05](videos/main-de-washington_europe_2013-2026.mp4) |
+| Alliés | [2 min 18](videos/main-de-washington_allies_1900-2026.mp4) | [1 min 05](videos/main-de-washington_allies_2013-2026.mp4) |
+
+Pour les régénérer après une modification de la base :
 
 `scripts/video.js` enregistre chaque vue en vidéo MP4 1920×1080 à 30 images par seconde. Le rendu se fait image par image, avec une horloge virtuelle, si bien que la vidéo reste fluide quelle que soit la machine. Il faut Node.js, [Playwright](https://playwright.dev/) et ffmpeg.
 
