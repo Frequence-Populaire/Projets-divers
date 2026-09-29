@@ -391,7 +391,7 @@ function frame(ts){
   const sh=shake*5*U;shake*=.9;
   ctx.save();ctx.translate((Math.random()-.5)*sh,(Math.random()-.5)*sh);
   drawMap();drawBroadcast();drawOrigin();drawEvents();ctx.restore();
-  drawFeed();drawHUD();drawTimeline();if(window.__VIDEO)drawCredit();
+  if(!window.__CLEAN){drawFeed();drawHUD();drawTimeline();if(window.__VIDEO)drawCredit()}
   if(document.activeElement!==scrub)scrub.value=Cal;
   tc.textContent=Math.floor(Math.min(Cal,2026.99))+' · '+T.tc_incidents.replace('{n}',hits);
   chipSync();

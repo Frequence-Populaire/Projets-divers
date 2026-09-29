@@ -73,7 +73,7 @@ main-de-washington/
 │   ├── proj.json           paramètres de la projection Equal Earth
 │   └── countries.txt       noms de pays valides pour les cibles
 ├── sources/                documents sources dépouillés (voir sources/README.md)
-├── videos/                 les six vues en vidéo MP4 1920×1080
+├── videos/                 les six vues en vidéo MP4 1920×1080, leurs vignettes (vignettes/, 1280×720) et descriptions YouTube
 ├── scripts/
 │   ├── geo.py              projette les frontières → carte/
 │   ├── build.py            assemble index.html
