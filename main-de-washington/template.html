@@ -118,7 +118,7 @@ footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var
       <p>Les arcs partent de Washington par convention graphique et frappent la capitale du pays visé, ou le lieu précis de l'opération quand il compte (Playa Girón, Natanz, Abbottabad). Les pays se teintent à mesure qu'ils sont visés.</p>
       <p>Trois niveaux d'attribution. <b>Reconnu</b> (point plein) : opération ouverte, ou rôle américain admis par Washington, établi par le Congrès, une justice ou des archives officielles déclassifiées. <b>Documenté</b> (cercle) : établi par des historiens, des journalistes ou des fuites de documents, sans reconnaissance officielle. <b>Allégué</b> (cercle pointillé) : accusation du pays visé ou de tiers, sans preuve publique d'un rôle américain décisif. Ce niveau porte sur le rôle américain, pas sur la qualification juridique des faits.</p>
       <p>Les « révolutions de couleur » sont classées « allégué » : des ONG ont reçu des fonds américains, mais aucune source ne montre que Washington a provoqué ces mobilisations.</p>
-      <p>La vue « Alliés » ne garde que les faits visant un allié officiel des États-Unis à la date du fait : membres de l'OTAN (à partir de leur adhésion) et de la CEE puis de l'UE, alliés par traité en Asie-Pacifique (Japon, Corée du Sud, Philippines, Australie, Thaïlande, Nouvelle-Zélande jusqu'en 1986, Taïwan de 1954 à 1979), Iran et Pakistan jusqu'en 1979, et « alliés majeurs hors OTAN » à partir de leur désignation. Le pacte de Rio n'est pas retenu. La vue « Europe » reprend le cadrage de « La guerre grise ».</p>
+      <p>La vue « Alliés » ne garde que les faits visant un allié officiel des États-Unis à la date du fait : membres de l'OTAN (à partir de leur adhésion) et de la CEE puis de l'UE, alliés par traité en Asie-Pacifique (Japon, Corée du Sud, Philippines, Australie, Thaïlande, Nouvelle-Zélande jusqu'en 1986, Taïwan de 1954 à 1979), Iran et Pakistan jusqu'en 1979, membres du pacte de Rio (TIAR) de 1948 jusqu'à leur éventuel retrait (Cuba en 1962, Mexique en 2004, Bolivie, Venezuela, Nicaragua et Équateur en 2012-2014), et « alliés majeurs hors OTAN » à partir de leur désignation. La vue « Europe » reprend le cadrage de « La guerre grise ».</p>
       <p>Pour les deux guerres mondiales, seuls les faits controversés sont retenus (bombardements de villes, armes nucléaires), pas les batailles. Les ondes violettes figurent la radiodiffusion publique vers l'étranger : Voice of America (1942), puis Radio Free Europe et Radio Liberty, financées en secret par la CIA jusqu'en 1971.</p>
     </div>
     <div>
@@ -142,7 +142,7 @@ footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var
       <p>Chaque ligne du tableau renvoie à une recherche Wikipédia sur l'incident, point d'entrée vers les sources primaires.</p>
     </div>
   </section>
-  <footer>Sur le modèle de la carte « La guerre grise ». Base arrêtée à début 2026.</footer>
+  <footer>Sur le modèle de la carte « La guerre grise ». Chronologie arrêtée à fin septembre 2026.</footer>
 </main>
 
 <script>
@@ -187,7 +187,11 @@ al(['Greece','Turkey'],1952.13);al(['Germany'],1955.35);al(['Spain'],1982.41);al
 al(['Bulgaria','Estonia','Latvia','Lithuania','Romania','Slovakia','Slovenia'],2004.24);al(['Albania','Croatia'],2009.26);al(['Montenegro'],2017.43);al(['Macedonia'],2020.24);al(['Finland'],2023.26);al(['Sweden'],2024.19);
 al(['Ireland'],1973);al(['Austria'],1995);al(['Cyprus','Malta'],2004.33);
 al(['Philippines'],1951.66);al(['Australia'],1951.7);al(['New Zealand'],1951.7,1986.6);al(['New Zealand'],1996.9);al(['Japan'],1952.3);al(['South Korea'],1953.8);al(['Thailand'],1954.7);al(['Taiwan'],1954.95,1979.99);
-al(['Pakistan'],1954.4,1979.3);al(['Iran'],1959.2,1979.1);
+al(['Pakistan'],1954.4,1979.3);
+/* pacte de Rio (TIAR), en vigueur le 3 décembre 1948, retraits ensuite */
+al(['Argentina','Brazil','Chile','Colombia','Costa Rica','Dominican Rep.','El Salvador','Guatemala','Haiti','Honduras','Panama','Paraguay','Peru','Uruguay'],1948.92);
+al(['Cuba'],1948.92,1962.08);al(['Mexico'],1948.92,2004.7);al(['Bolivia'],1948.92,2012.5);al(['Venezuela'],1948.92,2013.4);al(['Nicaragua','Ecuador'],1948.92,2014.2);
+al(['Trinidad and Tobago'],1967.5);al(['Bahamas'],1982.9);al(['Iran'],1959.2,1979.1);
 al(['Israel','Egypt'],1987);al(['Jordan'],1996.9);al(['Argentina'],1998.1);al(['Bahrain'],2002.2);al(['Kuwait','Morocco'],2004.3);al(['Pakistan'],2004.3);al(['Afghanistan'],2012.5,2022.55);al(['Tunisia'],2015.5);al(['Brazil'],2019.6);al(['Colombia','Qatar'],2022.3);al(['Kenya'],2024.4);al(['Saudi Arabia'],2025.9);
 const isAlly=(g,t)=>!/RDA|Allemagne de l'Est/.test(g.fr)&&(AL[g.c]||[]).some(([a,b])=>t>=a&&t<b);
 const inEurope=g=>g.lon>=-25&&g.lon<=50&&g.lat>=33&&g.lat<=72;
@@ -376,7 +380,7 @@ function frame(ts){
   drawMap();drawBroadcast();drawOrigin();drawEvents();ctx.restore();
   drawFeed();drawHUD();drawTimeline();
   if(document.activeElement!==scrub)scrub.value=Cal;
-  tc.textContent=Math.floor(Cal)+' · '+hits+' incidents';
+  tc.textContent=Math.floor(Math.min(Cal,2026.99))+' · '+hits+' incidents';
   chipSync();
   requestAnimationFrame(frame);
 }
@@ -399,11 +403,11 @@ const filters=document.getElementById('filters'),fcat=document.getElementById('f
 let fAtt='all',fCat='all';
 const norm=x=>x.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const pays=e=>[...new Set(e.tg.map(g=>g.fr))].join(', ');
-function show(e){sel=e;const c=CAT[e.cat];det.innerHTML=`<div class="d-meta"><span style="color:${c.c}">● ${c.n}</span> · ${fmtD(e.date)} · ${e.place} · <span class="tag ${e.att}">${LBL[e.att]}</span></div><div class="d-title">${e.title}</div><p>${e.note}</p><p style="color:#8FAFB5">Pays visés : ${pays(e)} · <a href="${e.src}" target="_blank" rel="noopener">Wikipédia ↗</a></p>`}
+function show(e){sel=e;const c=CAT[e.cat];det.innerHTML=`<div class="d-meta"><span style="color:${c.c}">● ${c.n}</span> · ${fmtD(e.date)} · ${e.place} · <span class="tag ${e.att}">${LBL[e.att]}</span></div><div class="d-title">${e.title}</div><p>${e.note}</p><p style="color:#8FAFB5">Pays visés : ${pays(e)} · <a href="${e.src}" target="_blank" rel="noopener">${/wikipedia\.org/.test(e.src)?"Wikipédia":"Source"} ↗</a></p>`}
 cv.addEventListener('click',ev=>{const r=cv.getBoundingClientRect(),k=W/r.width,mx=(ev.clientX-r.left)*k,my=(ev.clientY-r.top)*k;let best=null,bd=26*U;
   for(const m of markers){const d=Math.hypot(m.x-mx,m.y-my);if(d<bd){bd=d;best=m.e}}if(best)show(best)});
 const tbody=document.getElementById('tbody');let byI={};
-function buildTable(){tbody.innerHTML=EV.map(e=>{const c=CAT[e.cat];return`<tr data-i="${e.i}" data-att="${e.att}"><td class="date">${fmtD(e.date)}</td><td><span class="dot" style="background:${c.c}"></span>${c.n}</td><td><b>${e.title}</b><br><span style="color:#8FAFB5">${e.note}</span></td><td>${pays(e)}</td><td><span class="tag ${e.att}">${LBL[e.att]}</span></td><td><a href="${e.src}" target="_blank" rel="noopener">Wikipédia ↗</a></td></tr>`}).join('');
+function buildTable(){tbody.innerHTML=EV.map(e=>{const c=CAT[e.cat];return`<tr data-i="${e.i}" data-att="${e.att}"><td class="date">${fmtD(e.date)}</td><td><span class="dot" style="background:${c.c}"></span>${c.n}</td><td><b>${e.title}</b><br><span style="color:#8FAFB5">${e.note}</span></td><td>${pays(e)}</td><td><span class="tag ${e.att}">${LBL[e.att]}</span></td><td><a href="${e.src}" target="_blank" rel="noopener">${/wikipedia\.org/.test(e.src)?"Wikipédia":"Source"} ↗</a></td></tr>`}).join('');
 byI={};EV.forEach(e=>byI[e.i]=e);EV.forEach(e=>e.hay=norm([e.title,e.place,e.note,pays(e),e.date].join(' ')));
   const cnt={all:EV.length,a:0,s:0,l:0};EV.forEach(e=>cnt[e.att]++);const cc={};EV.forEach(e=>cc[e.cat]=(cc[e.cat]||0)+1);
   fcat.innerHTML='';filters.innerHTML='';fAtt='all';fCat='all';
@@ -419,10 +423,10 @@ function mk(box,items,cur,set){items.forEach(([k,l])=>{const b=document.createEl
 qi.addEventListener('input',applyF);
 
 const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-const NOTES={monde:'Tous les faits, dans le monde entier.',europe:"Cadrage de « La guerre grise » : seuls les faits visant l'Europe sont montrés.",allies:"Seuls les faits visant un allié officiel des États-Unis à la date du fait (OTAN, UE, alliés par traité, alliés majeurs hors OTAN)."};
+const NOTES={monde:'Tous les faits, dans le monde entier.',europe:"Cadrage de « La guerre grise » : seuls les faits visant l'Europe sont montrés.",allies:"Seuls les faits visant un allié officiel des États-Unis à la date du fait (OTAN, UE, pacte de Rio, alliés par traité, alliés majeurs hors OTAN)."};
 function applyMode(){
   const tmax=Math.max(...ALL.map(e=>e.t));
-  T0=PER==='long'?1900:2014;T1=Math.min(2026.99,Math.ceil((tmax+.05)*10)/10);BIN=PER==='long'?10:1;
+  T0=PER==='long'?1900:2014;T1=2026.75;BIN=PER==='long'?10:1;
   EV=ALL.filter(e=>e.t>=T0).map(e=>{const tg=e.tg.filter(g=>ZONE==='monde'||(ZONE==='europe'?inEurope(g):isAlly(g,e.t)));return tg.length?{...e,tg:tg.map(g=>({...g})),launch:null}:null}).filter(Boolean);
   sel=null;computeStats();buildChips();buildTable();
   scrub.min=T0;scrub.max=T1;document.getElementById('modeNote').textContent=NOTES[ZONE]+` ${EV.length} faits, ${T0} → ${Math.floor(T1)}.`;
