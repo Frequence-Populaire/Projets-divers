@@ -1,5 +1,8 @@
-import json,math
-d=json.load(open('countries-50m.json'))
+# Projette et simplifie les frontières de Natural Earth (paquet npm world-atlas, countries-50m.json).
+# Usage : python3 scripts/geo.py chemin/vers/countries-50m.json
+import json,math,sys,os
+ICI=os.path.dirname(os.path.abspath(__file__));CARTE=os.path.join(ICI,'..','carte')
+d=json.load(open(sys.argv[1]))
 tf=d['transform'];sc,tr=tf['scale'],tf['translate']
 arcs=[]
 for a in d['arcs']:
@@ -68,8 +71,8 @@ for g in d['objects']['countries']['geometries']:
     if not rs and small:
         s=max(small,key=lambda x:x[0])[1]; rs=[[v for p in s for v in (round(p[0]),round(p[1]))]]
     if rs: out.append({'n':n,'r':rs})
-json.dump({'PW':PW,'PH':PH,'c':out},open('map.json','w'),separators=(',',':'))
-print(PH,len(out),len(open('map.json').read()))
+json.dump({'PW':PW,'PH':PH,'c':out},open(os.path.join(CARTE,'map.json'),'w'),separators=(',',':'))
+open(os.path.join(CARTE,'countries.txt'),'w').write('\n'.join(sorted(c['n'] for c in out)))
+print(PH,len(out),'pays')
 # emit projection constants for JS
-json.dump({'X0':X0,'YT':YT,'K':K,'LON0':LON0},open('proj.json','w'))
-print(open('proj.json').read())
+json.dump({'X0':X0,'YT':YT,'K':K,'LON0':LON0},open(os.path.join(CARTE,'proj.json'),'w'))
