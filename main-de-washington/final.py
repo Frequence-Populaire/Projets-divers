@@ -46,7 +46,7 @@ DROP2={("1948","Opération Bloodstone"),("1964","Subvention de la CIA au dalaï-
 ("1995-08-04","Opération Tempête en Krajina"),("1996-03-12","La loi Helms-Burton vise les Européens"),("1996-08-05","Loi d'Amato contre Total en Iran"),
 ("1999","La CIA soutient l'UÇK"),("1999-04-14","Convoi de réfugiés de Djakovica"),("2003-12-31","Enlèvement de Khaled el-Masri"),
 ("2005","Site noir de la CIA en Lituanie"),("2017","UC Global espionne Assange"),("2017","Plans de la CIA contre Assange à Londres"),
-("2024-02-02","Représailles après la Tour 22"),("2025-02-06","Sanctions contre la CPI et son procureur")}
+("2024-02-02","Représailles après la Tour 22"),("2026-04","La raffinerie chinoise Hengli sanctionnée"),("2026-08-24","« Jour J économique » contre l'Iran"),("2026-09-18","Loi Graham sur les sanctions"),("2025-02-06","Sanctions contre la CPI et son procureur")}
 out=json.load(open('events_final.json'));seen=set();res=[]
 for x in out:
     k=(x[0],x[3])
