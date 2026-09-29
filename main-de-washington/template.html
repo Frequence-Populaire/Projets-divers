@@ -232,7 +232,7 @@ function computeStats(){DENS=[];for(let y=1900;y<=2027;y++)DENS[y-1900]=0;EV.for
 const rate=c=>{const d=DENS[Math.floor(c)-1900]||0;return clamp((BIN===1?1.6:2.6)/Math.max(d,.1),.05,2.5)};
 const feed=[];
 function resetTo(c){
-  Cal=c;for(const k in heat)delete heat[k];for(const k in flashC)delete flashC[k];hits=0;feed.length=0;
+  Cal=c;for(const k in heat)delete heat[k];for(const k in flashC)delete flashC[k];hits=0;feed.length=0;CARD=null;
   for(const e of EV){if(e.t<=c){e.launch=-1e9;for(const g of e.tg){heat[g.c]=(heat[g.c]||0)+1;g.hit=true}hits++}else{e.launch=null;for(const g of e.tg)g.hit=false}}
   const past=EV.filter(e=>e.t<=c);lastImpact=past.length?past[past.length-1]:null;past.slice(-4).forEach(e=>placeCard(e,-1e9));
 }
@@ -246,6 +246,7 @@ function wrapTitle(txt,maxW){ctx.font=`700 ${26*U}px ${DISPLAY}`;const w=txt.spl
 function placeCard(e,born=now){feed.unshift({e,born,lines:wrapTitle(e.title,portrait?900:390)});if(feed.length>6)feed.pop()}
 const MOIS=['janv.','févr.','mars','avr.','mai','juin','juil.','août','sept.','oct.','nov.','déc.'];
 function fmtD(d){const p=d.split('-');if(p.length===1)return p[0];if(p.length===2)return MOIS[+p[1]-1]+' '+p[0];return`${p[2]}.${p[1]}.${p[0]}`}
+let CARD=null,CARDt=0;
 function drawFeed(){
   const mainH=(portrait?156:148)*U,logN=portrait?2:3,logH=30*U,ph=mainH+logN*logH+24*U;
   const pw=portrait?W-120:450,px=portrait?60:64,py=portrait?760:H-214-ph;
@@ -255,7 +256,8 @@ function drawFeed(){
   ctx.moveTo(px-4*U,py+k);ctx.lineTo(px-4*U,py-4*U);ctx.lineTo(px+k,py-4*U);ctx.moveTo(px+pw+4*U,py+ph-k);ctx.lineTo(px+pw+4*U,py+ph+4*U);ctx.lineTo(px+pw-k,py+ph+4*U);ctx.stroke();
   ctx.textBaseline='alphabetic';
   if(!feed.length){ctx.font=`400 ${14*U}px ${MONO}`;ctx.fillStyle=C.muted;ctx.textAlign='left';ctx.fillText('EN ATTENTE DE SIGNAL…',px+20*U,py+40*U);return}
-  const f0=feed[0],age=now-f0.born,col=CAT[f0.e.cat].c,sl=eOutExpo(seg(age,0,.35));
+  if(!CARD||(feed[0]!==CARD&&now-CARDt>.9)){CARD=feed[0];CARDt=now}
+  const f0=CARD,age=now-CARDt,col=CAT[f0.e.cat].c,sl=eOutExpo(seg(age,0,.35));
   ctx.save();ctx.beginPath();ctx.rect(px,py,pw,mainH);ctx.clip();
   if(age<.25){ctx.fillStyle=hexA(col,.35*(1-age/.25));ctx.fillRect(px,py,pw,mainH)}
   ctx.fillStyle=col;ctx.fillRect(px,py,pw*sl,4*U);
