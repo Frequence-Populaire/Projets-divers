@@ -1,0 +1,244 @@
+{{Short description|Domestic and international deployments of U.S. military personnel}}
+{{Use American English|date=May 2026}}
+{{Use mdy dates|date=May 2026}}
+
+The '''military of the United States is deployed''' in most countries around the world, with more than 160,000 of its active-duty personnel stationed outside the United States and its territories.<ref name=dmdc.osd.mil>{{cite web |title=Number of Military and DoD Appropriated Fund (APF) Civilian Personnel By Assigned Duty Location and Service/Component (as of June 30, 2025) |url=https://dwp.dmdc.osd.mil/dwp/api/downloadZ?fileId=138689&groupName=milRegionCountry |publisher=[[Defense Manpower Data Center]] |date=August 18, 2025}}</ref> This list consists of deployments '''excepting active combat deployments''', including troops in Iraq, Syria, Yemen, and Somalia.<ref>{{cite web|title=Letter to the Speaker of the House and President Pro Tempore of the Senate Regarding the War Powers Report |url=https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/12/06/letter-to-the-speaker-of-the-house-and-president-pro-tempore-of-the-senate-regarding-the-war-powers-report-5/ |date=December 6, 2024 |website=[[White House]]}}</ref>
+
+Outside of active combat, US personnel are typically deployed as part of several peacekeeping and classified missions, [[military attaché]]s, or are part of [[embassy]] and [[consulate]] security.
+
+==Rationale==
+{{update section|date=December 2022|reason=old sources}}
+=== Statements by U.S. military and government ===
+A longstanding justification for maintaining military installations worldwide for the United States is that a military presence abroad by the U.S. promotes and strengthens democracy.{{sfn|Chirico|2014|p=70}}
+
+When asked about the reason behind U.S. military presence in Germany, former [[Supreme Allied Commander Europe]] [[Alexander Haig]] said that "the presence of U.S. troops keeps European markets open to us. If those troops weren't there, those markets would probably be more difficult to access."<ref>{{Cite web|title=Text of UPI interview with Haig - UPI.com|url=https://www.upi.com/Defense-News/2002/01/07/Text-of-UPI-interview-with-Haig/78831010444063/|website=UPI|access-date=2026-01-30|language=en}}</ref> Adding, "On occasion, even with our presence, we have confronted protectionism in a number of industries, such as automotive and aerospace. In addition to economic benefits derived from our presence in Europe, there is perhaps an even more important diplomatic and political benefit."<ref>{{Cite web|title=Text of UPI interview with Haig - UPI.com|url=https://www.upi.com/Defense-News/2002/01/07/Text-of-UPI-interview-with-Haig/78831010444063/|website=UPI|access-date=2026-01-30|language=en}}</ref>
+
+=== Statements by others ===
+According to Hermann and Kegley, military interventions have boosted democracy in other nations.<ref name=promote>{{cite journal |first1=Margaret G. |last1=Hermann|author-link1=Margaret Hermann |year=1998 |title=The U.S. Use of Military Intervention to Promote Democracy: Evaluating the Record |journal=International Interactions |volume=24 |issue=2 |pages=91–114 |doi=10.1080/03050629808434922 |last2=Kegley |first2=Charles}}</ref> The majority of academics, however, concur with professor of international politics Abraham Lowenthal that American efforts to spread democracy have been "negligible, often counterproductive, and only occasionally positive."<ref name=promote/><ref>{{cite book|last=Lowenthal|first=Abraham|title=The United States and Latin American Democracy: Learning from History|year=1991|publisher=Johns Hopkins University Press|pages=243–65|location=Baltimore}}</ref><ref>{{cite book|last=Peceny|first=Mark|year=1999|title=Democracy at the Point of Bayonets|url=https://archive.org/details/democracyatpoint00pece|url-access=limited|publisher=University Park: Pennsylvania State University Press|page=[https://archive.org/details/democracyatpoint00pece/page/n191 183]|isbn=0-271-01883-6}}{{deadlink|date=November 2023}}</ref>
+
+JoAnn Chirico believes that, as of 2014, the U.S. military presence and installations are often considered responsible for suppressing democracy in countries such as Cameroon, Chad, Ethiopia, Jordan, Kuwait, Niger, Oman, Qatar, Saudi Arabia, and United Arab Emirates.{{sfn|Chirico|2014|p=70}}
+
+In her 1979 essay, "[[Dictatorships and Double Standards]]", [[Jeane Kirkpatrick]] argued that although the United States should encourage democracy, it should be understood that premature reforms may cause a backlash that could give the Communists an opportunity to take over. For this reason, she considered it legitimate to support non-communist dictatorships, adding that a successful and sustainable democratic process is likely to be a long-term process in many cases in the Third World. The essence of the so-called [[Kirkpatrick Doctrine]] is the use of selective methods to advance democracy in order to contain the wave of communism.{{sfn|Wright|2007|p=29}}
+
+== Current deployments ==
+The following regional tables provide detail of where personnel from six [[Uniformed services of the United States|branches of the US military]] are currently deployed. These numbers do not include any military or civilian contractors or their dependents. Additionally, countries in which US military are engaged in active combat operations are not included. The numbers are based on the most recent [[United States Department of Defense]] statistics as of June 30, 2025.<ref name=dmdc.osd.mil/>{{Dead link|date=December 2025}}
+
+=== Americas (Northern Command & Southern Command) ===
+{{table alignment}}
+{|class="wikitable defaultright col1left"
+! scope="col" width="160" |Jurisdiction
+! scope="col" width="70" |Total
+! scope="col" width="50" |[[United States Army|Army]]
+! scope="col" width="50" |[[United States Navy|Navy]]
+! scope="col" width="50" |[[United States Air Force|USAF]]
+! scope="col" width="50" |[[United States Marine Corps|USMC]]
+! scope="col" width="50" |[[United States Coast Guard|USCG]]
+! scope="col" width="50" |[[United States Space Force|USSF]]
+|-
+| {{ubil|{{flagdeco|United States}} '''[[Contiguous United States|United States]] (contiguous)'''}}
+| 1,081,382 || 366,863 || 281,926 || 247,902 || 139,204 || 36,335 || 9,152
+|-
+| '''{{flag|Alaska}}'''
+| 20,671 || 10,163 || 34 || 8,585 || 10 || 1,868 || 11
+|-
+| '''''{{PRI}}'''''
+| 774 || 117 || 34 || 24 || 12 || 586 || 1
+|-
+| {{nobr|{{flagdeco|CUB}} [[Guantanamo Bay Naval Base|Guantanamo Bay]]}}
+| 571 || 127 || 415 || – || 23 || 6 || –
+|-
+| {{HON}}
+| 340 || 213 || 1 || 117 || 8 || 1 || –
+|-
+| {{CAN}}
+| 157 || 25 || 38 || 74 || 12 || 6 || 2
+|-
+|{{GRL}}
+|142
+|–
+|–
+|116
+|–
+|–
+|26
+|-
+| other
+| 718 || 152 || 147 || 69 || 290 || 57 || 3
+|-
+| '''Total'''
+| '''1,104,613''' || '''377,544''' || '''282,595''' || '''256,887''' || '''139,559''' || '''38,859''' || '''9,169'''
+|}
+
+=== East Asia, Southeast Asia, and Pacific Ocean (Indo-Pacific Command) ===
+{{table alignment}}
+{|class="wikitable defaultright col1left"
+! scope="col" width="160" |Jurisdiction
+! scope="col" width="70" |Total
+! scope="col" width="50" |[[United States Army|Army]]
+! scope="col" width="50" |[[United States Navy|Navy]]
+! scope="col" width="50" |[[United States Air Force|USAF]]
+! scope="col" width="50" |[[United States Marine Corps|USMC]]
+! scope="col" width="50" |[[United States Coast Guard|USCG]]
+! scope="col" width="50" |[[United States Space Force|USSF]]
+|-
+| {{JPN}}
+| 53,912 || 2,512 || 21,578 || 12,429 || 17,252 || 21 || 120
+|-
+| '''{{flag|Hawaii}}'''
+| 45,445 || 19,236 || 12,399 || 5,323 || 6,756 || 1,556 || 175
+|-
+| {{nobr|{{flagdeco|KOR}} [[South Korea]]}}
+| 23,766 || 15,015 || 360 || 8,152 || 167 || 1 || 71
+|-
+| '''''{{GUM}}'''''
+| 7,125 || 196 || 3,971 || 2,418 || 205 || 334 || 1
+|-
+| {{AUS}}
+| 315 || 47 || 83 || 154 || 23 || 2 || 6
+|-
+| {{SIN}}
+| 260 || 19 || 194 || 24 || 12 || 11 || –
+|-
+| {{flagdeco|IOT}} [[Diego Garcia]]
+| 230 || – || 230 || – || – || – || –
+|-
+| other
+| 462 || 137 || 67 || 57 || 188 || 13 || –
+|-
+| '''Total'''
+| '''131,415''' || '''37,162''' || '''38,882''' || '''28,557''' || '''24,603''' || '''1,938''' || '''373'''
+|}
+
+=== Europe (European Command) ===
+[[File:US military bases in Germany.svg|thumb|300px|US military bases in Germany in 2014]]
+{{table alignment}}
+{|class="wikitable defaultright col1left"
+! scope="col" width="160" |Jurisdiction
+! scope="col" width="70" |Total
+! scope="col" width="50" |[[United States Army|Army]]
+! scope="col" width="50" |[[United States Navy|Navy]]
+! scope="col" width="50" |[[United States Air Force|USAF]]
+! scope="col" width="50" |[[United States Marine Corps|USMC]]
+! scope="col" width="50" |[[United States Coast Guard|USCG]]
+! scope="col" width="50" |[[United States Space Force|USSF]]
+|-
+| {{GER}}
+| 35,989 || 22,203 || 415 || 12,760 || 409 || 11 || 191
+|-
+| {{ITA}}
+| 12,571 || 4,112 || 3,531 || 4,847 || 58 || 1 || 22
+|-
+| {{nobr|{{flagdeco|GBR}} [[United Kingdom]]}}
+| 10,071 || 217 || 274 || 9,457 || 52 || 14 || 57
+|-
+| {{ESP}}
+| 3,700 || 28 || 3,235 || 400 || 35 || 1 || 1
+|-
+| {{TUR}}<!--Turkey, despite being Transcontinental, all of Turkey (Anatolia & Eastern Thrace) is under United States European Command (EUCOM)-->
+| 1,717 || 122 || 6 || 1,559 || 30 || – || –
+|-
+| {{BEL}}
+| 1,122 || 606 || 92 || 389 || 32 || – || 3
+|-
+| {{NLD}}
+| 420 || 121 || 29 || 226 || 12 || 31 || 1
+|-
+| {{GRE}}
+| 407 || 11 || 363 || 28 || 5 || – || –
+|-
+| {{POL}}
+| 342 || 208 || 93 || 31 || 10 || – || –
+|-
+| {{PRT}}
+| 236 || 5 || 45 || 170 || 15 || 1 || –
+|-
+| {{ROU}}
+| 149 || 27 || 102 || 11 || 9 || – || –
+|-
+| other
+| 648 || 139 || 71 || 188 || 244 || 5 || 1
+|-
+| '''Total'''
+| '''67,514''' || '''27,799''' || '''8,256''' || '''30,182''' || '''911''' || '''64''' || '''302'''
+|}
+
+=== West Asia, Central Asia, South Asia, Africa, and Indian Ocean (Central Command) ===
+{{table alignment}}
+{|class="wikitable defaultright col1left"
+! scope="col" width="160" |Jurisdiction
+! scope="col" width="70" |Total
+! scope="col" width="50" |[[United States Army|Army]]
+! scope="col" width="50" |[[United States Navy|Navy]]
+! scope="col" width="50" |[[United States Air Force|USAF]]
+! scope="col" width="50" |[[United States Marine Corps|USMC]]
+! scope="col" width="50" |[[United States Coast Guard|USCG]]
+! scope="col" width="50" |[[United States Space Force|USSF]]
+|-
+| {{BHR}}
+| 3,391 || 23 || 2,818 || 19 || 197 || 334 || –
+|-
+| {{KUW}}
+| 559 || 529 || 3 || 18 || 9 || – || –
+|-
+| {{SAU}}
+| 270 || 161 || 16 || 67 || 26 || – || –
+|-
+| {{QAT}}
+| 254 || 118 || 6 || 107 || 7 || – || 16
+|-
+| {{EGY}}
+| 188 || 140 || 8 || 20 || 20 || – || –
+|-
+| {{nobr|{{flagdeco|UAE}} [[United Arab Emirates]]}}
+| 129 || 26 || 21 || 35 || 47 || – || –
+|-
+| other
+| 1,210 || 350 || 85 || 123 || 652 || – || –
+|-
+| '''Total'''
+| '''6,001''' || '''1,347''' || '''2,957''' || '''389''' || '''958''' || '''334''' || '''16'''
+|}
+
+=== Unspecified ===
+{{table alignment}}
+{|class="wikitable defaultright col1left"
+! scope="col" width="160" |Jurisdiction
+! scope="col" width="70" |Total
+! scope="col" width="50" |[[United States Army|Army]]
+! scope="col" width="50" |[[United States Navy|Navy]]
+! scope="col" width="50" |[[United States Air Force|USAF]]
+! scope="col" width="50" |[[United States Marine Corps|USMC]]
+! scope="col" width="50" |[[United States Coast Guard|USCG]]
+! scope="col" width="50" |[[United States Space Force|USSF]]
+|-
+| Overseas
+| '''9,715''' || '''4,308''' || '''12''' || '''1,188''' || '''4,170''' || '''–''' || '''37'''
+|}
+
+== See also ==
+*[[List of notable deployments of U.S. military forces overseas]] since 1798
+*[[List of countries with overseas military bases#United States|List of United States overseas military bases]]
+*[[List of United States military bases]]
+*[[Marine Security Guard]]
+*[[Military Assistance Advisory Group]]
+*[[Military Assistance Command, Vietnam]]
+*[[United States Taiwan Defense Command]]
+*[[Status of forces agreement]]
+*[[United States foreign aid]]
+*[[United States militarism]]
+
+== References ==
+{{reflist}}
+*{{cite book |last1=Chirico |first1=JoAnn |title=Globalization: Prospects and Problems |date=2014 |publisher=SAGE Publication Ltd. |page=71 |isbn=9781483315447 |url=https://books.google.com/books?id=ZawgAQAAQBAJ&dq=%22support+of+dictators%22&pg=PA71}}
+*{{cite book |last1=Wright |first1=Steven |title=The United States and Persian Gulf Security |date=2007 |publisher=Ithaca Press |isbn=978-0-86372-321-6}}
+
+== Further reading ==
+*{{cite news|title=America's Forever wars |url=http://www.nytimes.com/2017/10/22/opinion/americas-forever-wars.html |newspaper=New York Times |date=23 October 2017 |url-access=subscription}}
+*{{cite web|last1=Machain|first1=Carla Martinez|last2=Allen|first2=Michael A.|last3=Flynn|first3=Michael E.|title=Why does the US pay so much for the defense of its allies? 5 questions answered|url=http://theconversation.com/why-does-the-us-pay-so-much-for-the-defense-of-its-allies-5-questions-answered-127683|access-date=2021-07-28|website=The Conversation|date=2 December 2019}}
+*{{cite journal|last1=Allen|first1=Michael A|last2=Flynn|first2=Michael E|last3=Martinez Machain|first3=Carla|date=2021|title=US global military deployments, 1950–2020*|url=https://doi.org/10.1177/07388942211030885|journal=Conflict Management and Peace Science|volume=39|issue=3|pages=351–370|language=en|doi=10.1177/07388942211030885|s2cid=237722626|issn=0738-8942|url-access=subscription}}
+*{{cite report|url=https://www.acq.osd.mil/eie/Downloads/BSI/Base%20Structure%20Report%20FY23.xlsx|publisher=U.S. Department of Defense|title=Base Structure Report – Fiscal Year 2023 Baseline|format=XLS}}
+
+{{US military navbox}}
+
+{{DEFAULTSORT:Deployments Of The United States Military}}
+[[Category:United States military presence in other countries]]

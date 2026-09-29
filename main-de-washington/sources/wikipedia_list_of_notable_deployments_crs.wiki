@@ -1,0 +1,999 @@
+{{short description|none}}
+{{refimprove|date=September 2024}}
+{{Cleanup section|reason=formatting and quotations|date=September 2024}}<!-- the lead, not necessarily the entire article -->
+The [[Congressional Research Service]] (CRS)
+of the [[United States Congress]]<ref>{{Cite web|url=https://www.loc.gov/crsinfo/about/|title=About CRS - Congressional Research Service (Library of Congress)|website=[www.loc.gov}}](https://www.loc.gov}})</ref> provides a list of "notable deployments of the [[United States Armed Forces|United States military forces]] overseas" from 1798 through April 2023.<ref name="report">[https://crsreports.congress.gov/product/pdf/R/R42738 ''Instances of Use of United States Armed Forces Abroad, 1798-2023''], Report # R42738 by US Congressional Research Service, June 7, 2023. Can be found by [https://crsreports.congress.gov/search/#/?termsToSearch=Instances%20of%20the%20Use%20of%20United%20States%20Armed%20Forces%20Abroad search on CRS website].{{source-attribution}}</ref> The CRS report is updated approximately annually.<ref>[https://crsreports.congress.gov/product/details?prodcode=R42738 Versions of Report # R42738], US Congressional Research Service{{source-attribution}}</ref><ref>List of revisions and sources of 'Instances of Use of United States Armed Forces Abroad'</ref>
+
+The report explains, "The instances vary greatly in size of operation, [duration,] legal authorization, and significance. ... [I]nclusion in this list does not connote either the legality or the level of significance of the instance described. ... Because of differing judgments ..., other lists may include more or fewer instances." Footnote 1 of the report cites three sources of alternative lists, as well as a source for a discussion of the evolution of such lists. The data in this article are from version 41, published on June 7, 2023.
+* 481 "instances in which the United States has used military forces abroad in situations of military conflict or potential conflict to protect U.S. citizens or promote U.S. interests."
+* It does not include "covert actions or the many occurrences in which U.S. forces have been stationed abroad since World War II in occupation forces or for participation in mutual security organizations, base agreements, or routine military assistance or training operations."
+* Of the 226 years from 1798 through 2023, deployments occurred in 207 (<small>all but 1811, 1826, 1828 to 30, 1834, 1837, 1845, 1850, 1861, 1862, 1869, 1872, 1897, 1947, 1957, 1961, 1977, and 1979</small>).
+[[File:Chart for List of Notable Deployments of US Military Forces Overseas.jpg|thumb|right|alt=Chart for List of Notable Deployments of US Military Forces Overseas|Graph of US military deployments per year]]
+* The largest number of deployments in any one year was 29 in 2017, followed by 16 in 2019, 15 in 2014, and 14 in 2018.
+* A few deployments were not for combat, including three evacuations in 1974 and 75 and typhoon relief in 2012 and 13.
+* From the descriptions (<small>See report; full descriptions not included in table below.</small>)
+** Some of the descriptions start with more details about the timeframe of the deployments, as shown in column "Time preface" below.
+** For 47 deployments, the descriptions state specifically that they were "to protect American interests [or property]," as indicated by "Y" in column "US interest" below.)
+* Of the 481 deployments, five were declared wars. The column "Decl'ns" below indicates how many war declarations were made in each of those five, totaling eleven.
+* The report cites sources for some of its data with 157 footnotes, as indicated in the "Footnotes" column below (<small>mostly for deployments after 2013</small>).
+
+== List of deployments ==
+
+{| class="wikitable"
+|+ Listing of Notable Deployments of U.S. Military Forces Overseas, 1798-April 2023 <ref name="report" />
+|-
+!#!!Start!!End!!Deployment!!Time preface!!US Interest!!Decl'ns!!Footnotes!!Related article
+|-
+|1||1798||1800||Undeclared naval war with France||||||||||[[Quasi-War]]
+|-
+|2||1801||1805||Tripoli, Libya||||||||||[[First Barbary War]]
+|-
+|3||ColSpan=2 | 1806||Mexico (Spanish territory)||||||||||
+|-
+|4||1806||1810||Gulf of Mexico||||||||||
+|-
+|5||ColSpan=2 | 1810||West Florida (Spanish territory)||||||||||[[West Florida Controversy]]
+|-
+|6||ColSpan=2 | 1812||Amelia Island and other parts of east Florida, then under Spain||||||||||[[Patriot War (Florida)]]
+|-
+|7||1812||1815||War of 1812||On June 18, 1812,||||1||||[[War of 1812]]
+|-
+|8||ColSpan=2 | 1813||West Florida (Spanish territory)||||||||||
+|-
+|9||1813||1814||Marquesas Islands||||||||||[[Nuku Hiva Campaign]]
+|-
+|10||ColSpan=2 | 1814||Spanish Florida||||||||||
+|-
+|11||1814||1825||Caribbean||||||||||[[West Indies anti-piracy operations of the United States]]
+|-
+|12||RowSpan=2 ColSpan=2 | 1815||Algiers||||||||||[[Second Barbary War]]
+|-
+|13||Tripoli, Libya||||||||||
+|-
+|14||ColSpan=2 | 1816||Spanish Florida||||||||||
+|-
+|15||1816||1818||Spanish Florida—First Seminole War||||||||||
+|-
+|16||ColSpan=2 | 1817||Amelia Island (Spanish territory off northeast Florida)||||||||||
+|-
+|17||ColSpan=2 | 1818||Oregon||||||||||
+|-
+|18||1820||1823||Africa||||||||||
+|-
+|19||ColSpan=2 | 1822||Cuba||||||||||
+|-
+|20||ColSpan=2 | 1823||Cuba||||||||||
+|-
+|21||RowSpan=2 ColSpan=2 | 1824||Cuba||In October 1824,||||||||
+|-
+|22||Puerto Rico (Spanish territory)||||||||||
+|-
+|23||ColSpan=2 | 1825||Cuba||In March 1825,||||||||
+|-
+|24||ColSpan=2 | 1827||Greece||In October and November 1827,||||||||[[Aegean Sea anti-piracy operations of the United States|Aegean Sea anti-piracy operations]]
+|-
+|25||1831||1832||Falkland Islands/Malvinas, Argentina||||Y||||2||
+|-
+|26||ColSpan=2 | 1832||Sumatra||From February 6 to 9, 1832,||||||||
+|-
+|27||ColSpan=2 | 1833||Argentina||From October 31 to November 15, 1833,||||||||
+|-
+|28||1835||1836||Peru||December 10, 1835, to January 24, 1836, and August 31 to December 7, 1836.||Y||||||
+|-
+|29||ColSpan=2 | 1836||Mexico||||||||||
+|-
+|30||1838||1839||Sumatra||December 24, 1838, to January 4, 1839.||||||||
+|-
+|31||ColSpan=2 | 1840||Fiji Islands||July.||||||||
+|-
+|32||RowSpan=2 ColSpan=2 | 1841||Taputeoiea (Tabiteuea) or Drummond's Island, Kingsmill Group||||||||||
+|-
+|33||Samoa||February 24, 1841,||||||||
+|-
+|34||ColSpan=2 | 1842||Mexico||||||||||
+|-
+|35||RowSpan=2 ColSpan=2 | 1843||China||||||||||
+|-
+|36||Africa||From November 29 to December 16, 1843,||||||||
+|-
+|37||ColSpan=2 | 1844||Mexico||||||||||
+|-
+|38||1846||1848||Mexican War||On May 13, 1846,||||1||||[[Mexican–American War]]
+|-
+|39||ColSpan=2 | 1849||Smyrna (İzmir, Turkey)||In July,||||||||
+|-
+|40||RowSpan=2 ColSpan=2 | 1851||Turkey||||||||||
+|-
+|41||Johanns Island (east of Africa)||August.||||||||
+|-
+|42||1852||1853||Argentina||February 3 to 12, 1852; September 17, 1852, to April 1853.||Y||||||
+|-
+|43||ColSpan=2 | 1853||Nicaragua||From March 11 to 13, 1853,||Y||||||
+|-
+|44||RowSpan=2 | 1853||RowSpan=2 | 1854||Japan||||||||||
+|-
+|45||Ryukyu and Bonin Islands||||||||||
+|-
+|46||RowSpan=2 ColSpan=2 | 1854||China||April 4 to June 15 to 17, 1854.||Y||||||
+|-
+|47||Nicaragua||July 9 to 15.||||||||
+|-
+|48||RowSpan=3 ColSpan=2 | 1855||China||May 19 to 21, 1855.||Y||||||
+|-
+|49||Fiji Islands||September 12 to November 4, 1855.||||||||[[1855 Fiji expedition]]
+|-
+|50||Uruguay||November 25 to 29, 1855.||Y||||||
+|-
+|51||RowSpan=2 ColSpan=2 | 1856||Panama, Republic of New Grenada||September 19 to 22, 1856.||Y||||||
+|-
+|52||China||October 22 to December 6, 1856.||Y||||||[[Second Opium War]]
+|-
+|53||ColSpan=2 | 1857||Nicaragua||April to May, November to December 1857.||||||||[[Filibuster War]]
+|-
+|54||RowSpan=2 ColSpan=2 | 1858||Uruguay||January 2 to 27, 1858.||Y||||||
+|-
+|55||Fiji Islands||October 6 to 16, 1858.||||||||[[1858 Fiji expedition]]
+|-
+|56||1858||1859||Turkey||||||||||
+|-
+|57||RowSpan=3 ColSpan=2 | 1859||Paraguay||||||||||
+|-
+|58||Mexico||||||||||
+|-
+|59||China||July 31 to August 2, 1859.||Y||||||[[Second Opium War]]
+|-
+|60||RowSpan=2 ColSpan=2 | 1860||Angola, Portuguese West Africa||March 1, 1860.||||||||
+|-
+|61||Colombia (Bay of Panama)||September 27 to October 8, 1860.||Y||||||
+|-
+|62||ColSpan=2 | 1863||Japan||July 16.||||||||[[Battle of Shimonoseki Straits]]
+|-
+|63||RowSpan=2 ColSpan=2 | 1864||Japan||July 14 to August 3, 1864.||||||||[[Shimonoseki Campaign]]
+|-
+|64||Japan||September 4 to 14, 1864.||||||||
+|-
+|65||ColSpan=2 | 1865||Panama||March 9 and 10, 1865.||||||||
+|-
+|66||RowSpan=2 ColSpan=2 | 1866||China||From June 20 to July 7, 1866,||||||||
+|-
+|67||Mexico||||||||||
+|-
+|68||RowSpan=2 ColSpan=2 | 1867||Nicaragua||||||||||
+|-
+|69||Formosa||June 13, 1867.||||||||
+|-
+|70||RowSpan=3 ColSpan=2 | 1868||Japan (Osaka, Hiolo, Nagasaki, Yokohama, and Negata)||February 4 to 8, April 4 to May 12, June 12 and 13, 1868.||Y||||||
+|-
+|71||Uruguay||February 7 and 8, 19 to 26, 1868.||||||||
+|-
+|72||Colombia||April.||||||||
+|-
+|73||RowSpan=2 ColSpan=2 | 1870||Mexico||June 17 and 18, 1870.||||||||
+|-
+|74||Hawaiian Islands||September 21.||||||||
+|-
+|75||ColSpan=2 | 1871||Korea||June 10 to 12, 1871.||||||||[[United States expedition to Korea|US expedition to Korea]]
+|-
+|76||ColSpan=2 | 1873||Colombia (Bay of Panama)||May 7 to 22, September 23 to October 9, 1873.||Y||||||
+|-
+|77||1873||1896||Mexico||||||||||
+|-
+|78||ColSpan=2 | 1874||Hawaiian Islands||February 12 to 20, 1874.||Y||||||
+|-
+|79||ColSpan=2 | 1876||Mexico||May 18, 1876.||Y||||||
+|-
+|80||ColSpan=2 | 1882||Egypt||July 14 to 18, 1882.||Y||||||
+|-
+|81||ColSpan=2 | 1885||Panama (Colón)||January 18 and 19, 1885.||||||||
+|-
+|82||RowSpan=2 ColSpan=2 | 1888||Korea||June.||||||||
+|-
+|83||Haiti||December 20, 1888.||||||||
+|-
+|84||1888||1889||Samoa||November 14, 1888, to March 20, 1889.||||||||
+|-
+|85||ColSpan=2 | 1889||Hawaiian Islands||July 30 and 31, 1889.||Y||||||[[Hawaiian rebellions (1887–95)|Hawaiian rebellions]]
+|-
+|86||ColSpan=2 | 1890||Argentina||||||||||
+|-
+|87||RowSpan=3 ColSpan=2 | 1891||Haiti||||Y||||||
+|-
+|88||Bering Strait||June 22 to October 5, 1891.||||||||
+|-
+|89||Chile||August 28 to 30.||||||||
+|-
+|90||ColSpan=2 | 1893||Hawaii||January 16 to April 1, 1893.||Y||||||
+|-
+|91||RowSpan=2 ColSpan=2 | 1894||Brazil||January.||||||||
+|-
+|92||Nicaragua||July 6 to August 7, 1894.||Y||||||
+|-
+|93||RowSpan=2 | 1894||RowSpan=2 | 1895||China||In March 1894,||||||||
+|-
+|94||China||||||||||
+|-
+|95||1894||1896||Korea||July 24, 1894, to April 3, 1896.||Y||||||
+|-
+|96||ColSpan=2 | 1895||Colombia||March 8 to 9, 1895.||Y||||||
+|-
+|97||ColSpan=2 | 1896||Nicaragua||May 2 to 4, 1896.||Y||||||
+|-
+|98||ColSpan=2 | 1898||Nicaragua||February 7 and 8, 1898.||Y||||||
+|-
+|99||ColSpan=2 | 1898||The Spanish-American War||On April 25, 1898,||||1||||[[Spanish–American War]]
+|-
+|100||1898||1899||China||November 5, 1898, to March 15, 1899.||||||||
+|-
+|101||RowSpan=2 ColSpan=2 | 1899||Nicaragua||||||||||
+|-
+|102||Samoa||February-May 15, 1899.||||||||
+|-
+|103||1899||1901||Philippine Islands||||Y||||||[[Philippine–American War]]
+|-
+|104||ColSpan=2 | 1900||China||May 24 to September 28, 1900.||||||||[[Boxer Rebellion]]
+|-
+|105||ColSpan=2 | 1901||Colombia (State of Panama)||November 20 to December 4, 1901.||Y||||||
+|-
+|106||RowSpan=2 ColSpan=2 | 1902||Colombia||April 16 to 23, 1902.||Y||||||
+|-
+|107||Colombia (State of Panama)||September 17 to November 18, 1902.||||||||
+|-
+|108||RowSpan=3 ColSpan=2 | 1903||Honduras||March 23 to 30 or 31, 1903.||||||||
+|-
+|109||Dominican Republic||March 30 to April 21, 1903.||Y||||||
+|-
+|110||Syria||September 7 to 12, 1903.||||||||
+|-
+|111||1903||1904||Abyssinia||||||||||
+|-
+|112||1903||1914||Panama||||Y||||||
+|-
+|113||RowSpan=3 ColSpan=2 | 1904||Dominican Republic||January 2 to February 11, 1904.||Y||||||
+|-
+|114||Tangier, Morocco||||||||||
+|-
+|115||Panama||November 17 to 24, 1904.||Y||||||
+|-
+|116||1904||1905||Korea||January 5, 1904, to November 11, 1905.||||||||
+|-
+|117||1906||1909||Cuba||September 1906 to January 23, 1909.||||||||
+|-
+|118||ColSpan=2 | 1907||Honduras||March 18 to June 8, 1907.||Y||||||
+|-
+|119||ColSpan=2 | 1910||Nicaragua||May 19 to September 4, 1910.||Y||||||
+|-
+|120||RowSpan=2 ColSpan=2 | 1911||Honduras||January 26, 1911.||Y||||||
+|-
+|121||China||||||||||
+|-
+|122||RowSpan=5 ColSpan=2 | 1912||Honduras||||||||||
+|-
+|123||Panama||||||||||
+|-
+|124||Cuba||June 5 to August 5, 1912.||Y||||||[[Negro Rebellion]]
+|-
+|125||China||August 24 to 26, 1912.||Y||||||
+|-
+|126||Turkey||November 18 to December 3, 1912.||||||||
+|-
+|127||1912||1925||Nicaragua||August to November 1912.||Y||||||[[United States occupation of Nicaragua|US occupation of Nicaragua]]
+|-
+|128||1912||1941||China||||||||||
+|-
+|129||ColSpan=2 | 1913||Mexico||September 5 to 7, 1913.||||||||[[Mexican Border War (1910–1919)|Mexican Border War]]
+|-
+|130||RowSpan=2 ColSpan=2 | 1914||Haiti||January 29 to February 9, February 20 to 21, October 19, 1914.||||||||
+|-
+|131||Dominican Republic||June and July 1914.||||||||
+|-
+|132||1914||1917||Mexico||||||||||[[United States occupation of Veracruz|US occupation of Veracruz]]
+|-
+|133||1915||1934||Haiti||July 28, 1915, to August 15, 1934.||||||||[[United States occupation of Haiti|US occupation of Haiti]]
+|-
+|134||ColSpan=2 | 1916||China||||||||||
+|-
+|135||1916||1924||Dominican Republic||May 1916 to September 1924.||||||||[[United States occupation of the Dominican Republic (1916–24)|US occupation of the Dominican Republic]]
+|-
+|136||ColSpan=2 | 1917||China||||||||||
+|-
+|137||1917||1918||World War I||On April 6, 1917,||||2||||[[World War I]]
+|-
+|138||1917||1922||Cuba||||Y||||||[[Cuban Civil War]]
+|-
+|139||1918||1919||Mexico||||||||||[[Mexican Border War (1910–1919)|Mexican Border War]]
+|-
+|140||RowSpan=2 | 1918||RowSpan=2 | 1920||Panama||||||||||
+|-
+|141||Soviet Russia||||||||||[[Russian Civil War]]
+|-
+|142||RowSpan=3 ColSpan=2 | 1919||Dalmatia||||||||||
+|-
+|143||Turkey||||||||||
+|-
+|144||Honduras||September 8 to 12, 1919.||||||||
+|-
+|145||RowSpan=2 ColSpan=2 | 1920||China||March 14, 1920.||||||||
+|-
+|146||Guatemala||April 9 to 27, 1920.||Y||||||
+|-
+|147||1920||1922||Russia (Siberia)||February 16, 1920, to November 19, 1922.||||||||
+|-
+|148||ColSpan=2 | 1921||Panama-Costa Rica||||||||||
+|-
+|149||ColSpan=2 | 1922||Turkey||September and October 1922.||Y||||||
+|-
+|150||1922||1923||China||||||||||
+|-
+|151||RowSpan=2 ColSpan=2 | 1924||Honduras||February 28 to March 31, September 10 to 15, 1924.||Y||||||
+|-
+|152||China||September.||||||||
+|-
+|153||RowSpan=3 ColSpan=2 | 1925||China||January 15 to August 29, 1925.||||||||
+|-
+|154||Honduras||April 19 to 21, 1925.||||||||
+|-
+|155||Panama||October 12 to 23, 1925.||Y||||||
+|-
+|156||1926||1933||Nicaragua||May 7 to June 5, 1926; August 27, 1926, to January 3, 1933.||||||||[[United States occupation of Nicaragua|US occupation of Nicaragua]]
+|-
+|157||ColSpan=2 | 1926||China||August and September 1926.||||||||
+|-
+|158||ColSpan=2 | 1927||China||February 1927.||||||||
+|-
+|159||ColSpan=2 | 1932||China||||Y||||||
+|-
+|160||ColSpan=2 | 1933||Cuba||||||||||
+|-
+|161||ColSpan=2 | 1934||China||||||||||
+|-
+|162||ColSpan=2 | 1940||Newfoundland, Bermuda, St. Lucia, Bahamas, Jamaica, Antigua, Trinidad, and British Guiana||||||||||
+|-
+|163||RowSpan=4 ColSpan=2 | 1941||Greenland||||||||||[[World War II]]
+|-
+|164||Netherlands (Dutch Guiana)||In November,||||||||
+|-
+|165||Iceland||||||||||
+|-
+|166||Germany||In spring 1941,||||||||
+|-
+|167||1941||1945||World War II||On December 8, 1941,||||6||||[[World War II]]
+|-
+|168||ColSpan=2 | 1945||China||In October 1945,||||||||[[Chinese Civil War]]
+|-
+|169||ColSpan=2 | 1946||Trieste, Italy||||||||||
+|-
+|170||RowSpan=2 ColSpan=2 | 1948||Palestine||||||||||
+|-
+|171||Berlin, Germany||||||||||
+|-
+|172||1948||1949||China||||||||||
+|-
+|173||1950||1953||Korean War||||||||||[[Korean War]]
+|-
+|174||1950||1955||Formosa (Taiwan)||In June 1950||||||||
+|-
+|175||1954||1955||China||||||||||[[First Taiwan Strait Crisis]]
+|-
+|176||ColSpan=2 | 1956||Egypt||||||||||
+|-
+|177||ColSpan=2 | 1958||Lebanon||||||||||
+|-
+|178||1959||1960||The Caribbean||||||||||
+|-
+|179||RowSpan=2 ColSpan=2 | 1962||Thailand||||||||||
+|-
+|180||Cuba||On October 22, 1962,||||||||
+|-
+|181||1962||1975||Laos||From October 1962 until 1975,||||||||[[Laotian Civil War]]
+|-
+|182||ColSpan=2 | 1964||Congo||||||||||[[Congo Crisis]]
+|-
+|183||1964||1973||Vietnam War||||||||||[[Vietnam War]]
+|-
+|184||ColSpan=2 | 1965||Dominican Republic||||||||||[[Dominican_Civil_War#US_intervention|US intervention in Dominican Civil War]]
+|-
+|185||ColSpan=2 | 1967||Congo||||||||||
+|-
+|186||ColSpan=2 | 1970||Cambodia||||||||||[[Cambodian Civil War]]
+|-
+|187||ColSpan=2 | 1974||Evacuation from Cyprus||||||||||
+|-
+|188||RowSpan=4 ColSpan=2 | 1975||Evacuation from Vietnam||On April 3, 1975,||||||3||
+|-
+|189||Evacuation from Cambodia||On April 12, 1975,||||||||
+|-
+|190||South Vietnam||On April 30, 1975,||||||||
+|-
+|191||Mayaguez incident||On May 15, 1975,||||||||
+|-
+|192||RowSpan=2 ColSpan=2 | 1976||Lebanon||On July 22 and 23, 1974,||||||||
+|-
+|193||Korea||||||||||
+|-
+|194||ColSpan=2 | 1978||Zaire||From May 19 through June 1978,||||||||[[Shaba II]]
+|-
+|195||ColSpan=2 | 1980||Iran||On April 26, 1980,||||||||
+|-
+|196||RowSpan=2 ColSpan=2 | 1981||El Salvador||||||||||[[Salvadoran Civil War]]
+|-
+|197||Libya||On August 19, 1981,||||||||
+|-
+|198||RowSpan=2 ColSpan=2 | 1982||Sinai, Egypt||On March 19, 1982,||||||||
+|-
+|199||Lebanon||On August 21, 1982,||||||||
+|-
+|200||1982||1983||Lebanon||On September 29, 1982,||||||||
+|-
+|201||ColSpan=2 | 1983||Egypt||||||||||
+|-
+|202||1983||1989||Honduras||In July 1983||||||||
+|-
+|203||RowSpan=2 ColSpan=2 | 1983||Chad||On August 8, 1983,||||||||
+|-
+|204||Grenada||On October 25, 1983,||||||||[[United States invasion of Grenada|US invasion of Grenada]]
+|-
+|205||ColSpan=2 | 1984||Persian Gulf||On June 5, 1984,||||||||
+|-
+|206||ColSpan=2 | 1985||Italy||On October 10, 1985,||||||||[[1986 United States bombing of Libya|US bombing of Libya]]
+|-
+|207||RowSpan=3 ColSpan=2 | 1986||Libya||On March 26, 1986,||||||||
+|-
+|208||Libya||On April 16, 1986,||||||||
+|-
+|209||Bolivia||||||||||
+|-
+|210||1987||1988||Persian Gulf||||||||||
+|-
+|211||ColSpan=2 | 1988||Panama||In mid-March and April 1988,||||||||
+|-
+|212||RowSpan=4 ColSpan=2 | 1989||Libya||On January 4, 1989,||||||||
+|-
+|213||Panama||On May 11, 1989,||||||||
+|-
+|214||Andean Initiative in War on Drugs||On September 15, 1989,||||||||
+|-
+|215||Philippines||On December 2, 1989,||||||||
+|-
+|216||1989||1990||Panama||On December 21, 1989,||||||||[[United States invasion of Panama|US invasion of Panama]]
+|-
+|217||RowSpan=2 ColSpan=2 | 1990||Liberia||On August 6, 1990,||||||||[[First Liberian Civil War]]
+|-
+|218||Saudi Arabia||On August 9, 1990,||||||||[[Gulf War]]
+|-
+|219||RowSpan=3 ColSpan=2 | 1991||Iraq||On January 18, 1991,||||||||
+|-
+|220||Iraq||On May 17, 1991,||||||||
+|-
+|221||Zaire (now DRC)||On September 25-27, 1991,||||||||
+|-
+|222||RowSpan=4 ColSpan=2 | 1992||Sierra Leone||On May 3, 1992,||||||||
+|-
+|223||Kuwait||On August 3, 1992,||||||||
+|-
+|224||Iraq||On September 16, 1992,||||||||
+|-
+|225||Somalia||On December 10, 1992,||||||||[[Somali Civil War]]
+|-
+|226||RowSpan=10 ColSpan=2 | 1993||Iraq||On January 19, 1993,||||||||
+|-
+|227||Iraq||On January 21, 1993,||||||||
+|-
+|228||Bosnia||On February 28, 1993,||||||||
+|-
+|229||Bosnia||On April 13, 1993,||||||||
+|-
+|230||Iraq||||||||||
+|-
+|231||Somalia||On June 10, 1993,||||||||[[Somali Civil War]]
+|-
+|232||Iraq||On June 28, 1993,||||||||
+|-
+|233||Iraq||||||||||
+|-
+|234||Former Yugoslav Republic of Macedonia||On July 9, 1993,||||||4||
+|-
+|235||Haiti||On October 20, 1993,||||||||
+|-
+|236||RowSpan=10 ColSpan=2 | 1994||Bosnia||On February 17, 1994,||||||||
+|-
+|237||Bosnia||On March 1, 1994,||||||||
+|-
+|238||Bosnia||On April 12, 1994,||||||||
+|-
+|239||Rwanda||On April 12, 1994,||||||||
+|-
+|240||FYROM||On April 19, 1994,||||||||
+|-
+|241||Haiti||On April 20, 1994,||||||||
+|-
+|242||Bosnia||On August 22, 1994,||||||||
+|-
+|243||Haiti||On September 21, 1994,||||||||
+|-
+|244||Bosnia||On November 22, 1994,||||||||
+|-
+|245||FYROM||On December 22, 1994,||||||||
+|-
+|246||RowSpan=7 ColSpan=2 | 1995||Somalia||On March 1, 1995,||||||||[[Somali Civil War]]
+|-
+|247||Haiti||On March 21, 1995,||||||||
+|-
+|248||Bosnia||On May 24, 1995,||||||||
+|-
+|249||Bosnia||On September 1, 1995,||||||||
+|-
+|250||Haiti||On September 21, 1995,||||||||
+|-
+|251||Bosnia||On December 6, 1995,||||||||
+|-
+|252||Bosnia||On December 21, 1995,||||||||
+|-
+|253||RowSpan=7 ColSpan=2 | 1996||Haiti||On March 21, 1996,||||||||
+|-
+|254||Liberia||On April 11, 1996,||||||||
+|-
+|255||Liberia||On May 20, 1996,||||||||
+|-
+|256||Central African Republic||On May 23, 1996,||||||||
+|-
+|257||Bosnia||On June 21, 1996,||||||||
+|-
+|258||Rwanda and Zaire (now DRC)||On December 2, 1996,||||||||
+|-
+|259||Bosnia||On December 20, 1996,||||||||
+|-
+|260||RowSpan=6 ColSpan=2 | 1997||Albania||On March 15, 1997,||||||||
+|-
+|261||Congo and Gabon||On March 27, 1997,||||||||
+|-
+|262||Sierra Leone||On May 30, 1997,||||||||
+|-
+|263||Bosnia||On June 20, 1997,||||||||
+|-
+|264||Cambodia||On July 11, 1997,||||||||
+|-
+|265||Bosnia||On December 19, 1997,||||||||
+|-
+|266||RowSpan=7 ColSpan=2 | 1998||Guinea-Bissau||On June 12, 1998,||||||||
+|-
+|267||Bosnia||On June 19, 1998,||||||||
+|-
+|268||Kenya and Tanzania||On August 10, 1998,||||||||
+|-
+|269||Albania||On August 18, 1998,||||||||
+|-
+|270||Afghanistan and Sudan||On August 21, 1998,||||||||
+|-
+|271||Liberia||On September 29, 1998,||||||||
+|-
+|272||Iraq||||||||||
+|-
+|273||1998||1999||Iraq||||||||||
+|-
+|274||RowSpan=9 ColSpan=2 | 1999||Bosnia||On January 19, 1999,||||||||
+|-
+|275||Kenya||On February 25, 1999,||||||||
+|-
+|276||Yugoslavia||On March 26, 1999,||||||||
+|-
+|277||Yugoslavia/Albania||On April 7, 1999,||||||||
+|-
+|278||Yugoslavia/Albania||On May 25, 1999,||||||||
+|-
+|279||Yugoslavia/Kosovo||On June 12, 1999,||||||||
+|-
+|280||Bosnia||On July 19, 1999,||||||||
+|-
+|281||East Timor||On October 8, 1999,||||||||
+|-
+|282||Yugoslavia/Kosovo||On December 15, 1999,||||||||
+|-
+|283||1999||2000||Iraq||||||||||
+|-
+|284||RowSpan=8 ColSpan=2 | 2000||Bosnia||On January 25, 2000,||||||||
+|-
+|285||East Timor||On February 25, 2000,||||||||
+|-
+|286||Sierra Leone||On May 12, 2000,||||||||
+|-
+|287||Yugoslavia/Kosovo||On June 16, 2000,||||||||
+|-
+|288||Bosnia||On July 25, 2000,||||||||
+|-
+|289||East Timor||On August 25, 2000,||||||||
+|-
+|290||Yemen||On October 14, 2000,||||||||
+|-
+|291||Yugoslavia/Kosovo||On December 18, 2000,||||||||
+|-
+|292||RowSpan=8 ColSpan=2 | 2001||East Timor||On March 2, 2001,||||||||
+|-
+|293||Yugoslavia/Kosovo||On May 18, 2001,||||||||
+|-
+|294||Bosnia||On July 25, 2001,||||||||
+|-
+|295||Iraq||||||||||
+|-
+|296||East Timor||On August 31, 2001,||||||||
+|-
+|297||Terrorism threat||On September 24, 2001,||||||||
+|-
+|298||Afghanistan||On October 9, 2001,||||||||
+|-
+|299||Yugoslavia/Kosovo||On November 19, 2001,||||||||
+|-
+|300||RowSpan=8 ColSpan=2 | 2002||Bosnia||On January 21, 2002,||||||||
+|-
+|301||East Timor||On February 28, 2002,||||||||
+|-
+|302||Terrorism threat||On March 20, 2002,||||||||
+|-
+|303||Yugoslavia/Kosovo||On May 17, 2002,||||||||
+|-
+|304||Bosnia||On July 22, 2002,||||||||
+|-
+|305||Terrorism threat||On September 20, 2002,||||||||
+|-
+|306||Cote d'Ivoire||On September 26, 2002,||||||||
+|-
+|307||Yugoslavia/Kosovo||On November 15, 2002,||||||||
+|-
+|308||RowSpan=9 ColSpan=2 | 2003||Bosnia||On January 21, 2003,||||||||
+|-
+|309||Terrorism threat||On March 20, 2003,||||||||
+|-
+|310||Iraq War||On March 21, 2003,||||||||
+|-
+|311||Yugoslavia/Kosovo||On May 14, 2003,||||||||
+|-
+|312||Liberia||On June 9, 2003,||||||||
+|-
+|313||Bosnia||On July 22, 2003,||||||||
+|-
+|314||Liberia||On August 13, 2003,||||||||
+|-
+|315||Terrorism threat||On September 19, 2003,||||||||
+|-
+|316||Yugoslavia/Kosovo||On November 14, 2003,||||||||
+|-
+|317||RowSpan=5 ColSpan=2 | 2004||Bosnia||On January 22, 2004,||||||||
+|-
+|318||Haiti||On February 25, 2004,||Y||||||
+|-
+|319||Haiti||On March 2, 2004,||||||||
+|-
+|320||Terrorism/Bosnia and Haiti||On March 20, 2004,||||||||
+|-
+|321||Terrorism threat/Horn of Africa/Kosovo/Bosnia/Iraq||On November 4, 2004,||||||||
+|-
+|322||RowSpan=2 ColSpan=2 | 2005||Terrorism threat/Horn of Africa/Kosovo/Bosnia||On May 20, 2005,||||||||
+|-
+|323||Terrorism threat/Horn of Africa/Kosovo/Bosnia/Iraq||On December 7, 2005,||||||||
+|-
+|324||RowSpan=3 ColSpan=2 | 2006||Terrorism threat/Kosovo/Bosnia/Iraq||On June 15, 2006,||||||||
+|-
+|325||Lebanon||On July 18, 2006,||||||||
+|-
+|326||Terrorism threat/Horn of Africa/Kosovo/Bosnia||On December 15, 2006,||||||||
+|-
+|327||RowSpan=2 ColSpan=2 | 2007||Terrorism threat/Kosovo/Afghanistan||On June 15, 2007,||||||||
+|-
+|328||Terrorism threat/Kosovo/Afghanistan||On December 14, 2007,||||||||
+|-
+|329||RowSpan=2 ColSpan=2 | 2008||Terrorism threat/Kosovo/Afghanistan||On June 13, 2008,||||||||
+|-
+|330||Terrorism threat/Kosovo/Afghanistan||On December 16, 2008,||||||||
+|-
+|331||RowSpan=2 ColSpan=2 | 2009||Terrorism threat/Afghanistan/Iraq/Kosovo||On June 15, 2009,||||||||
+|-
+|332||Terrorism threat/Afghanistan/Iraq/Kosovo||On December 5, 2009,||||||||
+|-
+|333||RowSpan=2 ColSpan=2 | 2010||Terrorism threat/Afghanistan/Iraq/Kosovo||On June 15, 2010,||||||||
+|-
+|334||Terrorism threat/Afghanistan/Iraq/Kosovo||On December 15, 2010,||||||||
+|-
+|335||RowSpan=4 ColSpan=2 | 2011||Terrorism threat/Afghanistan/Libya/Kosovo||On June 15, 2011,||Y||||||
+|-
+|336||Libya||On March 21, 2011,||||||||
+|-
+|337||Central Africa||On October 14, 2011,||||||||
+|-
+|338||Terrorism threat/Afghanistan/Libya/Iraq/Kosovo||On December 15, 2011,||||||||
+|-
+|339||RowSpan=4 ColSpan=2 | 2012||Somalia||On January 26, 2012,||||||||[[Somali Civil War]]
+|-
+|340||Terrorism threat/Afghanistan/Somalia/Yemen/Central Africa/Kosovo||On June 15, 2012,||||||||
+|-
+|341||Libya/Yemen||On September 14, 2012,||Y||||||
+|-
+|342||Southern Philippines Humanitarian Assistance for Typhoon Bopha||On December 17, 2012,||||||||[[Typhoon Bopha]]
+|-
+|343||RowSpan=12 ColSpan=2 | 2013||Afghanistan||On January 31, 2013,||||||||
+|-
+|344||Niger||On February 22, 2013,||||||||
+|-
+|345||Afghanistan||On April 10, 2013,||||||||
+|-
+|346||Jordan||||||||||
+|-
+|347||Terrorism threat/Afghanistan/Somalia/Yemen/Central Africa||On June 14, 2013,||||||||[[Somali Civil War]]
+|-
+|348||Jordan||||||||||
+|-
+|349||Afghanistan||On July 11, 2013,||||||||
+|-
+|350||Afghanistan||On September 24, 2013,||||||||
+|-
+|351||Leyte, Philippines Humanitarian Assistance for Typhoon Haiyan||On November 9, 2013,||||||||[[Typhoon Haiyan]]
+|-
+|352||Burundi and Central African Republic||||||||||
+|-
+|353||Afghanistan||On December 13, 2013,||||||||
+|-
+|354||South Sudan||On December 18, 2013,||||||||
+|-
+|355||RowSpan=15 ColSpan=2 | 2014||South Korea||On January 7, 2014,||||||||
+|-
+|356||Uganda, South Sudan, the Democratic Republic of the Congo, and the Central African Republic||||||||5||
+|-
+|357||Iraq||On June 19, 2014,||||||6||
+|-
+|358||Iraq||June 30, 2014,||||||7||
+|-
+|359||Ukraine||On August 6, 2014,||||||8||
+|-
+|360||Iraq||On August 13, 2014,||||||9||
+|-
+|361||Poland||||||||10||
+|-
+|362||Iraq||On September 2, 2014,||||||11, 12||
+|-
+|363||Liberia, West Africa||||||||13, 14||
+|-
+|364||Liberia and Senegal, West Africa||On October 1, 2014,||||||15, 16||
+|-
+|365||Iraq||On November 7, 2014,||||||17||
+|-
+|366||Dakar, Senegal||On November 10, 2014,||||||18||
+|-
+|367||Senegal and Liberia, West Africa||On November 14, 2014,||||||19||
+|-
+|368||Vilnius, Lithuania||On November 24, 2014,||||||20||
+|-
+|369||Iraq||On December 19, 2014,||||||21||
+|-
+|370||RowSpan=7 ColSpan=2 | 2015||Liberia and Senegal, West Africa||On January 8, 2015,||||||22||
+|-
+|371||Korea||On March 20, 2015,||||||23||
+|-
+|372||Iraq||On June 10, 2015,||||||24, 25||
+|-
+|373||Iraq, Afghanistan, and Middle East||On August 5, 2015,||||||26, 27||
+|-
+|374||Kuwait||On September 24, 2015,||||||28||
+|-
+|375||Cameroon||On October 14, 2015,||||||29||
+|-
+|376||Republic of Korea||On November 30, 2015,||||||30||
+|-
+|377||RowSpan=9 ColSpan=2 | 2016||Iraq||On June 11, 2016,||||||31||
+|-
+|378||Afghanistan, Iraq, Syria, Turkey, Somalia, Yemen, Djibouti, Libya, Cuba, Central Africa, Egypt, Jordan, and NATO/Kosovo||On June 13, 2016,||||||32||[[Somali Civil War]]
+|-
+|379||South Sudan||||||||33, 34||
+|-
+|380||Afghanistan||On August 5, 2016,||||||35||
+|-
+|381||Afghanistan||||||||36||
+|-
+|382||Iraq||||||||37, 38||
+|-
+|383||Haiti||On October 7, 2016,||||||39||
+|-
+|384||Yemen||On October 14, 2016,||||||40||
+|-
+|385||Afghanistan||On December 8, 2016,||||||41||
+|-
+|386||RowSpan=29 ColSpan=2 | 2017||Europe||On January 5, 2017,||||||42||
+|-
+|387||Iraq||||||||43||
+|-
+|388||Guatemala||||||||44||
+|-
+|389||Korea||||||||45||
+|-
+|390||Germany||||||||46||
+|-
+|391||Romania||On February 16, 2017,||||||47||
+|-
+|392||Honduras||||||||48||
+|-
+|393||Germany||On February 22, 2017,||||||49||
+|-
+|394||Germany||On February 24, 2017,||||||50||
+|-
+|395||Greece||||||||51||
+|-
+|396||Syria||On March 10, 2017,||||||52, 53||
+|-
+|397||Peru||On March 30, 2017,||||||54||
+|-
+|398||Afghanistan||||||||55||
+|-
+|399||Uruguay||On April 6, 2017,||||||56||
+|-
+|400||Korea||On May 19, 2017,||||||57||
+|-
+|401||Iraq and Kuwait||||||||58||
+|-
+|402||Egypt||In late May,||||||59||
+|-
+|403||England||||||||60||
+|-
+|404||Sri Lanka||||||||61||
+|-
+|405||England||||||||62||
+|-
+|406||Southwest Asia||On September 5,||||||63||
+|-
+|407||Caribbean||||||||64||
+|-
+|408||Afghanistan||In September 2017,||||||65||
+|-
+|409||Dominica||||||||66||
+|-
+|410||Niger||||||||67, 68||
+|-
+|411||Afghanistan, Syria, Africa, and elsewhere||On October 10, 2017,||||||69||
+|-
+|412||Haiti||On November 18,||||||70||
+|-
+|413||Poland||||||||71||
+|-
+|414||Iraq and Syria||on December 6, 2017,||||||72||
+|-
+|415||RowSpan=14 ColSpan=2 | 2018||Afghanistan||In February 2018,||||||73||
+|-
+|416||Syria||On April 13, 2018,||||||74||
+|-
+|417||Tanzania||From May to July 2018,||||||75||
+|-
+|418||Central and South America||||||||76||
+|-
+|419||Thailand||||||||77||
+|-
+|420||Ukraine||On July 20, 2018,||||||78||
+|-
+|421||Iceland||||||||79||
+|-
+|422||Europe and Africa||||||||80, 81||
+|-
+|423||Central and South America||On October 20, 2018,||||||82||
+|-
+|424||Afghanistan||On October 18, 2018,||||||83, 84||
+|-
+|425||Yemen||||||||85||
+|-
+|426||Africa||On November 15, 2018,||||||86||
+|-
+|427||Syria||||||||87||
+|-
+|428||Honduras||On December 10, 2018,||||||88||
+|-
+|429||RowSpan=16 ColSpan=2 | 2019||Syria||In early January 2019,||||||89||
+|-
+|430||South Korea||||||||90||
+|-
+|431||Iraq||On March 29, 2019,||||||91, 92||
+|-
+|432||Afghanistan||On March 29, 2019,||||||93, 94||
+|-
+|433||Japan||From April 9 to April 17,||||||95, 96||
+|-
+|434||Lithuania||||||||97||
+|-
+|435||Japan||||||||98||
+|-
+|436||Indo-Pacific||On May 1, 2019,||||||99||
+|-
+|437||Middle East||On May 10, 2019,||||||100, 101, 102, 103, 104||
+|-
+|438||Venezuela||||||||105||
+|-
+|439||Poland||On June 12, 2019,||||||106||
+|-
+|440||Saudi Arabia||On September 26, 2019,||||||107||
+|-
+|441||Europe||On October 4, 2019,||||||108||
+|-
+|442||Saudi Arabia||On October 11, 2019,||||||109||
+|-
+|443||Afghanistan and South Korea||On December 5, 2019,||||||110||
+|-
+|444||Middle East||On Dec. 31, 2019,||||||111, 112, 113||
+|-
+|445||RowSpan=11 ColSpan=2 | 2020||Kuwait||In early January 2020,||||||114||
+|-
+|446||Africa||On February 12, 2020,||||||115||
+|-
+|447||International||On March 25, 2020,||||||116||
+|-
+|448||Afghanistan||On April 23, 2020,||||||117, 118, 119||
+|-
+|449||Europe||On April 23, 2000,||||||120, 121||
+|-
+|450||Iraq||||||||122||
+|-
+|451||Italy||||||||123||
+|-
+|452||Germany||On July 1, 2020,||||||124, 125||
+|-
+|453||Europe||On September 24, 2020,||||||126||
+|-
+|454||Central America||On November 12, 2020,||||||127||
+|-
+|455||INDOPACOM region||On December 17, 2020,||||||128||
+|-
+|456||RowSpan=10 ColSpan=2 | 2021||Afghanistan and Iraq||On January 15, 2021,||||||129||
+|-
+|457||Korea||On March 25, 2021,||||||130||
+|-
+|458||Afghanistan||On April 15, 2021,||||||131||
+|-
+|459||Europe||On July 6, 2021,||||||132||
+|-
+|460||Haiti||On August 15, 2021,||||||133||
+|-
+|461||Afghanistan||On August 15, 2021,||||||||
+|-
+|462||Afghanistan||On August 30, 2021,||||||134||
+|-
+|463||Europe||On October 8, 2021,||||||135, 136||
+|-
+|464||Europe||On December 16, 2021,||||||137||
+|-
+|465||South Korea||On December 16, 2021,||||||138||
+|-
+|466||RowSpan=12 ColSpan=2 | 2022||Tonga||||||||139, 140||
+|-
+|467||Romania, Poland, and Germany||On February 2, 2022,||||||141, 142||
+|-
+|468||Poland, Europe||On February 11, 2022,||||||143||
+|-
+|469||Poland, Europe||||||||144||
+|-
+|470||Europe||On March 5, 2022,||||||145||
+|-
+|471||Europe||||||||146||
+|-
+|472||Somalia||In May,||||||147||[[Somali Civil War]]
+|-
+|473||Europe||On June 29, 2022,||||||148||
+|-
+|474||Europe||On August 12, 2022,||||||149||
+|-
+|475||Europe||On September 2, 2022,||||||150||
+|-
+|476||Korea||On September 2, 2022,||||||151||
+|-
+|477||Latin America and the Caribbean||On December 21, 2022,||||||152||
+|-
+|478||RowSpan=4 ColSpan=2 | 2023||Europe||||||||153||
+|-
+|479||Europe||On March 7, 2023,||||||154, 155||
+|-
+|480||Korea||On March 8, 2023,||||||156||
+|-
+|481||Sudan||On April 22, 2023,||||||157, 158||[[Evacuation of foreign nationals during the war in Sudan (2023–present)|Evacuation from Sudan]]
+|}
+
+== See also ==
+* [[Military history of the United States]]
+* [[United States militarism]]
+* [[United States military deployments]]
+
+== References ==
+<references />
+
+[[Category:Overseas or abroad military installations|U.S.]]
+[[Category:United States military-related lists|Overseas]]
