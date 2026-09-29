@@ -360,7 +360,7 @@ function drawTimeline(){
     const right=x>W*.82;ctx.fillStyle=C.paper;ctx.textAlign=right?'right':'left';ctx.font=`500 ${12*U}px ${MONO}`;ctx.fillText(m.l.toUpperCase(),x+(right?-6:6),top-18*U)}
   ctx.textAlign='center';ctx.font=`500 ${12*U}px ${MONO}`;
   for(const d in DEC){if(+d<T0||(Cal<+d+BIN&&!(Cal>=T1)))continue;ctx.fillStyle=C.sun;ctx.fillText(DEC[d],X(Math.min(+d+BIN/2,T1-BIN*.1)),top+6*U)}
-  if(Cal>=T0+BIN){ctx.fillStyle=C.muted;ctx.textAlign='left';ctx.font=`400 ${11*U}px ${MONO}`;ctx.fillText(BIN===10?'INCIDENTS PAR DÉCENNIE':'INCIDENTS PAR AN',x0,top-18*U)}
+  if(Cal>=T0+BIN&&!MILES.some(m=>m.t<=Cal&&m.t>=T0&&!(m.s&&BIN===10)&&!portrait&&X(m.t)-x0<170*U)){ctx.fillStyle=C.muted;ctx.textAlign='left';ctx.font=`400 ${11*U}px ${MONO}`;ctx.fillText(BIN===10?'INCIDENTS PAR DÉCENNIE':'INCIDENTS PAR AN',x0,top-18*U)}
   const done=EV.filter(e=>e.t<=Cal),N=EV.length;const cy=n=>base-6-(n/N)*(base-top-24*U);
   const pts=[[X(T0),cy(0)]];let n=0;for(const e of done){pts.push([X(e.t),cy(n)]);n++;pts.push([X(e.t),cy(n)])}pts.push([X(Cal),cy(n)]);
   const ag=ctx.createLinearGradient(0,top,0,base);ag.addColorStop(0,'rgba(255,107,74,.35)');ag.addColorStop(1,'rgba(255,107,74,0)');
@@ -370,6 +370,9 @@ function drawTimeline(){
   const hx=X(Cal),hy=cy(n);glow(hx,hy,(22+6*Math.sin(now*6))*U,C.sun);ctx.fillStyle=C.paper;ctx.beginPath();ctx.arc(hx,hy,3.5*U,0,7);ctx.fill();
   ctx.strokeStyle='rgba(255,197,61,.35)';ctx.beginPath();ctx.moveTo(hx,top-6);ctx.lineTo(hx,base);ctx.stroke();ctx.textAlign='left';
 }
+function drawCredit(){ctx.save();ctx.textAlign='right';ctx.textBaseline='alphabetic';
+  ctx.font=`800 ${30*U}px Syne, sans-serif`;ctx.fillStyle=C.paper;ctx.fillText('LA MAIN DE WASHINGTON',W-40*U,70*U);
+  ctx.font=`500 ${13*U}px ${MONO}`;ctx.fillStyle=C.coral;ctx.fillText('FRÉQUENCE POPULAIRE · '+window.__VIDEO,W-40*U,94*U);ctx.restore()}
 function frame(ts){
   const dt=Math.min(.05,(ts-lastTs)/1000);lastTs=ts;now=ts/1000;
   if(playing){Cal+=dt*rate(Cal)*speed;if(Cal>=T1){Cal=T1;setPlay(false)}}
@@ -378,7 +381,7 @@ function frame(ts){
   const sh=shake*5*U;shake*=.9;
   ctx.save();ctx.translate((Math.random()-.5)*sh,(Math.random()-.5)*sh);
   drawMap();drawBroadcast();drawOrigin();drawEvents();ctx.restore();
-  drawFeed();drawHUD();drawTimeline();
+  drawFeed();drawHUD();drawTimeline();if(window.__VIDEO)drawCredit();
   if(document.activeElement!==scrub)scrub.value=Cal;
   tc.textContent=Math.floor(Math.min(Cal,2026.99))+' · '+hits+' incidents';
   chipSync();
@@ -393,7 +396,7 @@ document.getElementById('restart').onclick=()=>{resetTo(T0);lastImpact=null;setP
 spd.onclick=()=>{speed=speed===1?2:speed===2?.5:1;spd.textContent='×'+(speed===.5?'½':speed)};
 scrub.oninput=()=>{setPlay(false);resetTo(+scrub.value)};
 let JUMPS=[];
-function buildChips(){JUMPS=PER==='long'?[['1900',1900],['1945',1945],['Corée',1950.4],['Vietnam',1964.5],['1973',1973],['1980',1980],['1991',1990.5],['2001',2001.6],['2013',2013],['2020',2020]]:[2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026].map(y=>[String(y),y]);
+function buildChips(){JUMPS=PER==='long'?[['1900',1900],['1945',1945],['Corée',1950.4],['Vietnam',1964.5],['1973',1973],['1980',1980],['1991',1990.5],['2001',2001.6],['2013',2013],['2020',2020]]:[2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026].map(y=>[String(y),y]);
   chips.innerHTML='';JUMPS.forEach(([l,t])=>{const b=document.createElement('button');b.type='button';b.textContent=l;b.onclick=()=>{resetTo(t);setPlay(true)};chips.appendChild(b)})}
 function chipSync(){let k=-1;JUMPS.forEach(([,t],i)=>{if(Cal>=t)k=i});[...chips.children].forEach((c,i)=>c.setAttribute('aria-current',i===k?'true':'false'))}
 document.getElementById('legend').innerHTML=Object.values(CAT).map(c=>`<span style="color:${c.c}"><i style="background:${c.c}"></i><span style="color:#BFD0D3">${c.n}</span></span>`).join('')+`<span style="color:#BFD0D3">● plein : reconnu · ○ cercle : documenté · ◌ pointillé : allégué</span>`;
@@ -426,7 +429,7 @@ const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const NOTES={monde:'Tous les faits, dans le monde entier.',europe:"Cadrage de « La guerre grise » : seuls les faits visant l'Europe sont montrés.",allies:"Seuls les faits visant un allié officiel des États-Unis à la date du fait (OTAN, UE, pacte de Rio, alliés par traité, alliés majeurs hors OTAN)."};
 function applyMode(){
   const tmax=Math.max(...ALL.map(e=>e.t));
-  T0=PER==='long'?1900:2014;T1=2026.75;BIN=PER==='long'?10:1;
+  T0=PER==='long'?1900:2013;T1=2026.75;BIN=PER==='long'?10:1;
   EV=ALL.filter(e=>e.t>=T0).map(e=>{const tg=e.tg.filter(g=>ZONE==='monde'||(ZONE==='europe'?inEurope(g):isAlly(g,e.t)));return tg.length?{...e,tg:tg.map(g=>({...g})),launch:null}:null}).filter(Boolean);
   sel=null;computeStats();buildChips();buildTable();
   scrub.min=T0;scrub.max=T1;document.getElementById('modeNote').textContent=NOTES[ZONE]+` ${EV.length} faits, ${T0} → ${Math.floor(T1)}.`;
@@ -434,9 +437,10 @@ function applyMode(){
 function segBtns(box,items,get,set){items.forEach(([k,l])=>{const b=document.createElement('button');b.type='button';b.textContent=l;b.dataset.k=k;b.setAttribute('aria-pressed',k===get()?'true':'false');
   b.onclick=()=>{if(k===get())return;set(k);[...box.children].forEach(x=>x.setAttribute('aria-pressed',x.dataset.k===k?'true':'false'));applyMode()};box.appendChild(b)})}
 segBtns(document.getElementById('zone'),[['monde','Monde'],['europe','Europe'],['allies','Alliés']],()=>ZONE,k=>ZONE=k);
-segBtns(document.getElementById('per'),[['long','1900 → 2026'],['court','2014 → 2026']],()=>PER,k=>PER=k);
+segBtns(document.getElementById('per'),[['long','1900 → 2026'],['court','2013 → 2026']],()=>PER,k=>PER=k);
 applyMode();
 new ResizeObserver(()=>setup()).observe(stage);
+window.__MDW={setSpeed:s=>{speed=s},rate:c=>rate(c),t0:()=>T0,t1:()=>T1,n:()=>EV.length,cal:()=>Cal};
 const fontsReady=Promise.race([Promise.all([document.fonts.load(`800 120px Syne`),document.fonts.load(`400 14px "JetBrains Mono"`)]),new Promise(r=>setTimeout(r,1800))]);
 fontsReady.catch(()=>{}).finally(()=>{lastTs=performance.now();requestAnimationFrame(frame)});
 })();

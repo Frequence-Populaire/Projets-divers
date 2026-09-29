@@ -16,7 +16,7 @@ Deux sélecteurs, au-dessus de la carte, filtrent la carte, la chronologie et le
   - **Monde** : tous les faits.
   - **Europe** : le cadrage de « La guerre grise », avec les seuls faits visant l'Europe.
   - **Alliés** : les faits visant un allié officiel des États-Unis à la date du fait. Sont comptés comme alliés les membres de l'OTAN et de la CEE puis de l'UE, du pacte de Rio, les alliés par traité en Asie-Pacifique et les « alliés majeurs hors OTAN », chacun à partir de son adhésion et jusqu'à son éventuel retrait.
-- **Période** : 1900 → 2026, ou 2014 → 2026 (la temporalité de « La guerre grise »).
+- **Période** : 1900 → 2026, ou 2013 → 2026 (la temporalité de « La guerre grise », élargie à l'année des révélations Snowden).
 
 Le tableau sous la carte se filtre par type et par niveau d'attribution, et se cherche par pays, lieu ou nom d'opération.
 
@@ -71,7 +71,8 @@ main-de-washington/
 │   ├── geo.py              projette les frontières → carte/
 │   ├── build.py            assemble index.html
 │   ├── validate.py         vérifie la base
-│   └── export_csv.py       exporte la base en CSV
+│   ├── export_csv.py       exporte la base en CSV
+│   └── video.js            enregistre une vue en vidéo 1920×1080
 └── methode/
     ├── BRIEF.md            consignes de rédaction et règles d'exactitude
     ├── BRIEF_DOSSIER.md    consignes des dossiers approfondis par pays
@@ -110,6 +111,18 @@ python3 scripts/export_csv.py   # régénère donnees/incidents.csv
 ```
 
 Pour ajouter un fait, insérez une ligne dans `donnees/incidents.json` au bon endroit chronologique, en suivant les règles de `methode/BRIEF.md`, puis relancez les trois commandes.
+
+### Vidéos
+
+`scripts/video.js` enregistre chaque vue en vidéo MP4 1920×1080 à 30 images par seconde. Le rendu se fait image par image, avec une horloge virtuelle, si bien que la vidéo reste fluide quelle que soit la machine. Il faut Node.js, [Playwright](https://playwright.dev/) et ffmpeg.
+
+```sh
+node scripts/video.js monde long 0 monde_1900-2026.mp4      # Monde, 1900 → 2026
+node scripts/video.js europe court 0 europe_2013-2026.mp4   # Europe, 2013 → 2026
+node scripts/video.js allies long 0 allies_1900-2026.mp4    # Alliés, 1900 → 2026
+```
+
+Le troisième argument fixe la durée en secondes. Avec `0`, elle est calculée à raison de six faits par seconde, entre 1 et 4 minutes, plus 5 secondes d'arrêt sur l'état final.
 
 La géométrie de `carte/` n'a pas à être refaite. Pour la régénérer, récupérez `countries-50m.json` dans le paquet npm [`world-atlas`](https://www.npmjs.com/package/world-atlas) (version 2.0.2), puis :
 
