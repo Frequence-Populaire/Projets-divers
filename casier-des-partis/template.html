@@ -19,7 +19,8 @@ h1{margin:0;font:800 clamp(30px,5.4vw,56px)/1 var(--display);letter-spacing:-.01
 h1 span{color:var(--coral)}
 .eyebrow{margin:0;color:var(--muted);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
 .lede{margin:0;color:var(--soft);max-width:78ch;font-size:14px}
-.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}
+.tabs{display:flex;flex-wrap:wrap;gap:0 4px;border-bottom:1px solid var(--line)}
+@media (max-width:560px){.tabs button{font-size:13px;padding:8px 10px}}
 .tabs button{background:transparent;color:var(--muted);border:0;border-bottom:3px solid transparent;padding:10px 16px;font:700 16px var(--display);text-transform:uppercase;letter-spacing:.02em;cursor:pointer;margin-bottom:-1px}
 .tabs button[aria-selected="true"]{color:var(--paper);border-bottom-color:var(--coral)}
 .modes{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px}
@@ -50,6 +51,18 @@ input[type=range]{flex:1 1 200px;min-width:0;accent-color:var(--coral)}
 .pill.def{color:var(--soft)}
 .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-inline-end:7px;vertical-align:0}
 h2{margin:8px 0 0;font:800 26px var(--display);text-transform:uppercase}
+.toplede{margin:0;color:var(--muted);font-size:13px;max-width:90ch}
+.top{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,360px),1fr));gap:6px 24px}
+.top li{display:grid;grid-template-columns:2.2em minmax(0,1fr) auto;gap:4px 10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.top li:hover .tn{color:var(--sun)}
+.top .rk{color:var(--muted);font-variant-numeric:tabular-nums;font-size:13px}
+.top .tn{font:700 17px/1.2 var(--display);min-width:0}
+.top .tn small{display:block;font:400 12px var(--mono);color:var(--muted);margin-top:2px}
+.top .tc{font:800 22px var(--display);font-variant-numeric:tabular-nums}
+.top .tb{grid-column:2/4;display:flex;gap:2px;height:6px}
+.top .tb i{display:block;height:100%;border-radius:2px}
+.top .tb i.ap{outline:1.5px solid var(--sun);outline-offset:-1.5px}
+.top .tb i.pi{opacity:.4;outline:1.5px dashed var(--sun);outline-offset:-1.5px}
 .tools{display:flex;flex-direction:column;gap:10px}
 .row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
 #q,#fparti{background:var(--ground2);color:var(--paper);border:1px solid var(--line);border-radius:6px;padding:8px 12px;font:400 13px var(--mono)}
@@ -117,6 +130,10 @@ footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var
     <div class="d-title">Cliquez sur une barre, une carte du fil ou une ligne du tableau</div>
     <p>La fiche donne la personne, sa fonction au moment des faits, l'affaire, la peine et l'état de la procédure.</p>
   </section>
+
+  <h2>Les plus condamnés</h2>
+  <p class="toplede" id="topNote"></p>
+  <ol class="top" id="top"></ol>
 
   <h2>Les condamnations</h2>
   <div class="tools">
@@ -275,6 +292,7 @@ function refilter(){
   perYear=new Array(Math.ceil(T1)-T0+1).fill(0);EV.forEach(e=>perYear[Math.floor(e.t)-T0]++);
   yMax=Math.max(1,...perYear);
   document.getElementById('gInh').hidden=S.mode!=='cumul';
+  if(typeof renderTop==='function'&&document.getElementById('top'))renderTop();
   const nP=EV.filter(e=>e.st==='pi').length,nA=EV.filter(e=>e.st==='ap').length;
   document.getElementById('modeNote').textContent=
     `${EV.length} condamnations : ${EV.length-nP-nA} définitives`+(nA?`, ${nA} confirmées en appel`:'')+(nP?`, ${nP} en première instance`:'')+'. '+
@@ -527,6 +545,26 @@ document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{document.que
   if(S.tab!=='resp'){document.querySelectorAll('#mEch button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.v==='0'))}
   for(const k in pos)delete pos[k];refilter();renderTable()});
 segs('mCat','fam',v=>v);segs('mMode','mode',v=>v);segs('mEch','ratio',v=>v==='1');segs('mStat','stat',v=>v);segs('mInh','inh',v=>v==='1');
+
+/* ---------- les plus condamnés ---------- */
+function statusNow(who){const p=PERS[who];if(!p||!p.parcours)return '';
+  if(p.deces)return 'mort en '+String(p.deces).slice(0,4);
+  const last=p.parcours[p.parcours.length-1];if(!last[1])return 'retiré de la vie politique';
+  const l=linOf(last[1],T1);return l==='divers'?PARTIS.etiquettes[last[1]]:nameAt(LIN[l],T1)}
+function renderTop(){
+  const by={};EV.forEach(e=>{if(/personne morale/i.test(e.who)||(PERS[e.who]&&PERS[e.who].morale))return;(by[e.who]=by[e.who]||[]).push(e)});
+  const list=Object.entries(by).map(([who,l])=>({who,l,n:l.length,d:l.filter(e=>e.st==='def').length})).sort((a,b)=>b.n-a.n||b.d-a.d||a.who.localeCompare(b.who,'fr'));
+  let cut=Math.min(20,list.length);const th=cut?list[cut-1].n:0;
+  const tied=list.filter(x=>x.n===th).length,shownTied=list.slice(0,cut).filter(x=>x.n===th).length;
+  let rank=0,prev=null;
+  document.getElementById('top').innerHTML=list.slice(0,cut).map((x,i)=>{if(x.n!==prev){rank=i+1;prev=x.n}
+    const parts=[...new Set(x.l.map(e=>e.etiq))].join(', '),now=statusNow(x.who);
+    const cats=[...new Set(x.l.map(e=>CAT[e.cat][1]))].join(', ');
+    return `<li data-who="${esc(x.who)}"><span class="rk">${rank}</span><span class="tn">${esc(x.who)}<small>${esc(parts)}${now&&now!==parts?' · aujourd’hui : '+esc(now):''} · ${esc(cats)}</small></span><span class="tc">${x.n}</span>
+      <span class="tb">${x.l.map(e=>`<i class="${e.st}" style="flex:1;background:${LIN[e.lin].couleur}" title="${esc(e.date+' · '+e.aff+' · '+ST[e.st])}"></i>`).join('')}</span></li>`}).join('');
+  document.getElementById('topNote').textContent=list.length?`Personnes physiques de l’onglet en cours, selon les filtres « Infractions » et « Condamnations ». Une condamnation = une affaire.`+(tied>shownTied?` ${tied-shownTied} autre${tied-shownTied>1?'s':''} personne${tied-shownTied>1?'s':''} à égalité avec ${th} condamnation${th>1?'s':''} ne ${tied-shownTied>1?'sont':'est'} pas affichée${tied-shownTied>1?'s':''}.`:''):'Aucune personne pour ce filtre.';
+}
+document.getElementById('top').onclick=ev=>{const li=ev.target.closest('li');if(!li)return;const q=document.getElementById('q');q.value=li.dataset.who;F.q=li.dataset.who.toLowerCase();renderTable();document.querySelector('.tablewrap').scrollIntoView({behavior:reduce?'auto':'smooth',block:'nearest'})};
 
 /* ---------- tableau ---------- */
 const F={lin:'',cat:'',st:'',q:''};
