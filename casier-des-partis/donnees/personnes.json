@@ -3808,6 +3808,62 @@
    ],
    "deces": null,
    "note": "UMP/LR, président de la région Réunion 2010-2021 ; candidat soutenu par LR aux municipales de Saint-Denis en 2026."
+  },
+  "François Bernardini": {
+   "parcours": [
+    [
+     1977,
+     "ps"
+    ],
+    [
+     2001.0,
+     "dvg"
+    ]
+   ],
+   "deces": null,
+   "note": "Exclu du PS en 2001 ; réélu maire d'Istres sans étiquette."
+  },
+  "Christian Bourquin": {
+   "parcours": [
+    [
+     1974,
+     "ps"
+    ],
+    [
+     2010.1,
+     "dvg"
+    ]
+   ],
+   "deces": "2014-08-26",
+   "note": "Exclu du PS en 2010 après son soutien à Georges Frêche ; mort en 2014."
+  },
+  "Frantz Taittinger": {
+   "parcours": [
+    [
+     1978,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2007.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire d'Asnières jusqu'en 1999, député jusqu'en 2007."
+  },
+  "Michel Cureau": {
+   "parcours": [
+    [
+     1989,
+     "ps"
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PS de Montoire ; suite de son parcours non établie."
   }
  }
 }
