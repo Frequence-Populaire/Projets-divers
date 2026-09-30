@@ -23,14 +23,18 @@ h1 span{color:var(--coral)}
 @media (max-width:560px){.tabs button{font-size:13px;padding:8px 10px}}
 .tabs button{background:transparent;color:var(--muted);border:0;border-bottom:3px solid transparent;padding:10px 16px;font:700 16px var(--display);text-transform:uppercase;letter-spacing:.02em;cursor:pointer;margin-bottom:-1px}
 .tabs button[aria-selected="true"]{color:var(--paper);border-bottom-color:var(--coral)}
-.modes{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px}
-.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:999px;overflow:hidden}
-.seg button{background:transparent;color:var(--muted);border:0;padding:7px 14px;font:500 12px var(--mono);cursor:pointer}
+.panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),max-content));gap:14px 28px;align-items:end;background:var(--ground2);border:1px solid var(--line);border-radius:6px;padding:16px}
+.field{display:flex;flex-direction:column;align-items:flex-start;gap:6px;min-width:0}
+.field.wide{grid-column:1/-1}
+.caveat{grid-column:1/-1;margin:0;color:var(--muted);font-size:12px;max-width:95ch;border-top:1px solid var(--line);padding-top:10px}
+.seg{display:inline-flex;max-width:100%;overflow-x:auto;scrollbar-width:none;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.seg::-webkit-scrollbar{display:none}
+.seg button{flex:none;white-space:nowrap;background:transparent;color:var(--muted);border:0;padding:7px 14px;font:500 12px var(--mono);cursor:pointer}
 .seg button[aria-pressed="true"]{background:var(--coral);color:var(--ground)}
-.seg-l{color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-right:8px}
-#modeNote{flex-basis:100%;color:var(--muted);font-size:12px;margin:0;max-width:90ch}
+.seg-l{color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+#modeNote{grid-column:1/-1;color:var(--soft);font-size:12px;margin:0;max-width:95ch}
 .stage{position:relative;width:100%;max-width:100%;aspect-ratio:16/9;background:var(--ground2);border-radius:6px;overflow:hidden;box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
-.stage.portrait{aspect-ratio:3/4}
+.stage.portrait{aspect-ratio:520/1070}
 canvas{display:block;width:100%;height:100%}
 #tip{position:absolute;pointer-events:none;background:rgba(11,29,36,.96);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:12px;color:var(--soft);max-width:300px;z-index:2}
 #tip b{display:block;font:700 16px var(--display);color:var(--paper);margin-bottom:2px}
@@ -99,23 +103,14 @@ footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var
 
 <main class="wrap">
   <header>
-    <p class="eyebrow">France · 1945 → 2026 · condamnations pénales des responsables politiques</p>
+    <p class="eyebrow">France · 1945 → 2026 · condamnations en justice des responsables politiques</p>
     <h1>Le casier <span>des partis</span></h1>
-    <p class="lede">Chaque fois qu'un ministre, un élu, un cadre ou un parti est condamné par la justice pénale, pour corruption, détournement, fraude, mais aussi violences, meurtre, infractions sexuelles, drogue ou provocation à la haine, la barre de son parti monte. <b id="nEv"></b> condamnations, toutes publiquement documentées.</p>
-    <p class="lede" style="color:var(--muted);font-size:13px">Chaque ligne renvoie à une source et a été vérifiée ; état des procédures à fin septembre 2026. C’est une sélection de condamnations publiquement documentées, pas un recensement exhaustif. Les condamnations non définitives sont signalées : la présomption d’innocence s’applique tant que les recours ne sont pas épuisés.</p>
+    <p class="lede">Chaque fois qu'un ministre, un élu, un cadre ou un parti est condamné, pour corruption, détournement ou fraude, mais aussi violences, infractions sexuelles ou provocation à la haine, la barre de son parti monte. <b id="nEv"></b> condamnations, toutes sourcées.</p>
   </header>
   <div class="tabs" id="tabs" role="tablist" aria-label="Population">
     <button type="button" role="tab" data-v="resp" aria-selected="true">Responsables politiques</button>
     <button type="button" role="tab" data-v="mil" aria-selected="false">Militants</button>
     <button type="button" role="tab" data-v="pol" aria-selected="false">Condamnations politiques</button>
-  </div>
-  <div class="modes">
-    <div><span class="seg-l">Infractions</span><div class="seg" id="mCat" role="group" aria-label="Type d'infraction"></div></div>
-    <div><span class="seg-l">Condamnations</span><div class="seg" id="mStat" role="group" aria-label="Condamnations comptées"><button type="button" data-v="all" aria-pressed="true">Toutes</button><button type="button" data-v="ap" aria-pressed="false">Dès l’appel</button><button type="button" data-v="def" aria-pressed="false">Définitives</button></div></div>
-    <div><span class="seg-l">Mesure</span><div class="seg" id="mMode" role="group" aria-label="Mode de comptage"><button type="button" data-v="cumul" aria-pressed="true">Cumul par parti</button><button type="button" data-v="porte" aria-pressed="false">Casiers portés</button></div></div>
-    <div id="gEch"><span class="seg-l">Échelle</span><div class="seg" id="mEch" role="group" aria-label="Échelle"><button type="button" data-v="0" aria-pressed="true">Nombre</button><button type="button" data-v="1" aria-pressed="false">Pour 100 élus</button></div></div>
-    <div id="gInh"><span class="seg-l">Héritage</span><div class="seg" id="mInh" role="group" aria-label="Compteur hérité"><button type="button" data-v="1" aria-pressed="true">Oui</button><button type="button" data-v="0" aria-pressed="false">Non</button></div></div>
-    <p id="modeNote"></p>
   </div>
   <div class="stage" id="stage"><canvas id="cv" role="img" aria-label="Course de barres animée : nombre cumulé de condamnations par parti, de 1945 à 2026"></canvas><div id="tip" hidden></div></div>
   <div class="controls">
@@ -125,6 +120,15 @@ footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var
     <input id="scrub" type="range" min="1945" max="2026.75" step="0.01" value="1945" aria-label="Position dans le temps">
     <span id="tc">1945</span>
   </div>
+  <section class="panel" aria-label="Réglages de l'animation">
+    <div class="field wide"><span class="seg-l">Infractions</span><div class="seg" id="mCat" role="group" aria-label="Type d'infraction"></div></div>
+    <div class="field"><span class="seg-l">Condamnations</span><div class="seg" id="mStat" role="group" aria-label="Condamnations comptées"><button type="button" data-v="all" aria-pressed="true">Toutes</button><button type="button" data-v="ap" aria-pressed="false">Dès l’appel</button><button type="button" data-v="def" aria-pressed="false">Définitives</button></div></div>
+    <div class="field"><span class="seg-l">Mesure</span><div class="seg" id="mMode" role="group" aria-label="Mode de comptage"><button type="button" data-v="cumul" aria-pressed="true">Cumul par parti</button><button type="button" data-v="porte" aria-pressed="false">Casiers portés</button></div></div>
+    <div class="field" id="gEch"><span class="seg-l">Échelle</span><div class="seg" id="mEch" role="group" aria-label="Échelle"><button type="button" data-v="0" aria-pressed="true">Nombre</button><button type="button" data-v="1" aria-pressed="false">Pour 100 élus</button></div></div>
+    <div class="field" id="gInh"><span class="seg-l">Héritage</span><div class="seg" id="mInh" role="group" aria-label="Compteur hérité"><button type="button" data-v="1" aria-pressed="true">Oui</button><button type="button" data-v="0" aria-pressed="false">Non</button></div></div>
+    <p id="modeNote"></p>
+    <p class="caveat">Chaque ligne renvoie à une source et a été vérifiée ; état des procédures à fin septembre 2026. C’est une sélection de condamnations publiquement documentées, pas un recensement exhaustif. Les condamnations non définitives sont signalées : la présomption d’innocence s’applique tant que les recours ne sont pas épuisés.</p>
+  </section>
   <section class="detail" id="detail">
     <div class="d-meta">Fiche</div>
     <div class="d-title">Cliquez sur une barre, une carte du fil ou une ligne du tableau</div>
@@ -211,6 +215,7 @@ ALL.sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:a.who.localeCompare(b.who));
 const buckets={};ALL.forEach(e=>(buckets[e.date]=buckets[e.date]||[]).push(e));
 for(const d in buckets){const p=d.split('-').map(Number),b=buckets[d],n=b.length;
   b.forEach((e,k)=>{e.t=p.length===1?p[0]+(k+.5)/n:p.length===2?p[0]+(p[1]-1+(k+.5)/n)/12:p[0]+(p[1]-1)/12+(p[2]-.5)/365});}
+ALL.forEach(e=>{e.t=Math.min(e.t,T1-.25)});
 ALL.sort((a,b)=>a.t-b.t);
 ALL.forEach(e=>{e.lin=linOf(e.org,e.t);e.etiq=PARTIS.etiquettes[e.org]});
 
@@ -326,7 +331,7 @@ const cv=document.getElementById('cv'),ctx=cv.getContext('2d'),stage=document.ge
 let W=1600,H=900,portrait=false,scale=1;
 function resize(){
   portrait=stage.clientWidth<700;stage.classList.toggle('portrait',portrait);
-  W=portrait?900:1600;H=portrait?1200:900;
+  W=portrait?520:1600;H=portrait?1070:900;
   const r=stage.getBoundingClientRect(),dpr=Math.min(2,window.devicePixelRatio||1);
   cv.width=Math.round(r.width*dpr);cv.height=Math.round(r.height*dpr);scale=cv.width/W;
 }
@@ -360,7 +365,7 @@ let hitRows=[],hitCards=[];
 
 function layout(){
   return portrait
-    ?{bx:24,bw:852,by:150,rows:11,rh:46,lw:190,cx:24,cy:720,cw:852,cards:3,ch:112,hx:24,hy:1105,hw:852,hh:70}
+    ?{bx:16,bw:488,by:130,rows:10,rh:42,lw:140,cx:16,cy:580,cw:488,cards:3,ch:116,hx:16,hy:972,hw:488,hh:36}
     :{bx:40,bw:1020,by:116,rows:14,rh:46,lw:200,cx:1110,cy:116,cw:450,cards:5,ch:124,hx:40,hy:808,hw:1520,hh:62};
 }
 
@@ -395,9 +400,9 @@ function draw(t,dt){
   ctx.textBaseline='alphabetic';
   ctx.fillStyle=C.muted;ctx.font=`500 15px ${MONO}`;ctx.textAlign='left';
   const head=({mil:'MILITANTS · ',pol:'CONDAMNATIONS POLITIQUES · '}[S.tab]||'')+(S.mode==='cumul'?'CONDAMNATIONS CUMULÉES PAR PARTI':'CASIERS PORTÉS PAR LES MEMBRES')+(S.ratio?' · POUR 100 ÉLUS':'')+(S.fam==='all'?'':' · '+FAM.find(f=>f[0]===S.fam)[1].toUpperCase());
-  ctx.fillText(head,L.bx,54);
+  ctx.fillText(wrap(head,L.bw,1)[0],L.bx,54);
   /* légende des segments */
-  {let lx=portrait?L.bx:L.bx+L.bw,ly=portrait?118:54;const items=[['def','définitive'],['ap','appel'],['pi','1re instance']].concat(S.mode==='cumul'&&S.inh?[['her','héritée']]:[]);
+  {let lx=portrait?L.bx:L.bx+L.bw,ly=portrait?112:54;const items=[['def','définitive'],['ap','appel'],['pi','1re instance']].concat(S.mode==='cumul'&&S.inh?[['her','héritée']]:[]);
     ctx.font=`400 12px ${MONO}`;ctx.textAlign='left';
     const wd=items.map(([,s])=>22+ctx.measureText(s).width+16);if(!portrait)lx-=wd.reduce((a,b)=>a+b,0);
     items.forEach(([k,s],j)=>{swatch(k,lx,ly-10,14,12,C.soft);ctx.fillStyle=C.muted;ctx.fillText(s,lx+20,ly);lx+=wd[j]})}
@@ -408,7 +413,7 @@ function draw(t,dt){
     ctx.fillStyle=C.sun;ctx.font=`600 ${portrait?15:17}px ${MONO}`;ctx.textAlign='left';ctx.fillText(wrap(Math.floor(g.t)+' · '+g.txt,portrait?L.bw:L.bw,1)[0],L.bx,86);ctx.globalAlpha=1}
 
   /* --- barres --- */
-  const x0=L.bx+L.lw+14,bwMax=L.bw-L.lw-14-(portrait?200:250),bh=L.rh-14;
+  const x0=L.bx+L.lw+14,bwMax=L.bw-L.lw-14-(portrait?44:250),bh=L.rh-14;
   hitRows=[];
   top.forEach(r=>{
     const y=L.by+r.y*L.rh;if(r.y>L.rows-.2)return;
@@ -429,7 +434,7 @@ function draw(t,dt){
     const lab=S.ratio?r.v.toLocaleString('fr-FR',{maximumFractionDigits:1,minimumFractionDigits:1}):String(Math.round(r.v));
     const vx=xe+10;ctx.fillText(lab,vx,y+bh/2+8);
     const suf=(S.ratio?[`${Math.round(r.n)} pour ${r.den} élu${r.den>1?'s':''}`]:[r.h>=.5?`dont ${Math.round(r.h)} hérité${Math.round(r.h)>1?'s':''}`:'',r.a+r.p>=.5?`${Math.round(r.a+r.p)} non déf.`:'']).concat(r.dead?['dissous']:[]).filter(Boolean).join(' · ');
-    if(suf){const w=ctx.measureText(lab).width;ctx.fillStyle=C.muted;ctx.font=`400 12px ${MONO}`;ctx.fillText(suf,vx+w+8,y+bh/2+6)}
+    if(suf&&!portrait){const w=ctx.measureText(lab).width;ctx.fillStyle=C.muted;ctx.font=`400 12px ${MONO}`;ctx.fillText(suf,vx+w+8,y+bh/2+6)}
     ctx.globalAlpha=1;
     hitRows.push({x:L.bx,y,w:L.bw,h:bh,r});
   });
@@ -437,13 +442,13 @@ function draw(t,dt){
   if(!rows.length){ctx.fillStyle=C.muted;ctx.font=`500 18px ${MONO}`;ctx.textAlign='left';ctx.fillText(EV.length?'Aucune condamnation à cette date.':'Aucune condamnation dans la base pour ce filtre.',L.bx,L.by+30)}
   /* --- année --- */
   ctx.textAlign='right';ctx.fillStyle=C.paper;ctx.globalAlpha=.92;
-  ctx.font=`800 ${portrait?110:150}px ${DISPLAY}`;
+  ctx.font=`800 ${portrait?84:150}px ${DISPLAY}`;
   const yr=Math.min(2026,Math.floor(t));
-  if(portrait)ctx.fillText(yr,W-24,118);else ctx.fillText(yr,L.bx+L.bw,L.by+L.rows*L.rh-8);
+  ctx.fillText(yr,L.bx+L.bw,L.by+L.rows*L.rh-8);
   ctx.globalAlpha=1;ctx.font=`500 15px ${MONO}`;ctx.fillStyle=C.muted;
   const nNow=EV.filter(e=>e.t<=t).length;
   const cap=`${nNow} condamnation${nNow>1?'s':''}`;
-  if(portrait)ctx.fillText(cap,W-24,142);else ctx.fillText(cap,L.bx+L.bw,L.by+L.rows*L.rh+18);
+  ctx.fillText(cap,L.bx+L.bw,L.by+L.rows*L.rh+18);
 
   /* --- fil des jugements --- */
   drawFeed(t,L);
