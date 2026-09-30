@@ -3864,6 +3864,64 @@
    ],
    "deces": null,
    "note": "Maire PS de Montoire ; suite de son parcours non établie."
+  },
+  "Gilles Forray": {
+   "parcours": [
+    [
+     1989,
+     "rpr"
+    ]
+   ],
+   "deces": null,
+   "note": "Adjoint au maire de Poissy, conseiller général des Yvelines."
+  },
+  "Jean-Paul Fournier": {
+   "parcours": [
+    [
+     1983,
+     "rpr"
+    ]
+   ],
+   "deces": null,
+   "note": "Maire de Nîmes depuis 2001, sénateur ; RPR puis UMP et LR."
+  },
+  "Bruno Sandras": {
+   "parcours": [
+    [
+     1995,
+     "rpr"
+    ]
+   ],
+   "deces": null,
+   "note": "Maire de Papara, député de Polynésie (Tahoeraa, apparenté UMP)."
+  },
+  "Guy Rouveyre": {
+   "parcours": [
+    [
+     1983,
+     "pcf"
+    ],
+    [
+     2011.3,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Démissionne de ses mandats en avril 2011."
+  },
+  "Denis Jacquat": {
+   "parcours": [
+    [
+     1986,
+     "udf"
+    ],
+    [
+     2002.9,
+     "ump"
+    ]
+   ],
+   "deces": null,
+   "note": "Député de la Moselle (UDF puis UMP)."
   }
  }
 }
