@@ -11,6 +11,7 @@ Documents de référence dépouillés pour compléter la base. Les faits qui en 
 | `wikipedia_united_states_involvement_in_regime_change.wiki` | Article « United States involvement in regime change » | Coups, renversements et tentatives, de 1900 à 2026 |
 | `davemanuel_every_country_us_invaded_bombed_coup.html` | Page « Every Country the United States Has Invaded, Bombed, or Staged a Coup In » (DaveManuel.com, mise à jour février 2026), synthèse des données du Military Intervention Project (université Tufts) et du CRS | Contrôle de couverture : les pays, guerres, campagnes de bombardement et coups qu'elle recense figurent tous déjà dans la base |
 | `global_policy_forum_us_interventions_2005.html` | Global Policy Forum, « US Military and Clandestine Operations in Foreign Countries, 1798-Present » (décembre 2005) | Contrôle de couverture des 106 entrées postérieures à 1900 : un fait ajouté (Aračinovo, 2001) ; les autres manques sont des évacuations, un territoire américain (Guam) ou des entrées trop vagues |
+| `wikipedia_special_activities_center.html` | Article « Special Activities Center » (Wikipédia en anglais), la branche paramilitaire de la CIA, export HTML | Opérations paramilitaires de la CIA, pays par pays |
 
 ## Méthode
 
