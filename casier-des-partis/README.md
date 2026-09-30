@@ -2,11 +2,9 @@
 
 Course de barres animée : pour chaque parti politique français, le nombre de **condamnations en justice** de ses responsables, année par année, de 1945 à septembre 2026. Chaque condamnation fait monter la barre de son parti ; un fil « Au tribunal » affiche les jugements au fur et à mesure.
 
-La base compte **326 condamnations** visant **268 personnes** (physiques ou morales), dont 228 définitives. 270 lignes renvoient à un article, une décision ou une page de recensement, les autres à une recherche Wikipédia ciblée.
+La base compte **348 condamnations** visant **288 personnes** (physiques ou morales), dont 248 définitives. Chaque ligne renvoie à un article, une décision ou une page de recensement, et a été vérifiée par recherche web.
 
 Le projet reprend la maquette de [« La main de Washington »](../main-de-washington/).
-
-**Version de travail.** La base est incomplète, surtout avant 1990 et pour les élus locaux, et une partie a été rédigée de mémoire. Statuts de procédure, parcours et nombres d'élus sont à vérifier avant toute diffusion.
 
 ## Ouvrir la page
 
@@ -18,7 +16,7 @@ Version en ligne : https://claude.ai/artifact/Ko7mL2gm4J3XGBfoqfVEEJ
 
 | Onglet | Condamnations |
 |---|---|
-| Responsables politiques | 250 |
+| Responsables politiques | 272 |
 | Militants (dont groupuscules) | 42 |
 | Condamnations politiques | 34 |
 
@@ -42,9 +40,9 @@ Survolez une barre pour voir l'histoire du parti (et, en casiers portés, les ca
 
 | Code | État | Barre | Condamnations |
 |---|---|---|---|
-| `def` | Définitive | pleine | 228 |
-| `ap` | Confirmée ou prononcée en appel, pourvoi possible | pleine, liseré jaune | 40 |
-| `pi` | Première instance, appel en cours ou possible | voilée, rayée de jaune | 58 |
+| `def` | Définitive | pleine | 248 |
+| `ap` | Confirmée ou prononcée en appel, pourvoi possible | pleine, liseré jaune | 38 |
+| `pi` | Première instance, appel en cours ou possible | voilée, rayée de jaune | 62 |
 
 Une relaxe définitive retire la ligne de la base.
 
@@ -54,22 +52,22 @@ Une relaxe définitive retire la ligne de la base.
 
 | Code | Infractions | Condamnations |
 |---|---|---|
-| `corr` | Corruption active ou passive, trafic d'influence | 22 |
-| `detour` | Détournement de fonds publics, emplois fictifs, abus de confiance | 82 |
-| `favor` | Favoritisme, prise illégale d'intérêts | 17 |
+| `corr` | Corruption active ou passive, trafic d'influence | 23 |
+| `detour` | Détournement de fonds publics, emplois fictifs, abus de confiance | 89 |
+| `favor` | Favoritisme, prise illégale d'intérêts | 22 |
 | `financ` | Financement illégal de parti ou de campagne | 24 |
-| `abs` | Abus de biens sociaux, escroquerie, faux | 13 |
-| `fisc` | Fraude fiscale, blanchiment, déclarations mensongères à la HATVP | 12 |
+| `abs` | Abus de biens sociaux, escroquerie, faux | 14 |
+| `fisc` | Fraude fiscale, blanchiment, déclarations mensongères à la HATVP | 13 |
 | `elec` | Fraude électorale | 6 |
 | `meurtre` | Meurtre, assassinat, tentative, complicité | 12 |
-| `violence` | Violences, y compris conjugales, séquestration, menaces | 26 |
-| `sexuel` | Viol, agression ou harcèlement sexuels | 6 |
+| `violence` | Violences, y compris conjugales, séquestration, menaces | 28 |
+| `sexuel` | Viol, agression ou harcèlement sexuels | 9 |
 | `drogue` | Stupéfiants | 1 |
-| `haine` | Provocation à la haine, injure ou diffamation raciale, négationnisme, apologie | 17 |
-| `diffam` | Diffamation ou injure simples, **seulement si la condamnation est définitive** | 7 |
-| `autre` | Autres crimes et délits (homicide involontaire, rébellion, harcèlement moral, atteinte à la sûreté de l'État…) | 58 |
+| `haine` | Provocation à la haine, injure ou diffamation raciale, négationnisme, apologie | 14 |
+| `diffam` | Diffamation ou injure simples, **seulement si la condamnation est définitive** | 8 |
+| `autre` | Autres crimes et délits (homicide involontaire, rébellion, harcèlement moral, atteinte à la sûreté de l'État…) | 61 |
 | `travail` | Prud'hommes, droit du travail | 12 |
-| `civil` | Condamnations civiles, commerciales ou administratives | 11 |
+| `civil` | Condamnations civiles, commerciales ou administratives | 12 |
 
 Ne sont pas comptés : mises en examen et procès en cours, relaxes, condamnations annulées, faits amnistiés avant jugement, sanctions purement électorales ou administratives, épuration de 1944-1945.
 
@@ -79,20 +77,20 @@ Compte au parti de la personne au moment des faits (mode « Cumul par parti », 
 
 | Lignée | Condamnations |
 |---|---|
-| RPF, UNR, UDR, RPR, UMP, LR | 69 |
-| FN, RN | 47 |
-| SFIO, PS | 33 |
-| Divers, sans étiquette | 33 |
-| MRP… UDF, MoDem | 15 |
+| RPF, UNR, UDR, RPR, UMP, LR | 74 |
+| FN, RN | 51 |
+| SFIO, PS | 37 |
+| Divers, sans étiquette | 36 |
+| MRP… UDF, MoDem | 17 |
 | En marche, LREM, Renaissance | 15 |
+| LFI | 11 |
 | RI, PR, Démocratie libérale | 9 |
-| LFI | 9 |
-| PCF | 5 |
+| PCF | 6 |
 | Les Verts, EELV, Les Écologistes | 5 |
 | MNR | 3 |
 | Reconquête | 3 |
 | PRG | 2 |
-| RPF de Pasqua, Horizons | 1 chacun |
+| Rassemblement pour la France, Horizons, Parti républicain | 1, 1, 1 |
 
 Ces chiffres reflètent autant la couverture de la base que la réalité (voir les limites) : les procès collectifs du FN (assistants européens, kits de campagne) et du MoDem y sont recensés en entier, ceux du RPR ou du PS (lycées d'Île-de-France, Urba) seulement en partie.
 
@@ -164,16 +162,17 @@ La base a été constituée avec Claude (Anthropic), par des agents couvrant cha
 
 1. **Collecte par famille politique** (gaullistes, UMP/LR, PS et gauche, PCF et écologistes, centre et libéraux, FN/RN et souverainistes, outre-mer et Corse), de mémoire et par recherche web.
 2. **Élargissements** demandés par l'éditeur : violences, infractions sexuelles, haine, diffamation définitive, prud'hommes et civil, partis comme personnes morales, militants, groupuscules, condamnations politiques, période 1945-1993.
-3. **Dépouillement de deux recensements publics**, [casier-politique.fr](https://casier-politique.fr/) (fondé sur Wikipédia et Wikidata) et [Poligraph](https://poligraph.fr/affaires). Les deux sites étaient inaccessibles en direct depuis l'environnement de travail ; leurs pages ont été exploitées à travers les résultats de recherche, qui servent de source aux lignes concernées.
-4. **Parcours des personnes** et **sièges par parti** établis pour les modes « Casiers portés » et « Pour 100 élus ».
+3. **Dépouillement de trois recensements publics** : [casier-politique.fr](https://casier-politique.fr/) (fondé sur Wikipédia et Wikidata), [Poligraph](https://poligraph.fr/affaires) et [politicards.fr](https://www.politicards.fr/). Chaque fiche a été confrontée à la base, et son statut mis à jour par une recherche de presse quand la fiche était ancienne.
+4. **Parcours des personnes** et **sièges par parti** établis pour les modes « Casiers portés » et « Pour 100 élus » ; décès et changements de parti vérifiés en ligne, sièges vérifiés pour la Ve République et les européennes.
+5. **Vérification ligne par ligne** : chaque condamnation a été recherchée dans la presse ou dans une décision ; trois lignes ont été retirées (relaxes), une cinquantaine corrigées (dates, peines, statuts), et chaque ligne renvoie désormais à une source consultable.
 
 Limites à connaître :
 
 - **Sélection, pas recensement.** Seules les condamnations publiquement documentées figurent. Les élus locaux, les procès collectifs (lycées d'Île-de-France, Urba, HLM de Paris) et les années 1945-1990 sont sous-représentés.
 - **Un compteur n'est pas un taux, ni un jugement sur un parti.** Le nombre de condamnations dépend de la taille d'un parti, de son nombre d'élus, de son ancienneté au pouvoir, de l'intensité des contrôles à chaque époque, et de la couverture de la base : un procès collectif recensé en entier pèse plus que dix affaires locales manquantes.
 - **Avant 1990, peu de condamnations**, et pas seulement faute de données : privilège de juridiction des élus locaux jusqu'en 1993, financement des partis encadré seulement en 1988, amnistie de janvier 1990.
-- **Données de mémoire.** Une partie des lignes, des parcours (décès, retraits) et le tableau des sièges ont été établis de mémoire, sans vérification en ligne systématique.
+- **Parts d'estimation.** La répartition des sièges au sein des coalitions (UDF, NUPES, NFP, Ensemble, listes européennes communes) et les sièges de la IVe République sont des estimations documentées dans `donnees/mandats.json`. Pour quelques personnes, la date d'entrée dans un parti ou de retrait est approximative.
 - **Statuts à date.** L'état des procédures est celui connu fin septembre 2026 ; les procès en appel en cours (MoDem, financement libyen…) le feront évoluer.
-- **Vérification humaine nécessaire** avant toute citation : ces lignes nomment des personnes réelles.
+- **Des personnes réelles.** Chaque ligne renvoie à sa source : citez la source, pas la base.
 
 Les corrections sont bienvenues, avec une source à l'appui.
