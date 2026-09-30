@@ -9,7 +9,7 @@ Chaque projet vit dans son propre dossier et se suffit à lui-même. On y trouve
 | Projet | Description |
 |---|---|
 | [`main-de-washington/`](main-de-washington/) | **La main de Washington.** Carte animée de 3 067 coups d'État, ingérences, interventions, crimes de guerre, sanctions et opérations d'espionnage attribués aux États-Unis dans le monde, de 1900 à septembre 2026. En dix langues. |
-| [`casier-des-partis/`](casier-des-partis/) | **Le casier des partis.** Course de barres animée de 385 condamnations en justice de responsables politiques français, par parti, de 1945 à 2026 : probité, violences, haine, diffamation définitive, prud'hommes ; onglets militants et condamnations politiques. |
+| [`casier-des-partis/`](casier-des-partis/) | **Le casier des partis.** Course de barres animée de 404 condamnations en justice de responsables politiques français, par parti, de 1945 à 2026 : probité, violences, haine, diffamation définitive, prud'hommes ; onglets militants et condamnations politiques. |
 
 ## Organisation d'un projet
 
