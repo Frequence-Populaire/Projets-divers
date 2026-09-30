@@ -8,7 +8,7 @@ Chaque projet vit dans son propre dossier et se suffit à lui-même. On y trouve
 
 | Projet | Description |
 |---|---|
-| [`main-de-washington/`](main-de-washington/) | **La main de Washington.** Carte animée de 3 010 coups d'État, ingérences, interventions, crimes de guerre, sanctions et opérations d'espionnage attribués aux États-Unis dans le monde, de 1900 à septembre 2026. En dix langues. |
+| [`main-de-washington/`](main-de-washington/) | **La main de Washington.** Carte animée de 3 067 coups d'État, ingérences, interventions, crimes de guerre, sanctions et opérations d'espionnage attribués aux États-Unis dans le monde, de 1900 à septembre 2026. En dix langues. |
 
 ## Organisation d'un projet
 

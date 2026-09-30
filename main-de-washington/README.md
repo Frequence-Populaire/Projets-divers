@@ -2,7 +2,7 @@
 
 Carte animée des coups d'État, ingérences, interventions, crimes de guerre, sabotages, sanctions et opérations d'espionnage attribués aux États-Unis hors de leur territoire, de 1900 à fin septembre 2026.
 
-La base compte **3 010 faits distincts**, un par ligne : on ne met pas « guerre du Vietnam » en une ligne, mais Mỹ Lai, l'opération Phoenix, l'agent orange ou les bombardements secrets du Cambodge chacun sur la sienne.
+La base compte **3 067 faits distincts**, un par ligne : on ne met pas « guerre du Vietnam » en une ligne, mais Mỹ Lai, l'opération Phoenix, l'agent orange ou les bombardements secrets du Cambodge chacun sur la sienne.
 
 Le projet reprend la visualisation de [« La guerre grise »](https://claude.ai/artifact/TjNchYmk2id1cEEEBJTgyt), la carte des opérations hybrides russes en Europe (2014-2026), et l'applique aux États-Unis à l'échelle mondiale.
 
@@ -30,13 +30,13 @@ Le tableau sous la carte se filtre par type et par niveau d'attribution, et se c
 
 | Code | Catégorie | Faits |
 |---|---|---|
-| `arme` | Intervention armée, invasion, occupation, bombardement, soutien armé, aide militaire | 752 |
-| `sabot` | Sabotage, guerre économique, sanctions, lawfare | 594 |
+| `arme` | Intervention armée, invasion, occupation, bombardement, soutien armé, aide militaire | 765 |
+| `sabot` | Sabotage, guerre économique, sanctions, lawfare | 595 |
 | `crime` | Crime de guerre, massacre, torture, prison secrète, expérimentation humaine | 499 |
-| `info` | Ingérence électorale, financement d'opposition, propagande, faux prétexte, veto | 464 |
-| `espion` | Espionnage, surveillance, écoutes | 252 |
-| `coup` | Coup d'État, renversement, tentative de renversement | 204 |
-| `mort` | Assassinat, complot d'assassinat, enlèvement, restitution extraordinaire | 190 |
+| `info` | Ingérence électorale, financement d'opposition, propagande, faux prétexte, veto | 466 |
+| `espion` | Espionnage, surveillance, écoutes | 254 |
+| `coup` | Coup d'État, renversement, tentative de renversement | 217 |
+| `mort` | Assassinat, complot d'assassinat, enlèvement, restitution extraordinaire | 216 |
 | `cyber` | Cyberattaque, porte dérobée, logiciel malveillant | 55 |
 
 ### Niveaux d'attribution
@@ -45,9 +45,9 @@ Le niveau porte sur le **rôle américain**, pas sur la qualification juridique 
 
 | Code | Niveau | Signification | Faits |
 |---|---|---|---|
-| `a` | Reconnu | Opération ouverte, ou rôle admis par Washington, établi par le Congrès, une justice, une commission officielle ou des archives officielles déclassifiées | 2 151 |
-| `s` | Documenté | Établi par des historiens, des journalistes d'investigation ou des fuites (WikiLeaks, Snowden), sans reconnaissance officielle | 661 |
-| `l` | Allégué | Accusation du pays visé ou de tiers, sans preuve publique d'un rôle américain décisif. La note dit qui accuse et si l'accusation est démentie ou contredite | 198 |
+| `a` | Reconnu | Opération ouverte, ou rôle admis par Washington, établi par le Congrès, une justice, une commission officielle ou des archives officielles déclassifiées | 2 161 |
+| `s` | Documenté | Établi par des historiens, des journalistes d'investigation ou des fuites (WikiLeaks, Snowden), sans reconnaissance officielle | 698 |
+| `l` | Allégué | Accusation du pays visé ou de tiers, sans preuve publique d'un rôle américain décisif. La note dit qui accuse et si l'accusation est démentie ou contredite | 208 |
 
 Sur la carte, un point plein signale un fait reconnu, un cercle un fait documenté, et un cercle pointillé un fait allégué.
 
@@ -160,6 +160,7 @@ La base a été constituée avec Claude (Anthropic), en plusieurs vagues d'agent
 3. **Recherches en ligne**, avec source pour chaque fait : faits de 2026, trains de sanctions, aide militaire à l'Ukraine, câbles WikiLeaks, documents Snowden.
 4. **Dépouillement de documents sources** (dossier `sources/`) : la liste des déploiements du Congressional Research Service (rapport R42738) et les articles Wikipédia « Foreign interventions by the United States » et « United States involvement in regime change ». Chaque fait a été confronté à la base ; 132 faits absents ont été ajoutés.
 5. **Passe pays par pays sur l'Union européenne** : pour chacun des 27 États membres et les institutions européennes, liste de l'existant puis recherche des faits manquants (espionnage, lawfare et amendes extraterritoriales, sanctions, pressions commerciales, ingérences, vols et prisons de la CIA, incidents militaires). 221 faits ajoutés, la plupart sourcés par recherche web ; une partie, faute de quota de recherche, a été rédigée de mémoire avec une recherche Wikipédia ciblée comme source.
+6. **Sources complémentaires** versées au dossier `sources/` (article Wikipédia sur le Special Activities Center de la CIA, liste de John Coatsworth, Global Policy Forum, Le Monde diplomatique, etc.) : 58 faits ajoutés après dédoublonnage.
 
 Chaque vague a été relue par des agents vérificateurs chargés de traquer les erreurs de date, de chiffre ou d'attribution. Les doublons ont été supprimés automatiquement puis à la main.
 
