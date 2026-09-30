@@ -2,6 +2,8 @@
 
 Course de barres animée : pour chaque parti politique français, le nombre de **condamnations en justice** de ses responsables, année par année, de 1945 à septembre 2026. Chaque condamnation fait monter la barre de son parti ; un fil « Au tribunal » affiche les jugements au fur et à mesure.
 
+La base compte **326 condamnations** visant **268 personnes** (physiques ou morales), dont 228 définitives. 270 lignes renvoient à un article, une décision ou une page de recensement, les autres à une recherche Wikipédia ciblée.
+
 Le projet reprend la maquette de [« La main de Washington »](../main-de-washington/).
 
 **Version de travail.** La base est incomplète, surtout avant 1990 et pour les élus locaux, et une partie a été rédigée de mémoire. Statuts de procédure, parcours et nombres d'élus sont à vérifier avant toute diffusion.
@@ -10,9 +12,15 @@ Le projet reprend la maquette de [« La main de Washington »](../main-de-washin
 
 Ouvrez `index.html` dans un navigateur. La page est autonome : données et code sont intégrés. Seules les polices viennent de Google Fonts.
 
-Version en ligne (privée, à partager depuis la page) : https://claude.ai/artifact/Ko7mL2gm4J3XGBfoqfVEEJ
+Version en ligne : https://claude.ai/artifact/Ko7mL2gm4J3XGBfoqfVEEJ
 
 ### Trois onglets
+
+| Onglet | Condamnations |
+|---|---|
+| Responsables politiques | 250 |
+| Militants (dont groupuscules) | 42 |
+| Condamnations politiques | 34 |
 
 - **Responsables politiques** : ministres, parlementaires, élus locaux, dirigeants, trésoriers et collaborateurs de partis, candidats, et les partis eux-mêmes comme personnes morales.
 - **Militants** : militants dont l'appartenance au parti au moment des faits est établie, sans être élus ni cadres. Deux barres y regroupent les groupuscules hors partis, **ultradroite** et **ultragauche**, quand le lien avec le groupe est établi par la justice ou la presse.
@@ -32,11 +40,11 @@ Survolez une barre pour voir l'histoire du parti (et, en casiers portés, les ca
 
 ### Trois états de procédure
 
-| Code | État | Barre |
-|---|---|---|
-| `def` | Définitive | pleine |
-| `ap` | Confirmée ou prononcée en appel, pourvoi possible | pleine, liseré jaune |
-| `pi` | Première instance, appel en cours ou possible | voilée, rayée de jaune |
+| Code | État | Barre | Condamnations |
+|---|---|---|---|
+| `def` | Définitive | pleine | 228 |
+| `ap` | Confirmée ou prononcée en appel, pourvoi possible | pleine, liseré jaune | 40 |
+| `pi` | Première instance, appel en cours ou possible | voilée, rayée de jaune | 58 |
 
 Une relaxe définitive retire la ligne de la base.
 
@@ -44,26 +52,49 @@ Une relaxe définitive retire la ligne de la base.
 
 **Une unité = une personne, physique ou morale, condamnée dans une affaire.** Trois élus condamnés dans le même jugement comptent trois fois ; une affaire rejugée en appel ne compte qu'une fois, à la date de la première condamnation, avec la peine et l'état à jour. Le parti retenu est celui de la personne au moment des faits (à la fin des faits s'ils s'étalent).
 
-| Code | Infractions |
-|---|---|
-| `corr` | Corruption active ou passive, trafic d'influence |
-| `detour` | Détournement de fonds publics, emplois fictifs, abus de confiance |
-| `favor` | Favoritisme, prise illégale d'intérêts |
-| `financ` | Financement illégal de parti ou de campagne |
-| `abs` | Abus de biens sociaux, escroquerie, faux |
-| `fisc` | Fraude fiscale, blanchiment, déclarations mensongères à la HATVP |
-| `elec` | Fraude électorale |
-| `meurtre` | Meurtre, assassinat, tentative, complicité |
-| `violence` | Violences, y compris conjugales, séquestration, menaces |
-| `sexuel` | Viol, agression ou harcèlement sexuels |
-| `drogue` | Stupéfiants |
-| `haine` | Provocation à la haine, injure ou diffamation raciale, négationnisme, apologie |
-| `diffam` | Diffamation ou injure simples, **seulement si la condamnation est définitive** |
-| `autre` | Autres crimes et délits (homicide involontaire, rébellion, harcèlement moral, atteinte à la sûreté de l'État…) |
-| `travail` | Prud'hommes, droit du travail |
-| `civil` | Condamnations civiles, commerciales ou administratives |
+| Code | Infractions | Condamnations |
+|---|---|---|
+| `corr` | Corruption active ou passive, trafic d'influence | 22 |
+| `detour` | Détournement de fonds publics, emplois fictifs, abus de confiance | 82 |
+| `favor` | Favoritisme, prise illégale d'intérêts | 17 |
+| `financ` | Financement illégal de parti ou de campagne | 24 |
+| `abs` | Abus de biens sociaux, escroquerie, faux | 13 |
+| `fisc` | Fraude fiscale, blanchiment, déclarations mensongères à la HATVP | 12 |
+| `elec` | Fraude électorale | 6 |
+| `meurtre` | Meurtre, assassinat, tentative, complicité | 12 |
+| `violence` | Violences, y compris conjugales, séquestration, menaces | 26 |
+| `sexuel` | Viol, agression ou harcèlement sexuels | 6 |
+| `drogue` | Stupéfiants | 1 |
+| `haine` | Provocation à la haine, injure ou diffamation raciale, négationnisme, apologie | 17 |
+| `diffam` | Diffamation ou injure simples, **seulement si la condamnation est définitive** | 7 |
+| `autre` | Autres crimes et délits (homicide involontaire, rébellion, harcèlement moral, atteinte à la sûreté de l'État…) | 58 |
+| `travail` | Prud'hommes, droit du travail | 12 |
+| `civil` | Condamnations civiles, commerciales ou administratives | 11 |
 
 Ne sont pas comptés : mises en examen et procès en cours, relaxes, condamnations annulées, faits amnistiés avant jugement, sanctions purement électorales ou administratives, épuration de 1944-1945.
+
+### Par parti, onglet « Responsables politiques »
+
+Compte au parti de la personne au moment des faits (mode « Cumul par parti », nom actuel de la lignée) :
+
+| Lignée | Condamnations |
+|---|---|
+| RPF, UNR, UDR, RPR, UMP, LR | 69 |
+| FN, RN | 47 |
+| SFIO, PS | 33 |
+| Divers, sans étiquette | 33 |
+| MRP… UDF, MoDem | 15 |
+| En marche, LREM, Renaissance | 15 |
+| RI, PR, Démocratie libérale | 9 |
+| LFI | 9 |
+| PCF | 5 |
+| Les Verts, EELV, Les Écologistes | 5 |
+| MNR | 3 |
+| Reconquête | 3 |
+| PRG | 2 |
+| RPF de Pasqua, Horizons | 1 chacun |
+
+Ces chiffres reflètent autant la couverture de la base que la réalité (voir les limites) : les procès collectifs du FN (assistants européens, kits de campagne) et du MoDem y sont recensés en entier, ceux du RPR ou du PS (lycées d'Île-de-France, Urba) seulement en partie.
 
 ## Généalogie des partis
 
