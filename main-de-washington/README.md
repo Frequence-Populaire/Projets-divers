@@ -2,7 +2,7 @@
 
 Carte animée des coups d'État, ingérences, interventions, crimes de guerre, sabotages, sanctions et opérations d'espionnage attribués aux États-Unis hors de leur territoire, de 1900 à fin septembre 2026.
 
-La base compte **3 009 faits distincts**, un par ligne : on ne met pas « guerre du Vietnam » en une ligne, mais Mỹ Lai, l'opération Phoenix, l'agent orange ou les bombardements secrets du Cambodge chacun sur la sienne.
+La base compte **3 010 faits distincts**, un par ligne : on ne met pas « guerre du Vietnam » en une ligne, mais Mỹ Lai, l'opération Phoenix, l'agent orange ou les bombardements secrets du Cambodge chacun sur la sienne.
 
 Le projet reprend la visualisation de [« La guerre grise »](https://claude.ai/artifact/TjNchYmk2id1cEEEBJTgyt), la carte des opérations hybrides russes en Europe (2014-2026), et l'applique aux États-Unis à l'échelle mondiale.
 
@@ -30,7 +30,7 @@ Le tableau sous la carte se filtre par type et par niveau d'attribution, et se c
 
 | Code | Catégorie | Faits |
 |---|---|---|
-| `arme` | Intervention armée, invasion, occupation, bombardement, soutien armé, aide militaire | 751 |
+| `arme` | Intervention armée, invasion, occupation, bombardement, soutien armé, aide militaire | 752 |
 | `sabot` | Sabotage, guerre économique, sanctions, lawfare | 594 |
 | `crime` | Crime de guerre, massacre, torture, prison secrète, expérimentation humaine | 499 |
 | `info` | Ingérence électorale, financement d'opposition, propagande, faux prétexte, veto | 464 |
@@ -45,7 +45,7 @@ Le niveau porte sur le **rôle américain**, pas sur la qualification juridique 
 
 | Code | Niveau | Signification | Faits |
 |---|---|---|---|
-| `a` | Reconnu | Opération ouverte, ou rôle admis par Washington, établi par le Congrès, une justice, une commission officielle ou des archives officielles déclassifiées | 2 150 |
+| `a` | Reconnu | Opération ouverte, ou rôle admis par Washington, établi par le Congrès, une justice, une commission officielle ou des archives officielles déclassifiées | 2 151 |
 | `s` | Documenté | Établi par des historiens, des journalistes d'investigation ou des fuites (WikiLeaks, Snowden), sans reconnaissance officielle | 661 |
 | `l` | Allégué | Accusation du pays visé ou de tiers, sans preuve publique d'un rôle américain décisif. La note dit qui accuse et si l'accusation est démentie ou contredite | 198 |
 
