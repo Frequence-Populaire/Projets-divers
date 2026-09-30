@@ -2,7 +2,7 @@
 
 Course de barres animée : pour chaque parti politique français, le nombre de **condamnations en justice** de ses responsables, année par année, de 1945 à septembre 2026. Chaque condamnation fait monter la barre de son parti ; un fil « Au tribunal » affiche les jugements au fur et à mesure.
 
-La base compte **453 condamnations** visant **386 personnes** (physiques ou morales), dont 261 définitives. Chaque ligne renvoie à un article, une décision ou une page de recensement, et a été vérifiée par recherche web.
+La base compte **464 condamnations** visant **395 personnes** (physiques ou morales), dont 264 définitives. Chaque ligne renvoie à un article, une décision ou une page de recensement, et a été vérifiée par recherche web.
 
 Le projet reprend la maquette de [« La main de Washington »](../main-de-washington/).
 
@@ -16,7 +16,7 @@ Version en ligne : https://claude.ai/artifact/Ko7mL2gm4J3XGBfoqfVEEJ
 
 | Onglet | Condamnations |
 |---|---|
-| Responsables politiques | 377 |
+| Responsables politiques | 388 |
 | Militants (dont groupuscules) | 42 |
 | Condamnations politiques | 34 |
 
@@ -40,9 +40,9 @@ Survolez une barre pour voir l'histoire du parti (et, en casiers portés, les ca
 
 | Code | État | Barre | Condamnations |
 |---|---|---|---|
-| `def` | Définitive | pleine | 261 |
-| `ap` | Confirmée ou prononcée en appel, pourvoi possible | pleine, liseré jaune | 64 |
-| `pi` | Première instance, appel en cours ou possible | voilée, rayée de jaune | 128 |
+| `def` | Définitive | pleine | 264 |
+| `ap` | Confirmée ou prononcée en appel, pourvoi possible | pleine, liseré jaune | 67 |
+| `pi` | Première instance, appel en cours ou possible | voilée, rayée de jaune | 133 |
 
 Une relaxe définitive retire la ligne de la base.
 
@@ -52,9 +52,9 @@ Une relaxe définitive retire la ligne de la base.
 
 | Code | Infractions | Condamnations |
 |---|---|---|
-| `corr` | Corruption active ou passive, trafic d'influence | 25 |
-| `detour` | Détournement de fonds publics, emplois fictifs, abus de confiance | 115 |
-| `favor` | Favoritisme, prise illégale d'intérêts | 62 |
+| `corr` | Corruption active ou passive, trafic d'influence | 26 |
+| `detour` | Détournement de fonds publics, emplois fictifs, abus de confiance | 118 |
+| `favor` | Favoritisme, prise illégale d'intérêts | 68 |
 | `financ` | Financement illégal de parti ou de campagne | 24 |
 | `abs` | Abus de biens sociaux, escroquerie, faux | 22 |
 | `fisc` | Fraude fiscale, blanchiment, déclarations mensongères à la HATVP | 13 |
@@ -65,7 +65,7 @@ Une relaxe définitive retire la ligne de la base.
 | `drogue` | Stupéfiants | 1 |
 | `haine` | Provocation à la haine, injure ou diffamation raciale, négationnisme, apologie | 14 |
 | `diffam` | Diffamation ou injure simples, **seulement si la condamnation est définitive** | 8 |
-| `autre` | Autres crimes et délits (homicide involontaire, rébellion, harcèlement moral, atteinte à la sûreté de l'État…) | 71 |
+| `autre` | Autres crimes et délits (homicide involontaire, rébellion, harcèlement moral, atteinte à la sûreté de l'État…) | 72 |
 | `travail` | Prud'hommes, droit du travail | 12 |
 | `civil` | Condamnations civiles, commerciales ou administratives | 12 |
 
@@ -77,7 +77,7 @@ Compte au parti de la personne au moment des faits (mode « Cumul par parti », 
 
 | Lignée | Condamnations |
 |---|---|
-| Divers, sans étiquette | 126 |
+| Divers, sans étiquette | 137 |
 | RPF, UNR, UDR, RPR, UMP, LR | 82 |
 | FN, RN | 51 |
 | SFIO, PS | 42 |
