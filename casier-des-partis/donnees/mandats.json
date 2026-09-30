@@ -1,5 +1,5 @@
 {
- "_lisezmoi": "Dénominateur « nombre d'élus » par lignée (ids de partis.json) : sièges gagnés à chaque élection nationale depuis 1945. Législatives : sièges de députés à l'issue du scrutin (métropole + outre-mer ; Algérie et colonies incluses sous la IVe République et en 1958), rattachés au parti de l'élu, apparentés inclus quand c'est l'usage ; les divers, régionalistes, poujadistes, CPNT, extrême gauche, etc. ne sont pas comptés, d'où des totaux inférieurs au nombre de sièges. Européennes : sièges français au moment de l'élection (2019 : 74, avant les 5 sièges post-Brexit). Répartitions : UDF 1978-1997 répartie entre centre (CDS puis FD), liberal (PR puis DL) et rad (radicaux valoisiens) ; FGDS 1967-1968 entre ps, rad et udsr (CIR) ; Réformateurs 1973 entre centre et rad ; NUPES 2022 et NFP 2024 entre lfi, ps, eco, gens, pcf ; Ensemble entre lrem, centre (MoDem), horizons ; listes européennes communes selon l'appartenance des élus (1994 : liste Énergie radicale comptée prg, liste de Villiers comptée mpf ; 1999 : liste RPF partagée rpf99/mpf ; 2009 : Europe Écologie comptée eco). Avant 1947 (gaull) et 1949 (cnip), les élus modérés/PRL ne sont pas comptés. Sources de référence : ministère de l'Intérieur (résultats officiels), Assemblée nationale (composition des groupes), Parlement européen (eurodéputés). AVERTISSEMENT : chiffres établis de mémoire sans vérification en ligne ; arrondis possibles de quelques sièges, et répartitions internes aux confédérations et listes communes estimées (UDF surtout, européennes 1979-1999). À vérifier avant publication.",
+ "_lisezmoi": "Dénominateur « nombre d'élus » par lignée (ids de partis.json) : sièges gagnés à chaque élection nationale depuis 1945. Législatives : sièges de députés à l'issue du scrutin (métropole + outre-mer ; Algérie et colonies incluses sous la IVe République et en 1958), rattachés au parti de l'élu, apparentés inclus quand c'est l'usage (composition des groupes à l'ouverture de la législature quand le décompte par parti n'existe pas : 1968, 1986, 2024) ; les divers, régionalistes, poujadistes, CPNT, extrême gauche, etc. ne sont pas comptés, d'où des totaux inférieurs au nombre de sièges. Européennes : sièges français au moment de l'élection (2019 : 74, avant les 5 sièges post-Brexit). Répartitions : UDF 1978-1997 répartie entre liberal (PR puis DL), rad (radicaux valoisiens) et centre (CDS puis FD, plus adhérents directs, PSD/PPDF, l'organisation « udf » étant rattachée à centre), le total UDF étant calé sur le total publié (1978 : 123 ; 1981 : 62 ; 1986 : 131, groupe ; 1988 : 130 ; 1993 : 207 ; 1997 : 108) ; FGDS 1967-1968 entre ps, rad et udsr (CIR) ; 1973 : CDP (23) et Réformateurs (30, partagés entre centre et rad) ; NUPES 2022 et NFP 2024 entre lfi, ps, eco, gens, pcf ; Ensemble entre lrem, centre (MoDem), horizons ; listes européennes communes selon l'appartenance des élus (1979 : liste Veil 25 ; 1994 : liste Énergie radicale comptée prg, liste de Villiers comptée mpf ; 1999 : liste RPF partagée rpf99/mpf ; 2009 : Europe Écologie comptée eco, élus PCR/Alliance des outre-mers non comptés ; 2019 : liste Glucksmann, seuls les élus PS comptés ; 2024 : liste PS-Place publique, part PS estimée). Avant 1947 (gaull) et 1949 (cnip), les élus modérés/PRL ne sont pas comptés. VÉRIFICATION (septembre 2026, recherche web sur extraits : Wikipédia fr/en des élections concernées, ministère de l'Intérieur, franceinfo, LCP, Fondation Robert Schuman, Perspective Monde, archives UIP, Touteleurope, france-politique.fr) : totaux vérifiés pour les législatives 1962 (UNR-UDT 233, PCF 41), 1967 (UD-Ve 200, RI 42, FGDS 116 = 76+24+16, PCF 73), 1968 (UDR 293, RI 61, FGDS 57, PCF 34, PDM 33), 1973 (UDR 183, RI 54, CDP 23, Réformateurs 30, PS-MRG 102, PCF 73), 1978 (UDF 123), 1986 (groupes PS 212, RPR 155, UDF 131, PCF 35, FN 35), 1988 (RPR 128, UDF 130), 2002, 2007, 2012 (PS 280, UMP 194, EELV 17, FG 10, PR 6, MoDem 2), 2017, 2022 (RN 89, NUPES 131, Ensemble 245 dont MoDem 48, LR 61) et 2024 (groupes RN 123+3, LFI 71+1, SOC 62+4, EPR 99, Démocrates 36, Horizons 33, DR 47, GDR 17) ; européennes 1979 (UFE 25, PS-MRG 22, PCF 19, DIFE 15), 1989, 1994, 1999, 2004, 2009, 2014, 2019 (élus de la liste Glucksmann) par listes. RESTE ESTIMÉ ou non vérifié : IVe République (ordres de grandeur recoupés pour 1951 et 1956 seulement ; 1945-1946 de mémoire) ; 1958 (sources divergentes selon Algérie/apparentés : UNR 189 à 206, SFIO 40 à 47) ; toutes les répartitions internes à l'UDF (PR/CDS/radicaux) et aux Réformateurs ; 1981 et 1997 (totaux UDF/RPR pris aux décomptes usuels, les groupes étant un peu plus larges) ; 1988 PCF (25 au groupe, 27 élus étiquetés selon certaines sources) ; répartition NUPES 2022 (Wikipédia : LFI 72, PS 24, écologistes 23, PCF 12 ; ici PS 27, eco 16, gens 4, total identique 131) et NFP 2024 hors LFI/PS (eco, gens, pcf) ; répartition des listes européennes communes (UFE 1979, UDF-RPR 1984-1994, Renaissance 2019 et 2024, PS-PP 2024) ; divers écarts de 1 à 2 sièges selon qu'on compte élus ou groupes. Ne pas publier ces chiffres comme officiels.",
  "elections": [
   {
    "date": 1945.83,
@@ -120,10 +120,10 @@
     "gaull": 183,
     "ps": 89,
     "pcf": 73,
-    "liberal": 55,
-    "centre": 50,
+    "liberal": 54,
+    "centre": 39,
     "rad": 14,
-    "prg": 12,
+    "prg": 13,
     "psu": 1
    }
   },
@@ -159,8 +159,8 @@
    "sieges": {
     "ps": 206,
     "gaull": 155,
+    "centre": 61,
     "liberal": 58,
-    "centre": 50,
     "pcf": 35,
     "fn": 35,
     "rad": 12,
@@ -173,8 +173,8 @@
    "sieges": {
     "ps": 260,
     "gaull": 128,
+    "centre": 65,
     "liberal": 60,
-    "centre": 41,
     "pcf": 25,
     "prg": 9,
     "rad": 5,
@@ -187,7 +187,7 @@
    "sieges": {
     "gaull": 242,
     "liberal": 105,
-    "centre": 60,
+    "centre": 88,
     "ps": 53,
     "pcf": 23,
     "rad": 14,
@@ -200,7 +200,7 @@
    "sieges": {
     "ps": 245,
     "gaull": 134,
-    "centre": 51,
+    "centre": 53,
     "liberal": 43,
     "pcf": 35,
     "prg": 12,
@@ -296,10 +296,10 @@
    "date": 2024.58,
    "type": "legislatives",
    "sieges": {
-    "fn": 125,
+    "fn": 126,
     "lrem": 99,
-    "lfi": 71,
-    "ps": 64,
+    "lfi": 72,
+    "ps": 66,
     "gaull": 47,
     "centre": 36,
     "horizons": 33,
@@ -315,8 +315,8 @@
     "ps": 20,
     "pcf": 19,
     "gaull": 15,
+    "centre": 12,
     "liberal": 10,
-    "centre": 9,
     "rad": 3,
     "prg": 2
    }
@@ -435,7 +435,7 @@
     "gaull": 8,
     "centre": 6,
     "lfi": 6,
-    "ps": 3,
+    "ps": 2,
     "agir": 1,
     "rad": 1
    }
