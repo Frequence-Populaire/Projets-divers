@@ -9,6 +9,7 @@ Documents de référence dépouillés pour compléter la base. Les faits qui en 
 | `wikipedia_list_of_notable_deployments_crs.wiki` | Liste des déploiements notables de l'armée américaine, 1798-2023, reprenant le rapport du Congressional Research Service [R42738](https://crsreports.congress.gov/product/pdf/R/R42738), *Instances of Use of United States Armed Forces Abroad* | Déploiements armés à partir de 1900 absents de la base |
 | `wikipedia_foreign_interventions_by_the_united_states.wiki` | Article « Foreign interventions by the United States » | Interventions, de la Seconde Guerre mondiale à 2026 |
 | `wikipedia_united_states_involvement_in_regime_change.wiki` | Article « United States involvement in regime change » | Coups, renversements et tentatives, de 1900 à 2026 |
+| `davemanuel_every_country_us_invaded_bombed_coup.html` | Page « Every Country the United States Has Invaded, Bombed, or Staged a Coup In » (DaveManuel.com, mise à jour février 2026), synthèse des données du Military Intervention Project (université Tufts) et du CRS | Contrôle de couverture : les pays, guerres, campagnes de bombardement et coups qu'elle recense figurent tous déjà dans la base |
 
 ## Méthode
 

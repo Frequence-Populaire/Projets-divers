@@ -184,6 +184,7 @@ Les corrections sont bienvenues, avec une source à l'appui.
 - Tim Weiner, *Des cendres en héritage* (2007)
 - Parlement européen, rapport sur Echelon (2001)
 - Documents WikiLeaks et Snowden, via Le Monde, Der Spiegel, The Guardian, The Intercept, Libération, Mediapart
+- Military Intervention Project (université Tufts), S. Kushi et M. D. Toft, *Journal of Conflict Resolution*, 2023
 - Congressional Research Service, *Instances of Use of United States Armed Forces Abroad, 1798-2023* (R42738)
 - Wikipédia en anglais : « Foreign interventions by the United States », « United States involvement in regime change », « United States military deployments »
 - Presse internationale pour 2025-2026 (liens dans la base)
