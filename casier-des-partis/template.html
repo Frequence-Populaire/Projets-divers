@@ -1,0 +1,554 @@
+<title>Le casier des partis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Mise en page : titre, course de barres animée (partis, fil des jugements, histogramme annuel), commandes, fiche, tableau, notes.
+   Un seul thème sombre, celui de la maison (« La main de Washington »). */
+:root{
+  color-scheme:dark;
+  --ground:#0B1D24;--ground2:#0E262E;--line:#1C4450;
+  --coral:#FF6B4A;--sun:#FFC53D;--paper:#F2EDE4;--muted:#6E959D;--soft:#C9D6D8;
+  --display:Syne,"Arial Black",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+html,body{background:var(--ground);color:var(--paper)}
+body{font:15px/1.55 var(--mono)}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:26px 40px;display:flex;flex-direction:column;gap:18px}
+header{display:flex;flex-direction:column;gap:8px}
+h1{margin:0;font:800 clamp(30px,5.4vw,56px)/1 var(--display);letter-spacing:-.01em;text-transform:uppercase;text-wrap:balance}
+h1 span{color:var(--coral)}
+.eyebrow{margin:0;color:var(--muted);font-size:12px;letter-spacing:.14em;text-transform:uppercase}
+.lede{margin:0;color:var(--soft);max-width:78ch;font-size:14px}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}
+.tabs button{background:transparent;color:var(--muted);border:0;border-bottom:3px solid transparent;padding:10px 16px;font:700 16px var(--display);text-transform:uppercase;letter-spacing:.02em;cursor:pointer;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--paper);border-bottom-color:var(--coral)}
+.modes{display:flex;flex-wrap:wrap;align-items:center;gap:10px 20px}
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{background:transparent;color:var(--muted);border:0;padding:7px 14px;font:500 12px var(--mono);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--coral);color:var(--ground)}
+.seg-l{color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-right:8px}
+#modeNote{flex-basis:100%;color:var(--muted);font-size:12px;margin:0;max-width:90ch}
+.stage{position:relative;width:100%;max-width:100%;aspect-ratio:16/9;background:var(--ground2);border-radius:6px;overflow:hidden;box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
+.stage.portrait{aspect-ratio:3/4}
+canvas{display:block;width:100%;height:100%}
+#tip{position:absolute;pointer-events:none;background:rgba(11,29,36,.96);border:1px solid var(--line);border-radius:6px;padding:10px 12px;font-size:12px;color:var(--soft);max-width:300px;z-index:2}
+#tip b{display:block;font:700 16px var(--display);color:var(--paper);margin-bottom:2px}
+#tip .h{color:var(--muted)}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px}
+.controls button{flex:none;background:var(--paper);color:var(--ground);border:0;border-radius:999px;padding:8px 18px;font:500 13px var(--mono);cursor:pointer}
+.controls button.ghost{background:transparent;color:var(--paper);border:1px solid var(--line)}
+button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid var(--sun);outline-offset:3px}
+input[type=range]{flex:1 1 200px;min-width:0;accent-color:var(--coral)}
+#tc{flex:none;font-variant-numeric:tabular-nums;color:var(--muted);font-size:13px}
+.detail{background:var(--ground2);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:flex;flex-direction:column;gap:4px;min-height:96px}
+.d-meta{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.d-title{font:700 24px/1.15 var(--display);text-wrap:balance}
+.detail p{margin:0;color:var(--soft);max-width:80ch;font-size:14px}
+.pill{font-size:11px;padding:1px 7px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.pill.pi{color:var(--sun);border-style:dashed}
+.pill.ap{color:var(--sun)}
+.pill.def{color:var(--soft)}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-inline-end:7px;vertical-align:0}
+h2{margin:8px 0 0;font:800 26px var(--display);text-transform:uppercase}
+.tools{display:flex;flex-direction:column;gap:10px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+#q,#fparti{background:var(--ground2);color:var(--paper);border:1px solid var(--line);border-radius:6px;padding:8px 12px;font:400 13px var(--mono)}
+#q{width:100%;max-width:420px}
+#q::placeholder{color:var(--muted)}
+.filters{display:flex;flex-wrap:wrap;gap:8px}
+.filters button{background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font:400 12px var(--mono);cursor:pointer}
+.filters button[aria-pressed="true"]{color:var(--ground);background:var(--paper);border-color:var(--paper)}
+#shown{color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.tablewrap{overflow:auto;max-height:520px;border:1px solid var(--line);border-radius:6px;min-width:0}
+table{border-collapse:collapse;width:100%;min-width:860px;font-size:13px}
+thead th{position:sticky;top:0;z-index:1}
+th,td{text-align:start;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400;background:var(--ground2)}
+td.date{color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+td.who b{font-weight:500;color:var(--paper)}
+td.who small{display:block;color:var(--muted)}
+td a{text-decoration:none;white-space:nowrap}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:rgba(159,230,240,.05)}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.notes>div{min-width:0}
+.notes h3{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:500;margin:0 0 8px}
+.notes p,.notes li{color:var(--soft);font-size:13px;margin:0 0 8px}
+.notes ul{margin:0;padding-inline-start:18px;display:flex;flex-direction:column;gap:6px}
+.notes li{margin:0}
+a{color:var(--sun)}
+.fp{margin:0 0 6px;color:var(--paper);font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.fp b{color:var(--coral);font-weight:500}
+.fp a{text-decoration:none}
+footer{margin-top:6px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<main class="wrap">
+  <header>
+    <p class="eyebrow">France · 1945 → 2026 · condamnations pénales des responsables politiques</p>
+    <h1>Le casier <span>des partis</span></h1>
+    <p class="lede">Chaque fois qu'un ministre, un élu, un cadre ou un parti est condamné par la justice pénale, pour corruption, détournement, fraude, mais aussi violences, meurtre, infractions sexuelles, drogue ou provocation à la haine, la barre de son parti monte. <b id="nEv"></b> condamnations, toutes publiquement documentées.</p>
+    <p class="lede" style="color:var(--sun)">Version de travail : base incomplète (surtout avant 1990 et pour les élus locaux), constituée en partie de mémoire ; statuts de procédure et nombres d’élus à vérifier avant toute diffusion.</p>
+  </header>
+  <div class="tabs" id="tabs" role="tablist" aria-label="Population">
+    <button type="button" role="tab" data-v="resp" aria-selected="true">Responsables politiques</button>
+    <button type="button" role="tab" data-v="mil" aria-selected="false">Militants</button>
+    <button type="button" role="tab" data-v="pol" aria-selected="false">Condamnations politiques</button>
+  </div>
+  <div class="modes">
+    <div><span class="seg-l">Infractions</span><div class="seg" id="mCat" role="group" aria-label="Type d'infraction"></div></div>
+    <div><span class="seg-l">Condamnations</span><div class="seg" id="mStat" role="group" aria-label="Condamnations comptées"><button type="button" data-v="all" aria-pressed="true">Toutes</button><button type="button" data-v="ap" aria-pressed="false">Dès l’appel</button><button type="button" data-v="def" aria-pressed="false">Définitives</button></div></div>
+    <div><span class="seg-l">Mesure</span><div class="seg" id="mMode" role="group" aria-label="Mode de comptage"><button type="button" data-v="cumul" aria-pressed="true">Cumul par parti</button><button type="button" data-v="porte" aria-pressed="false">Casiers portés</button></div></div>
+    <div id="gEch"><span class="seg-l">Échelle</span><div class="seg" id="mEch" role="group" aria-label="Échelle"><button type="button" data-v="0" aria-pressed="true">Nombre</button><button type="button" data-v="1" aria-pressed="false">Pour 100 élus</button></div></div>
+    <div id="gInh"><span class="seg-l">Héritage</span><div class="seg" id="mInh" role="group" aria-label="Compteur hérité"><button type="button" data-v="1" aria-pressed="true">Oui</button><button type="button" data-v="0" aria-pressed="false">Non</button></div></div>
+    <p id="modeNote"></p>
+  </div>
+  <div class="stage" id="stage"><canvas id="cv" role="img" aria-label="Course de barres animée : nombre cumulé de condamnations par parti, de 1945 à 2026"></canvas><div id="tip" hidden></div></div>
+  <div class="controls">
+    <button id="play" type="button">Pause</button>
+    <button id="restart" type="button" class="ghost">Rejouer</button>
+    <button id="speed" type="button" class="ghost">×1</button>
+    <input id="scrub" type="range" min="1945" max="2026.75" step="0.01" value="1945" aria-label="Position dans le temps">
+    <span id="tc">1945</span>
+  </div>
+  <section class="detail" id="detail">
+    <div class="d-meta">Fiche</div>
+    <div class="d-title">Cliquez sur une barre, une carte du fil ou une ligne du tableau</div>
+    <p>La fiche donne la personne, sa fonction au moment des faits, l'affaire, la peine et l'état de la procédure.</p>
+  </section>
+
+  <h2>Les condamnations</h2>
+  <div class="tools">
+    <div class="row"><input id="q" type="search" placeholder="Nom, affaire, ville…" aria-label="Rechercher"><select id="fparti" aria-label="Filtrer par parti"></select></div>
+    <div class="filters" id="fcat" aria-label="Filtrer par infraction"></div>
+    <div class="filters" id="fstat" aria-label="Filtrer par état de la procédure"></div>
+    <span id="shown"></span>
+  </div>
+  <div class="tablewrap">
+    <table>
+      <thead><tr><th>Date</th><th>Personne</th><th>Parti</th><th>Affaire</th><th>Infraction</th><th>Peine</th><th>État</th><th>Source</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <section class="notes">
+    <div>
+      <h3>Comment on compte</h3>
+      <p>Une unité = une personne, physique ou morale, condamnée dans une affaire. Trois élus condamnés dans le même jugement comptent trois fois. Une affaire rejugée en appel ne compte qu'une fois, à la date de la première condamnation.</p>
+      <p>Le parti retenu est celui de la personne au moment des faits. Une condamnation prononcée avant l'entrée en politique compte aussi : elle va au parti que la personne rejoint, à la date où elle le rejoint (Le Pen au FN en 1972, Zemmour à Reconquête en 2021). Toutes les condamnations comptent, pénales, civiles et prud'homales. Le filtre « Probité » regroupe corruption et trafic d'influence, détournement et emplois fictifs, favoritisme et prise illégale d'intérêts, financement illégal, abus de biens sociaux, fraude fiscale et fraude électorale. Les autres filtres isolent meurtres, violences, infractions sexuelles, drogue et provocation à la haine. Le filtre « Prud’hommes, civil » isole les condamnations civiles et prud'homales, des partis comme des personnes. La diffamation et l'injure simples ne comptent que lorsque la condamnation est définitive.</p>
+      <p>L'onglet « Condamnations politiques » isole les condamnations liées à un engagement politique (action contre une guerre, refus de servir, désobéissance civile, atteinte à la sûreté de l'État, action autonomiste), qu'elles visent des élus ou des militants ; elles ne comptent pas dans les deux autres onglets.</p>
+      <p>L'onglet « Militants » compte à part les condamnations de militants dont l'appartenance au parti au moment des faits est établie, sans être élus ni cadres. Deux barres y regroupent les groupuscules hors partis, ultradroite et ultragauche, quand le lien avec le groupe est établi par la justice ou la presse ; la note dit si la personne le conteste.</p>
+      <p>Trois états : condamnation <b>définitive</b> (barre pleine), <b>confirmée en appel</b> avec pourvoi en cassation possible (barre à liseré jaune), <b>en première instance</b> avec appel en cours (barre voilée rayée de jaune). Le sélecteur « Condamnations » permet de ne garder que les condamnations confirmées en appel ou définitives, ou seulement les définitives. Les relaxes et les condamnations annulées ne figurent pas dans la base.</p>
+    </div>
+    <div>
+      <h3>Changements de nom, scissions, fusions</h3>
+      <p>Un parti qui change de nom garde sa barre : SFIO puis PS, RPF puis UNR, UDR, RPR, UMP et LR, FN puis RN. Le nom affiché est celui de l'année en cours.</p>
+      <p>Une scission crée une nouvelle barre qui hérite du compteur du parti d'origine à la date de la scission (MNR en 1999, Parti de gauche en 2008…). Une fusion verse le compteur du parti absorbé dans celui qui l'absorbe (Démocratie libérale dans l'UMP en 2002). Un parti fondé de zéro, comme LFI, LREM ou Reconquête, part de zéro. Un parti issu d'une scission n'apparaît que s'il compte au moins une condamnation propre.</p>
+      <p>La part héritée est hachurée. Le sélecteur « Héritage : non » ne montre que les condamnations prononcées sous les noms propres de chaque lignée.</p>
+    </div>
+    <div>
+      <h3>Limites et sources</h3>
+      <p>Base constituée avec Claude (Anthropic) à partir de faits publiquement documentés, vérifiés par recherche web, puis relus. Elle ne prétend pas être un recensement : les condamnations d'élus locaux peu médiatisées manquent certainement, et la presse couvre mieux les années récentes que les années 1950.</p>
+      <p>Un grand nombre de condamnations reflète aussi l'ancienneté, la taille et le nombre d'élus d'un parti, ainsi que l'intensité des contrôles à chaque époque : lois sur le financement de 1988 à 1995, création du Parquet national financier et de la HATVP en 2013.</p>
+      <p>Les condamnations sont rares avant les années 1990, et ce n'est pas seulement une lacune de la base : jusqu'en 1993, un privilège de juridiction protégeait les élus locaux ; le financement des partis n'a été encadré qu'en 1988 ; l'amnistie de janvier 1990 a effacé la plupart des affaires de financement antérieures. Les grands dossiers (Urba, Carignon, lycées d'Île-de-France) n'ont été jugés qu'à partir de 1994-1995.</p>
+      <p>Corrections bienvenues, avec une source à l'appui.</p>
+    </div>
+  </section>
+  <footer><p class="fp"><a href="https://www.fpop.media">Fréquence <b>Populaire</b></a> · Projets divers</p>Données : <code>casier-des-partis/donnees/</code>, sources indiquées ligne par ligne.</footer>
+</main>
+
+<script>
+(() => {
+const PARTIS=__PARTIS__;
+const RAW=__RAW__;
+const PERSONNES=__PERSONNES__;
+const MANDATS=__MANDATS__;
+const T0=1945,T1=2026.75;
+const C={ground:'#0B1D24',ground2:'#0E262E',line:'#1C4450',paper:'#F2EDE4',soft:'#C9D6D8',muted:'#6E959D',coral:'#FF6B4A',sun:'#FFC53D'};
+const DISPLAY='Syne,"Arial Black",sans-serif', MONO='"JetBrains Mono",ui-monospace,monospace';
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const seg=(t,a,b)=>clamp((t-a)/(b-a));
+const eOut=p=>1-Math.pow(1-p,3);
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const CAT={diffam:['Diffamation, injure (définitives)','Diffamation'],travail:['Prud’hommes, droit du travail','Prud’hommes'],civil:['Condamnation civile ou administrative','Civil'],meurtre:['Meurtre, assassinat','Meurtre'],violence:['Violences','Violences'],sexuel:['Viol, agression ou harcèlement sexuel','Infraction sexuelle'],drogue:['Stupéfiants','Drogue'],haine:['Provocation à la haine, négationnisme, injure raciale','Haine'],autre:['Autre crime ou délit','Autre'],corr:['Corruption, trafic d’influence','Corruption'],detour:['Détournement, emplois fictifs','Détournement'],favor:['Favoritisme, prise illégale d’intérêts','Favoritisme'],financ:['Financement illégal','Financement'],abs:['Abus de biens sociaux, escroquerie','ABS, escroquerie'],fisc:['Fraude fiscale, blanchiment','Fraude fiscale'],elec:['Fraude électorale','Fraude électorale']};
+const ST={def:'définitive',ap:'confirmée en appel',pi:'1re instance, appel en cours'};
+const MOIS=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const fmtDate=d=>{const p=d.split('-');return p.length===1?p[0]:p.length===2?MOIS[+p[1]-1]+' '+p[0]:(+p[2])+(p[2]==='01'?'er':'')+' '+MOIS[+p[1]-1]+' '+p[0]};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+/* ---------- lignées ---------- */
+const LIN={};
+PARTIS.lignees.forEach((l,k)=>{
+  const o=l.origine||null;
+  LIN[l.id]={...l,k,start:o?o.annee:Math.max(T0,l.noms[0][0]),fin:l.fin||null,abs:l.absorption||null,orig:o};
+});
+const nameAt=(l,t)=>{let n=l.noms[0][1];for(const [y,s] of l.noms)if(t>=y)n=s;return n};
+const exNames=(l,t)=>{const cur=nameAt(l,t),out=[];for(const [y,s] of l.noms)if(t>=y&&s!==cur&&y>=T0-10)out.push(s);return out};
+function linOf(org,t){let l=PARTIS.organisations[org];while(LIN[l].abs&&t>=LIN[l].abs.annee)l=LIN[l].abs.dans;return l}
+
+/* ---------- condamnations : date → temps continu, étalé quand seule l'année ou le mois est connu ---------- */
+const ALL=RAW.map((e,i)=>({i,date:e[0],who:e[1],fn:e[2],org:e[3],cat:e[4],aff:e[5],peine:e[6],st:e[7],note:e[8],src:e[9],mil:!!e[10],pol:!!e[11]}));
+ALL.sort((a,b)=>a.date<b.date?-1:a.date>b.date?1:a.who.localeCompare(b.who));
+const buckets={};ALL.forEach(e=>(buckets[e.date]=buckets[e.date]||[]).push(e));
+for(const d in buckets){const p=d.split('-').map(Number),b=buckets[d],n=b.length;
+  b.forEach((e,k)=>{e.t=p.length===1?p[0]+(k+.5)/n:p.length===2?p[0]+(p[1]-1+(k+.5)/n)/12:p[0]+(p[1]-1)/12+(p[2]-.5)/365});}
+ALL.sort((a,b)=>a.t-b.t);
+ALL.forEach(e=>{e.lin=linOf(e.org,e.t);e.etiq=PARTIS.etiquettes[e.org]});
+
+
+/* ---------- événements de la généalogie ---------- */
+const GEN=[];
+for(const l of Object.values(LIN)){
+  l.noms.forEach(([y,s],k)=>{if(k>0&&y>=T0)GEN.push({t:y+.3,txt:`${l.noms[k-1][1]} devient ${s}`,l:l.id})});
+  if(l.orig&&l.orig.type==='scission')GEN.push({t:l.orig.annee,txt:`Scission : ${l.noms[0][1]} quitte ${nameAt(LIN[l.orig.de],l.orig.annee)}`,l:l.id});
+  if(l.orig&&l.orig.type==='refondation'&&l.orig.annee>T0)GEN.push({t:l.orig.annee,txt:`Fondation : ${nameAt(l,l.orig.annee+.5)}`,l:l.id});
+  if(l.abs)GEN.push({t:l.abs.annee,txt:`${nameAt(l,l.abs.annee-.01)} fusionne dans ${nameAt(LIN[l.abs.dans],l.abs.annee)}`,l:l.id});
+  if(l.fin)GEN.push({t:l.fin,txt:`${nameAt(l,l.fin)} disparaît`,l:l.id});
+}
+GEN.sort((a,b)=>a.t-b.t);
+const MILES=[{t:1988.2,l:'Loi de transparence financière'},{t:1990.04,l:'Loi Rocard et amnistie'},{t:1993.08,l:'Loi Sapin'},{t:1995.04,l:'Dons des entreprises interdits'},{t:2013.8,l:'PNF et HATVP'},{t:2016.95,l:'Loi Sapin II'}];
+
+/* ---------- état ---------- */
+const PROB=['corr','detour','favor','financ','abs','fisc','elec'];
+const FAM=[['all','Toutes',null],['prob','Probité',PROB],['meurtre','Meurtre',['meurtre']],['violence','Violences',['violence']],['sexuel','Sexuelles',['sexuel']],['drogue','Drogue',['drogue']],['haine','Haine',['haine']],['autre','Autres',['autre']],['travail','Prud’hommes, civil',['travail','civil']],['diffam','Diffamation',['diffam']]];
+const inTab=e=>S.tab==='pol'?e.pol:!e.pol&&e.mil===(S.tab==='mil');
+const S={stat:'all',inh:true,fam:'all',mode:'cumul',ratio:false,tab:'resp'};
+let EV=[],fixedMemo={},PEV=[],CEV=[];
+
+/* ---------- personnes : parcours, décès (mode « casiers portés ») ---------- */
+const tOfDate=d=>{const p=String(d).split('-').map(Number);return p.length===1?p[0]+.5:p.length===2?p[0]+(p[1]-.5)/12:p[0]+(p[1]-1)/12+(p[2]-1)/365};
+const PERS=(PERSONNES&&PERSONNES.personnes)||{};
+for(const k in PERS){const p=PERS[k];p.td=p.deces?tOfDate(p.deces):null}
+/* cumul : une condamnation prononcée hors de tout parti va au parti que la personne rejoint ensuite, à la date où elle le rejoint */
+const NOPARTY=new Set(['se','dvd','dvg','ultradroite','ultragauche']);
+ALL.forEach(e=>{e.tc=e.t;const p=PERS[e.who];
+  if(NOPARTY.has(e.org)&&p&&p.parcours&&!p.morale){let cur=null;for(const [y,o] of p.parcours){if(y<=e.t)cur=o}
+    const tgt=cur&&!NOPARTY.has(cur)?[e.t,cur]:p.parcours.find(([y,o])=>y>e.t&&o&&!NOPARTY.has(o)&&(p.td===null||y<p.td));
+    if(tgt){e.tc=Math.max(e.t,tgt[0]);e.lin=linOf(tgt[1],e.tc);e.brought=e.tc>e.t?nameAt(LIN[e.lin],e.tc):null}}});
+function holder(e,t){
+  const p=PERS[e.who];
+  if(!p||p.morale||!p.parcours)return linOf(e.org,t);
+  if(p.td!==null&&t>=p.td)return null;
+  let org;for(const [y,o] of p.parcours){if(t>=y)org=o;else break}
+  return org?linOf(org,t):null;
+}
+function persEvents(){
+  const by={};EV.forEach(e=>{const p=PERS[e.who];if(p&&p.parcours&&!p.morale)(by[e.who]=by[e.who]||[]).push(e)});
+  const out=[];
+  for(const who in by){const p=PERS[who],list=by[who],t1=list[0].t;
+    const n=t=>list.filter(e=>e.t<=t).length;
+    const steps=p.parcours.map(([y,o])=>({t:y,o})).concat(p.td!==null?[{t:p.td,o:null,mort:1}]:[]);
+    let prev=null;
+    for(const st of steps){const cur=st.o;
+      if(st.t>t1&&n(st.t)>0){const from=prev?nameAt(LIN[linOf(prev,st.t-.01)],st.t):null,to=cur?nameAt(LIN[linOf(cur,st.t)],st.t):null,k=n(st.t);
+        const cnt=`${k} condamnation${k>1?'s':''}`;
+        if(st.mort&&from)out.push({t:st.t,txt:`Décès de ${who} : −${k} pour ${from}`});
+        else if(from&&to&&from!==to)out.push({t:st.t,txt:`${who} passe de ${from} à ${to} avec ${cnt}`});
+        else if(from&&!to)out.push({t:st.t,txt:`${who} quitte la vie politique : −${k} pour ${from}`});
+        else if(!from&&to)out.push({t:st.t,txt:`${who} rejoint ${to} avec ${cnt}`});}
+      if(!st.mort)prev=cur;}
+  }
+  return out.sort((a,b)=>a.t-b.t);
+}
+
+/* ---------- mandats : députés et eurodéputés élus (échelle « pour 100 élus ») ---------- */
+const ELEC=((MANDATS&&MANDATS.elections)||[]).slice().sort((a,b)=>a.date-b.date);
+const MINSEATS=5;
+function seatsCur(l,t){let leg=0,eu=0;for(const e of ELEC){if(e.date>t)break;const v=e.sieges[l]||0;if(e.type==='europeennes')eu=v;else leg=v}return leg+eu}
+function seatsOwn(l,t){let s=0;for(const e of ELEC){if(e.date>t)break;s+=e.sieges[l]||0}return s}
+function seatsCum(l,t){const L=LIN[l];let s=seatsOwn(l,t);if(!S.inh)return s;
+  if(L.orig&&L.orig.type==='scission'&&t>=L.orig.annee)s+=seatsCum(L.orig.de,L.orig.annee);
+  for(const m of Object.values(LIN))if(m.abs&&m.abs.dans===l&&t>=m.abs.annee)s+=seatsCum(m.id,m.abs.annee);
+  return s}
+
+function refilter(){
+  const fam=FAM.find(f=>f[0]===S.fam)[2];
+  const base=ALL.filter(inTab);
+  document.getElementById('nEv').textContent=ALL.filter(e=>!e.mil&&!e.pol).length.toLocaleString('fr-FR');
+  document.getElementById('gEch').hidden=S.tab!=='resp';if(S.tab!=='resp')S.ratio=false;
+  EV=base.filter(e=>(S.stat==='all'||e.st==='def'||(S.stat==='ap'&&e.st==='ap'))&&(!fam||fam.includes(e.cat)));
+  fixedMemo={};PEV=persEvents();
+  const br={};EV.forEach(e=>{if(e.brought){const k=e.who+'|'+e.tc;(br[k]=br[k]||{t:e.tc,who:e.who,to:e.brought,n:0}).n++}});
+  CEV=Object.values(br).map(b=>({t:b.t,txt:`${b.who} rejoint ${b.to} avec ${b.n} condamnation${b.n>1?'s':''} antérieure${b.n>1?'s':''}`}));
+  perYear=new Array(Math.ceil(T1)-T0+1).fill(0);EV.forEach(e=>perYear[Math.floor(e.t)-T0]++);
+  yMax=Math.max(1,...perYear);
+  document.getElementById('gInh').hidden=S.mode!=='cumul';
+  const nP=EV.filter(e=>e.st==='pi').length,nA=EV.filter(e=>e.st==='ap').length;
+  document.getElementById('modeNote').textContent=
+    `${EV.length} condamnations : ${EV.length-nP-nA} définitives`+(nA?`, ${nA} confirmées en appel`:'')+(nP?`, ${nP} en première instance`:'')+'. '+
+    (S.mode==='cumul'?(S.inh?'Cumul par parti : une condamnation reste au parti de la personne au moment des faits ; les parts hachurées sont héritées d’une scission ou d’une fusion. ':'Cumul par parti, sans héritage. ')
+      :'Casiers portés : chaque personne apporte toutes ses condamnations au parti où elle se trouve ; si elle change de parti, se retire ou meurt, le compteur la suit ou baisse. ')+
+    (S.ratio?'Échelle : condamnations pour 100 élus ('+(S.mode==='cumul'?'députés et eurodéputés élus depuis 1945':'députés et eurodéputés en fonction')+'). Les partis de moins de 5 élus n’apparaissent pas : un taux calculé sur 1 ou 2 élus ne veut rien dire.':'');
+}
+let perYear=[],yMax=1;
+const GROW=.22;
+const grow=(t,te)=>reduce?1:eOut(seg(t,te,te+GROW));
+function ownFixed(l,t){let s=0;for(const e of EV)if(e.tc<=t&&e.lin===l)s++;return s}
+function totFixed(l,t){const k=l+'@'+t;if(k in fixedMemo)return fixedMemo[k];return fixedMemo[k]=ownFixed(l,t)+inhAt(l,t,true)}
+function inhAt(l,t,fixed){
+  if(!S.inh)return 0;const L=LIN[l];let s=0;
+  if(L.orig&&L.orig.type==='scission'&&t>=L.orig.annee)s+=totFixed(L.orig.de,L.orig.annee);
+  for(const m of Object.values(LIN))if(m.abs&&m.abs.dans===l&&t>=m.abs.annee)s+=totFixed(m.id,m.abs.annee)*(fixed?1:eOut(seg(t,m.abs.annee,m.abs.annee+.35)));
+  return s;
+}
+/* valeurs de chaque lignée à l'instant t : h hérité, d définitif, a confirmé en appel, p première instance, flash = dernière arrivée */
+function values(t){
+  const V={};for(const l in LIN)V[l]={h:0,d:0,a:0,p:0,own:0,flash:-1};
+  for(const e of EV){const te=S.mode==='cumul'?e.tc:e.t;if(te>t)continue;
+    const l=S.mode==='cumul'?e.lin:holder(e,t);if(!l)continue;
+    const g=grow(t,te);V[l][e.st==='def'?'d':e.st==='ap'?'a':'p']+=g;V[l].own++;if(t-te<.35)V[l].flash=Math.max(V[l].flash,te)}
+  if(S.mode==='cumul')for(const l in LIN)V[l].h=inhAt(l,t,false);
+  return V;
+}
+
+/* ---------- canvas ---------- */
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d'),stage=document.getElementById('stage'),tip=document.getElementById('tip');
+let W=1600,H=900,portrait=false,scale=1;
+function resize(){
+  portrait=stage.clientWidth<700;stage.classList.toggle('portrait',portrait);
+  W=portrait?900:1600;H=portrait?1200:900;
+  const r=stage.getBoundingClientRect(),dpr=Math.min(2,window.devicePixelRatio||1);
+  cv.width=Math.round(r.width*dpr);cv.height=Math.round(r.height*dpr);scale=cv.width/W;
+}
+new ResizeObserver(resize).observe(stage);resize();
+
+const hatch=(()=>{const c=document.createElement('canvas');c.width=c.height=12;const g=c.getContext('2d');g.strokeStyle='rgba(255,255,255,.55)';g.lineWidth=2.2;
+  g.beginPath();for(let k=-12;k<=24;k+=6){g.moveTo(k,12);g.lineTo(k+12,0)}g.stroke();return c})();
+const hatchPat=ctx.createPattern(hatch,'repeat');
+const sunHatch=(()=>{const c=document.createElement('canvas');c.width=c.height=10;const g=c.getContext('2d');g.strokeStyle=C.sun;g.lineWidth=2.4;
+  g.beginPath();for(let k=-10;k<=20;k+=5){g.moveTo(k,0);g.lineTo(k+10,10)}g.stroke();return c})();
+const sunPat=ctx.createPattern(sunHatch,'repeat');
+/* segment de barre : définitive (plein), confirmée en appel (plein, liseré jaune), première instance (voilée, rayée de jaune, liseré jaune), héritée (voilée, hachurée) */
+function swatchBar(k,x,y,w,h,col,first,last){
+  const r=[first?4:0,last?4:0,last?4:0,first?4:0];const A=ctx.globalAlpha;
+  rr(x,y,w,h,r);
+  if(k==='def'||k==='ap'){ctx.fillStyle=col;ctx.fill();if(k==='ap'){rr(x+1,y+1,Math.max(0,w-2),h-2,r);ctx.strokeStyle=C.sun;ctx.lineWidth=2;ctx.stroke()}return}
+  ctx.fillStyle=col;ctx.globalAlpha=A*.35;ctx.fill();ctx.globalAlpha=A;
+  ctx.save();ctx.clip();ctx.fillStyle=k==='pi'?sunPat:hatchPat;ctx.globalAlpha=A*(k==='pi'?.8:.35);ctx.fillRect(x,y,w,h);ctx.restore();ctx.globalAlpha=A;
+  if(k==='pi'){rr(x+.75,y+.75,Math.max(0,w-1.5),h-1.5,r);ctx.strokeStyle=C.sun;ctx.lineWidth=1.5;ctx.stroke()}
+}
+function swatch(k,x,y,w,h){swatchBar(k,x,y,w,h,C.soft,true,true)}
+function rr(x,y,w,h,r){ctx.beginPath();ctx.roundRect?ctx.roundRect(x,y,w,h,r):ctx.rect(x,y,w,h)}
+function wrap(txt,maxW,maxL){const w=txt.split(' '),out=[];let cur='';
+  for(const x of w){const tr=cur?cur+' '+x:x;if(ctx.measureText(tr).width>maxW&&cur){out.push(cur);cur=x;if(out.length===maxL)break}else cur=tr}
+  if(out.length<maxL&&cur)out.push(cur);
+  if(out.length===maxL&&w.join(' ')!==out.join(' ')){let s=out[maxL-1];while(ctx.measureText(s+'…').width>maxW&&s.length>1)s=s.slice(0,-1);out[maxL-1]=s+'…'}
+  return out}
+
+const pos={},vis={};let xMaxS=5,lastT=null;
+let hitRows=[],hitCards=[];
+
+function layout(){
+  return portrait
+    ?{bx:24,bw:852,by:150,rows:11,rh:46,lw:190,cx:24,cy:720,cw:852,cards:3,ch:112,hx:24,hy:1105,hw:852,hh:70}
+    :{bx:40,bw:1020,by:116,rows:14,rh:46,lw:200,cx:1110,cy:116,cw:450,cards:5,ch:124,hx:40,hy:808,hw:1520,hh:62};
+}
+
+function draw(t,dt){
+  const L=layout();
+  ctx.setTransform(scale,0,0,scale,0,0);
+  ctx.fillStyle=C.ground2;ctx.fillRect(0,0,W,H);
+
+  /* --- valeurs --- */
+  const V=values(t),rows=[];
+  for(const l of Object.values(LIN)){
+    if(t<l.start)continue;
+    const gone=S.mode==='cumul'&&l.abs&&t>=l.abs.annee;
+    if(gone&&t>l.abs.annee+.5)continue;
+    const x=V[l.id],n=x.h+x.d+x.a+x.p;
+    if(!gone&&(n<.01||(S.mode==='cumul'&&!x.own)))continue;
+    let f=1,den=0;
+    if(S.ratio){den=S.mode==='cumul'?seatsCum(l.id,t):seatsCur(l.id,t);if(den<MINSEATS)continue;f=100/den}
+    rows.push({l,raw:x,h:x.h*f,d:x.d*f,a:x.a*f,p:x.p*f,v:n*f,n,den,flash:x.flash,gone,fade:gone?1-seg(t,l.abs.annee,l.abs.annee+.5):1,dead:l.fin&&t>=l.fin});
+  }
+  rows.sort((a,b)=>(a.gone-b.gone)||(b.v-a.v)||(a.l.k-b.l.k));
+  const k=1-Math.exp(-(dt||.016)*7);
+  rows.forEach((r,i)=>{const id=r.l.id;
+    if(!(id in pos)){const par=r.l.orig&&r.l.orig.type==='scission'?pos[r.l.orig.de]:undefined;pos[id]=par!==undefined?par:Math.min(i,L.rows)+1}
+    pos[id]=reduce?i:pos[id]+(i-pos[id])*k;r.y=pos[id];});
+  for(const id in pos)if(!rows.find(r=>r.l.id===id))delete pos[id];
+  const top=rows.slice(0,L.rows+1);
+  const target=Math.max(S.ratio?2:5,...rows.slice(0,L.rows).map(r=>r.v))*1.12;
+  xMaxS=reduce?target:xMaxS+(target-xMaxS)*k;
+
+  /* --- en-tête du panneau --- */
+  ctx.textBaseline='alphabetic';
+  ctx.fillStyle=C.muted;ctx.font=`500 15px ${MONO}`;ctx.textAlign='left';
+  const head=({mil:'MILITANTS · ',pol:'CONDAMNATIONS POLITIQUES · '}[S.tab]||'')+(S.mode==='cumul'?'CONDAMNATIONS CUMULÉES PAR PARTI':'CASIERS PORTÉS PAR LES MEMBRES')+(S.ratio?' · POUR 100 ÉLUS':'')+(S.fam==='all'?'':' · '+FAM.find(f=>f[0]===S.fam)[1].toUpperCase());
+  ctx.fillText(head,L.bx,54);
+  /* légende des segments */
+  {let lx=portrait?L.bx:L.bx+L.bw,ly=portrait?118:54;const items=[['def','définitive'],['ap','appel'],['pi','1re instance']].concat(S.mode==='cumul'&&S.inh?[['her','héritée']]:[]);
+    ctx.font=`400 12px ${MONO}`;ctx.textAlign='left';
+    const wd=items.map(([,s])=>22+ctx.measureText(s).width+16);if(!portrait)lx-=wd.reduce((a,b)=>a+b,0);
+    items.forEach(([k,s],j)=>{swatch(k,lx,ly-10,14,12,C.soft);ctx.fillStyle=C.muted;ctx.fillText(s,lx+20,ly);lx+=wd[j]})}
+  /* annonce : généalogie des partis, ou mouvements des personnes en mode « casiers portés » */
+  const pool=S.mode==='cumul'?GEN.concat(CEV):GEN.concat(PEV);
+  let g=null;for(const e of pool)if(t>=e.t&&t<e.t+1.6&&(!g||e.t>g.t))g=e;
+  if(g){ctx.globalAlpha=clamp(Math.min((t-g.t)/.15,(g.t+1.6-t)/.3));
+    ctx.fillStyle=C.sun;ctx.font=`600 ${portrait?15:17}px ${MONO}`;ctx.textAlign='left';ctx.fillText(wrap(Math.floor(g.t)+' · '+g.txt,portrait?L.bw:L.bw,1)[0],L.bx,86);ctx.globalAlpha=1}
+
+  /* --- barres --- */
+  const x0=L.bx+L.lw+14,bwMax=L.bw-L.lw-14-(portrait?200:250),bh=L.rh-14;
+  hitRows=[];
+  top.forEach(r=>{
+    const y=L.by+r.y*L.rh;if(r.y>L.rows-.2)return;
+    const a=clamp(L.rows-r.y)*r.fade*(r.dead?.5:1);ctx.globalAlpha=a;
+    const col=r.l.couleur,name=nameAt(r.l,Math.min(t,r.l.abs?r.l.abs.annee-.01:t));
+    const segs=[['her',r.h],['def',r.d],['ap',r.a],['pi',r.p]].map(([k,v])=>[k,v/xMaxS*bwMax]).filter(s=>s[1]>.5);
+    let x=x0;segs.forEach(([k,w],j)=>{const gap=j?2:0;swatchBar(k,x+gap,y,Math.max(0,w-gap),bh,col,j===0,j===segs.length-1);x+=w});
+    const xe=x;
+    /* éclat à l'arrivée d'une condamnation */
+    if(r.flash>=0&&!reduce){const p=(t-r.flash)/.35;ctx.save();ctx.shadowColor=col;ctx.shadowBlur=30*(1-p);ctx.fillStyle=col;rr(xe-6,y,6,bh,3);ctx.fill();ctx.restore();
+      ctx.fillStyle=C.paper;ctx.globalAlpha=a*(1-p);ctx.font=`700 18px ${DISPLAY}`;ctx.textAlign='left';ctx.fillText('+1',xe+10,y-4-18*p);ctx.globalAlpha=a}
+    /* étiquettes */
+    ctx.textAlign='right';ctx.fillStyle=C.paper;ctx.font=`700 ${name.length>13?17:21}px ${DISPLAY}`;
+    const ex=exNames(r.l,t);
+    ctx.fillText(name,x0-14,y+(ex.length?bh/2+1:bh/2+7));
+    if(ex.length){ctx.fillStyle=C.muted;ctx.font=`400 11px ${MONO}`;let s='ex-'+ex.slice(-3).reverse().join(', ');while(ctx.measureText(s).width>L.lw-6&&s.length>6)s=s.slice(0,-2);ctx.fillText(s,x0-14,y+bh/2+15)}
+    ctx.textAlign='left';ctx.fillStyle=C.paper;ctx.font=`700 22px ${DISPLAY}`;
+    const lab=S.ratio?r.v.toLocaleString('fr-FR',{maximumFractionDigits:1,minimumFractionDigits:1}):String(Math.round(r.v));
+    const vx=xe+10;ctx.fillText(lab,vx,y+bh/2+8);
+    const suf=(S.ratio?[`${Math.round(r.n)} pour ${r.den} élu${r.den>1?'s':''}`]:[r.h>=.5?`dont ${Math.round(r.h)} hérité${Math.round(r.h)>1?'s':''}`:'',r.a+r.p>=.5?`${Math.round(r.a+r.p)} non déf.`:'']).concat(r.dead?['dissous']:[]).filter(Boolean).join(' · ');
+    if(suf){const w=ctx.measureText(lab).width;ctx.fillStyle=C.muted;ctx.font=`400 12px ${MONO}`;ctx.fillText(suf,vx+w+8,y+bh/2+6)}
+    ctx.globalAlpha=1;
+    hitRows.push({x:L.bx,y,w:L.bw,h:bh,r});
+  });
+
+  if(!rows.length){ctx.fillStyle=C.muted;ctx.font=`500 18px ${MONO}`;ctx.textAlign='left';ctx.fillText(EV.length?'Aucune condamnation à cette date.':'Aucune condamnation dans la base pour ce filtre.',L.bx,L.by+30)}
+  /* --- année --- */
+  ctx.textAlign='right';ctx.fillStyle=C.paper;ctx.globalAlpha=.92;
+  ctx.font=`800 ${portrait?110:150}px ${DISPLAY}`;
+  const yr=Math.min(2026,Math.floor(t));
+  if(portrait)ctx.fillText(yr,W-24,118);else ctx.fillText(yr,L.bx+L.bw,L.by+L.rows*L.rh-8);
+  ctx.globalAlpha=1;ctx.font=`500 15px ${MONO}`;ctx.fillStyle=C.muted;
+  const nNow=EV.filter(e=>e.t<=t).length;
+  const cap=`${nNow} condamnation${nNow>1?'s':''}`;
+  if(portrait)ctx.fillText(cap,W-24,142);else ctx.fillText(cap,L.bx+L.bw,L.by+L.rows*L.rh+18);
+
+  /* --- fil des jugements --- */
+  drawFeed(t,L);
+
+  /* --- histogramme annuel --- */
+  const {hx,hy,hw,hh}=L,n=perYear.length,bw=hw/n;
+  ctx.strokeStyle=C.line;ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(hx,hy+hh+.5);ctx.lineTo(hx+hw,hy+hh+.5);ctx.stroke();
+  MILES.forEach(m=>{const x=hx+(m.t-T0)/(n)*hw;ctx.strokeStyle='rgba(110,149,157,.35)';ctx.setLineDash([2,3]);ctx.beginPath();ctx.moveTo(x,hy-4);ctx.lineTo(x,hy+hh);ctx.stroke();ctx.setLineDash([])});
+  perYear.forEach((v,i)=>{if(!v)return;const h=v/yMax*(hh-6),x=hx+i*bw;const on=T0+i<=t;
+    ctx.fillStyle=on?(T0+i===Math.floor(t)?C.coral:C.soft):C.line;rr(x+1,hy+hh-h,Math.max(1,bw-2),h,[2,2,0,0]);ctx.fill()});
+  const cx=hx+(t-T0)/n*hw;ctx.strokeStyle=C.coral;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(cx,hy-8);ctx.lineTo(cx,hy+hh);ctx.stroke();
+  ctx.fillStyle=C.muted;ctx.font=`400 12px ${MONO}`;
+  [1950,1960,1970,1980,1990,2000,2010,2020].forEach(y=>{const x=hx+(y-T0+.5)/n*hw;ctx.textAlign='center';ctx.fillText(y,x,hy+hh+16)});
+  ctx.textAlign='left';ctx.fillText('condamnations par an',hx,hy-10);
+  const cm=MILES.filter(m=>t>=m.t&&t<m.t+2.5).pop();
+  if(cm){ctx.fillStyle=C.soft;ctx.textAlign='right';ctx.fillText('↳ '+cm.l+' ('+Math.floor(cm.t)+')',hx+hw,hy-10)}
+}
+
+function drawFeed(t,L){
+  const G=[];const seen={};
+  for(let i=EV.length-1;i>=0&&G.length<L.cards+1;i--){const e=EV[i];if(e.t>t)continue;
+    const key=e.date+'|'+e.aff;if(seen[key]){seen[key].list.push(e);continue}
+    seen[key]={e,list:[e],t:e.t};G.push(seen[key]);}
+  hitCards=[];
+  ctx.textAlign='left';ctx.fillStyle=C.muted;ctx.font=`500 15px ${MONO}`;
+  ctx.fillText('AU TRIBUNAL',L.cx,L.cy-62+(portrait?0:0)+ (portrait?44:0));
+  G.forEach((g,j)=>{
+    const newest=G[0]===g,age=t-g.t,slide=reduce?1:eOut(seg(age,0,.18));
+    const yy=L.cy-40+(portrait?44:0)+(j-(newest?0:0))*L.ch+(newest?(1-slide)*-20:0);
+    if(j>=L.cards)return;
+    const a=newest?slide:1;ctx.globalAlpha=a*(1-j*.13);
+    const e=g.e,col=LIN[e.lin].couleur,h=L.ch-12;
+    rr(L.cx,yy,L.cw,h,6);ctx.fillStyle='rgba(11,29,36,.85)';ctx.fill();ctx.strokeStyle=newest&&age<.3?col:C.line;ctx.lineWidth=newest&&age<.3?2:1;ctx.stroke();
+    ctx.fillStyle=C.muted;ctx.font=`400 12px ${MONO}`;
+    ctx.fillText(fmtDate(e.date)+' · '+CAT[e.cat][1],L.cx+14,yy+22);
+    const nd=g.list.filter(x=>x.st!=='def');
+    if(nd.length){ctx.fillStyle=C.sun;ctx.textAlign='right';const pi=nd.some(x=>x.st==='pi');ctx.fillText((nd.length<g.list.length?'EN PARTIE ':'')+(pi?'APPEL EN COURS':'POURVOI POSSIBLE'),L.cx+L.cw-14,yy+22);ctx.textAlign='left'}
+    ctx.fillStyle=C.paper;ctx.font=`700 20px ${DISPLAY}`;
+    const rank=x=>/morale/i.test(x.who)?9:/président|ministre|premier/i.test(x.fn)?0:/secrétaire général|trésorier|maire/i.test(x.fn)?1:/député|sénat/i.test(x.fn)?2:3;
+    const star=g.list.slice().sort((a,b)=>rank(a)-rank(b))[0];g.star=star;
+    let who=g.list.length>1?`${star.who} et ${g.list.length-1} autre${g.list.length>2?'s':''}`:e.who;
+    ctx.fillText(wrap(who,L.cw-28,1)[0],L.cx+14,yy+48);
+    ctx.fillStyle=C.soft;ctx.font=`400 13px ${MONO}`;
+    wrap(e.aff,L.cw-28,1).forEach((s,k)=>ctx.fillText(s,L.cx+14,yy+70+k*17));
+    const parts=[...new Set(g.list.map(x=>x.etiq))];
+    ctx.fillStyle=col;ctx.beginPath();ctx.arc(L.cx+19,yy+h-19,5,0,7);ctx.fill();
+    ctx.fillStyle=C.soft;ctx.font=`500 13px ${MONO}`;ctx.fillText(wrap(parts.join(', '),L.cw-50,1)[0],L.cx+32,yy+h-14);
+    ctx.globalAlpha=1;hitCards.push({x:L.cx,y:yy,w:L.cw,h,g});
+  });
+}
+
+/* ---------- lecture ---------- */
+let t=T0,playing=!reduce,speed=1,last=null,held=0;
+const YPS=1/1.05;
+const scrub=document.getElementById('scrub'),tc=document.getElementById('tc'),bPlay=document.getElementById('play');
+function frame(now){
+  const dt=last==null?0:Math.min(.1,(now-last)/1000);last=now;
+  if(playing){t+=dt*YPS*speed;if(t>=T1){t=T1;playing=false;bPlay.textContent='Lecture'}}
+  draw(t,dt);scrub.value=t;tc.textContent=Math.min(2026,Math.floor(t));
+  requestAnimationFrame(frame);
+}
+if(reduce){t=T1;bPlay.textContent='Lecture'}
+bPlay.onclick=()=>{if(t>=T1)t=T0;playing=!playing;bPlay.textContent=playing?'Pause':'Lecture'};
+document.getElementById('restart').onclick=()=>{t=T0;for(const k in pos)delete pos[k];playing=true;bPlay.textContent='Pause'};
+document.getElementById('speed').onclick=e=>{speed=speed===1?2:speed===2?4:1;e.target.textContent='×'+speed};
+scrub.oninput=()=>{t=+scrub.value;playing=false;bPlay.textContent='Lecture'};
+window.__casier={seek:x=>{t=x},play:p=>{playing=p},T0,T1,YPS};
+
+/* ---------- survol et clic ---------- */
+function at(ev){const r=cv.getBoundingClientRect();return[(ev.clientX-r.left)/r.width*W,(ev.clientY-r.top)/r.height*H]}
+cv.addEventListener('mousemove',ev=>{const [x,y]=at(ev);const h=hitRows.find(o=>x>=o.x&&x<=o.x+o.w&&y>=o.y-6&&y<=o.y+o.h+6);
+  if(!h){tip.hidden=true;cv.style.cursor=hitCards.some(o=>x>=o.x&&x<=o.x+o.w&&y>=o.y&&y<=o.y+o.h)?'pointer':'default';return}
+  cv.style.cursor='pointer';const l=h.r.l;
+  const R=h.r.raw,rd=Math.round(R.d),ra=Math.round(R.a),rp=Math.round(R.p),rh=Math.round(R.h);
+  let who='';if(S.mode==='porte'){const c={};EV.forEach(e=>{if(e.t<=t&&holder(e,t)===l.id)c[e.who]=(c[e.who]||0)+1});
+    const top=Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,5);if(top.length)who=`<br><span class="h">Casiers les plus lourds :</span> ${top.map(([n,k])=>esc(n)+' ('+k+')').join(', ')}`}
+  tip.innerHTML=`<b>${esc(nameAt(l,t))}</b>${esc(l.long)}<br><span class="h">${l.noms.filter(n=>n[0]>=T0-60).map(n=>n[0]<T0?esc(n[1]):n[0]+' '+esc(n[1])).join(' → ')}</span><br>${rd} définitive(s)`+(ra?`, ${ra} confirmée(s) en appel`:'')+(rp?`, ${rp} en 1re instance`:'')+(rh?`, ${rh} héritée(s)`:'')+(S.ratio?`<br>${h.r.den} élu(s) : ${h.r.v.toLocaleString('fr-FR',{maximumFractionDigits:1})} pour 100`:'')+who+(l.orig?`<br><span class="h">${l.orig.type==='scission'?'Scission de '+esc(nameAt(LIN[l.orig.de],l.orig.annee))+' en '+Math.floor(l.orig.annee):'Fondé en '+Math.floor(l.orig.annee)}</span>`:'');
+  tip.hidden=false;const sr=stage.getBoundingClientRect();let tx=ev.clientX-sr.left+14,ty=ev.clientY-sr.top+14;
+  if(tx+300>sr.width)tx=Math.max(4,sr.width-304);tip.style.left=tx+'px';tip.style.top=ty+'px'});
+cv.addEventListener('mouseleave',()=>tip.hidden=true);
+cv.addEventListener('click',ev=>{const [x,y]=at(ev);
+  const c=hitCards.find(o=>x>=o.x&&x<=o.x+o.w&&y>=o.y&&y<=o.y+o.h);if(c){showDetail(c.g.star||c.g.e,c.g.list.length);return}
+  const h=hitRows.find(o=>x>=o.x&&x<=o.x+o.w&&y>=o.y-6&&y<=o.y+o.h+6);if(h){F.lin=h.r.l.id;fparti.value=F.lin;renderTable()}});
+
+/* ---------- fiche ---------- */
+const detail=document.getElementById('detail');
+const srcUrl=s=>typeof s==='string'?s:`https://${s.lang}.wikipedia.org/w/index.php?search=${encodeURIComponent(s.q)}`;
+function showDetail(e,n){
+  detail.innerHTML=`<div class="d-meta">${fmtDate(e.date)} · <span class="dot" style="background:${LIN[e.lin].couleur}"></span>${esc(e.etiq)} · ${CAT[e.cat][0]} · <span class="pill ${e.st}">${ST[e.st]}</span></div>
+  <div class="d-title">${esc(e.who)}${n>1?` <small style="font:400 14px var(--mono);color:var(--muted)">et ${n-1} autre(s) condamné(s) le même jour</small>`:''}</div>
+  <p>${esc(e.fn)} · <b>${esc(e.aff)}</b>${e.brought?` · <span style="color:var(--muted)">comptée pour ${esc(e.brought)} à partir de ${Math.floor(e.tc)}</span>`:''}</p><p>${esc(e.note)}</p><p><span style="color:var(--muted)">Peine :</span> ${esc(e.peine)} · <a href="${esc(srcUrl(e.src))}" target="_blank" rel="noopener">source</a></p>`;
+}
+
+/* ---------- modes ---------- */
+function segs(id,key,conv){const el=document.getElementById(id);el.querySelectorAll('button').forEach(b=>b.onclick=()=>{
+  el.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));S[key]=conv(b.dataset.v);refilter()})}
+document.getElementById('mCat').innerHTML=FAM.filter(f=>!f[2]||ALL.some(e=>f[2].includes(e.cat))).map(f=>`<button type="button" data-v="${f[0]}" aria-pressed="${f[0]==='all'}">${f[1]}</button>`).join('');
+document.querySelectorAll('#tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#tabs button').forEach(x=>x.setAttribute('aria-selected',x===b));S.tab=b.dataset.v;
+  if(S.tab!=='resp'){document.querySelectorAll('#mEch button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.v==='0'))}
+  for(const k in pos)delete pos[k];refilter();renderTable()});
+segs('mCat','fam',v=>v);segs('mMode','mode',v=>v);segs('mEch','ratio',v=>v==='1');segs('mStat','stat',v=>v);segs('mInh','inh',v=>v==='1');
+
+/* ---------- tableau ---------- */
+const F={lin:'',cat:'',st:'',q:''};
+const fparti=document.getElementById('fparti'),tbody=document.getElementById('tbody');
+const cnt={};ALL.forEach(e=>cnt[e.lin]=(cnt[e.lin]||0)+1);
+fparti.innerHTML='<option value="">Tous les partis</option>'+Object.values(LIN).filter(l=>cnt[l.id]).sort((a,b)=>cnt[b.id]-cnt[a.id]).map(l=>`<option value="${l.id}">${esc(l.noms.map(n=>n[1]).slice(-4).join(' / '))} (${cnt[l.id]})</option>`).join('');
+fparti.onchange=()=>{F.lin=fparti.value;renderTable()};
+function chips(id,list,key){const el=document.getElementById(id);
+  el.innerHTML=list.map(([v,l])=>`<button type="button" data-v="${v}" aria-pressed="${v===''}">${l}</button>`).join('');
+  el.querySelectorAll('button').forEach(b=>b.onclick=()=>{el.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));F[key]=b.dataset.v;renderTable()})}
+chips('fcat',[['','Toutes infractions'],...Object.entries(CAT).map(([k,v])=>[k,v[1]])],'cat');
+chips('fstat',[['','Tous états'],['def','Définitives'],['ap','Confirmées en appel'],['pi','1re instance']],'st');
+document.getElementById('q').oninput=ev=>{F.q=ev.target.value.toLowerCase();renderTable()};
+const norm=s=>s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+function renderTable(){
+  const q=norm(F.q);
+  const rows=ALL.filter(e=>inTab(e)&&(!F.lin||e.lin===F.lin)&&(!F.cat||e.cat===F.cat)&&(!F.st||e.st===F.st)&&(!q||norm([e.who,e.aff,e.fn,e.note,e.etiq].join(' ')).includes(q)));
+  tbody.innerHTML=rows.map(e=>`<tr data-i="${e.i}"><td class="date">${esc(e.date)}</td><td class="who"><b>${esc(e.who)}</b><small>${esc(e.fn)}</small></td><td><span class="dot" style="background:${LIN[e.lin].couleur}"></span>${esc(e.etiq)}</td><td>${esc(e.aff)}</td><td>${CAT[e.cat][1]}</td><td>${esc(e.peine)}</td><td><span class="pill ${e.st}">${ST[e.st]}</span></td><td><a href="${esc(srcUrl(e.src))}" target="_blank" rel="noopener">lien ↗</a></td></tr>`).join('');
+  document.getElementById('shown').textContent=`${rows.length} condamnation${rows.length>1?'s':''} affichée${rows.length>1?'s':''} sur ${ALL.filter(inTab).length}`;
+}
+tbody.onclick=ev=>{if(ev.target.closest('a'))return;const tr=ev.target.closest('tr');if(tr)showDetail(ALL.find(e=>e.i===+tr.dataset.i),1)};
+
+refilter();renderTable();requestAnimationFrame(frame);
+})();
+</script>

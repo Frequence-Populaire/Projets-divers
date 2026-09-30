@@ -1,0 +1,3813 @@
+{
+ "_lisezmoi": "Parcours politique de chaque personne figurant dans condamnations.json, pour la règle « la personne porte ses condamnations ». parcours = liste chronologique [année décimale (année + (mois-1)/12, approximative au mois), code d'organisation de partis.json ou null] ; chaque entrée vaut jusqu'à la suivante. null = hors de la vie politique partisane : retrait réel et daté (fin de tous les mandats et fonctions partisanes). Un changement de nom au sein d'une même lignée n'exige pas de nouvelle entrée ; un changement de lignée, si. Sans parti mais élu : se / dvd / dvg ; un parti absent de partis.json (Ligue du Sud, Identité-Libertés, La Force du 13, Tapura…) est codé dvd/dvg/se. Collaborateurs non élus (directeurs de cabinet, salariés, assistants, trésoriers d'association) : rattachés au parti pendant la durée connue de leur fonction, sinon sans date de fin. En cas de doute sur un retrait, pas de retrait. deces renseigné seulement quand il est certain (vérifié en ligne pour les cas douteux, septembre 2026). Dates d'entrée souvent approximatives ; elles n'ont d'effet que si elles sont postérieures à une condamnation. Personnes morales : morale=true, sans parcours.",
+ "personnes": {
+  "Adrien Quatennens": {
+   "parcours": [
+    [
+     2016.1,
+     "lfi"
+    ],
+    [
+     2024.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député LFI du Nord 2017-2024 ; renonce à sa candidature en juin 2024 et se retire de la vie politique (salarié d'EDF)."
+  },
+  "Bernard Tapie": {
+   "parcours": [
+    [
+     1989.2,
+     "dvg"
+    ],
+    [
+     1994.0,
+     "mrg"
+    ],
+    [
+     1997.0,
+     null
+    ]
+   ],
+   "deces": "2021-10-03",
+   "note": "Élu député en 1989 (majorité présidentielle) ; rejoint le MRG (Énergie radicale, 1994) ; déchu de ses mandats en 1996-1997."
+  },
+  "Edmond Hervé": {
+   "parcours": [
+    [
+     1971.5,
+     "ps"
+    ],
+    [
+     2014.8,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PS de Rennes 1977-2008, sénateur 2008-2014 ; sans mandat après 2014."
+  },
+  "Gérard Dalongeville": {
+   "parcours": [
+    [
+     1995.2,
+     "ps"
+    ],
+    [
+     2009.3,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PS d'Hénin-Beaumont 2001-2009 ; exclu du PS et écarté de la mairie après son arrestation en 2009."
+  },
+  "Gérard Monate": {
+   "parcours": [
+    [
+     1972.0,
+     "ps"
+    ],
+    [
+     1990.0,
+     null
+    ]
+   ],
+   "deces": "2002-06",
+   "note": "Militant PS, PDG d'Urba jusqu'à la fin des années 1980."
+  },
+  "Gérard Peybernès": {
+   "parcours": [
+    [
+     1981.0,
+     "ps"
+    ]
+   ],
+   "deces": null,
+   "note": "Responsable du financement du PS ; date d'entrée approximative, aucun retrait daté connu."
+  },
+  "Henri Emmanuelli": {
+   "parcours": [
+    [
+     1971.5,
+     "ps"
+    ]
+   ],
+   "deces": "2017-03-21",
+   "note": "PS jusqu'à sa mort, député des Landes en fonctions."
+  },
+  "Henri Jibrayel": {
+   "parcours": [
+    [
+     1998.2,
+     "ps"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Conseiller général puis député PS 2007-2017 ; sans mandat après sa défaite de 2017."
+  },
+  "Jean-Christophe Cambadélis": {
+   "parcours": [
+    [
+     1986.0,
+     "ps"
+    ]
+   ],
+   "deces": null,
+   "note": "Au PS depuis 1986 ; quitte la direction en 2017 mais reste adhérent."
+  },
+  "Jean-Jacques Urvoas": {
+   "parcours": [
+    [
+     1990.0,
+     "ps"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député PS du Finistère, garde des Sceaux ; battu en juin 2017, retourne à l'université."
+  },
+  "Jean-Luc Mélenchon": {
+   "parcours": [
+    [
+     1976.9,
+     "ps"
+    ],
+    [
+     2008.9,
+     "pg"
+    ],
+    [
+     2016.1,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "Quitte le PS en novembre 2008 (Parti de gauche), fonde LFI en 2016."
+  },
+  "Jean-Marc Ayrault": {
+   "parcours": [
+    [
+     1971.0,
+     "ps"
+    ],
+    [
+     2017.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "PS ; plus aucun mandat après la fin du gouvernement en mai 2017."
+  },
+  "Jean-Michel Boucheron": {
+   "parcours": [
+    [
+     1971.5,
+     "ps"
+    ],
+    [
+     1993.3,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PS d'Angoulême 1977-1989 ; en fuite puis condamné, fin de carrière politique au plus tard en 1993."
+  },
+  "Jean-Noël Guérini": {
+   "parcours": [
+    [
+     1971.5,
+     "ps"
+    ],
+    [
+     2014.3,
+     "dvg"
+    ],
+    [
+     2024.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Quitte le PS en avril 2014 (La Force du 13) ; démissionne du Sénat le 21 mars 2024 après sa condamnation définitive."
+  },
+  "Jean-Paul Huchon": {
+   "parcours": [
+    [
+     1971.5,
+     "ps"
+    ],
+    [
+     2015.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Président PS de la région Île-de-France jusqu'en décembre 2015 ; sans mandat ensuite."
+  },
+  "Jean-Paul Trovero": {
+   "parcours": [
+    [
+     1995.2,
+     "pcf"
+    ],
+    [
+     2025.9,
+     "dvg"
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PCF de Fontaine 2014-2020 ; candidat « citoyen » contre la liste communiste aux municipales 2026 (annonce fin décembre 2025)."
+  },
+  "Jean-Pierre Kucheida": {
+   "parcours": [
+    [
+     1971.5,
+     "ps"
+    ],
+    [
+     2012.4,
+     "dvg"
+    ],
+    [
+     2014.3,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Privé d'investiture PS en 2012, candidat dissident battu ; démissionne de la mairie de Liévin début 2013, quitte la présidence d'agglomération en 2014."
+  },
+  "Jean-Vincent Placé": {
+   "parcours": [
+    [
+     2001.0,
+     "verts"
+    ],
+    [
+     2015.7,
+     "dvg"
+    ],
+    [
+     2017.8,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Quitte EELV en août 2015 (UDE) ; fin de son mandat de sénateur en septembre 2017."
+  },
+  "Jérôme Cahuzac": {
+   "parcours": [
+    [
+     1977.0,
+     "ps"
+    ],
+    [
+     2013.3,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Démissionne du gouvernement (mars 2013), quitte le PS et son mandat de député (avril 2013)."
+  },
+  "Karim Zéribi": {
+   "parcours": [
+    [
+     2008.2,
+     "dvg"
+    ],
+    [
+     2010.0,
+     "eelv"
+    ],
+    [
+     2014.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Conseiller municipal de Marseille (2008), adhère à EELV en 2010, député européen 2012-2014 ; hors parti ensuite (dates approximatives)."
+  },
+  "Martial Passi": {
+   "parcours": [
+    [
+     1993.2,
+     "pcf"
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PCF de Givors 1993-2017 ; démissionne de la mairie en 2017 mais reste conseiller municipal ; aucun retrait daté."
+  },
+  "Paul Giacobbi": {
+   "parcours": [
+    [
+     1982.2,
+     "mrg"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "MRG puis PRG ; président de l'exécutif corse 2010-2015, député jusqu'en juin 2017, battu."
+  },
+  "Pierre Mauroy": {
+   "parcours": [
+    [
+     1951.0,
+     "sfio"
+    ],
+    [
+     2011.7,
+     null
+    ]
+   ],
+   "deces": "2013-06-07",
+   "note": "SFIO puis PS ; quitte le Sénat en septembre 2011."
+  },
+  "Sylvie Andrieux": {
+   "parcours": [
+    [
+     1989.2,
+     "ps"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Élue PS à Marseille, députée jusqu'en 2017, ne se représente pas."
+  },
+  "Thomas Thévenoud": {
+   "parcours": [
+    [
+     1996.0,
+     "ps"
+    ],
+    [
+     2014.7,
+     "se"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Exclu du PS en septembre 2014, député non inscrit jusqu'en juin 2017."
+  },
+  "Éric Piolle": {
+   "parcours": [
+    [
+     2010.2,
+     "eelv"
+    ]
+   ],
+   "deces": null,
+   "note": "Élu régional EELV en 2010 (adhésion approximative), maire de Grenoble depuis 2014."
+  },
+  "Jean-Luc Bennahmias": {
+   "parcours": [
+    [
+     1984.1,
+     "verts"
+    ],
+    [
+     2007.2,
+     "modem"
+    ],
+    [
+     2014.2,
+     "dvg"
+    ],
+    [
+     2017.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Verts 1984, rejoint Bayrou en 2007, quitte le MoDem en 2014 (Front démocrate, devenu think tank en décembre 2017) ; sans mandat depuis 2014."
+  },
+  "Alexandre Nardella": {
+   "parcours": [
+    [
+     2007.9,
+     "modem"
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur administratif et financier du MoDem (date d'entrée approximative)."
+  },
+  "Anne Laperrouze": {
+   "parcours": [
+    [
+     2004.5,
+     "udf"
+    ],
+    [
+     2007.9,
+     "modem"
+    ]
+   ],
+   "deces": null,
+   "note": "Députée européenne UDF puis MoDem 2004-2009 ; aucun retrait daté connu."
+  },
+  "Bernard Lehideux": {
+   "parcours": [
+    [
+     1998.3,
+     "udf"
+    ],
+    [
+     2007.9,
+     "modem"
+    ]
+   ],
+   "deces": null,
+   "note": "Député européen UDF/MoDem (1998-1999, 2004-2009) ; aucun retrait daté connu."
+  },
+  "Janelly Fourtou": {
+   "parcours": [
+    [
+     1999.5,
+     "udf"
+    ],
+    [
+     2009.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Députée européenne UDF puis MoDem 1999-2009, ne se représente pas."
+  },
+  "Jean-Jacques Jégou": {
+   "parcours": [
+    [
+     1983.2,
+     "udf"
+    ],
+    [
+     2011.7,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "UDF puis MoDem, député puis sénateur jusqu'en 2011."
+  },
+  "Michel Mercier": {
+   "parcours": [
+    [
+     1977.2,
+     "cds"
+    ],
+    [
+     2009.5,
+     "dvd"
+    ],
+    [
+     2012.8,
+     "udi"
+    ]
+   ],
+   "deces": null,
+   "note": "CDS/UDF/MoDem ; quitte le MoDem en entrant au gouvernement (juin 2009), Alliance centriste puis UDI ; pas de retrait daté certain."
+  },
+  "Thierry Cornillet": {
+   "parcours": [
+    [
+     1989.2,
+     "radical"
+    ]
+   ],
+   "deces": null,
+   "note": "Parti radical (valoisien), maire de Montélimar 1989-2008, député européen ; aucun retrait daté connu."
+  },
+  "Bernard Bosson": {
+   "parcours": [
+    [
+     1977.2,
+     "cds"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2007.5,
+     null
+    ]
+   ],
+   "deces": "2018-05-12",
+   "note": "CDS/UDF, rejoint l'UMP en 2002 ; quitte la mairie d'Annecy en janvier 2007, battu aux législatives de juin 2007."
+  },
+  "Jacques Barrot": {
+   "parcours": [
+    [
+     1967.2,
+     "cd"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2004.3,
+     null
+    ]
+   ],
+   "deces": "2014-12-03",
+   "note": "Centre démocrate/CDS/UDF, président du groupe UMP 2002 ; commissaire européen en 2004 puis Conseil constitutionnel."
+  },
+  "Pierre Méhaignerie": {
+   "parcours": [
+    [
+     1973.2,
+     "cd"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2020.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "CDS/UDF puis UMP en 2002 ; député jusqu'en 2017, maire de Vitré jusqu'en 2020."
+  },
+  "Christine Boutin": {
+   "parcours": [
+    [
+     1977.2,
+     "cds"
+    ],
+    [
+     2001.0,
+     "dvd"
+    ],
+    [
+     2017.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "UDF-CDS, puis Forum des républicains sociaux / Parti chrétien-démocrate (associé à l'UMP) ; démissionne du conseil départemental fin octobre 2017 et annonce son retrait."
+  },
+  "François Léotard": {
+   "parcours": [
+    [
+     1977.2,
+     "pr"
+    ],
+    [
+     1998.4,
+     "udf"
+    ],
+    [
+     2002.4,
+     null
+    ]
+   ],
+   "deces": "2023-04-25",
+   "note": "PR puis UDF (reste à l'UDF en 1998) ; quitte la vie politique en 2002."
+  },
+  "Renaud Donnedieu de Vabres": {
+   "parcours": [
+    [
+     1986.2,
+     "pr"
+    ],
+    [
+     1998.4,
+     "udf"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2014.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "PR/UDF puis UMP en 2002 ; ministre jusqu'en 2007, battu à Tours en 2008 ; retrait approximatif."
+  },
+  "Jean-Pierre Thomas": {
+   "parcours": [
+    [
+     1986.2,
+     "pr"
+    ],
+    [
+     1998.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Trésorier du PR, député des Vosges ; carrière bancaire ensuite (retrait approximatif)."
+  },
+  "Maurice Arreckx": {
+   "parcours": [
+    [
+     1959.2,
+     "dvd"
+    ],
+    [
+     1977.2,
+     "pr"
+    ],
+    [
+     1995.8,
+     null
+    ]
+   ],
+   "deces": "2001-03-21",
+   "note": "Maire de Toulon 1959-1985, UDF-PR ; quitte le Sénat en 1995."
+  },
+  "Michel Mouillot": {
+   "parcours": [
+    [
+     1989.2,
+     "pr"
+    ],
+    [
+     1997.0,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire UDF-PR de Cannes 1989-1997, écarté après ses condamnations."
+  },
+  "Alain Juppé": {
+   "parcours": [
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2019.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Quitte LR en 2019 ; nommé au Conseil constitutionnel en mars 2019."
+  },
+  "Jacques Chirac": {
+   "parcours": [
+    [
+     1967.2,
+     "udr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2007.4,
+     null
+    ]
+   ],
+   "deces": "2019-09-26",
+   "note": "UDR puis fondateur du RPR ; quitte la présidence en mai 2007, siège ensuite au Conseil constitutionnel sans activité partisane."
+  },
+  "Alain Carignon": {
+   "parcours": [
+    [
+     1976.2,
+     "udr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Gaulliste depuis 1976, redevenu élu LR à Grenoble ; aucun retrait daté."
+  },
+  "Anne-Marie Affret": {
+   "parcours": [
+    [
+     1983.2,
+     "rpr"
+    ]
+   ],
+   "deces": null,
+   "note": "Élue RPR du 5e arrondissement de Paris ; aucun retrait daté connu."
+  },
+  "Brice Hortefeux": {
+   "parcours": [
+    [
+     1977.0,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "RPR, UMP, LR ; toujours élu LR (conseil régional)."
+  },
+  "Charles Pasqua": {
+   "parcours": [
+    [
+     1958.9,
+     "unr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     1999.3,
+     "rpf99"
+    ],
+    [
+     2011.7,
+     null
+    ]
+   ],
+   "deces": "2015-06-29",
+   "note": "Gaulliste, quitte le RPR en 1999 (RPF) ; quitte le Sénat en septembre 2011."
+  },
+  "Christine Lagarde": {
+   "parcours": [
+    [
+     2005.4,
+     "ump"
+    ],
+    [
+     2011.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Ministre à partir de juin 2005 ; directrice du FMI en juillet 2011."
+  },
+  "Claude Guéant": {
+   "parcours": [
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2012.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Haut fonctionnaire auprès de Sarkozy dès 2002, candidat UMP battu aux législatives de juin 2012 ; sans fonction ensuite."
+  },
+  "François Fillon": {
+   "parcours": [
+    [
+     1976.0,
+     "udr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Annonce son retrait de la vie politique après la présidentielle 2017 ; ne se représente pas aux législatives."
+  },
+  "Penelope Fillon": {
+   "parcours": [
+    [
+     1998.0,
+     "rpr"
+    ],
+    [
+     2014.0,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Rattachée à la période de ses emplois d'assistante parlementaire (1998-2013)."
+  },
+  "Marc Joulaud": {
+   "parcours": [
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2020.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député UMP, député européen, maire LR de Sablé battu en juin 2020."
+  },
+  "Georges Pérol": {
+   "parcours": [
+    [
+     1977.2,
+     "rpr"
+    ],
+    [
+     1995.4,
+     null
+    ]
+   ],
+   "deces": "2024-03-16",
+   "note": "Maire RPR de Meymac 1977-1995."
+  },
+  "Georges Tron": {
+   "parcours": [
+    [
+     1983.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2021.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire LR de Draveil ; incarcéré, démissionne le 25 mai 2021."
+  },
+  "Brigitte Gruel": {
+   "parcours": [
+    [
+     1995.4,
+     "dvd"
+    ]
+   ],
+   "deces": null,
+   "note": "Adjointe au maire de Draveil (majorité de G. Tron) ; aucun retrait daté connu."
+  },
+  "Guy Drut": {
+   "parcours": [
+    [
+     1986.2,
+     "rpr"
+    ],
+    [
+     2008.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député RPR 1986-1997, maire de Coulommiers 1992-2008."
+  },
+  "Isabelle Balkany": {
+   "parcours": [
+    [
+     1983.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2020.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Première adjointe de Levallois ; ne se représente pas aux municipales de mars 2020."
+  },
+  "Patrick Balkany": {
+   "parcours": [
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2020.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire de Levallois ; incarcéré en 2019, ne se représente pas en mars 2020."
+  },
+  "Jacques Boyon": {
+   "parcours": [
+    [
+     1971.2,
+     "udr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2001.2,
+     null
+    ]
+   ],
+   "deces": "2019-01-15",
+   "note": "Trésorier du RPR, maire de Pont-d'Ain jusqu'en 2001."
+  },
+  "Jean Tiberi": {
+   "parcours": [
+    [
+     1965.2,
+     "unr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2014.2,
+     null
+    ]
+   ],
+   "deces": "2025-05-27",
+   "note": "Député de Paris jusqu'en 2012, maire du 5e jusqu'en 2014."
+  },
+  "Xavière Tiberi": {
+   "parcours": [
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2014.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Collaboratrice de son mari : rattachée à la durée des mandats de Jean Tiberi."
+  },
+  "Jean de Gaulle": {
+   "parcours": [
+    [
+     1986.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2007.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député RPR puis UMP jusqu'en 2007, ne se représente pas."
+  },
+  "Louise-Yvonne Casetta": {
+   "parcours": [
+    [
+     1977.0,
+     "rpr"
+    ],
+    [
+     1998.0,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Salariée du RPR (directrice administrative) ; date de départ approximative."
+  },
+  "Michel Giraud": {
+   "parcours": [
+    [
+     1967.2,
+     "udr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2004.2,
+     null
+    ]
+   ],
+   "deces": "2011-10-27",
+   "note": "Président RPR de la région Île-de-France 1976-1988 et 1992-1998 ; conseiller régional jusqu'en 2004 (approx.)."
+  },
+  "Michel Noir": {
+   "parcours": [
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     1990.9,
+     "dvd"
+    ],
+    [
+     1995.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Quitte le RPR fin 1990 ; quitte la mairie de Lyon en 1995."
+  },
+  "Michel Roussin": {
+   "parcours": [
+    [
+     1986.2,
+     "rpr"
+    ],
+    [
+     1997.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur de cabinet de Chirac, ministre 1993-1994, élu RPR ; sans mandat après 1997 (approx.)."
+  },
+  "Rémy Chardon": {
+   "parcours": [
+    [
+     1989.2,
+     "rpr"
+    ],
+    [
+     1995.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur de cabinet du maire de Paris : rattaché à la durée de sa fonction (approximative)."
+  },
+  "Nicolas Bazire": {
+   "parcours": [
+    [
+     1993.2,
+     "rpr"
+    ],
+    [
+     1995.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur de cabinet de Balladur et de sa campagne : rattaché à la durée de sa fonction."
+  },
+  "Thierry Gaubert": {
+   "parcours": [
+    [
+     1993.2,
+     "rpr"
+    ],
+    [
+     1995.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Collaborateur de Sarkozy au Budget : rattaché à la durée de sa fonction."
+  },
+  "Pierre Bédier": {
+   "parcours": [
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2024.4,
+     "dvd"
+    ]
+   ],
+   "deces": null,
+   "note": "48 ans chez les gaullistes ; quitte LR en juin 2024 (alliance Ciotti-RN), reste président du département des Yvelines."
+  },
+  "Nicolas Sarkozy": {
+   "parcours": [
+    [
+     1974.5,
+     "udr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2012.4,
+     null
+    ],
+    [
+     2014.7,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2016.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Retrait annoncé en mai 2012, retour à la tête de l'UMP en septembre 2014, retrait définitif annoncé après la primaire de novembre 2016."
+  },
+  "Éric Cesari": {
+   "parcours": [
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur général de l'UMP ; aucun retrait daté connu."
+  },
+  "Fabienne Liadzé": {
+   "parcours": [
+    [
+     2007.0,
+     "ump"
+    ],
+    [
+     2014.6,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Salariée de l'UMP, quitte le parti après l'affaire Bygmalion (2014)."
+  },
+  "Pierre Chassat": {
+   "parcours": [
+    [
+     2007.0,
+     "ump"
+    ],
+    [
+     2014.6,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Salarié de l'UMP, quitte le parti après l'affaire Bygmalion (2014)."
+  },
+  "Guillaume Lambert": {
+   "parcours": [
+    [
+     2011.9,
+     "ump"
+    ],
+    [
+     2012.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur de campagne 2012 : rattaché à la durée de la campagne."
+  },
+  "Philippe Blanchetier": {
+   "parcours": [
+    [
+     2012.0,
+     "ump"
+    ],
+    [
+     2012.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Avocat, trésorier de l'association de financement 2012 : rattaché à la durée de la campagne."
+  },
+  "Philippe Briand": {
+   "parcours": [
+    [
+     1983.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Député RPR/UMP, trésorier de la campagne 2012 ; aucun retrait daté certain."
+  },
+  "Jérôme Lavrilleux": {
+   "parcours": [
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2014.5,
+     "se"
+    ],
+    [
+     2019.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Quitte l'UMP en 2014 après ses aveux, député européen non inscrit jusqu'en 2019."
+  },
+  "Jean-Paul Delevoye": {
+   "parcours": [
+    [
+     1980.0,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2017.0,
+     "lrem"
+    ],
+    [
+     2019.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "RPR/UMP, rallié à En marche (2017) ; démissionne du gouvernement en décembre 2019."
+  },
+  "Jérôme Peyrat": {
+   "parcours": [
+    [
+     1995.0,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2017.5,
+     "lrem"
+    ]
+   ],
+   "deces": null,
+   "note": "UMP/LR puis La République en marche ; conseiller à l'Élysée ; aucun retrait daté (dates approximatives)."
+  },
+  "Alexandre Benalla": {
+   "parcours": [
+    [
+     2011.0,
+     "ps"
+    ],
+    [
+     2012.6,
+     null
+    ],
+    [
+     2016.8,
+     "lrem"
+    ],
+    [
+     2018.6,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Service d'ordre du PS (campagne 2012), puis En marche et Élysée jusqu'à son licenciement en 2018."
+  },
+  "Vincent Crase": {
+   "parcours": [
+    [
+     2016.9,
+     "lrem"
+    ],
+    [
+     2018.6,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Salarié de LREM chargé de la sécurité, licencié en 2018."
+  },
+  "Maurice Papon": {
+   "parcours": [
+    [
+     1968.5,
+     "udr"
+    ],
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     1983.2,
+     null
+    ]
+   ],
+   "deces": "2007-02-17",
+   "note": "Préfet sans parti jusqu'en 1968 ; député UDR/RPR 1968-1981, maire de Saint-Amand-Montrond jusqu'en 1983."
+  },
+  "Gaston Flosse": {
+   "parcours": [
+    [
+     1965.2,
+     "unr"
+    ],
+    [
+     1977.0,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2016.2,
+     "se"
+    ],
+    [
+     2024.6,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Gaulliste (Tahoeraa affilié au RPR puis à l'UMP), sans affiliation nationale après 2016 ; quitte la présidence de son parti en juillet 2024 après 52 ans de vie politique."
+  },
+  "Édouard Fritch": {
+   "parcours": [
+    [
+     1996.4,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2016.2,
+     "se"
+    ]
+   ],
+   "deces": null,
+   "note": "Tahoeraa (affilié RPR/UMP) puis fonde le Tapura Huiraatira en 2016."
+  },
+  "Pascale Haiti": {
+   "parcours": [
+    [
+     2013.4,
+     "ump"
+    ],
+    [
+     2016.2,
+     "se"
+    ]
+   ],
+   "deces": null,
+   "note": "Élue Tahoeraa à l'assemblée de Polynésie ; parti sans affiliation nationale après 2016."
+  },
+  "Émile Vernaudon": {
+   "parcours": [
+    [
+     1977.2,
+     "se"
+    ]
+   ],
+   "deces": null,
+   "note": "Maire autonomiste de Mahina 1977-2009 ; encore candidat aux municipales 2026."
+  },
+  "Gilles Tefaatau": {
+   "parcours": [
+    [
+     1995.0,
+     "se"
+    ],
+    [
+     2009.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur de cabinet du maire de Mahina : rattaché à la durée de la fonction (approximative)."
+  },
+  "René Marratier": {
+   "parcours": [
+    [
+     1989.2,
+     "se"
+    ],
+    [
+     2014.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire de La Faute-sur-Mer 1989-2014."
+  },
+  "Robert Ménard": {
+   "parcours": [
+    [
+     2014.2,
+     "se"
+    ]
+   ],
+   "deces": null,
+   "note": "Sans parti avant 2014 ; maire de Béziers depuis 2014."
+  },
+  "Jean-François Donzel": {
+   "parcours": [
+    [
+     1992.2,
+     "se"
+    ]
+   ],
+   "deces": null,
+   "note": "Conseiller régional d'Île-de-France ; parcours mal documenté, aucun retrait daté."
+  },
+  "Jean-Marie Le Pen": {
+   "parcours": [
+    [
+     1956.0,
+     "dvd"
+    ],
+    [
+     1958.9,
+     "cnip"
+    ],
+    [
+     1962.9,
+     null
+    ],
+    [
+     1972.8,
+     "fn"
+    ],
+    [
+     2015.6,
+     "se"
+    ],
+    [
+     2019.5,
+     null
+    ]
+   ],
+   "deces": "2025-01-07",
+   "note": "Député poujadiste puis CNIP ; fondateur du FN, exclu en août 2015 ; fin de son mandat européen en 2019."
+  },
+  "Marine Le Pen": {
+   "parcours": [
+    [
+     1986.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Adhère au FN en 1986."
+  },
+  "Louis Aliot": {
+   "parcours": [
+    [
+     1990.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN/RN, maire de Perpignan."
+  },
+  "Bruno Gollnisch": {
+   "parcours": [
+    [
+     1983.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN/RN, aucun retrait daté."
+  },
+  "Jean-François Jalkh": {
+   "parcours": [
+    [
+     1974.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN/RN depuis les années 1970."
+  },
+  "Wallerand de Saint-Just": {
+   "parcours": [
+    [
+     1985.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN/RN, trésorier ; entrée approximative."
+  },
+  "Marie-Christine Arnautu": {
+   "parcours": [
+    [
+     1974.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN, députée européenne 2014-2019 ; entrée approximative."
+  },
+  "Dominique Bilde": {
+   "parcours": [
+    [
+     2011.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN/RN, députée européenne ; entrée approximative."
+  },
+  "Mylène Troszczynski": {
+   "parcours": [
+    [
+     2011.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN, députée européenne 2014-2019 ; entrée approximative."
+  },
+  "Fernand Le Rachinel": {
+   "parcours": [
+    [
+     1984.0,
+     "fn"
+    ],
+    [
+     2008.8,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député européen FN ; démissionne du FN le 21 octobre 2008 (litige financier)."
+  },
+  "Nicolas Bay": {
+   "parcours": [
+    [
+     1999.1,
+     "mnr"
+    ],
+    [
+     2011.0,
+     "fn"
+    ],
+    [
+     2022.1,
+     "reconquete"
+    ],
+    [
+     2024.5,
+     "dvd"
+    ]
+   ],
+   "deces": null,
+   "note": "MNR, puis FN (vers 2011), rejoint Reconquête en février 2022, puis Identité-Libertés en juin 2024 (codé dvd)."
+  },
+  "Julien Odoul": {
+   "parcours": [
+    [
+     2014.9,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Rejoint le FN fin 2014, député RN."
+  },
+  "Timothée Houssin": {
+   "parcours": [
+    [
+     2014.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Assistant de Nicolas Bay, député RN depuis 2022."
+  },
+  "Catherine Griset": {
+   "parcours": [
+    [
+     1995.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Collaboratrice de Marine Le Pen, députée européenne RN."
+  },
+  "Charles Hourcade": {
+   "parcours": [
+    [
+     2000.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Salarié du FN (graphiste) ; entrée approximative."
+  },
+  "Charles Van Houtte": {
+   "parcours": [
+    [
+     1990.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Collaborateur du FN ; entrée approximative."
+  },
+  "Guillaume L'Huillier": {
+   "parcours": [
+    [
+     2000.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Directeur de cabinet de J.-M. Le Pen ; entrée approximative."
+  },
+  "Gérald Gérin": {
+   "parcours": [
+    [
+     1993.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Assistant de J.-M. Le Pen ; entrée approximative."
+  },
+  "Jeanne Pavard": {
+   "parcours": [
+    [
+     2010.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Salariée du FN ; entrée approximative."
+  },
+  "Laurent Salles": {
+   "parcours": [
+    [
+     2004.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Salarié du FN ; entrée approximative."
+  },
+  "Loup Viallet": {
+   "parcours": [
+    [
+     2014.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Assistant parlementaire FN ; entrée approximative."
+  },
+  "Micheline Bruna": {
+   "parcours": [
+    [
+     1984.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Secrétaire de J.-M. Le Pen ; entrée approximative."
+  },
+  "Thierry Légier": {
+   "parcours": [
+    [
+     1992.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Garde du corps de J.-M. puis Marine Le Pen ; entrée approximative."
+  },
+  "Yann Le Pen": {
+   "parcours": [
+    [
+     1990.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Organisatrice des événements du FN ; entrée approximative."
+  },
+  "Nicolas Crochet": {
+   "parcours": [
+    [
+     2012.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Expert-comptable du FN et de Jeanne (prestataire) ; entrée approximative."
+  },
+  "Olivier Duguet": {
+   "parcours": [
+    [
+     2012.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Trésorier du micro-parti Jeanne ; entrée approximative."
+  },
+  "Jacques Bompard": {
+   "parcours": [
+    [
+     1972.8,
+     "fn"
+    ],
+    [
+     2005.9,
+     "mpf"
+    ],
+    [
+     2010.5,
+     "dvd"
+    ]
+   ],
+   "deces": null,
+   "note": "Quitte le FN fin 2005 (MPF), fonde la Ligue du Sud en 2010 ; candidat battu à Orange en mars 2026, pas de retrait annoncé."
+  },
+  "Bruno Mégret": {
+   "parcours": [
+    [
+     1985.8,
+     "fn"
+    ],
+    [
+     1999.1,
+     "mnr"
+    ],
+    [
+     2008.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "FN 1985, fonde le MNR en 1999, se retire en 2008."
+  },
+  "Catherine Mégret": {
+   "parcours": [
+    [
+     1997.1,
+     "fn"
+    ],
+    [
+     1999.1,
+     "mnr"
+    ],
+    [
+     2002.8,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Élue maire de Vitrolles en 1997 (FN), MNR ; perd la mairie en 2002."
+  },
+  "Front national (personne morale)": {
+   "morale": true
+  },
+  "Les Républicains, ex-UMP (personne morale)": {
+   "morale": true
+  },
+  "Reconquête (personne morale)": {
+   "morale": true
+  },
+  "La France insoumise (personne morale)": {
+   "morale": true
+  },
+  "Front national, devenu Rassemblement national (personne morale)": {
+   "morale": true
+  },
+  "Jeanne (micro-parti, personne morale)": {
+   "morale": true
+  },
+  "MoDem (personne morale)": {
+   "morale": true
+  },
+  "UDF (personne morale)": {
+   "morale": true
+  },
+  "Éric Zemmour": {
+   "parcours": [
+    [
+     2021.9,
+     "reconquete"
+    ]
+   ],
+   "deces": null,
+   "note": "Sans parti avant la fondation de Reconquête (décembre 2021), qu'il préside."
+  },
+  "Paul Vergès": {
+   "parcours": [
+    [
+     1946.5,
+     "pcf"
+    ]
+   ],
+   "deces": "2016-11-12",
+   "note": "Militant puis dirigeant du Parti communiste réunionnais, affilié au PCF ; député, sénateur, président de région. Décédé en 2016."
+  },
+  "André Le Troquer": {
+   "parcours": [
+    [
+     1945,
+     "sfio"
+    ],
+    [
+     1958.9,
+     null
+    ]
+   ],
+   "deces": "1963-11-11",
+   "note": "Président de l'Assemblée nationale sous la IVe République, SFIO ; quitte la vie politique après 1958."
+  },
+  "Pierre Lagaillarde": {
+   "parcours": [
+    [
+     1958.9,
+     "se"
+    ],
+    [
+     1962.3,
+     null
+    ]
+   ],
+   "deces": "2014-08-17",
+   "note": "Député d'Alger de 1958 à 1962, sans parti de la liste."
+  },
+  "Edmond Simeoni": {
+   "parcours": [
+    [
+     1967,
+     "se"
+    ]
+   ],
+   "deces": "2018-12-14",
+   "note": "Fondateur de l'Action régionaliste corse (ARC), autonomiste."
+  },
+  "Jacques Médecin": {
+   "parcours": [
+    [
+     1961,
+     "cnip"
+    ],
+    [
+     1990.8,
+     null
+    ]
+   ],
+   "deces": "1998-11-17",
+   "note": "Maire de Nice de 1966 à 1990, proche du CNIP puis apparenté RPR ; s'enfuit en Uruguay en 1990."
+  },
+  "Raphaël Arnault": {
+   "parcours": [
+    [
+     2024.5,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "Porte-parole de la Jeune Garde antifasciste, élu député LFI en juillet 2024."
+  },
+  "José Bové": {
+   "parcours": [
+    [
+     2009.4,
+     "eelv"
+    ],
+    [
+     2019.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Syndicaliste paysan ; député européen Europe Écologie de 2009 à 2019."
+  },
+  "Raymonde Dien": {
+   "parcours": [
+    [
+     1947.0,
+     "pcf"
+    ]
+   ],
+   "deces": "2022-08-19",
+   "note": "Militante communiste, adhérente du PCF depuis 1947 ; décédée à Saint-Denis en 2022."
+  },
+  "Henri Martin": {
+   "parcours": [
+    [
+     1944.0,
+     "pcf"
+    ]
+   ],
+   "deces": "2015-02-17",
+   "note": "Militant PCF depuis 1944, permanent du parti, membre du comité central 1956-1994 ; décédé en 2015."
+  },
+  "Alban Liechti": {
+   "parcours": [
+    [
+     1950.0,
+     "pcf"
+    ]
+   ],
+   "deces": "2024-08-29",
+   "note": "Militant communiste depuis l'adolescence (entrée approximative), premier « soldat du refus » ; décédé en 2024."
+  },
+  "André Rives-Henrÿs": {
+   "parcours": [
+    [
+     1962.8,
+     "unr"
+    ],
+    [
+     1972.4,
+     null
+    ]
+   ],
+   "deces": "1990-01-04",
+   "note": "Député gaulliste (UNR/UDR) de Paris 1962-1967 et 1968-1972 ; démissionne en mai 1972 après l'affaire, sans mandat ensuite ; décédé en 1990."
+  },
+  "Régis Devaux": {
+   "parcours": [
+    [
+     1985.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant FN, colleur d'affiches (entrée approximative)."
+  },
+  "Yves Chalier": {
+   "parcours": [
+    [
+     1982.9,
+     "ps"
+    ],
+    [
+     1986.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Chef de cabinet de Christian Nucci à la Coopération : rattaché à la durée de la fonction (fin 1982-mars 1986)."
+  },
+  "M. B., agent du DPS": {
+   "parcours": [
+    [
+     1995.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Membre du DPS, service d'ordre du FN (entrée approximative)."
+  },
+  "M. B., chef d'équipe du DPS": {
+   "parcours": [
+    [
+     1995.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Responsable d'équipe du DPS, service d'ordre du FN (entrée approximative)."
+  },
+  "M. F., agent du DPS": {
+   "parcours": [
+    [
+     1995.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Membre du DPS, service d'ordre du FN (entrée approximative)."
+  },
+  "Mario D'Ambrosio": {
+   "parcours": [
+    [
+     1994.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant FN, colleur d'affiches à Marseille (entrée approximative)."
+  },
+  "Pierre Giglio": {
+   "parcours": [
+    [
+     1994.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant FN, chef d'une équipe de colleurs à Marseille (entrée approximative)."
+  },
+  "Robert Lagier": {
+   "parcours": [
+    [
+     1994.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant FN, colleur d'affiches à Marseille (entrée approximative)."
+  },
+  "Frédéric Boccaletti": {
+   "parcours": [
+    [
+     1994.0,
+     "fn"
+    ],
+    [
+     1999.1,
+     "mnr"
+    ],
+    [
+     2008.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FNJ (1994), MNR en 1999, revient au FN en 2008 ; conseiller régional, député RN depuis 2022, maire de Six-Fours depuis 2026."
+  },
+  "Noël Mamère": {
+   "parcours": [
+    [
+     1989.2,
+     "dvg"
+    ],
+    [
+     1998.0,
+     "verts"
+    ],
+    [
+     2013.7,
+     "dvg"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire de Bègles (1989), Génération écologie puis Convergence écologie solidarité, rejoint les Verts en 1998 ; quitte EELV en septembre 2013 ; sans mandat après juin 2017."
+  },
+  "Christian Cuvilliez": {
+   "parcours": [
+    [
+     1965.0,
+     "pcf"
+    ],
+    [
+     2014.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PCF de Dieppe 1989-2001, député 1997-2002, conseiller municipal 2008-2014 ; met fin à sa carrière en 2014 (entrée approximative)."
+  },
+  "Ségolène Royal": {
+   "parcours": [
+    [
+     1978.0,
+     "ps"
+    ]
+   ],
+   "deces": null,
+   "note": "PS depuis la fin des années 1970 ; aucune rupture ni retrait datés avec certitude."
+  },
+  "Manuel Aeschlimann": {
+   "parcours": [
+    [
+     1995.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Élu RPR/UMP/LR d'Asnières (dates d'entrée approximatives), maire, vice-président de la Métropole du Grand Paris depuis 2020."
+  },
+  "Michel Lacroix": {
+   "parcours": [
+    [
+     2008.2,
+     "se"
+    ]
+   ],
+   "deces": null,
+   "note": "Conseiller municipal d'opposition du Broc (date approximative) ; aucun retrait daté connu."
+  },
+  "Nicolas Daragon": {
+   "parcours": [
+    [
+     2008.2,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Conseiller municipal UMP de Valence (2008, approx.), maire LR depuis 2014, ministre en 2024."
+  },
+  "Julien Sanchez": {
+   "parcours": [
+    [
+     2002.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "FN/RN depuis sa jeunesse (entrée approximative), maire de Beaucaire, député européen."
+  },
+  "Valérie Boyer": {
+   "parcours": [
+    [
+     2001.2,
+     "dvd"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Élue à Marseille en 2001, UMP puis LR, députée puis sénatrice depuis 2020 (débuts approximatifs)."
+  },
+  "Thierry Robert": {
+   "parcours": [
+    [
+     2008.2,
+     "se"
+    ],
+    [
+     2011.0,
+     "modem"
+    ],
+    [
+     2018.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire de Saint-Leu (2008), député MoDem 2012-2018 ; déchu et inéligible par le Conseil constitutionnel en juillet 2018 (dates d'entrée approximatives)."
+  },
+  "Robert Navarro": {
+   "parcours": [
+    [
+     1980.0,
+     "ps"
+    ],
+    [
+     2010.1,
+     "dvg"
+    ],
+    [
+     2017.8,
+     "lrem"
+    ],
+    [
+     2019.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Premier fédéral PS de l'Hérault, exclu du PS début 2010 ; sénateur DVG réélu en 2014, rattaché au groupe LREM ; démissionne du Sénat en juin 2019."
+  },
+  "Jean-Jacques Panunzi": {
+   "parcours": [
+    [
+     1992.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Élu gaulliste de Corse-du-Sud (entrée approximative), président du conseil général, sénateur LR depuis 2014."
+  },
+  "Catherine Lemorton": {
+   "parcours": [
+    [
+     1998.0,
+     "ps"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Députée PS 2007-2017 ; battue en juin 2017, annonce quitter la vie politique (entrée approximative)."
+  },
+  "Dominique Tian": {
+   "parcours": [
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2020.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député UMP/LR 2002-2017, premier adjoint de Marseille jusqu'en 2020 ; se retire en juin 2020 avec J.-C. Gaudin."
+  },
+  "Maryse Joissains-Masini": {
+   "parcours": [
+    [
+     2001.2,
+     "dvd"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2021.7,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire d'Aix-en-Provence 2001-2021, UMP puis LR ; démissionne en septembre 2021."
+  },
+  "Denis Baupin": {
+   "parcours": [
+    [
+     1989.0,
+     "verts"
+    ],
+    [
+     2016.3,
+     "dvg"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Verts/EELV (entrée approximative), quitte EELV en avril 2016 ; fin de son mandat de député en juin 2017."
+  },
+  "Mustapha Laabid": {
+   "parcours": [
+    [
+     2016.9,
+     "lrem"
+    ],
+    [
+     2021.7,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député LREM 2017-2021 ; démissionne en septembre 2021 après sa condamnation définitive."
+  },
+  "Stéphanie Kerbarh": {
+   "parcours": [
+    [
+     2017.0,
+     "lrem"
+    ],
+    [
+     2021.5,
+     "se"
+    ],
+    [
+     2022.3,
+     "radical"
+    ],
+    [
+     2022.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Venue du Parti radical, LREM en 2017, exclue en juin 2021 ; candidate du Parti radical battue en 2022, aucune candidature connue depuis."
+  },
+  "Bastien Lachaud": {
+   "parcours": [
+    [
+     2016.1,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant du PG puis de LFI, député depuis 2017."
+  },
+  "Manuel Bompard": {
+   "parcours": [
+    [
+     2009.0,
+     "pg"
+    ],
+    [
+     2016.1,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "Parti de gauche (entrée approximative), puis LFI dont il devient coordinateur."
+  },
+  "Stéphane Trompille": {
+   "parcours": [
+    [
+     2016.9,
+     "lrem"
+    ],
+    [
+     2022.4,
+     "se"
+    ],
+    [
+     2022.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député LREM 2017-2022 ; candidat dissident battu en juin 2022, aucune fonction ni candidature connue depuis."
+  },
+  "Sira Sylla": {
+   "parcours": [
+    [
+     2016.9,
+     "lrem"
+    ],
+    [
+     2022.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Députée LREM 2017-2022, battue en juin 2022 ; annonce la fin de sa carrière politique le 21 décembre 2022."
+  },
+  "Guillaume Delbar": {
+   "parcours": [
+    [
+     2008.2,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2017.9,
+     "dvd"
+    ],
+    [
+     2025.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "UMP/LR, maire de Roubaix depuis 2014 ; quitte LR en décembre 2017 ; déclaré démissionnaire le 1er décembre 2025 (inéligibilité définitive)."
+  },
+  "Philippe Martin": {
+   "parcours": [
+    [
+     1998.2,
+     "ps"
+    ],
+    [
+     2022.05,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député PS du Gers, ministre ; démissionne de la présidence et de son mandat départemental en janvier 2022 (entrée approximative)."
+  },
+  "M'jid El Guerrab": {
+   "parcours": [
+    [
+     1997.0,
+     "ps"
+    ],
+    [
+     2017.3,
+     "lrem"
+    ],
+    [
+     2017.7,
+     "se"
+    ],
+    [
+     2018.0,
+     "radical"
+    ]
+   ],
+   "deces": null,
+   "note": "PS 1997-2017, élu LREM en 2017, quitte LREM après les faits (septembre 2017), Mouvement radical depuis 2018 ; candidat à la législative partielle de 2023."
+  },
+  "Aurélien Taché": {
+   "parcours": [
+    [
+     2002.0,
+     "ps"
+    ],
+    [
+     2017.3,
+     "lrem"
+    ],
+    [
+     2020.4,
+     "dvg"
+    ],
+    [
+     2022.4,
+     "eelv"
+    ],
+    [
+     2024.5,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "PS, LREM (2017), quitte LREM en mai 2020 (Nouveaux Démocrates), EELV 2022-2024, groupe LFI depuis juillet 2024."
+  },
+  "Hubert Falco": {
+   "parcours": [
+    [
+     1983.2,
+     "pr"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2017.8,
+     "dvd"
+    ],
+    [
+     2023.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "UDF-PR puis UMP/LR, quitte LR en 2017 ; quitte la mairie de Toulon en avril 2023 après sa condamnation."
+  },
+  "Anne-Christine Lang": {
+   "parcours": [
+    [
+     1995.0,
+     "ps"
+    ],
+    [
+     2017.4,
+     "lrem"
+    ],
+    [
+     2022.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "PS (conseillère de Paris 2001-2020), LREM en 2017 ; battue en juin 2022, aucune fonction ni candidature connue depuis (entrée approximative)."
+  },
+  "Fadila Khattabi": {
+   "parcours": [
+    [
+     2010.0,
+     "ps"
+    ],
+    [
+     2017.3,
+     "lrem"
+    ]
+   ],
+   "deces": null,
+   "note": "Élue régionale PS, puis députée LREM 2017-2023, ministre 2023-2024 ; candidate Renaissance à Dijon fin 2025 (retirée en janvier 2026), pas de retrait."
+  },
+  "Lætitia Avia": {
+   "parcours": [
+    [
+     2016.9,
+     "lrem"
+    ],
+    [
+     2022.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Députée LREM de Paris 2017-2022 ; battue en juin 2022, redevenue avocate."
+  },
+  "Bernard Perrut": {
+   "parcours": [
+    [
+     1989.2,
+     "udf"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "Député UDF puis UMP/LR du Rhône 1997-2022, conseiller régional LR (dates d'entrée approximatives)."
+  },
+  "Pierre Cabaré": {
+   "parcours": [
+    [
+     2016.9,
+     "lrem"
+    ],
+    [
+     2022.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député LREM 2017-2022, ne se représente pas en 2022."
+  },
+  "Olivier Hoarau": {
+   "parcours": [
+    [
+     2008.2,
+     "dvg"
+    ]
+   ],
+   "deces": null,
+   "note": "Élu du Parti communiste réunionnais, maire du Port (date d'entrée approximative)."
+  },
+  "Marie-France Lorho": {
+   "parcours": [
+    [
+     2008.0,
+     "dvd"
+    ],
+    [
+     2022.5,
+     "rn"
+    ]
+   ],
+   "deces": null,
+   "note": "Ligue du Sud (codée dvd), rejoint le RN en 2022 ; députée de Vaucluse (entrée approximative)."
+  },
+  "Sébastien Delogu": {
+   "parcours": [
+    [
+     2017.0,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant LFI (entrée approximative), député depuis 2022."
+  },
+  "Andy Kerbrat": {
+   "parcours": [
+    [
+     2016.9,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant LFI (entrée approximative), député depuis 2022."
+  },
+  "Esther Benbassa": {
+   "parcours": [
+    [
+     2011.0,
+     "eelv"
+    ],
+    [
+     2021.7,
+     "se"
+    ],
+    [
+     2023.75,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Sénatrice EELV ; exclue du groupe écologiste en septembre 2021 et quitte le parti ; fin de son mandat en septembre 2023."
+  },
+  "Laurent Jacobelli": {
+   "parcours": [
+    [
+     2015.0,
+     "dlf"
+    ],
+    [
+     2017.8,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Porte-parole de Debout la France, rejoint le FN fin 2017 ; député RN depuis 2022 (dates approximatives)."
+  },
+  "Gaël Perdriau": {
+   "parcours": [
+    [
+     2008.2,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2022.8,
+     "dvd"
+    ],
+    [
+     2025.95,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "UMP/LR, maire de Saint-Étienne 2014-2025 ; exclu de LR en octobre 2022 ; démis de ses mandats début décembre 2025 (inéligibilité exécutoire)."
+  },
+  "François Pupponi": {
+   "parcours": [
+    [
+     1995.2,
+     "ps"
+    ],
+    [
+     2018.0,
+     "dvg"
+    ],
+    [
+     2020.9,
+     "modem"
+    ],
+    [
+     2022.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PS de Sarcelles 1997-2017, quitte le PS en 2018, MoDem en décembre 2020 ; battu en 2022, pas candidat en 2024 ni aux municipales de 2026."
+  },
+  "Ersilia Soudais": {
+   "parcours": [
+    [
+     2017.0,
+     "lfi"
+    ]
+   ],
+   "deces": null,
+   "note": "Militante LFI (entrée approximative), députée depuis 2022."
+  },
+  "Joël Guerriau": {
+   "parcours": [
+    [
+     1995.2,
+     "udf"
+    ],
+    [
+     2007.5,
+     "nc"
+    ],
+    [
+     2021.9,
+     "horizons"
+    ],
+    [
+     2025.8,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Centriste (UDF, Nouveau Centre, dates approximatives), Horizons ; suspendu puis exclu, démissionne du Sénat début octobre 2025."
+  },
+  "Emmanuel Taché": {
+   "parcours": [
+    [
+     2012.0,
+     "fn"
+    ]
+   ],
+   "deces": null,
+   "note": "Ancien RPR/UMP, rejoint le FN en 2012 ; député RN depuis 2022."
+  },
+  "Caroline Cayeux": {
+   "parcours": [
+    [
+     1989.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2018.0,
+     "dvd"
+    ],
+    [
+     2026.2,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "RPR/UMP/LR, quitte LR en 2018 ; ministre de juillet à novembre 2022 ; annonce son retrait le 12 janvier 2026, fin de ses mandats en mars 2026."
+  },
+  "Jean-Jacques Bridey": {
+   "parcours": [
+    [
+     1995.2,
+     "ps"
+    ],
+    [
+     2017.3,
+     "lrem"
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PS de Fresnes, député LREM 2017-2022 ; candidat aux municipales de 2026 à Fresnes (entrée approximative)."
+  },
+  "Loïk Le Priol": {
+   "parcours": [
+    [
+     2016.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Ancien militaire, présenté comme ancien du GUD (entrée approximative)."
+  },
+  "Romain Bouvier": {
+   "parcours": [
+    [
+     2017.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Passé par le GUD (entrée approximative)."
+  },
+  "Fernand Iveton": {
+   "parcours": [
+    [
+     1943.0,
+     "dvg"
+    ]
+   ],
+   "deces": "1957-02-11",
+   "note": "Militant du Parti communiste algérien (codé dvg) dès 1943 ; guillotiné à Alger le 11 février 1957."
+  },
+  "Henri Alleg": {
+   "parcours": [
+    [
+     1941.3,
+     "dvg"
+    ],
+    [
+     1965.5,
+     "pcf"
+    ]
+   ],
+   "deces": "2013-07-17",
+   "note": "Parti communiste algérien (codé dvg) dès 1941 ; rentré en France en 1965, PCF et journaliste à L'Humanité 1966-1980, communiste jusqu'à sa mort (date d'entrée au PCF approximative)."
+  },
+  "Jean-Jacques Susini": {
+   "parcours": [
+    [
+     1958.0,
+     "ultradroite"
+    ],
+    [
+     1997.3,
+     "fn"
+    ],
+    [
+     1997.5,
+     null
+    ]
+   ],
+   "deces": "2017-07-03",
+   "note": "Activiste Algérie française, cofondateur de l'OAS ; candidat FN aux législatives de 1997 à Marseille, sans activité partisane connue ensuite."
+  },
+  "Joseph Ortiz": {
+   "parcours": [
+    [
+     1958.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": "1995-02-15",
+   "note": "Fondateur du Front national français (Alger), mouvement Algérie française ; exil, amnistié en 1968."
+  },
+  "Robert Martel": {
+   "parcours": [
+    [
+     1958.4,
+     "ultradroite"
+    ]
+   ],
+   "deces": "1997-12-21",
+   "note": "Dirigeant du MP-13, mouvement d'extrême droite Algérie française."
+  },
+  "Pierre Sergent": {
+   "parcours": [
+    [
+     1961.4,
+     "ultradroite"
+    ],
+    [
+     1983.0,
+     "cnip"
+    ],
+    [
+     1985.0,
+     "fn"
+    ]
+   ],
+   "deces": "1992-09-15",
+   "note": "Chef de l'OAS-Métropole (1961) ; CNIP en 1983, puis FN ; député FN 1986-1988, élu régional jusqu'à sa mort (entrée au FN approximative)."
+  },
+  "Alain Madelin": {
+   "parcours": [
+    [
+     1964.0,
+     "ultradroite"
+    ],
+    [
+     1968.8,
+     "ri"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2007.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Occident (1964-1968), adhère aux Républicains indépendants à l'automne 1968, puis PR, DL, UMP ; ne se représente pas en 2007 et quitte la vie politique."
+  },
+  "Alain Robert": {
+   "parcours": [
+    [
+     1964.0,
+     "ultradroite"
+    ],
+    [
+     1972.8,
+     "fn"
+    ],
+    [
+     1973.5,
+     "dvd"
+    ],
+    [
+     1981.0,
+     "cnip"
+    ],
+    [
+     1992.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ]
+   ],
+   "deces": null,
+   "note": "Occident, GUD, Ordre nouveau, cofondateur du FN (1972), Faire front puis PFN (codé dvd), CNIP en 1981, élu régional RPR ; aucun retrait daté (dates intermédiaires approximatives)."
+  },
+  "Gérard Longuet": {
+   "parcours": [
+    [
+     1964.0,
+     "ultradroite"
+    ],
+    [
+     1968.8,
+     null
+    ],
+    [
+     1977.4,
+     "pr"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2023.75,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Occident jusqu'à sa dissolution (1968) ; PR (député en 1978), DL, UMP, LR ; ne se représente pas au Sénat en septembre 2023."
+  },
+  "Patrick Devedjian": {
+   "parcours": [
+    [
+     1963.0,
+     "ultradroite"
+    ],
+    [
+     1968.8,
+     null
+    ],
+    [
+     1971.0,
+     "udr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": "2020-03-29",
+   "note": "Occident (dit s'en éloigner en 1966, présent au moins jusqu'en janvier 1967) ; UDR en 1971, RPR, UMP, LR ; président des Hauts-de-Seine jusqu'à sa mort."
+  },
+  "Jean-Pierre Le Dantec": {
+   "parcours": [
+    [
+     1968.5,
+     "ultragauche"
+    ],
+    [
+     1973.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Dirigeant maoïste de la Gauche prolétarienne jusqu'à son autodissolution (novembre 1973) ; architecte et écrivain ensuite."
+  },
+  "Michel Le Bris": {
+   "parcours": [
+    [
+     1969.0,
+     "ultragauche"
+    ],
+    [
+     1973.9,
+     null
+    ]
+   ],
+   "deces": "2021-01-30",
+   "note": "Gauche prolétarienne jusqu'à son autodissolution (1973) ; écrivain, fondateur d'Étonnants voyageurs."
+  },
+  "Alain Geismar": {
+   "parcours": [
+    [
+     1959.3,
+     "psu"
+    ],
+    [
+     1968.9,
+     "ultragauche"
+    ],
+    [
+     1973.9,
+     null
+    ],
+    [
+     1986.0,
+     "ps"
+    ]
+   ],
+   "deces": null,
+   "note": "PSU en 1959, Gauche prolétarienne jusqu'à sa dissolution (1973), adhère au PS en 1986 (suppléant au conseil national)."
+  },
+  "Mark Fredriksen": {
+   "parcours": [
+    [
+     1966.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": "2011-08",
+   "note": "Fondateur de la FANE en 1966, groupuscule néonazi."
+  },
+  "Luc Reinette": {
+   "parcours": [
+    [
+     1978.0,
+     "se"
+    ]
+   ],
+   "deces": null,
+   "note": "Indépendantiste guadeloupéen, fondateur du MPGI (codé se) ; aucun retrait daté."
+  },
+  "Régis Schleicher": {
+   "parcours": [
+    [
+     1979.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Membre fondateur d'Action directe (entrée approximative)."
+  },
+  "Georges Cipriani": {
+   "parcours": [
+    [
+     1982.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Membre d'Action directe (entrée approximative)."
+  },
+  "Jean-Marc Rouillan": {
+   "parcours": [
+    [
+     1979.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Cofondateur d'Action directe en 1979 (après le GARI) ; aucun abandon certain de l'engagement."
+  },
+  "Joëlle Aubron": {
+   "parcours": [
+    [
+     1982.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": "2006-03-01",
+   "note": "Membre d'Action directe (entrée approximative)."
+  },
+  "Nathalie Ménigon": {
+   "parcours": [
+    [
+     1979.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Cofondatrice d'Action directe (entrée approximative)."
+  },
+  "André Olivier": {
+   "parcours": [
+    [
+     1980.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Branche lyonnaise d'Action directe (entrée approximative)."
+  },
+  "Max Frérot": {
+   "parcours": [
+    [
+     1980.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Branche lyonnaise d'Action directe (entrée approximative)."
+  },
+  "Émile Ballandras": {
+   "parcours": [
+    [
+     1980.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Branche lyonnaise d'Action directe (entrée approximative)."
+  },
+  "Bertrand Nouveau": {
+   "parcours": [
+    [
+     1988.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Skinhead proche du PNFE (entrée approximative)."
+  },
+  "Olivier Fimbry": {
+   "parcours": [
+    [
+     1988.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Skinhead proche du PNFE (entrée approximative)."
+  },
+  "Patrick Laonegro": {
+   "parcours": [
+    [
+     1988.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Skinhead proche du PNFE (entrée approximative)."
+  },
+  "Yannick Garnier": {
+   "parcours": [
+    [
+     1988.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Skinhead proche du PNFE (entrée approximative) ; auteur des aveux de 1996."
+  },
+  "François Simon": {
+   "parcours": [
+    [
+     2001.2,
+     "dvg"
+    ]
+   ],
+   "deces": null,
+   "note": "Conseiller municipal de Toulouse, ancien PS, élu écologiste de gauche (date approximative)."
+  },
+  "Gilles Lemaire": {
+   "parcours": [
+    [
+     1984.0,
+     "verts"
+    ],
+    [
+     2017.0,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Verts (entrée approximative), secrétaire national 2002-2003 ; démissionne d'EELV (date approximative, vers janvier 2017), sans mandat."
+  },
+  "Gérard Onesta": {
+   "parcours": [
+    [
+     1984.1,
+     "verts"
+    ],
+    [
+     2021.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Verts/EELV, député européen 1999-2009, conseiller régional d'Occitanie jusqu'en 2021 ; aucune fonction ni candidature connue depuis."
+  },
+  "Michel Daverat": {
+   "parcours": [
+    [
+     1990.0,
+     "verts"
+    ]
+   ],
+   "deces": null,
+   "note": "Élu écologiste d'Aquitaine, président du groupe au conseil régional (entrée approximative) ; aucun retrait daté."
+  },
+  "Pierre Labeyrie": {
+   "parcours": [
+    [
+     1986.0,
+     "verts"
+    ]
+   ],
+   "deces": null,
+   "note": "Adhérent des Verts depuis 1986, premier élu écologiste de Toulouse (2001) ; soutient encore une liste aux municipales de 2026."
+  },
+  "Dominique Plancke": {
+   "parcours": [
+    [
+     1984.1,
+     "verts"
+    ],
+    [
+     2016.0,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Membre fondateur des Verts ; conseiller régional du Nord-Pas-de-Calais 1998-2015, sans mandat connu depuis."
+  },
+  "Jean-Guy Talamoni": {
+   "parcours": [
+    [
+     1985.0,
+     "se"
+    ],
+    [
+     2021.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Dirigeant indépendantiste (Corsica Nazione, Corsica Libera, codés se) ; perd son siège et quitte la présidence de Corsica Libera en juillet 2021 (entrée approximative)."
+  },
+  "Antonin Bernanos": {
+   "parcours": [
+    [
+     2013.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Militant d'Action antifasciste Paris-Banlieue (entrée approximative)."
+  },
+  "Yvan Benedetti": {
+   "parcours": [
+    [
+     1995.0,
+     "fn"
+    ],
+    [
+     2011.3,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Élu FN (entrée approximative), exclu en 2011 ; préside l'Œuvre française puis Les Nationalistes."
+  },
+  "Steven Bissuel": {
+   "parcours": [
+    [
+     2014.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Ancien du GUD, chef du Bastion social à Lyon (entrée approximative)."
+  },
+  "Esteban Morillo": {
+   "parcours": [
+    [
+     2012.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Proche de Troisième Voie et des JNR (entrée approximative)."
+  },
+  "Samuel Dufour": {
+   "parcours": [
+    [
+     2012.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Proche de Troisième Voie et des JNR (entrée approximative)."
+  },
+  "Logan Nisin": {
+   "parcours": [
+    [
+     2016.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Fondateur du groupuscule OAS (entrée approximative)."
+  },
+  "Thomas Annequin": {
+   "parcours": [
+    [
+     2016.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Numéro deux du groupuscule OAS (entrée approximative)."
+  },
+  "Marc de Cacqueray-Valménier": {
+   "parcours": [
+    [
+     2016.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Fondateur des Zouaves Paris (entrée approximative)."
+  },
+  "Alexandre Gilet": {
+   "parcours": [
+    [
+     2017.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Chef du groupe néonazi Waffenkraft (entrée approximative)."
+  },
+  "Florian D.": {
+   "parcours": [
+    [
+     2017.0,
+     "ultragauche"
+    ]
+   ],
+   "deces": null,
+   "note": "Mouvance d'ultragauche, ancien volontaire au Rojava (entrée approximative)."
+  },
+  "Briac F.": {
+   "parcours": [
+    [
+     2023.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Se réclame du GUD (entrée approximative)."
+  },
+  "Gabriel L.": {
+   "parcours": [
+    [
+     2023.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Se réclame du GUD (entrée approximative)."
+  },
+  "Halvard K.": {
+   "parcours": [
+    [
+     2023.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Se réclame du GUD (entrée approximative)."
+  },
+  "Louis G.": {
+   "parcours": [
+    [
+     2023.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Se réclame du GUD (entrée approximative)."
+  },
+  "Gwendal C.": {
+   "parcours": [
+    [
+     2019.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Zouaves Paris selon la presse (entrée approximative)."
+  },
+  "Valentin Linder": {
+   "parcours": [
+    [
+     2017.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Ancien président du Bastion social à Strasbourg (entrée approximative)."
+  },
+  "Bernard Sorel": {
+   "parcours": [
+    [
+     2017.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Chef de la cellule d'Île-de-France de l'AFO (entrée approximative)."
+  },
+  "Daniel Raimbault": {
+   "parcours": [
+    [
+     2017.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Membre de l'AFO (entrée approximative)."
+  },
+  "Guy Sibra": {
+   "parcours": [
+    [
+     2017.0,
+     "ultradroite"
+    ]
+   ],
+   "deces": null,
+   "note": "Fondateur de l'AFO (entrée approximative)."
+  },
+  "Jacques Mellick": {
+   "parcours": [
+    [
+     1971.2,
+     "ps"
+    ],
+    [
+     2014.3,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Député-maire PS de Béthune, ministre ; candidat battu aux municipales de Béthune en 2014, aucune candidature connue depuis (entrée approximative)."
+  },
+  "Claude Pradille": {
+   "parcours": [
+    [
+     1977.2,
+     "ps"
+    ],
+    [
+     1997.7,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Sénateur PS du Gard (1988), déchu de son mandat par le Conseil constitutionnel en septembre 1997 (entrée approximative)."
+  },
+  "Xavier Dugoin": {
+   "parcours": [
+    [
+     1977.2,
+     "rpr"
+    ],
+    [
+     2001.0,
+     null
+    ],
+    [
+     2008.2,
+     "dvd"
+    ]
+   ],
+   "deces": null,
+   "note": "Député, sénateur RPR, président de l'Essonne 1988-1998 ; déchu du Sénat en janvier 2001 ; redevient maire de Mennecy 2008-2011, encore élu municipal en 2024 (étiquette après 2008 codée dvd)."
+  },
+  "Harlem Désir": {
+   "parcours": [
+    [
+     1992.0,
+     "se"
+    ],
+    [
+     1993.9,
+     "ps"
+    ],
+    [
+     2017.4,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Président de SOS Racisme 1984-1992, fonde « Le Mouvement » (1992), adhère au PS en décembre 1993 ; député européen, premier secrétaire, secrétaire d'État jusqu'en mai 2017 ; puis OSCE et ONG, sans fonction partisane."
+  },
+  "Jean-Marie Le Chevallier": {
+   "parcours": [
+    [
+     1984.0,
+     "fn"
+    ],
+    [
+     2001.2,
+     null
+    ]
+   ],
+   "deces": "2020-10-30",
+   "note": "Cadre du FN, maire de Toulon 1995-2001 ; battu en mars 2001, sans mandat ensuite (entrée approximative)."
+  },
+  "Michel Gillibert": {
+   "parcours": [
+    [
+     1988.4,
+     "se"
+    ],
+    [
+     1993.3,
+     null
+    ]
+   ],
+   "deces": "2004-10-17",
+   "note": "Secrétaire d'État aux Handicapés 1988-1993 (gouvernements d'ouverture, sans parti)."
+  },
+  "Didier Schuller": {
+   "parcours": [
+    [
+     1986.0,
+     "rpr"
+    ],
+    [
+     1995.1,
+     null
+    ],
+    [
+     2012.9,
+     "dvd"
+    ]
+   ],
+   "deces": null,
+   "note": "RPR, directeur de l'office HLM des Hauts-de-Seine, conseiller général ; en fuite en février 1995 ; revient comme candidat à Clichy (Rassemblement des Clichois, 2014) ; aucun retrait daté ensuite."
+  },
+  "Jean-Pierre Destrade": {
+   "parcours": [
+    [
+     1971.2,
+     "ps"
+    ],
+    [
+     1993.3,
+     null
+    ]
+   ],
+   "deces": "2020-06",
+   "note": "Député PS des Pyrénées-Atlantiques 1981-1993, sans mandat ensuite (entrée approximative)."
+  },
+  "Jean-François Mancel": {
+   "parcours": [
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2017.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "RPR/UMP/LR, président de l'Oise 1995-2004, député jusqu'en 2017 ; renonce à se représenter en 2017."
+  },
+  "Gilles Ménage": {
+   "parcours": [
+    [
+     1981.4,
+     "se"
+    ],
+    [
+     1992.3,
+     null
+    ]
+   ],
+   "deces": "2017-07-05",
+   "note": "Haut fonctionnaire, collaborateur de Mitterrand à l'Élysée 1981-1992 : rattaché à la durée de la fonction (codé se comme la condamnation)."
+  },
+  "Philippe Dominati": {
+   "parcours": [
+    [
+     1989.2,
+     "pr"
+    ],
+    [
+     2002.4,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ],
+    [
+     2023.75,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Élu de Paris (PR/DL, puis UMP, LR), sénateur 2004-2023 ; ne se représente pas en 2023 (entrée approximative)."
+  },
+  "Jacques Masdeu-Arus": {
+   "parcours": [
+    [
+     1983.2,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2009.4,
+     null
+    ]
+   ],
+   "deces": "2018-11-04",
+   "note": "Maire RPR/UMP de Poissy 1983-2008, député jusqu'à sa déchéance en 2009."
+  },
+  "Jacques Mahéas": {
+   "parcours": [
+    [
+     1971.2,
+     "ps"
+    ],
+    [
+     2020.2,
+     null
+    ]
+   ],
+   "deces": "2022-08-20",
+   "note": "Maire PS de Neuilly-sur-Marne 1977-2020, député puis sénateur jusqu'en 2011 (entrée approximative)."
+  },
+  "Dieudonné M'bala M'bala": {
+   "parcours": [
+    [
+     1997.4,
+     "se"
+    ],
+    [
+     2012.5,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Candidat hors parti en 1997, listes Euro-Palestine (2004) et antisioniste (2009), candidat du Parti antisioniste en juin 2012 (codé se) ; aucune candidature depuis."
+  },
+  "Yamina Benguigui": {
+   "parcours": [
+    [
+     2008.2,
+     "ps"
+    ],
+    [
+     2017.9,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Adjointe au maire de Paris (2008), ministre 2012-2014, conseillère de Paris ; démissionne le 22 novembre 2017 (entrée approximative)."
+  },
+  "Philippe Kaltenbach": {
+   "parcours": [
+    [
+     1995.0,
+     "ps"
+    ],
+    [
+     2017.75,
+     null
+    ]
+   ],
+   "deces": null,
+   "note": "Maire PS de Clamart 2008-2014, sénateur 2011-2017, suspendu du PS ; sans mandat après septembre 2017 (entrée approximative)."
+  },
+  "Lucette Michaux-Chevry": {
+   "parcours": [
+    [
+     1976.9,
+     "rpr"
+    ],
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2012.0,
+     "dvd"
+    ],
+    [
+     2020.5,
+     null
+    ]
+   ],
+   "deces": "2021-09-09",
+   "note": "Ministre et sénatrice RPR, puis UMP ; divers droite en fin de carrière (date approximative) ; présidente de Grand Sud Caraïbe jusqu'en 2020."
+  },
+  "Didier Robert": {
+   "parcours": [
+    [
+     2002.9,
+     "ump"
+    ],
+    [
+     2015.4,
+     "lr"
+    ]
+   ],
+   "deces": null,
+   "note": "UMP/LR, président de la région Réunion 2010-2021 ; candidat soutenu par LR aux municipales de Saint-Denis en 2026."
+  }
+ }
+}

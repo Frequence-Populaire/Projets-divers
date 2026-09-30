@@ -1,0 +1,460 @@
+{
+ "_lisezmoi": "Dénominateur « nombre d'élus » par lignée (ids de partis.json) : sièges gagnés à chaque élection nationale depuis 1945. Législatives : sièges de députés à l'issue du scrutin (métropole + outre-mer ; Algérie et colonies incluses sous la IVe République et en 1958), rattachés au parti de l'élu, apparentés inclus quand c'est l'usage ; les divers, régionalistes, poujadistes, CPNT, extrême gauche, etc. ne sont pas comptés, d'où des totaux inférieurs au nombre de sièges. Européennes : sièges français au moment de l'élection (2019 : 74, avant les 5 sièges post-Brexit). Répartitions : UDF 1978-1997 répartie entre centre (CDS puis FD), liberal (PR puis DL) et rad (radicaux valoisiens) ; FGDS 1967-1968 entre ps, rad et udsr (CIR) ; Réformateurs 1973 entre centre et rad ; NUPES 2022 et NFP 2024 entre lfi, ps, eco, gens, pcf ; Ensemble entre lrem, centre (MoDem), horizons ; listes européennes communes selon l'appartenance des élus (1994 : liste Énergie radicale comptée prg, liste de Villiers comptée mpf ; 1999 : liste RPF partagée rpf99/mpf ; 2009 : Europe Écologie comptée eco). Avant 1947 (gaull) et 1949 (cnip), les élus modérés/PRL ne sont pas comptés. Sources de référence : ministère de l'Intérieur (résultats officiels), Assemblée nationale (composition des groupes), Parlement européen (eurodéputés). AVERTISSEMENT : chiffres établis de mémoire sans vérification en ligne ; arrondis possibles de quelques sièges, et répartitions internes aux confédérations et listes communes estimées (UDF surtout, européennes 1979-1999). À vérifier avant publication.",
+ "elections": [
+  {
+   "date": 1945.83,
+   "type": "legislatives",
+   "sieges": {
+    "pcf": 159,
+    "centre": 150,
+    "ps": 146,
+    "rad": 35,
+    "udsr": 25
+   }
+  },
+  {
+   "date": 1946.5,
+   "type": "legislatives",
+   "sieges": {
+    "centre": 166,
+    "pcf": 153,
+    "ps": 128,
+    "rad": 32,
+    "udsr": 21
+   }
+  },
+  {
+   "date": 1946.92,
+   "type": "legislatives",
+   "sieges": {
+    "pcf": 182,
+    "centre": 173,
+    "ps": 102,
+    "rad": 43,
+    "udsr": 27
+   }
+  },
+  {
+   "date": 1951.5,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 121,
+    "ps": 107,
+    "pcf": 103,
+    "centre": 96,
+    "cnip": 96,
+    "rad": 76,
+    "udsr": 19
+   }
+  },
+  {
+   "date": 1956.08,
+   "type": "legislatives",
+   "sieges": {
+    "pcf": 150,
+    "ps": 99,
+    "cnip": 95,
+    "centre": 83,
+    "rad": 70,
+    "gaull": 22,
+    "udsr": 19
+   }
+  },
+  {
+   "date": 1958.92,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 198,
+    "cnip": 133,
+    "centre": 57,
+    "ps": 44,
+    "rad": 23,
+    "pcf": 10
+   }
+  },
+  {
+   "date": 1962.92,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 233,
+    "ps": 65,
+    "pcf": 41,
+    "rad": 39,
+    "centre": 38,
+    "liberal": 35,
+    "cnip": 28,
+    "psu": 2
+   }
+  },
+  {
+   "date": 1967.25,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 200,
+    "ps": 76,
+    "pcf": 73,
+    "liberal": 42,
+    "centre": 41,
+    "rad": 24,
+    "udsr": 16,
+    "psu": 4
+   }
+  },
+  {
+   "date": 1968.5,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 293,
+    "liberal": 61,
+    "ps": 41,
+    "pcf": 34,
+    "centre": 33,
+    "rad": 9,
+    "udsr": 7
+   }
+  },
+  {
+   "date": 1973.25,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 183,
+    "ps": 89,
+    "pcf": 73,
+    "liberal": 55,
+    "centre": 50,
+    "rad": 14,
+    "prg": 12,
+    "psu": 1
+   }
+  },
+  {
+   "date": 1978.25,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 154,
+    "ps": 104,
+    "pcf": 86,
+    "liberal": 71,
+    "centre": 43,
+    "prg": 10,
+    "rad": 9
+   }
+  },
+  {
+   "date": 1981.5,
+   "type": "legislatives",
+   "sieges": {
+    "ps": 266,
+    "gaull": 88,
+    "pcf": 44,
+    "liberal": 32,
+    "centre": 25,
+    "prg": 14,
+    "rad": 5
+   }
+  },
+  {
+   "date": 1986.25,
+   "type": "legislatives",
+   "sieges": {
+    "ps": 206,
+    "gaull": 155,
+    "liberal": 58,
+    "centre": 50,
+    "pcf": 35,
+    "fn": 35,
+    "rad": 12,
+    "prg": 6
+   }
+  },
+  {
+   "date": 1988.5,
+   "type": "legislatives",
+   "sieges": {
+    "ps": 260,
+    "gaull": 128,
+    "liberal": 60,
+    "centre": 41,
+    "pcf": 25,
+    "prg": 9,
+    "rad": 5,
+    "fn": 1
+   }
+  },
+  {
+   "date": 1993.25,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 242,
+    "liberal": 105,
+    "centre": 60,
+    "ps": 53,
+    "pcf": 23,
+    "rad": 14,
+    "prg": 6
+   }
+  },
+  {
+   "date": 1997.5,
+   "type": "legislatives",
+   "sieges": {
+    "ps": 245,
+    "gaull": 134,
+    "centre": 51,
+    "liberal": 43,
+    "pcf": 35,
+    "prg": 12,
+    "rad": 12,
+    "mdc": 7,
+    "eco": 7,
+    "mpf": 1,
+    "fn": 1
+   }
+  },
+  {
+   "date": 2002.5,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 355,
+    "ps": 140,
+    "centre": 29,
+    "pcf": 21,
+    "prg": 7,
+    "eco": 3,
+    "mpf": 1
+   }
+  },
+  {
+   "date": 2007.5,
+   "type": "legislatives",
+   "sieges": {
+    "gaull": 313,
+    "ps": 186,
+    "nc": 22,
+    "pcf": 15,
+    "prg": 7,
+    "eco": 4,
+    "centre": 3,
+    "mpf": 1,
+    "mdc": 1
+   }
+  },
+  {
+   "date": 2012.5,
+   "type": "legislatives",
+   "sieges": {
+    "ps": 280,
+    "gaull": 194,
+    "eco": 17,
+    "prg": 12,
+    "nc": 12,
+    "pcf": 7,
+    "rad": 6,
+    "mdc": 2,
+    "centre": 2,
+    "fn": 2,
+    "dlf": 1,
+    "mpf": 1
+   }
+  },
+  {
+   "date": 2017.5,
+   "type": "legislatives",
+   "sieges": {
+    "lrem": 308,
+    "gaull": 112,
+    "centre": 42,
+    "ps": 30,
+    "udi": 18,
+    "lfi": 17,
+    "pcf": 10,
+    "fn": 8,
+    "prg": 3,
+    "eco": 1,
+    "dlf": 1
+   }
+  },
+  {
+   "date": 2022.5,
+   "type": "legislatives",
+   "sieges": {
+    "lrem": 170,
+    "fn": 89,
+    "lfi": 72,
+    "gaull": 61,
+    "centre": 48,
+    "horizons": 28,
+    "ps": 27,
+    "eco": 16,
+    "pcf": 12,
+    "gens": 4,
+    "udi": 3,
+    "dlf": 1
+   }
+  },
+  {
+   "date": 2024.58,
+   "type": "legislatives",
+   "sieges": {
+    "fn": 125,
+    "lrem": 99,
+    "lfi": 71,
+    "ps": 64,
+    "gaull": 47,
+    "centre": 36,
+    "horizons": 33,
+    "eco": 28,
+    "pcf": 9,
+    "gens": 5
+   }
+  },
+  {
+   "date": 1979.5,
+   "type": "europeennes",
+   "sieges": {
+    "ps": 20,
+    "pcf": 19,
+    "gaull": 15,
+    "liberal": 10,
+    "centre": 9,
+    "rad": 3,
+    "prg": 2
+   }
+  },
+  {
+   "date": 1984.5,
+   "type": "europeennes",
+   "sieges": {
+    "gaull": 20,
+    "ps": 20,
+    "pcf": 10,
+    "fn": 10,
+    "liberal": 9,
+    "centre": 9,
+    "rad": 3
+   }
+  },
+  {
+   "date": 1989.5,
+   "type": "europeennes",
+   "sieges": {
+    "ps": 20,
+    "gaull": 12,
+    "liberal": 10,
+    "fn": 10,
+    "centre": 9,
+    "eco": 9,
+    "pcf": 7,
+    "rad": 2,
+    "prg": 2
+   }
+  },
+  {
+   "date": 1994.5,
+   "type": "europeennes",
+   "sieges": {
+    "ps": 15,
+    "gaull": 14,
+    "prg": 13,
+    "mpf": 13,
+    "fn": 11,
+    "pcf": 7,
+    "liberal": 6,
+    "centre": 6,
+    "rad": 2
+   }
+  },
+  {
+   "date": 1999.5,
+   "type": "europeennes",
+   "sieges": {
+    "ps": 18,
+    "centre": 9,
+    "eco": 9,
+    "gaull": 8,
+    "rpf99": 7,
+    "mpf": 6,
+    "pcf": 6,
+    "fn": 5,
+    "liberal": 4,
+    "prg": 2,
+    "mdc": 2
+   }
+  },
+  {
+   "date": 2004.5,
+   "type": "europeennes",
+   "sieges": {
+    "ps": 31,
+    "gaull": 17,
+    "centre": 11,
+    "fn": 7,
+    "eco": 6,
+    "mpf": 3,
+    "pcf": 2
+   }
+  },
+  {
+   "date": 2009.5,
+   "type": "europeennes",
+   "sieges": {
+    "gaull": 26,
+    "ps": 14,
+    "eco": 14,
+    "centre": 6,
+    "fn": 3,
+    "nc": 2,
+    "pcf": 2,
+    "rad": 1,
+    "pg": 1,
+    "mpf": 1
+   }
+  },
+  {
+   "date": 2014.42,
+   "type": "europeennes",
+   "sieges": {
+    "fn": 24,
+    "gaull": 20,
+    "ps": 12,
+    "eco": 6,
+    "centre": 4,
+    "udi": 3,
+    "prg": 1,
+    "pcf": 1,
+    "pg": 1
+   }
+  },
+  {
+   "date": 2019.42,
+   "type": "europeennes",
+   "sieges": {
+    "fn": 22,
+    "lrem": 13,
+    "eco": 11,
+    "gaull": 8,
+    "centre": 6,
+    "lfi": 6,
+    "ps": 3,
+    "agir": 1,
+    "rad": 1
+   }
+  },
+  {
+   "date": 2024.5,
+   "type": "europeennes",
+   "sieges": {
+    "fn": 30,
+    "ps": 9,
+    "lfi": 9,
+    "lrem": 7,
+    "gaull": 6,
+    "eco": 5,
+    "reconq": 5,
+    "centre": 3,
+    "horizons": 2,
+    "rad": 1
+   }
+  }
+ ]
+}

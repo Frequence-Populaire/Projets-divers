@@ -1,0 +1,672 @@
+{
+ "_lisezmoi": "Généalogie des partis. Une « lignée » est une même structure qui change de nom : ses condamnations se cumulent sur une seule barre. Chaque code d'organisation (celui qui figure dans condamnations.json) renvoie à une lignée. origine.type : « scission » (la nouvelle lignée hérite du compteur de la lignée mère à la date de la scission), « refondation » (part de zéro). absorption : la lignée se fond dans une autre, qui récupère son compteur.",
+ "lignees": [
+  {
+   "id": "pcf",
+   "noms": [
+    [
+     1920,
+     "PCF"
+    ]
+   ],
+   "long": "Parti communiste français",
+   "famille": "gauche",
+   "couleur": "#E8413C"
+  },
+  {
+   "id": "ps",
+   "noms": [
+    [
+     1905,
+     "SFIO"
+    ],
+    [
+     1969,
+     "PS"
+    ]
+   ],
+   "long": "SFIO puis Parti socialiste",
+   "famille": "gauche",
+   "couleur": "#FF8FB8"
+  },
+  {
+   "id": "udsr",
+   "noms": [
+    [
+     1945,
+     "UDSR"
+    ],
+    [
+     1965,
+     "CIR"
+    ]
+   ],
+   "long": "UDSR puis Convention des institutions républicaines",
+   "famille": "gauche",
+   "absorption": {
+    "dans": "ps",
+    "annee": 1971.5
+   },
+   "couleur": "#F2A6C8"
+  },
+  {
+   "id": "psu",
+   "noms": [
+    [
+     1958,
+     "PSA"
+    ],
+    [
+     1960,
+     "PSU"
+    ]
+   ],
+   "long": "Parti socialiste autonome puis unifié",
+   "famille": "gauche",
+   "origine": {
+    "type": "scission",
+    "de": "ps",
+    "annee": 1958.7
+   },
+   "fin": 1989.9,
+   "couleur": "#D96BA0"
+  },
+  {
+   "id": "mdc",
+   "noms": [
+    [
+     1993,
+     "MDC"
+    ],
+    [
+     2003,
+     "MRC"
+    ]
+   ],
+   "long": "Mouvement des citoyens puis Mouvement républicain et citoyen",
+   "famille": "gauche",
+   "origine": {
+    "type": "scission",
+    "de": "ps",
+    "annee": 1993.3
+   },
+   "couleur": "#C98BE6"
+  },
+  {
+   "id": "pg",
+   "noms": [
+    [
+     2008,
+     "PG"
+    ]
+   ],
+   "long": "Parti de gauche",
+   "famille": "gauche",
+   "origine": {
+    "type": "scission",
+    "de": "ps",
+    "annee": 2008.9
+   },
+   "couleur": "#F07C6C"
+  },
+  {
+   "id": "gens",
+   "noms": [
+    [
+     2017,
+     "Génération·s"
+    ]
+   ],
+   "long": "Génération·s",
+   "famille": "gauche",
+   "origine": {
+    "type": "scission",
+    "de": "ps",
+    "annee": 2017.5
+   },
+   "couleur": "#F26D9B"
+  },
+  {
+   "id": "lfi",
+   "noms": [
+    [
+     2016,
+     "LFI"
+    ]
+   ],
+   "long": "La France insoumise",
+   "famille": "gauche",
+   "origine": {
+    "type": "refondation",
+    "annee": 2016.1
+   },
+   "couleur": "#FF5E6E"
+  },
+  {
+   "id": "eco",
+   "noms": [
+    [
+     1984,
+     "Les Verts"
+    ],
+    [
+     2010,
+     "EELV"
+    ],
+    [
+     2023,
+     "Les Écologistes"
+    ]
+   ],
+   "long": "Les Verts, EELV puis Les Écologistes",
+   "famille": "ecolo",
+   "origine": {
+    "type": "refondation",
+    "annee": 1984.1
+   },
+   "couleur": "#7FE0B2"
+  },
+  {
+   "id": "rad",
+   "noms": [
+    [
+     1901,
+     "Parti radical"
+    ]
+   ],
+   "long": "Parti républicain, radical et radical-socialiste",
+   "famille": "centre",
+   "couleur": "#FFD166"
+  },
+  {
+   "id": "prg",
+   "noms": [
+    [
+     1972,
+     "MRG"
+    ],
+    [
+     1994,
+     "Radical"
+    ],
+    [
+     1998,
+     "PRG"
+    ]
+   ],
+   "long": "Mouvement des radicaux de gauche puis Parti radical de gauche",
+   "famille": "gauche",
+   "origine": {
+    "type": "scission",
+    "de": "rad",
+    "annee": 1972.8
+   },
+   "couleur": "#F7B267"
+  },
+  {
+   "id": "centre",
+   "noms": [
+    [
+     1944,
+     "MRP"
+    ],
+    [
+     1966,
+     "CD"
+    ],
+    [
+     1976,
+     "CDS"
+    ],
+    [
+     1978,
+     "CDS-UDF"
+    ],
+    [
+     1995,
+     "FD-UDF"
+    ],
+    [
+     1998,
+     "UDF"
+    ],
+    [
+     2007,
+     "MoDem"
+    ]
+   ],
+   "long": "MRP, Centre démocrate, CDS, Force démocrate, UDF puis Mouvement démocrate",
+   "famille": "centre",
+   "couleur": "#FF9F43"
+  },
+  {
+   "id": "nc",
+   "noms": [
+    [
+     2007,
+     "Nouveau Centre"
+    ],
+    [
+     2016,
+     "Les Centristes"
+    ]
+   ],
+   "long": "Nouveau Centre puis Les Centristes",
+   "famille": "centre",
+   "origine": {
+    "type": "scission",
+    "de": "centre",
+    "annee": 2007.4
+   },
+   "couleur": "#FFBE85"
+  },
+  {
+   "id": "udi",
+   "noms": [
+    [
+     2012,
+     "UDI"
+    ]
+   ],
+   "long": "Union des démocrates et indépendants",
+   "famille": "centre",
+   "origine": {
+    "type": "refondation",
+    "annee": 2012.8
+   },
+   "couleur": "#9FE6F0"
+  },
+  {
+   "id": "cnip",
+   "noms": [
+    [
+     1949,
+     "CNIP"
+    ],
+    [
+     1994,
+     "CNI"
+    ]
+   ],
+   "long": "Centre national des indépendants et paysans",
+   "famille": "droite",
+   "couleur": "#8FB3D9"
+  },
+  {
+   "id": "liberal",
+   "noms": [
+    [
+     1962,
+     "RI"
+    ],
+    [
+     1977,
+     "PR-UDF"
+    ],
+    [
+     1997,
+     "DL"
+    ]
+   ],
+   "long": "Républicains indépendants, Parti républicain puis Démocratie libérale",
+   "famille": "droite",
+   "origine": {
+    "type": "scission",
+    "de": "cnip",
+    "annee": 1962.8
+   },
+   "absorption": {
+    "dans": "gaull",
+    "annee": 2002.4
+   },
+   "couleur": "#62C3FF"
+  },
+  {
+   "id": "gaull",
+   "noms": [
+    [
+     1947,
+     "RPF"
+    ],
+    [
+     1954,
+     "Rép. sociaux"
+    ],
+    [
+     1958,
+     "UNR"
+    ],
+    [
+     1967,
+     "UDR"
+    ],
+    [
+     1976,
+     "RPR"
+    ],
+    [
+     2002,
+     "UMP"
+    ],
+    [
+     2015,
+     "LR"
+    ]
+   ],
+   "long": "RPF, UNR, UDR, RPR, UMP puis Les Républicains",
+   "famille": "droite",
+   "couleur": "#4F8BFF"
+  },
+  {
+   "id": "rpf99",
+   "noms": [
+    [
+     1999,
+     "RPF (Pasqua)"
+    ]
+   ],
+   "long": "Rassemblement pour la France",
+   "famille": "droite",
+   "origine": {
+    "type": "scission",
+    "de": "gaull",
+    "annee": 1999.3
+   },
+   "fin": 2011.9,
+   "couleur": "#8FA8E6"
+  },
+  {
+   "id": "mpf",
+   "noms": [
+    [
+     1994,
+     "MPF"
+    ]
+   ],
+   "long": "Mouvement pour la France",
+   "famille": "droite",
+   "origine": {
+    "type": "scission",
+    "de": "liberal",
+    "annee": 1994.9
+   },
+   "fin": 2018.9,
+   "couleur": "#B4C2F2"
+  },
+  {
+   "id": "dlf",
+   "noms": [
+    [
+     2008,
+     "DLF"
+    ]
+   ],
+   "long": "Debout la France",
+   "famille": "droite",
+   "origine": {
+    "type": "scission",
+    "de": "gaull",
+    "annee": 2008.8
+   },
+   "couleur": "#A0B4FF"
+  },
+  {
+   "id": "agir",
+   "noms": [
+    [
+     2017,
+     "Agir"
+    ]
+   ],
+   "long": "Agir, la droite constructive",
+   "famille": "droite",
+   "origine": {
+    "type": "scission",
+    "de": "gaull",
+    "annee": 2017.9
+   },
+   "couleur": "#7AD0E6"
+  },
+  {
+   "id": "fn",
+   "noms": [
+    [
+     1972,
+     "FN"
+    ],
+    [
+     2018,
+     "RN"
+    ]
+   ],
+   "long": "Front national puis Rassemblement national",
+   "famille": "extdroite",
+   "origine": {
+    "type": "refondation",
+    "annee": 1972.8
+   },
+   "couleur": "#9A86FF"
+  },
+  {
+   "id": "mnr",
+   "noms": [
+    [
+     1999,
+     "MNR"
+    ]
+   ],
+   "long": "Mouvement national républicain",
+   "famille": "extdroite",
+   "origine": {
+    "type": "scission",
+    "de": "fn",
+    "annee": 1999.1
+   },
+   "couleur": "#C0ACFF"
+  },
+  {
+   "id": "reconq",
+   "noms": [
+    [
+     2021,
+     "Reconquête"
+    ]
+   ],
+   "long": "Reconquête",
+   "famille": "extdroite",
+   "origine": {
+    "type": "refondation",
+    "annee": 2021.9
+   },
+   "couleur": "#7565E0"
+  },
+  {
+   "id": "lrem",
+   "noms": [
+    [
+     2016,
+     "En marche"
+    ],
+    [
+     2017,
+     "LREM"
+    ],
+    [
+     2022,
+     "Renaissance"
+    ]
+   ],
+   "long": "En marche, La République en marche puis Renaissance",
+   "famille": "centre",
+   "origine": {
+    "type": "refondation",
+    "annee": 2016.3
+   },
+   "couleur": "#FFC53D"
+  },
+  {
+   "id": "horizons",
+   "noms": [
+    [
+     2021,
+     "Horizons"
+    ]
+   ],
+   "long": "Horizons",
+   "famille": "centre",
+   "origine": {
+    "type": "refondation",
+    "annee": 2021.8
+   },
+   "couleur": "#86D9FF"
+  },
+  {
+   "id": "divers",
+   "noms": [
+    [
+     1945,
+     "Divers / SE"
+    ]
+   ],
+   "long": "Élus divers droite, divers gauche ou sans étiquette",
+   "famille": "divers",
+   "couleur": "#9AAFB3"
+  },
+  {
+   "id": "ultradroite",
+   "noms": [
+    [
+     1945,
+     "Ultradroite"
+    ]
+   ],
+   "long": "Groupuscules d'ultradroite (GUD, Occident, Ordre nouveau, Bastion social, Zouaves, Génération identitaire…) : membres ou militants dont le lien est établi par la justice ou la presse",
+   "famille": "groupuscule",
+   "couleur": "#B08A6A"
+  },
+  {
+   "id": "ultragauche",
+   "noms": [
+    [
+     1945,
+     "Ultragauche"
+    ]
+   ],
+   "long": "Groupuscules d'ultragauche (Gauche prolétarienne, Action directe, collectifs autonomes et antifascistes…) : membres ou militants dont le lien est établi par la justice ou la presse",
+   "famille": "groupuscule",
+   "couleur": "#C97F9A"
+  }
+ ],
+ "organisations": {
+  "pcf": "pcf",
+  "sfio": "ps",
+  "ps": "ps",
+  "udsr": "udsr",
+  "cir": "udsr",
+  "psa": "psu",
+  "psu": "psu",
+  "mdc": "mdc",
+  "mrc": "mdc",
+  "pg": "pg",
+  "gens": "gens",
+  "lfi": "lfi",
+  "verts": "eco",
+  "eelv": "eco",
+  "ecologistes": "eco",
+  "radical": "rad",
+  "mrg": "prg",
+  "prg": "prg",
+  "mrp": "centre",
+  "cd": "centre",
+  "cds": "centre",
+  "fd": "centre",
+  "udf": "centre",
+  "modem": "centre",
+  "nc": "nc",
+  "centristes": "nc",
+  "udi": "udi",
+  "cnip": "cnip",
+  "ri": "liberal",
+  "pr": "liberal",
+  "dl": "liberal",
+  "rpf47": "gaull",
+  "rs": "gaull",
+  "unr": "gaull",
+  "udr": "gaull",
+  "rpr": "gaull",
+  "ump": "gaull",
+  "lr": "gaull",
+  "rpf99": "rpf99",
+  "mpf": "mpf",
+  "dlf": "dlf",
+  "agir": "agir",
+  "fn": "fn",
+  "rn": "fn",
+  "mnr": "mnr",
+  "reconquete": "reconq",
+  "lrem": "lrem",
+  "renaissance": "lrem",
+  "horizons": "horizons",
+  "dvd": "divers",
+  "dvg": "divers",
+  "se": "divers",
+  "ultradroite": "ultradroite",
+  "ultragauche": "ultragauche"
+ },
+ "etiquettes": {
+  "pcf": "PCF",
+  "sfio": "SFIO",
+  "ps": "PS",
+  "udsr": "UDSR",
+  "cir": "CIR",
+  "psa": "PSA",
+  "psu": "PSU",
+  "mdc": "MDC",
+  "mrc": "MRC",
+  "pg": "PG",
+  "gens": "Génération·s",
+  "lfi": "LFI",
+  "verts": "Les Verts",
+  "eelv": "EELV",
+  "ecologistes": "Les Écologistes",
+  "radical": "Parti radical",
+  "mrg": "MRG",
+  "prg": "PRG",
+  "mrp": "MRP",
+  "cd": "Centre démocrate",
+  "cds": "CDS",
+  "fd": "Force démocrate",
+  "udf": "UDF",
+  "modem": "MoDem",
+  "nc": "Nouveau Centre",
+  "centristes": "Les Centristes",
+  "udi": "UDI",
+  "cnip": "CNIP",
+  "ri": "RI",
+  "pr": "PR",
+  "dl": "DL",
+  "rpf47": "RPF",
+  "rs": "Républicains sociaux",
+  "unr": "UNR",
+  "udr": "UDR",
+  "rpr": "RPR",
+  "ump": "UMP",
+  "lr": "LR",
+  "rpf99": "RPF (Pasqua)",
+  "mpf": "MPF",
+  "dlf": "DLF",
+  "agir": "Agir",
+  "fn": "FN",
+  "rn": "RN",
+  "mnr": "MNR",
+  "reconquete": "Reconquête",
+  "lrem": "LREM",
+  "renaissance": "Renaissance",
+  "horizons": "Horizons",
+  "dvd": "divers droite",
+  "dvg": "divers gauche",
+  "se": "sans étiquette",
+  "ultradroite": "ultradroite (groupuscule)",
+  "ultragauche": "ultragauche (groupuscule)"
+ }
+}
