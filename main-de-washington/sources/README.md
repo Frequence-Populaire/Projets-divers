@@ -13,6 +13,11 @@ Documents de référence dépouillés pour compléter la base. Les faits qui en 
 | `global_policy_forum_us_interventions_2005.html` | Global Policy Forum, « US Military and Clandestine Operations in Foreign Countries, 1798-Present » (décembre 2005) | Contrôle de couverture des 106 entrées postérieures à 1900 : un fait ajouté (Aračinovo, 2001) ; les autres manques sont des évacuations, un territoire américain (Guam) ou des entrées trop vagues |
 | `wikipedia_special_activities_center.html` | Article « Special Activities Center » (Wikipédia en anglais), la branche paramilitaire de la CIA, export HTML | Opérations paramilitaires de la CIA, pays par pays |
 | `revista_coatsworth_us_interventions_2005.html` | John H. Coatsworth, « United States Interventions: What For? », *ReVista* (Harvard), printemps 2005 : 41 changements de gouvernement en Amérique latine dus aux États-Unis, 1898-1994 | Interventions directes et indirectes en Amérique latine |
+| `dow_liste_institutions_etrangeres_2026.html` | Département de la Guerre, communiqué du 23 juillet 2026 : liste « section 1286 » de 130 institutions de recherche chinoises, russes et iraniennes | Restrictions visant la recherche |
+| `factbox_interventions_ameriques.html` | Reuters, « FACTBOX - A history of US interventions across the Americas » | Interventions en Amérique latine |
+| `defense_priorities_coups.html` | Defense Priorities, « America's awkward history with coups » | Coups soutenus par les États-Unis |
+| `monde_diplomatique_koeppel_2026.html` | Barbara Koeppel, « The United States' history of regime change — revisited », *Le Monde diplomatique* (édition anglaise), 3 février 2026 | Changements de régime, du XXe siècle au Venezuela 2026 |
+| `coups_livres_films_tv.html` | « America's Disastrous History of Foreign Coups in Books, Films and TV » | Coups soutenus par les États-Unis, vus par les œuvres |
 
 ## Méthode
 

@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+
+<!-- font pre-loading in order of usage -->
+<link rel="preload" as="font" href="/wp-content/themes/defensepriorities/assets/fonts/FranklinGothicDemi/font.woff2" crossorigin="">
+<link rel="preload" as="font" href="/wp-content/themes/defensepriorities/assets/fonts/FranklinGothicDemiCompressed/font.woff2" crossorigin="">
+	<link rel="preload" as="font" href="/wp-content/themes/defensepriorities/assets/fonts/FranklinGothicBook/font.woff2" crossorigin="">
+		<link rel="preload" as="font" href="/wp-content/themes/defensepriorities/assets/fonts/FranklinGothicBookItalic/font.woff2" crossorigin="">
+	<link rel="preload" as="font" href="/wp-content/themes/defensepriorities/assets/fonts/FranklinGothicDemiItalic/font.woff2" crossorigin="">
+	<link rel="preload" as="font" href="/wp-content/themes/defensepriorities/assets/fonts/FranklinGothicDemiCompressedItalic/font.woff2" crossorigin="">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- spam vector -->
+	<!-- <link rel="pingback" href="https://www.defensepriorities.org/xmlrpc.php" /> -->
+
+<!-- not sure why? this class is not being used -->
+<!--
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+ -->
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.6 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>America&#039;s awkward history with coups - Defense Priorities</title>
+	<link rel="canonical" href="https://www.defensepriorities.org/opinion/americas-awkward-history-with-coups/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="America&#039;s awkward history with coups - Defense Priorities" />
+	<meta property="og:description" content="The United States’ relationship with military coups is topsy-turvy. During the Cold War, Washington was often an enabler and plotter [&hellip;]" />
+	<meta property="og:url" content="https://www.defensepriorities.org/opinion/americas-awkward-history-with-coups/" />
+	<meta property="og:site_name" content="Defense Priorities" />
+	<meta property="article:publisher" content="https://www.facebook.com/defensepriorities" />
+	<meta property="article:author" content="Daniel DePetris" />
+	<meta property="article:published_time" content="2024-08-09T16:41:25+00:00" />
+	<meta property="article:modified_time" content="2026-04-01T03:14:14+00:00" />
+	<meta property="og:image" content="https://www.defensepriorities.org/wp-content/uploads/2024/05/OverreachinAfrica-e1731421403274.jpeg" />
+	<meta property="og:image:width" content="746" />
+	<meta property="og:image:height" content="460" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Daniel DePetris" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@defpriorities" />
+	<meta name="twitter:site" content="@defpriorities" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Daniel DePetris" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="2 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"Article","@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/#article","isPartOf":{"@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/"},"author":"Daniel DePetris","headline":"America&#8217;s awkward history with coups","datePublished":"2024-08-09T16:41:25+00:00","dateModified":"2026-04-01T03:14:14+00:00","mainEntityOfPage":{"@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/"},"wordCount":287,"publisher":{"@id":"https:\/\/www.defensepriorities.org\/#organization"},"image":{"@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/#primaryimage"},"thumbnailUrl":"https:\/\/www.defensepriorities.org\/wp-content\/uploads\/2024\/05\/OverreachinAfrica-e1731421403274.jpeg","articleSection":["Opinion"],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/","url":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/","name":"America's awkward history with coups - Defense Priorities","isPartOf":{"@id":"https:\/\/www.defensepriorities.org\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/#primaryimage"},"image":{"@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/#primaryimage"},"thumbnailUrl":"https:\/\/www.defensepriorities.org\/wp-content\/uploads\/2024\/05\/OverreachinAfrica-e1731421403274.jpeg","datePublished":"2024-08-09T16:41:25+00:00","dateModified":"2026-04-01T03:14:14+00:00","breadcrumb":{"@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/#primaryimage","url":"https:\/\/www.defensepriorities.org\/wp-content\/uploads\/2024\/05\/OverreachinAfrica-e1731421403274.jpeg","contentUrl":"https:\/\/www.defensepriorities.org\/wp-content\/uploads\/2024\/05\/OverreachinAfrica-e1731421403274.jpeg","width":746,"height":460},{"@type":"BreadcrumbList","@id":"https:\/\/www.defensepriorities.org\/opinion\/americas-awkward-history-with-coups\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.defensepriorities.org\/"},{"@type":"ListItem","position":2,"name":"Africa"},{"@type":"ListItem","position":3,"name":"America&#8217;s awkward history with coups"}]},{"@type":"WebSite","@id":"https:\/\/www.defensepriorities.org\/#website","url":"https:\/\/www.defensepriorities.org\/","name":"Defense Priorities","description":"","publisher":{"@id":"https:\/\/www.defensepriorities.org\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.defensepriorities.org\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/www.defensepriorities.org\/#organization","name":"Defense Priorities","url":"https:\/\/www.defensepriorities.org\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.defensepriorities.org\/#\/schema\/logo\/image\/","url":"https:\/\/www.defensepriorities.org\/wp-content\/uploads\/2024\/01\/Defense-Priorities-Global-Social-Media-Share-Image.jpg","contentUrl":"https:\/\/www.defensepriorities.org\/wp-content\/uploads\/2024\/01\/Defense-Priorities-Global-Social-Media-Share-Image.jpg","width":1000,"height":750,"caption":"Defense Priorities"},"image":{"@id":"https:\/\/www.defensepriorities.org\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/defensepriorities","https:\/\/x.com\/defpriorities"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel="alternate" type="application/rss+xml" title="Defense Priorities &raquo; Feed" href="https://www.defensepriorities.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Defense Priorities &raquo; Comments Feed" href="https://www.defensepriorities.org/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.defensepriorities.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.defensepriorities.org%2Fopinion%2Famericas-awkward-history-with-coups%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.defensepriorities.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.defensepriorities.org%2Fopinion%2Famericas-awkward-history-with-coups%2F&#038;format=xml" />
+<meta content="Defense Priorities Custom Child Theme v.1.1" name="generator"/>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: 823px;--wp--style--global--wide-size: 1080px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='wpjoli-joli-tocv2-styles-css' href='https://www.defensepriorities.org/wp-content/plugins/joli-table-of-contents/assets/public/css/wpjoli-joli-table-of-contents.min.css' media='all' />
+<link rel='stylesheet' id='divi-style-parent-css' href='https://www.defensepriorities.org/wp-content/themes/Divi/style-static.min.css' media='all' />
+<link rel='stylesheet' id='custom-child-style-css' href='https://www.defensepriorities.org/wp-content/themes/defensepriorities/assets/css/theme.css' media='all' />
+<link rel='stylesheet' id='modern_footnotes-css' href='https://www.defensepriorities.org/wp-content/plugins/modern-footnotes/styles.min.css' media='all' />
+<script id="jquery-core-js" src="https://www.defensepriorities.org/wp-includes/js/jquery/jquery.min.js"></script>
+<script id="jquery-migrate-js" src="https://www.defensepriorities.org/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script id="beehive-gtm-frontend-header-js-after">
+var dataLayer = [{"post_id":9023,"post_title":"America's awkward history with coups","post_type":"post","post_date":"2024-08-09"}];
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-NVS8R6T7');
+//# sourceURL=beehive-gtm-frontend-header-js-after
+</script>
+<link rel="https://api.w.org/" href="https://www.defensepriorities.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.defensepriorities.org/wp-json/wp/v2/posts/9023" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.defensepriorities.org/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://www.defensepriorities.org/?p=9023' />
+<link rel="preload" as="image" href="https://www.defensepriorities.org/wp-content/uploads/2024/05/OverreachinAfrica-e1731421403274.jpeg" imagesrcset="https://www.defensepriorities.org/wp-content/uploads/2024/05/OverreachinAfrica-e1731421403274.jpeg 746w, https://www.defensepriorities.org/wp-content/uploads/2024/05/OverreachinAfrica-e1731421403274-584x360.jpeg 584w" imagesizes="(max-width: 746px) 100vw, 746px" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />		<!-- Google Analytics tracking code output by Beehive Analytics -->
+				<script async src="https://www.googletagmanager.com/gtag/js?id=G-JRYFYRZKD5&l=beehiveDataLayer"></script>
+		<script>
+						window.beehiveDataLayer = window.beehiveDataLayer || [];
+			function beehive_ga() {beehiveDataLayer.push(arguments);}
+			beehive_ga('js', new Date())
+						beehive_ga('config', 'G-JRYFYRZKD5', {
+				'anonymize_ip': false,
+				'allow_google_signals': false,
+			})
+					</script>
+		<script id="dt-collapsable-menu-items">
+/* Divi Collapsible Menu */
+jQuery(function ($) {
+	$(document).ready(function () {
+		$(
+			'body ul.et_mobile_menu li.menu-item-has-children, body ul.et_mobile_menu  li.page_item_has_children',
+		).append(
+			'<a href="#" class="mobile-toggle" aria-label="toggle sub menu"><svg xmlns="http://www.w3.org/2000/svg" width="6.798" height="5.426" viewBox="0 0 6.798 5.426" class="icon"><g transform="translate(0 5.426) rotate(-90)"><path d="M0,0,2.773,3.341,0,6.8H2.473L5.426,3.341,2.473,0Z" fill="#0facce"/></g></svg></a>',
+		);
+		$(
+			'ul.et_mobile_menu li.menu-item-has-children .mobile-toggle, ul.et_mobile_menu li.page_item_has_children .mobile-toggle',
+		).click(function (event) {
+			event.preventDefault();
+			$(this).parent('li').toggleClass('dt-open');
+			$(this)
+				.parent('li')
+				.find('ul.children')
+				.first()
+				.toggleClass('visible');
+			$(this)
+				.parent('li')
+				.find('ul.sub-menu')
+				.first()
+				.toggleClass('visible');
+		});
+		$('.mobile-toggle')
+			.on('mouseover', function () {
+				$(this).parent().addClass('is-hover');
+			})
+			.on('mouseout', function () {
+				$(this).parent().removeClass('is-hover');
+			});
+		
+		
+		//move search field on mobile/tablet breakpoint
+		$(window).on('load orientationchange',function(){
+		    if( $(window).width() < 981 ){
+				$(".et_search_outer").prependTo("#mobile_menu");
+			}else{
+				$(".et_search_outer").appendTo("#main-header");
+			}
+		});
+
+		//sidebar check
+		if( jQuery('.sidebar-wrap').length ){
+			jQuery('body').addClass('enabled-sidebar');
+		}
+
+		//add bar icon to mobile menu bar
+	    jQuery('.mobile_menu_bar').each(function () {
+	        jQuery(this).append('<span class="bar-icon"></span>');
+	    });
+
+		//add extra div for nav background
+		jQuery('<div class="nav-bg"></div>').insertBefore('#mobile_menu');
+	});
+});
+	
+</script>
+<meta name="google-site-verification" content="E6wDQEpgePM7hVpemueGq5xT6gG32Y2sQcfiXClpL9s"><link rel="icon" href="https://www.defensepriorities.org/wp-content/uploads/2024/07/cropped-DEFP-Mark-Med-132x132.png" sizes="32x32" />
+<link rel="icon" href="https://www.defensepriorities.org/wp-content/uploads/2024/07/cropped-DEFP-Mark-Med-265x265.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.defensepriorities.org/wp-content/uploads/2024/07/cropped-DEFP-Mark-Med-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.defensepriorities.org/wp-content/uploads/2024/07/cropped-DEFP-Mark-Med-300x300.png" />
+<link rel="stylesheet" id="et-divi-customizer-global-cached-inline-styles" href="https://www.defensepriorities.org/wp-content/et-cache/global/et-divi-customizer-global.min.css?ver=1790646418" /><link rel='stylesheet' id='gform_basic-css' href='https://www.defensepriorities.org/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://www.defensepriorities.org/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://www.defensepriorities.org/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css' media='all' />
+
+</head>
+<body class="wp-singular post-template-default single single-post postid-9023 single-format-standard wp-theme-Divi wp-child-theme-defensepriorities et_pb_button_helper_class et_fixed_nav et_show_nav et_pb_show_title et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_svg_logo et_pb_footer_columns_3_4__1_4 et_cover_background et_pb_gutter osx et_pb_gutters3 et_right_sidebar et_divi_theme et-db">
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVS8R6T7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+			<div id="page-container">
+
+	
+	
+			<header id="main-header" data-height-onload="85">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="https://www.defensepriorities.org/">
+						<img src="https://defenseprio.wpenginepowered.com/wp-content/uploads/2023/11/defense-priorities-logo.svg" width="93" height="43" alt="Defense Priorities" id="logo" data-height-percentage="54" />
+
+													<img src="https://www.defensepriorities.org/wp-content/uploads/2023/11/defense-priorities-symbol.svg" width="39" height="39" alt="Defense Priorities" id="logo-scrolled" data-height-percentage="54" />
+											</a>
+				</div>
+							<div id="et-top-navigation" data-height="85" data-fixed-height="40">
+											<nav id="top-menu-nav">
+						<ul id="top-menu" class="nav"><li id="menu-item-935" class="submenu-short menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-935"><a href="#">Policy Topics</a>
+<ul class="sub-menu">
+	<li id="menu-item-17723" class="menu-item menu-item-type-post_type menu-item-object-policy-topics menu-item-17723"><a href="https://www.defensepriorities.org/policy-topics/us-israel-iran/">US-Israel-Iran</a></li>
+	<li id="menu-item-1351" class="menu-item menu-item-type-post_type menu-item-object-policy-topics menu-item-1351"><a href="https://www.defensepriorities.org/policy-topics/ukraine-russia/">Ukraine-Russia</a></li>
+	<li id="menu-item-17227" class="menu-item menu-item-type-post_type menu-item-object-policy-topics menu-item-17227"><a href="https://www.defensepriorities.org/policy-topics/western-hemisphere/">Western Hemisphere</a></li>
+	<li id="menu-item-1349" class="menu-item menu-item-type-post_type menu-item-object-policy-topics menu-item-1349"><a href="https://www.defensepriorities.org/policy-topics/nato/">NATO</a></li>
+	<li id="menu-item-1347" class="menu-item menu-item-type-post_type menu-item-object-policy-topics menu-item-1347"><a href="https://www.defensepriorities.org/policy-topics/china/">China</a></li>
+</ul>
+</li>
+<li id="menu-item-16378" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-16378"><a href="#">Analysis</a>
+<ul class="sub-menu">
+	<li id="menu-item-6429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6429"><a href="https://www.defensepriorities.org/policy-papers/">Policy Papers</a></li>
+	<li id="menu-item-20591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20591"><a href="https://www.defensepriorities.org/symposia/">Symposia</a></li>
+	<li id="menu-item-16381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16381"><a href="https://www.defensepriorities.org/qa/">Q&#038;A</a></li>
+	<li id="menu-item-20401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20401"><a href="https://www.defensepriorities.org/polls/">Polls</a></li>
+	<li id="menu-item-20394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20394"><a href="https://www.defensepriorities.org/series/grand-strategy-explained/">Grand Strategy Explained</a></li>
+	<li id="menu-item-20393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20393"><a href="https://www.defensepriorities.org/series/target-taiwan/">Target Taiwan</a></li>
+</ul>
+</li>
+<li id="menu-item-934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-934"><a href="#">Programs</a>
+<ul class="sub-menu">
+	<li id="menu-item-953" class="menu-item menu-item-type-post_type menu-item-object-programs menu-item-953"><a href="https://www.defensepriorities.org/programs/grand-strategy-program/">Grand Strategy Program</a></li>
+	<li id="menu-item-9294" class="menu-item menu-item-type-post_type menu-item-object-programs menu-item-9294"><a href="https://www.defensepriorities.org/programs/military-analysis-program/">Military Analysis Program</a></li>
+	<li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-programs menu-item-959"><a href="https://www.defensepriorities.org/programs/asia-program/">Asia Program</a></li>
+	<li id="menu-item-9251" class="menu-item menu-item-type-post_type menu-item-object-programs menu-item-9251"><a href="https://www.defensepriorities.org/programs/middle-east-program/">Middle East Program</a></li>
+</ul>
+</li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://www.defensepriorities.org/experts/">Experts</a></li>
+<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://www.defensepriorities.org/events/">Events</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://www.defensepriorities.org/media/">Media</a></li>
+<li id="menu-item-933" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-933"><a href="#">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-266"><a href="https://www.defensepriorities.org/about/mission-and-vision/">Mission &#038; Vision</a></li>
+	<li id="menu-item-1290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1290"><a href="https://www.defensepriorities.org/about/people/">People</a></li>
+	<li id="menu-item-7742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7742"><a href="https://www.defensepriorities.org/jobs/">Jobs</a></li>
+	<li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280"><a href="https://www.defensepriorities.org/about/contact/">Contact</a></li>
+</ul>
+</li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="https://www.defensepriorities.org/donate/">Donate</a></li>
+</ul>						</nav>
+					
+					
+					
+											<div id="et_top_search">
+							<span id="et_search_icon"></span>
+						</div>
+					
+					<div id="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="select_page">Select Page</span>
+					<span class="mobile_menu_bar mobile_menu_bar_toggle"></span>
+				</div>
+			</div>				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+						<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="https://www.defensepriorities.org/">
+					<input type="search" class="et-search-field" placeholder="Add Search Term &amp; Press Enter" value="" name="s"/>						<button type="submit" class="submit-search"></button>
+					</form>
+					<span class="et_close_search_field"></span>
+
+				</div>
+			</div>
+					</header> <!-- #main-header -->
+			<div id="et-main-area">
+	
+<div id="main-content" class="has-post-content">
+
+	
+<div class="single-banner">
+	<div class="container">
+		<div class="breadcrumb-row">
+			<div class="breadcrumbs text-dark"><span><span><a href="https://www.defensepriorities.org/">Home</a></span> / <span>Africa</span> / <span class="breadcrumb_last" aria-current="page">America&#8217;s awkward history with coups</span></span></div>		</div>
+
+		<div class="banner-content-row clearfix">
+			<div class="banner-content-column">
+									<div class="topic">Africa</div>
+				
+									<div class="post-metas">
+						<p class="meta date">July 28, 2023</p>
+					</div>
+				
+				<div class="title-wrap">
+					<h1 class="title">America&#8217;s awkward history with coups</h1>
+				</div>
+
+				
+				
+				
+									<div class="post-metas">
+						<p class="meta author">
+							By <span class="author"><a href="https://www.defensepriorities.org/people/daniel-depetris/" target="_self">Daniel DePetris</a></span>	          </p>
+					</div>
+				
+			</div>
+
+			
+		</div>
+
+					<div class="banner-media-row">
+
+									<figure>
+				  	<img width="746" height="460" src="https://www.defensepriorities.org/wp-content/uploads/2024/05/OverreachinAfrica-e1731421403274.jpeg" class="attachment-banner-image size-banner-image" alt="" decoding="async" fetchpriority="high" srcset="https://www.defensepriorities.org/wp-content/uploads/2024/05/OverreachinAfrica-e1731421403274.jpeg 746w, https://www.defensepriorities.org/wp-content/uploads/2024/05/OverreachinAfrica-e1731421403274-584x360.jpeg 584w" sizes="(max-width: 746px) 100vw, 746px" />				  						</figure>
+								</div>
+				</div>
+</div>
+
+
+			<div class="container">
+
+			<div id="content-area" class="clearfix">
+				
+				<div id="left-area" class="sidebar-top-marker">
+														<article id="post-9023" class="et_pb_post post-9023 post type-post status-publish format-standard has-post-thumbnail hentry category-opinion card_types_category-text program_category-grand-strategy-program regions_category-africa topics_category-africa content_types_category-opeds">
+
+						<div class="entry-content sidebar-end-marker">
+						<p>The United States’ relationship with military coups is topsy-turvy. During the Cold War, Washington was often an enabler and plotter of coup attempts against governments seen as sympathetic to communism, allied to the Soviet Union, or just plain troublesome. In many cases, the U.S. supported coup regimes after they consolidated power. The list is too long to count: Iran in 1953, Guatemala in 1954, Greece in 1967, Chile in 1973, and El Salvador in 1979 to name a few. Washington’s desire to hold fast to its reputation as a beacon of liberty and individual freedom was outweighed by its desire to contain the Soviets.</p>
+<p>Future U.S. presidents would later go on to express regret that the U.S., the world’s most powerful democracy, had a hand in sustaining some military regimes. In 1999, Bill Clinton apologized during a trip in Greece for aiding the generals who led that Mediterranean country for seven years.</p>
+<p>Today, the U.S. is firmly against coups.</p>
+<p>This week, when Niger’s President Mohamed Bazoum was taken into custody by his own presidential guard, Secretary of State Antony Blinken immediately called him to emphasize that the U.S. stood with the Nigerien people and condemned “this effort to seize power by force and overturn the constitutional order.” U.S. law mandates the cutoff of funds and assistance to any country whose elected government is deposed by a military coup, and the law bars the release of those funds until the secretary of state certifies to Congress that democracy is restored. By the letter of the law, it would seem obvious that U.S. military, security, or economic aid to Niger will now be suspended after this week’s developments.</p>
+<p class="source-link"><a href="https://www.newsweek.com/americas-awkward-history-coups-opinion-1815863" target="_blank">Read at <span class="text-capitalize">Newsweek</span></a></p>        <div class="authors-section clearfix">
+            <h2 id="author" class="joli-heading jtoc-heading">Author</h2>
+            <div class="authors-list">
+
+                
+        <div class="author-card">
+            <div class="card-wrapper">
+                <a href="https://www.defensepriorities.org/people/daniel-depetris/" class="img-container"><img decoding="async" width="132" height="132" src="https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-132x132.jpg" class="attachment-content-sq-xs size-content-sq-xs wp-post-image" alt="Photo of Daniel DePetris" srcset="https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-132x132.jpg 132w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-360x360.jpg 360w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-720x720.jpg 720w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-180x180.jpg 180w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-530x530.jpg 530w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-265x265.jpg 265w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-300x300.jpg 300w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-400x400.jpg 400w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris-600x600.jpg 600w, https://www.defensepriorities.org/wp-content/uploads/2023/11/people-daniel-depetris.jpg 1024w" sizes="(max-width: 132px) 100vw, 132px"></a>
+                <div class="content-container">
+                    <a href="https://www.defensepriorities.org/people/daniel-depetris/">
+                        <h2 id="daniel-depetris" class="joli-heading name no-line h3 toc-skip-heading">Daniel <br>DePetris</h2>
+                    </a>
+
+                                            <p class="position">Fellow</p>
+                                                                <p class="institution">Defense Priorities</p>
+                                    </div>
+            </div>
+        </div>
+
+    
+            </div>
+        </div>
+        						</div>
+					</article>
+
+								</div>
+			</div>
+		</div>
+	
+	<div class="et_pb_section related-posts"><div class="container">    <div class="articles-block " data-rest-enabled="1" data-limit="6" data-rest-module="article" data-filter-val="54" data-filter-cat="regions_category"">
+
+        <input type='hidden' data-excluded value='9023'>        <div class="header-row">
+            <div class="title">
+                <h2 class="toc-skip-heading">More on Africa</h2>
+            </div>
+                            <div class="filter-selects">
+                                            <div class="filter">
+                            <label for="region-852846">
+                                Region                            </label>
+                            <select id="region-852846" data-category="regions_category" data-action="filter">
+                                <option value="-1" data-tax="regions_category" class="hideme">
+                                    Region                                </option>
+                                                                        <option value="54" data-tax="regions_category" selected>
+                                            Africa                                        </option>
+                                                                            <option value="16" data-tax="regions_category" >
+                                            Asia                                        </option>
+                                                                            <option value="72" data-tax="regions_category" >
+                                            Eurasia                                        </option>
+                                                                            <option value="258" data-tax="regions_category" >
+                                            Europe                                        </option>
+                                                                            <option value="17" data-tax="regions_category" >
+                                            Middle East                                        </option>
+                                                                            <option value="293" data-tax="regions_category" >
+                                            Oceania                                        </option>
+                                                                            <option value="264" data-tax="regions_category" >
+                                            Western Hemisphere                                        </option>
+                                                                </select>
+                        </div>
+                                        </div>
+
+                                    <button data-action="reset">Clear Filters</button>
+                            
+        </div>
+        <input type="hidden" data-action="filter-storage" value="[]" />
+        <input type="hidden" name="page_num" value="1"/>
+                <!-- template for api ajax -->
+        <div class="article-item" data-post-item="true" style="display: none">
+            <div class="item-wrapper">
+                <a class="img-container img-link-container" data-post-field="permalink,featured_image" href="#">
+                    <!-- <span class="icon" data-post-field="icon"></span> -->
+                    <span class="icon-play" data-post-field="icon-play"></span>
+                </a>
+
+                <div class="img-container vid-link-container">
+                    <!-- <span class="icon" data-post-field="icon"></span> -->
+
+                    <div class="video-player">
+                        <iframe loading="lazy" data-post-field="permalink-src" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="content-container">
+                    <div class="topic" data-post-field="topic"></div>
+                    <div class="title-wrap">
+                        <h3 class="title">
+                            <a href="#" data-post-field="title,permalink"></a>
+                        </h3>
+                    </div>
+                    <div class="post-metas">
+                        <p class="meta author" data-post-field="author"></p>
+                        <p class="meta date" data-post-field="published_date"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="progress">
+            <div class="progress-value"></div>
+        </div>
+        <div class="articles-items-row clearfix" data-post-row="true">
+                    <div class="article-item ">
+        <!-- <span class='type-label' style='background-color:#dedede;'>In the media</span> -->
+            <div class="item-wrapper">
+
+                
+                    <a class="img-container" target="_blank" href="https://www.stripes.com/theaters/africa/2026-07-16/somalia-us-airstrikes-troop-withdrawal-22280114.html" ><img width="360" height="180" src="https://www.defensepriorities.org/wp-content/uploads/2025/08/AMISOM-Somali-National-Army-operation-to-capture-Afgoye-Corridor-Day-360x180.jpg" class="attachment-content-small size-content-small" alt="" decoding="async" loading="lazy" srcset="https://www.defensepriorities.org/wp-content/uploads/2025/08/AMISOM-Somali-National-Army-operation-to-capture-Afgoye-Corridor-Day-360x180.jpg 360w, https://www.defensepriorities.org/wp-content/uploads/2025/08/AMISOM-Somali-National-Army-operation-to-capture-Afgoye-Corridor-Day-1440x720.jpg 1440w, https://www.defensepriorities.org/wp-content/uploads/2025/08/AMISOM-Somali-National-Army-operation-to-capture-Afgoye-Corridor-Day-720x360.jpg 720w" sizes="(max-width: 360px) 100vw, 360px" />                                            </a>
+
+                
+                <div class="content-container">
+                    <div class="topic">
+                        <span class='type-label' style='background-color:#dedede;'>In the media</span>Africa                    </div>
+                    <div class="title-wrap">
+                        <h3 class="title">
+                            <a href="https://www.stripes.com/theaters/africa/2026-07-16/somalia-us-airstrikes-troop-withdrawal-22280114.html" target="_blank">
+                                U.S. mission in Somalia ‘not worth it,’ report says in push for drawdown of forces                            </a>
+                        </h3>
+                    </div>
+
+                                            <div class="post-metas">
+                                                            <p class="meta author">
+                                    Featuring <span class="author"><a href="https://www.defensepriorities.org/people/william-walldorf/" target="_self">William Walldorf</a></span>                                </p>
+                            
+                                                            <p class="meta date">
+                                    July 16, 2026                                </p>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+                <div class="article-item ">
+        <!-- <span class='type-label' style='background-color:#dedede;'>Explainer</span> -->
+            <div class="item-wrapper">
+
+                
+                    <a class="img-container" target="_self" href="https://www.defensepriorities.org/explainers/exiting-somalias-war-end-us-military-operations/" ><img width="360" height="180" src="https://www.defensepriorities.org/wp-content/uploads/2026/07/website-slider-360x180.png" class="attachment-content-small size-content-small" alt="" decoding="async" loading="lazy" srcset="https://www.defensepriorities.org/wp-content/uploads/2026/07/website-slider-360x180.png 360w, https://www.defensepriorities.org/wp-content/uploads/2026/07/website-slider-1440x720.png 1440w, https://www.defensepriorities.org/wp-content/uploads/2026/07/website-slider-720x360.png 720w" sizes="(max-width: 360px) 100vw, 360px" />                                            </a>
+
+                
+                <div class="content-container">
+                    <div class="topic">
+                        <span class='type-label' style='background-color:#dedede;'>Explainer</span>Counterterrorism, Africa                    </div>
+                    <div class="title-wrap">
+                        <h3 class="title">
+                            <a href="https://www.defensepriorities.org/explainers/exiting-somalias-war-end-us-military-operations/" target="_self">
+                                Exiting Somalia&#8217;s war: End U.S. military operations                            </a>
+                        </h3>
+                    </div>
+
+                                            <div class="post-metas">
+                                                            <p class="meta author">
+                                    By <span class="author"><a href="https://www.defensepriorities.org/people/william-walldorf/" target="_self">William Walldorf</a></span>                                </p>
+                            
+                                                            <p class="meta date">
+                                    July 14, 2026                                </p>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+                <div class="article-item ">
+        <!-- <span class='type-label' style='background-color:#dedede;'>Op-ed</span> -->
+            <div class="item-wrapper">
+
+                
+                    <a class="img-container" target="_self" href="https://www.defensepriorities.org/opinion/washingtons-buildup-in-nigeria-could-ensnare-the-us-in-a-protracted-conflict/" ><img width="360" height="180" src="https://www.defensepriorities.org/wp-content/uploads/2026/02/nigerian-army-soldiers-participate-in-a-live-fire-exercise-5338e2-1024-360x180.jpg" class="attachment-content-small size-content-small" alt="" decoding="async" loading="lazy" srcset="https://www.defensepriorities.org/wp-content/uploads/2026/02/nigerian-army-soldiers-participate-in-a-live-fire-exercise-5338e2-1024-360x180.jpg 360w, https://www.defensepriorities.org/wp-content/uploads/2026/02/nigerian-army-soldiers-participate-in-a-live-fire-exercise-5338e2-1024-720x360.jpg 720w" sizes="(max-width: 360px) 100vw, 360px" />                                            </a>
+
+                
+                <div class="content-container">
+                    <div class="topic">
+                        <span class='type-label' style='background-color:#dedede;'>Op-ed</span>Africa                    </div>
+                    <div class="title-wrap">
+                        <h3 class="title">
+                            <a href="https://www.defensepriorities.org/opinion/washingtons-buildup-in-nigeria-could-ensnare-the-us-in-a-protracted-conflict/" target="_self">
+                                Washington’s buildup in Nigeria could ensnare the U.S. in a protracted conflict                            </a>
+                        </h3>
+                    </div>
+
+                                            <div class="post-metas">
+                                                            <p class="meta author">
+                                    By <span class="author"><a href="https://www.defensepriorities.org/people/thomas-cavanna/" target="_self">Thomas Cavanna</a></span>                                </p>
+                            
+                                                            <p class="meta date">
+                                    February 26, 2026                                </p>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+                <div class="article-item ">
+        <!-- <span class='type-label' style='background-color:#dedede;'>Op-ed</span> -->
+            <div class="item-wrapper">
+
+                
+                    <a class="img-container" target="_self" href="https://www.defensepriorities.org/opinion/trumps-diego-garcia-fears-miss-the-strategic-point/" ><img width="360" height="180" src="https://www.defensepriorities.org/wp-content/uploads/2026/02/11918116503_ea850ebc5c_o-360x180.jpg" class="attachment-content-small size-content-small" alt="" decoding="async" loading="lazy" srcset="https://www.defensepriorities.org/wp-content/uploads/2026/02/11918116503_ea850ebc5c_o-360x180.jpg 360w, https://www.defensepriorities.org/wp-content/uploads/2026/02/11918116503_ea850ebc5c_o-1440x720.jpg 1440w, https://www.defensepriorities.org/wp-content/uploads/2026/02/11918116503_ea850ebc5c_o-720x360.jpg 720w" sizes="(max-width: 360px) 100vw, 360px" />                                            </a>
+
+                
+                <div class="content-container">
+                    <div class="topic">
+                        <span class='type-label' style='background-color:#dedede;'>Op-ed</span><a href="https://www.defensepriorities.org/policy-topics/grand-strategy/">Grand strategy</a>, <a href="https://www.defensepriorities.org/policy-topics/asia/">Asia</a>, <a href="https://www.defensepriorities.org/policy-topics/china/">China</a>                    </div>
+                    <div class="title-wrap">
+                        <h3 class="title">
+                            <a href="https://www.defensepriorities.org/opinion/trumps-diego-garcia-fears-miss-the-strategic-point/" target="_self">
+                                Trump’s Diego Garcia fears miss the strategic point                            </a>
+                        </h3>
+                    </div>
+
+                                            <div class="post-metas">
+                                                            <p class="meta author">
+                                    By <span class="author"><a href="https://www.defensepriorities.org/people/thomas-cavanna/" target="_self">Thomas Cavanna</a></span>                                </p>
+                            
+                                                            <p class="meta date">
+                                    February 17, 2026                                </p>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+                <div class="article-item ">
+        <!-- <span class='type-label' style='background-color:#dedede;'>Op-ed</span> -->
+            <div class="item-wrapper">
+
+                
+                    <a class="img-container" target="_self" href="https://www.defensepriorities.org/opinion/trump-wants-a-nobel-prize-but-his-record-as-a-peacemaker-is-mixed-at-best/" ><img width="360" height="180" src="https://www.defensepriorities.org/wp-content/uploads/2025/01/Marine-One-carrying-President-Donald-J.-Trump-flies-at-sunset-from-Joint-Base-Andrews-Md.-up-the-Potomac-River-to-the-South-Lawn-of-the-White-House-Wednesday-July-29-2020-360x180.jpg" class="attachment-content-small size-content-small" alt="" decoding="async" loading="lazy" srcset="https://www.defensepriorities.org/wp-content/uploads/2025/01/Marine-One-carrying-President-Donald-J.-Trump-flies-at-sunset-from-Joint-Base-Andrews-Md.-up-the-Potomac-River-to-the-South-Lawn-of-the-White-House-Wednesday-July-29-2020-360x180.jpg 360w, https://www.defensepriorities.org/wp-content/uploads/2025/01/Marine-One-carrying-President-Donald-J.-Trump-flies-at-sunset-from-Joint-Base-Andrews-Md.-up-the-Potomac-River-to-the-South-Lawn-of-the-White-House-Wednesday-July-29-2020-720x360.jpg 720w" sizes="(max-width: 360px) 100vw, 360px" />                                            </a>
+
+                
+                <div class="content-container">
+                    <div class="topic">
+                        <span class='type-label' style='background-color:#dedede;'>Op-ed</span><a href="https://www.defensepriorities.org/policy-topics/grand-strategy/">Grand strategy</a>, Africa, <a href="https://www.defensepriorities.org/policy-topics/middle-east/">Middle East</a>                    </div>
+                    <div class="title-wrap">
+                        <h3 class="title">
+                            <a href="https://www.defensepriorities.org/opinion/trump-wants-a-nobel-prize-but-his-record-as-a-peacemaker-is-mixed-at-best/" target="_self">
+                                Trump wants a Nobel prize. But his record as a peacemaker is mixed at best.                            </a>
+                        </h3>
+                    </div>
+
+                                            <div class="post-metas">
+                                                            <p class="meta author">
+                                    By <span class="author"><a href="https://www.defensepriorities.org/people/daniel-depetris/" target="_self">Daniel DePetris</a></span>                                </p>
+                            
+                                                            <p class="meta date">
+                                    December 28, 2025                                </p>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+                <div class="article-item ">
+        <!-- <span class='type-label' style='background-color:#dedede;'>In the media</span> -->
+            <div class="item-wrapper">
+
+                
+                    <a class="img-container" target="_blank" href="https://asia.nikkei.com/spotlight/trump-administration/trump-s-nigeria-strike-draws-rebuke-from-military-experts-and-restrainers" ><img width="360" height="180" src="https://www.defensepriorities.org/wp-content/uploads/2024/02/The-crew-aboard-the-USS-Gravely-launches-Tomahawk-Land-Attack-Missiles-in-response-to-increased-Iranian-backed-Houthi-malign-behavior-in-the-Red-Sea-Jan.-12-2024-360x180.jpeg" class="attachment-content-small size-content-small" alt="" decoding="async" loading="lazy" srcset="https://www.defensepriorities.org/wp-content/uploads/2024/02/The-crew-aboard-the-USS-Gravely-launches-Tomahawk-Land-Attack-Missiles-in-response-to-increased-Iranian-backed-Houthi-malign-behavior-in-the-Red-Sea-Jan.-12-2024-360x180.jpeg 360w, https://www.defensepriorities.org/wp-content/uploads/2024/02/The-crew-aboard-the-USS-Gravely-launches-Tomahawk-Land-Attack-Missiles-in-response-to-increased-Iranian-backed-Houthi-malign-behavior-in-the-Red-Sea-Jan.-12-2024-1440x720.jpeg 1440w, https://www.defensepriorities.org/wp-content/uploads/2024/02/The-crew-aboard-the-USS-Gravely-launches-Tomahawk-Land-Attack-Missiles-in-response-to-increased-Iranian-backed-Houthi-malign-behavior-in-the-Red-Sea-Jan.-12-2024-720x360.jpeg 720w" sizes="(max-width: 360px) 100vw, 360px" />                                            </a>
+
+                
+                <div class="content-container">
+                    <div class="topic">
+                        <span class='type-label' style='background-color:#dedede;'>In the media</span>Africa                    </div>
+                    <div class="title-wrap">
+                        <h3 class="title">
+                            <a href="https://asia.nikkei.com/spotlight/trump-administration/trump-s-nigeria-strike-draws-rebuke-from-military-experts-and-restrainers" target="_blank">
+                                Trump&#8217;s Nigeria strike draws rebuke from military experts and &#8216;restrainers&#8217;                            </a>
+                        </h3>
+                    </div>
+
+                                            <div class="post-metas">
+                                                            <p class="meta author">
+                                    Featuring <span class="author"><a href="https://www.defensepriorities.org/people/jennifer-kavanagh/" target="_self">Jennifer Kavanagh</a></span>                                </p>
+                            
+                                                            <p class="meta date">
+                                    December 27, 2025                                </p>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+                </div>
+
+                    <div class="btn-row">
+                <button class="et_pb_button btn-more-articles" data-action="load-more">View More</button>
+            </div>
+        
+    </div>
+
+    </div></div>
+	
+	    <div class="et_pb_section related-events">
+			<div class="container">
+
+				<div class="boxed-layout-row">
+					<div class="boxed-layout">
+						<div class="events-archive-block boxed" data-rest-enabled="1" data-rest-module="events">
+
+					        <div class="events-section">
+					            <div class="header-row">
+					                <div class="title">
+					                    <h2>Events on Africa</h2>
+					                </div>
+
+					                <div class="filter-btn-wrap">
+					                    					                        <div class="view-all-wrap">
+					                            <a class="et_pb_button btn-lined et_pb_bg_layout_light" href="https://www.defensepriorities.org/events">See All Events</a>
+					                        </div>
+					                    					                </div>
+					            </div>
+
+					            					                <div class="event-items-row grid-items three-columns one-row clearfix">
+
+					                        <div class="event-item   is-past virtual">
+        <div class="item-wrapper">
+<!--   new img tag based -->
+
+            <a href="https://www.defensepriorities.org/events/unraveling-the-gwot-in-africa/" class="img-container">
+            <img width="720" height="360" src="https://www.defensepriorities.org/wp-content/uploads/2024/03/2023-07-20-August-livestream-website-blank-720x360.png" class="attachment-content-medium size-content-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.defensepriorities.org/wp-content/uploads/2024/03/2023-07-20-August-livestream-website-blank-720x360.png 720w, https://www.defensepriorities.org/wp-content/uploads/2024/03/2023-07-20-August-livestream-website-blank-1440x720.png 1440w, https://www.defensepriorities.org/wp-content/uploads/2024/03/2023-07-20-August-livestream-website-blank-360x180.png 360w" sizes="(max-width: 720px) 100vw, 720px" />            			<span class="icon-play">
+                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Pro 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2024 Fonticons, Inc.--><path d="M384 256L0 32V480L384 256z"/></svg>                        </span>
+                        </a>
+            <div class="content-container">
+                <div class="topic"><span class='type-label' style='background-color:#dedede;'>virtual</span>Africa, Basing and force posture, Counterterrorism, <a href="https://www.defensepriorities.org/policy-topics/grand-strategy/">Grand strategy</a></div>                <div class="title-wrap">
+                    <h3 class="title">
+                        <a href="https://www.defensepriorities.org/events/unraveling-the-gwot-in-africa/">
+                            Unraveling the GWOT in Africa                        </a>
+                    </h3>
+                </div>
+
+                				<div class="post-metas">
+					<div class="meta date">
+						<span class="event-date">
+							September 18, 2023						</span>
+					</div>
+				</div>
+                    </div>
+        </div>
+    </div>
+
+    
+					                </div>
+					            					        </div>
+
+					    </div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+</div>
+
+
+
+	
+		<div class="subscribe-form-section">
+			<div class="container subscribe-form-row clearfix">
+				<div class="content-column">
+										<div class="h-with-divider">
+						<div class="et_pb_text_inner">
+							<h2>Receive expert foreign policy analysis</h2>
+						</div>
+					</div>
+					
+										<div class="form-desc">
+						<div class="et_pb_text_inner">
+							<header id="yui_3_17_2_1_1719523987249_230" class="newsletter-form-header">
+<div id="yui_3_17_2_1_1719523987249_229" class="newsletter-form-header-description">
+<p id="yui_3_17_2_1_1719523987249_228" class="">Join the hub of realism and restraint</p>
+</div>
+</header>
+						</div>
+					</div>
+									</div>
+				<div class="form-column">
+					<div class="form-block">
+						
+                <div class='gf_browser_safari gform_wrapper gravity-theme gform-theme--no-framework' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' ><div id='gf_1' class='gform_anchor' tabindex='-1'></div>
+                        <div class='gform_heading'>
+							<p class='gform_required_legend'></p>
+                        </div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/opinion/americas-awkward-history-with-coups/#gf_1' data-formid='1' novalidate><div class='gf_invisible ginput_recaptchav3' data-sitekey='6Le1eGApAAAAAPnx7VirS_-j8eWvsmq49gtTWxat' data-tabindex='0'><input id="input_d6940e429b33b630150a5335bca4b629" class="gfield_recaptcha_response" type="hidden" name="input_d6940e429b33b630150a5335bca4b629" value=""/></div>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_4" class="gfield gfield--type-html gfield--input-type-html gfield--width-full heading gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><h3>Expert updates and analysis to enhance your understanding of vital U.S. national security issues</h3></div><div id="field_1_1" class="gfield gfield--type-text gfield--input-type-text gfield-label-none gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_1'><span class='gform-field-label__text'>First Name</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='large'    placeholder='First Name' aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_2" class="gfield gfield--type-text gfield--input-type-text gfield--width-full gfield-label-none gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_2'><span class='gform-field-label__text'>Last Name</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_2' id='input_1_2' type='text' value='' class='large'    placeholder='Last Name' aria-required="true" aria-invalid="false"   /></div></div><div id="field_1_3" class="gfield gfield--type-email gfield--input-type-email gfield--width-full gfield-label-none gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_3'><span class='gform-field-label__text'>Email Address</span><span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_1_3' type='email' value='' class='large'   placeholder='Email Address' aria-required="true" aria-invalid="false"  />
+                        </div></div><div id="field_1_7" class="gfield gfield--type-hidden gfield--input-type-hidden gfield--width-full gform_hidden field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"  ><div class='ginput_container ginput_container_text'><input name='input_7' id='input_1_7' type='hidden' class='gform_hidden'  aria-invalid="false" value='SUBSCRIBE FOOTER' /></div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <button type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' >Subscribe</button> <input type='hidden' name='gform_ajax' value='form_id=1&amp;title=&amp;description=&amp;tabindex=0&amp;theme=gravity-theme&amp;styles=[]&amp;hash=e19012a002219a235efabc8a498687b3' />
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='iframe' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_currency' data-currency='USD' value='U45IOhHpYElPFN+Wky5DeHWCQJQA4h2W1pReNil/cZULzDQAY6GFfvSYndJEdAA0tZkgtSr/F4A4XC8X4XYbs4ZXJupL3dp5G+cpd+mgoY+6hHs=' />
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjg4OTQ3Mjk5MjVlZDk5MTU4NGU1NzIwM2MwODI2MmQ3XCIsXCIzYjM4OTk0NzQ2Y2RhZmZhM2MwOTEzYmY2NGYyZjg4ZVwiLFwiMzcxYmIzNzY2OWQ4OTE2MjA5NWU1YzBmMjhjNTM3MjZcIl0sXCJnZm9ybV90aGVtZVwiOlwiMDVjYmZjMGFiZGUyZmJiNWNkNTZhNTc5YTJjZDAzNDlcIixcImdmb3JtX3N0eWxlX3NldHRpbmdzXCI6XCI1MmFmYjUzY2MxYzM3M2Q2YjE1MjQxYzg2NGQ4MzFmMlwiLFwiZm9ybV9pZFwiOlwiMmIxNjg5Y2Y2ZjRjZjNiZmNmZDliYTg2YjE3ZmY2NTdcIixcInVybFwiOlwiZjU0YjBjZTkxODg2MzM0MmQxZWE0YjM5Njg4Y2JmNzRcIixcInN0YXRlX3RpbWVzdGFtcFwiOlwiZjhkM2E2M2I0N2I5NTRmZWE5ZDM0ZmQ5OThlZmE4ZGRcIn0iLCI2OTJmYmU1OWNmODk5MjQ4NzY2NDRhNzNjMmM1Nzk3MyIsMTc5MDc0NzYyOV0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+		                <script>
+gform.initializeOnLoaded( function() {jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_1').offset().top - mt); }, 50 );var current_page = jQuery('#gform_source_page_number_1').val();jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_1').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} );
+</script>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+    <footer id="main-footer">
+        
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+		<div class="footer-widget"><div id="media_image-2" class="widget-odd widget-first widget-1 footer-logo fwidget et_pb_widget widget_media_image"><img width="157" height="35" src="https://www.defensepriorities.org/wp-content/uploads/2023/11/DEF-Rev-Mono-Logo.svg" class="image wp-image-51  attachment-medium size-medium" alt="Defense Priority Mono Logo" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" /></div><div id="text-2" class="widget-even widget-last widget-2 footer-site-info fwidget et_pb_widget widget_text">			<div class="textwidget"><p>Our mission is to inform citizens, thought leaders, and policymakers of the importance of a strong, dynamic military—used more judiciously to protect America&#8217;s narrowly defined national interests—and promote a realistic grand strategy prioritizing restraint, diplomacy, and free trade to ensure U.S. security.</p>
+<p>Defense Priorities Foundation is a 501(c)(3) non-profit organization supported entirely by American individuals and foundations—no funding comes from the U.S. government or any foreign government. Donations are unlimited and deductible for Federal Income Tax purposes.</p>
+</div>
+		</div></div><div class="footer-widget"><div id="nav_menu-2" class="widget-odd widget-first widget-1 footer-nav-menu fwidget et_pb_widget widget_nav_menu"><div class="menu-footer-menu-1-container"><ul id="menu-footer-menu-1" class="menu"><li id="menu-item-16418" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16418"><a href="https://www.defensepriorities.org/experts/">Experts</a></li>
+<li id="menu-item-16417" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16417"><a href="https://www.defensepriorities.org/policy-papers/">Papers</a></li>
+<li id="menu-item-20611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20611"><a href="https://www.defensepriorities.org/symposia/">Symposia</a></li>
+<li id="menu-item-20613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20613"><a href="https://www.defensepriorities.org/qa/">Q&#038;A</a></li>
+<li id="menu-item-20612" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20612"><a href="https://www.defensepriorities.org/polls/">Polls</a></li>
+<li id="menu-item-20592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20592"><a href="https://www.defensepriorities.org/events/">Events</a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55"><a href="https://www.defensepriorities.org/media/">Media</a></li>
+</ul></div></div><div id="nav_menu-3" class="widget-even widget-last widget-2 footer-nav-menu fwidget et_pb_widget widget_nav_menu"><div class="menu-footer-menu-2-container"><ul id="menu-footer-menu-2" class="menu"><li id="menu-item-20745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20745"><a href="https://www.defensepriorities.org/terms-and-conditions/">Terms and Conditions</a></li>
+<li id="menu-item-20744" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-20744"><a rel="privacy-policy" href="https://www.defensepriorities.org/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-20609" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20609"><a href="https://www.defensepriorities.org/about/">About</a></li>
+<li id="menu-item-20608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20608"><a href="https://www.defensepriorities.org/jobs/">Jobs</a></li>
+<li id="menu-item-3757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3757"><a href="https://www.defensepriorities.org/about/contact/">Contact</a></li>
+<li id="menu-item-20610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20610"><a href="https://www.defensepriorities.org/donate/">Donate</a></li>
+</ul></div></div></div>	</div>
+</div>
+
+
+        <div id="footer-bottom">
+            <div class="container clearfix">
+                <ul id="menu-social-icons" class="et-social-icons"><li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a target="_blank" href="https://x.com/defpriorities"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63"><a target="_blank" href="https://www.facebook.com/defensepriorities"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg></a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-61"><a target="_blank" href="https://www.youtube.com/@defensepriorities"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg></a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-64"><a target="_blank" href="mailto:info@defensepriorities.org"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a></li>
+</ul>
+                <div class="footer-info">
+
+                                        <div id="footer-info">© 2026 Defense Priorities Foundation. All rights reserved.</div>                </div>
+
+            </div>	<!-- .container -->
+        </div>
+
+    </footer> <!-- #main-footer -->
+    </div> <!-- #et-main-area -->
+
+
+</div> <!-- #page-container -->
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/defensepriorities/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="divi-custom-script-js-extra">
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://www.defensepriorities.org/wp-admin/admin-ajax.php","images_uri":"https://www.defensepriorities.org/wp-content/themes/Divi/images","builder_images_uri":"https://www.defensepriorities.org/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"86eee72e3a","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"d04fea990c","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"9023","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":"https://www.defensepriorities.org/wp-content/themes/Divi/includes/builder/frontend-builder/assets/vendors","accent_color":"#7EBEC5","waypoints_options":[]};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+</script>
+<script id="divi-custom-script-js" src="https://www.defensepriorities.org/wp-content/themes/Divi/js/scripts.min.js"></script>
+<script id="fitvids-js" src="https://www.defensepriorities.org/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js"></script>
+<script id="gforms_recaptcha_recaptcha-js-extra">
+var gforms_recaptcha_recaptcha_strings = {"nonce":"d5124641cb","disconnect":"Disconnecting","change_connection_type":"Resetting","spinner":"https://www.defensepriorities.org/wp-content/plugins/gravityforms/images/spinner.svg","connection_type":"classic","disable_badge":"","change_connection_type_title":"Change Connection Type","change_connection_type_message":"Changing the connection type will delete your current settings.  Do you want to proceed?","disconnect_title":"Disconnect","disconnect_message":"Disconnecting from reCAPTCHA will delete your current settings.  Do you want to proceed?","site_key":"6Le1eGApAAAAAPnx7VirS_-j8eWvsmq49gtTWxat"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=6Le1eGApAAAAAPnx7VirS_-j8eWvsmq49gtTWxat"></script>
+<script data-wp-strategy="defer" defer id="gforms_recaptcha_frontend-js" src="https://www.defensepriorities.org/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js"></script>
+<script id="et-core-common-js" src="https://www.defensepriorities.org/wp-content/themes/Divi/core/admin/js/common.js"></script>
+<script id="custom-child-script-js-extra">
+var custom_localize_script = {"admin_ajax_url":"https://www.defensepriorities.org/wp-admin/admin-ajax.php"};
+//# sourceURL=custom-child-script-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="custom-child-script-js" src="https://www.defensepriorities.org/wp-content/themes/defensepriorities/assets/js/custom-min.js?v=1790747629"></script>
+<script id="modern_footnotes-js" src="https://www.defensepriorities.org/wp-content/plugins/modern-footnotes/modern-footnotes.min.js"></script>
+<script id="wp-dom-ready-js" src="https://www.defensepriorities.org/wp-includes/js/dist/dom-ready.min.js"></script>
+<script id="wp-hooks-js" src="https://www.defensepriorities.org/wp-includes/js/dist/hooks.min.js"></script>
+<script id="wp-i18n-js" src="https://www.defensepriorities.org/wp-includes/js/dist/i18n.min.js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="wp-a11y-js" src="https://www.defensepriorities.org/wp-includes/js/dist/a11y.min.js"></script>
+<script id="gform_json-js" defer='defer' src="https://www.defensepriorities.org/wp-content/plugins/gravityforms/js/jquery.json.min.js"></script>
+<script id="gform_gravityforms-js-extra">
+var gform_i18n = {"datepicker":{"wdOffset":1,"helpTextShort":"Press F1 for help","helpText":"Press the arrow keys to navigate by day, PageUp and PageDown to navigate by month, Alt+PageUp and Alt+PageDown to navigate by year, or Escape to cancel.","openOnFocusHelpText":"Press Down arrow to browse the calendar, or Escape to close.","tooltipTxt":"Press Escape to cancel","disabledTxt":"Disabled","markedTxt":"Selected","prevTxt":"Previous","nextTxt":"Next","monthTxt":"Month","yearTxt":"Year","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"days":[{"s":"S","l":"Sunday"},{"s":"M","l":"Monday"},{"s":"T","l":"Tuesday"},{"s":"W","l":"Wednesday"},{"s":"T","l":"Thursday"},{"s":"F","l":"Friday"},{"s":"S","l":"Saturday"}]}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://www.defensepriorities.org/wp-content/plugins/gravityforms/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://www.defensepriorities.org/wp-content/plugins/gravityforms","number_formats":[],"version_hash":"5a438703dbbeebb7d305664e4dd1e4e9","countries":{"AF":"Afghanistan","AX":"\u00c5land Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BQ":"Bonaire, Sint Eustatius and Saba","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","CV":"Cabo Verde","KH":"Cambodia","CM":"Cameroon","CA":"Canada","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos Islands","CO":"Colombia","KM":"Comoros","CD":"Congo, Democratic Republic of the","CG":"Congo","CK":"Cook Islands","CR":"Costa Rica","CI":"C\u00f4te d'Ivoire","HR":"Croatia","CU":"Cuba","CW":"Cura\u00e7ao","CY":"Cyprus","CZ":"Czechia","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","SZ":"Eswatini","ET":"Ethiopia","FK":"Falkland Islands","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Holy See","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KP":"Korea, Democratic People's Republic of","KR":"Korea, Republic of","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macao","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","MK":"North Macedonia","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PS":"Palestine, State of","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"R\u00e9union","RO":"Romania","RU":"Russian Federation","RW":"Rwanda","BL":"Saint Barth\u00e9lemy","SH":"Saint Helena, Ascension and Tristan da Cunha","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre and Miquelon","VC":"Saint Vincent and the Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome and Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SX":"Sint Maarten","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","ZA":"South Africa","GS":"South Georgia and the South Sandwich Islands","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard and Jan Mayen","SE":"Sweden","CH":"Switzerland","SY":"Syria Arab Republic","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania, the United Republic of","TH":"Thailand","TL":"Timor-Leste","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad and Tobago","TN":"Tunisia","TR":"T\u00fcrkiye","TM":"Turkmenistan","TC":"Turks and Caicos Islands","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UY":"Uruguay","UM":"US Minor Outlying Islands","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Viet Nam","VG":"Virgin Islands, British","VI":"Virgin Islands, U.S.","WF":"Wallis and Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"},"strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+//# sourceURL=gform_gravityforms-js-extra
+</script>
+<script id="gform_gravityforms-js" defer='defer' src="https://www.defensepriorities.org/wp-content/plugins/gravityforms/js/gravityforms.min.js"></script>
+<script id="gform_placeholder-js" defer='defer' src="https://www.defensepriorities.org/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js"></script>
+<script id="gform_gravityforms_utils-js" defer='defer' src="https://www.defensepriorities.org/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js"></script>
+<script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://www.defensepriorities.org/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js"></script>
+<script id="gform_gravityforms_theme-js-extra">
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"5a438703dbbeebb7d305664e4dd1e4e9"},"ajax":{"ajaxurl":"https://www.defensepriorities.org/wp-admin/admin-ajax.php","ajax_submission_nonce":"cea29fa8db","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"hmr_dev":"","public_path":"https://www.defensepriorities.org/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"aa54cf16b8"};
+//# sourceURL=gform_gravityforms_theme-js-extra
+</script>
+<script id="gform_gravityforms_theme-js" defer='defer' src="https://www.defensepriorities.org/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js"></script>
+<script>
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script>
+gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a430f8279f39bb5e',t:'MTc5MDc0NzYyOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
